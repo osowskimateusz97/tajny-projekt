@@ -1,0 +1,26 @@
+// breakpoints
+
+$breakpoint-desktop: 768px;
+$breakpoint-mobile: $breakpoint-desktop - 0.3px;
+
+$primary: #333;
+$secondary: #222;
+$lightGrey:#F1F5F8;
+$blue:#1580eb;
+$black:#000;
+$white:#fff;
+
+
+$borderRadius: (
+    small: 1rem,
+    medium: 2rem,
+    big: 3rem,
+);
+
+$fontSize: (
+    xs: 1rem,
+    s: 1.2rem,
+    m: 1.4rem,
+    l: 1.6rem,
+    xl: 2rem,
+)

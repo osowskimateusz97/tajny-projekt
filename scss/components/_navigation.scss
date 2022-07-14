@@ -1,0 +1,120 @@
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 5rem;
+    width: 100%;
+    min-height: 10vh;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        flex-grow: 1;
+    }
+
+    &__list {
+        display: flex;
+        gap: 3rem;
+
+        &__element {
+            display:flex;
+            align-items: center;
+            font-weight: 500;
+            color: $primary;
+            font-size: map-get($fontSize, l);
+            a {
+                color: $primary;             
+                transition: 0.2s linear;
+                position:relative;
+                &::before {
+                    transform: scaleX(0);
+                    transition: .3s ease-in;
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    bottom: -7px;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background-color: $blue;
+                }
+            }
+            &:hover,
+            &--active {
+                a {
+                    color: $blue;
+            
+                    &::before {
+                        transform: scale(100%);
+                    }
+                }
+            }
+        }
+    }
+    &__button{
+        margin-left: 3rem;
+    }
+    &__logo {
+        margin-right: 2rem;
+        font-weight: 700;
+        font-size: 2.5rem;
+
+        a {
+            color: $blue;
+        }
+    }
+
+    &__hamburger{
+        display: none;
+
+        @include media(mobile) {
+            display: block;
+            cursor: pointer;
+            position: absolute;
+            top:5%;
+            right:5%;
+            display:block;
+            width: 40px;
+            height: 40px;
+            background: $blue;
+            padding: 1rem;
+            border-radius: map-get($borderRadius, small);
+        }
+    }
+    @include media(mobile) {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        min-height: 100vh;
+        padding: 5rem 0;
+
+        &__container {
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        &.mobile-hidden {
+            display: none;
+        }
+
+        &__logo {
+            margin-bottom: 10vh;
+        }
+        &__button{
+            margin:5rem 0 0;
+        }
+        &__list {
+            flex-direction: column;
+            align-items: center;
+            flex-grow:1;
+            gap: 5rem;
+
+            &__element {
+                margin: 0;
+                font-size: map-get($fontSize, m);
+            }
+            
+        }
+    }
+}

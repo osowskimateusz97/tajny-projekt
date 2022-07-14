@@ -1,0 +1,23 @@
+@import 'normalize';
+@import 'reset';
+
+html{
+    font-size:62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button, a {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+body {
+    max-width:1400px;
+    margin:0 auto;
+    font-size:1.6rem;
+    padding: 0 3vw;
+}
+
+a {
+    text-decoration: none;
+}
