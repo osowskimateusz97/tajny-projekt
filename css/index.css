@@ -494,12 +494,12 @@ a {
 }
 @media all and (max-width: 1024.7px) {
   .button {
-    padding: 1.2rem 1rem;
+    padding: 1.2rem 1.5rem;
   }
 }
 @media all and (tablet) {
   .button {
-    padding: 1.2rem 1rem;
+    padding: 1.2rem 1.5rem;
   }
 }
 @media all and (max-width: 480px) {
@@ -599,9 +599,6 @@ a {
 .navigation__list__element:hover::before, .navigation__list__element--active::before {
   -webkit-transform: scale(100%);
           transform: scale(100%);
-}
-.navigation__button {
-  margin-left: 3rem;
 }
 .navigation__logo {
   display: -webkit-box;
@@ -801,6 +798,7 @@ a {
 
 .section__container {
   padding: 2rem;
+  min-height: 200vh;
 }
 .section__container--first {
   padding-top: 15rem;

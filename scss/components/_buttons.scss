@@ -12,7 +12,7 @@
         color: $blue;
     }
     @include media(tablet) {
-        padding:1.2rem 1rem;
+        padding:1.2rem 1.5rem;
     }
     @include media(mobile) {
         font-size: map-get($fontSize, m);
