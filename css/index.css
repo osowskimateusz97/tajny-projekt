@@ -652,7 +652,10 @@ a {
         -ms-flex-pack: start;
             justify-content: flex-start;
     width: 100%;
-    height: 10rem;
+    height: 8rem;
+    -webkit-backdrop-filter: unset;
+            backdrop-filter: unset;
+    background: #fff;
   }
   .navigation__container {
     overflow-y: auto;
@@ -666,7 +669,7 @@ a {
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
     position: absolute;
-    top: 10rem;
+    top: 8rem;
     background: #fff;
     height: calc(100vh - 80px);
     -webkit-box-pack: start;
@@ -729,7 +732,10 @@ a {
         -ms-flex-pack: start;
             justify-content: flex-start;
     width: 100%;
-    height: 10rem;
+    height: 8rem;
+    -webkit-backdrop-filter: unset;
+            backdrop-filter: unset;
+    background: #fff;
   }
   .navigation__container {
     overflow-y: auto;
@@ -743,7 +749,7 @@ a {
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
     position: absolute;
-    top: 10rem;
+    top: 8rem;
     background: #fff;
     height: calc(100vh - 80px);
     -webkit-box-pack: start;
@@ -805,12 +811,12 @@ a {
 }
 @media all and (max-width: 1024.7px) {
   .section__container--first {
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 }
 @media all and (tablet) {
   .section__container--first {
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 }
 

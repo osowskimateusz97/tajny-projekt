@@ -99,7 +99,8 @@
         justify-content: flex-start;
         width: 100%;
         height: $nav-mobile-height;
-
+        backdrop-filter: unset;
+        background: $white;
         &__container {
             overflow-y: auto;
             flex-direction: column;
