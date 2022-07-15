@@ -1,0 +1,11 @@
+.section{
+    &__container {
+        padding: 2rem;
+        &--first{
+            padding-top: $nav-desktop-height;
+            @include media(tablet) {
+                padding-top: $nav-mobile-height;
+            }
+        }
+    }
+}

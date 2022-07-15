@@ -4,7 +4,7 @@
     justify-content:space-between;
     gap: 3rem;
     width: 100%;
-    min-height: 10vh;
+    height: $nav-desktop-height;
     padding: 2rem;
     background: rgba($white, 0.3);
     position: fixed;
@@ -95,8 +95,9 @@
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
-        
+        height: $nav-mobile-height;
         &__container {
+            overflow-y:auto;
             flex-direction: column;
             flex-grow: 1;
             transition: .3s ease;
