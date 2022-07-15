@@ -13,14 +13,14 @@
     &__container {
         display: flex;
         align-items: center;
-        justify-content:space-between;
+        gap: 5rem;
+        justify-content:flex-end;
         width: 100%;
-        overflow: hidden;
     }
 
     &__list {
         display: flex;
-        gap: 3rem;
+        gap: 5rem;
 
         &__element {
             display:flex;
@@ -29,32 +29,38 @@
             color: $primary;
             font-size: map-get($fontSize, l);
             white-space: nowrap;
+            flex-grow: 1;
+            position: relative;
             a {
                 color: $primary;             
                 transition: 0.2s linear;
-                position:relative;
-                &::before {
-                    transform: scaleX(0);
-                    transition: .2s ease-in;
-                    content: "";
-                    position: absolute;
-                    display: block;
-                    bottom: -7px;
-                    left: 0;
-                    width: 100%;
-                    height: 2px;
-                    background-color: $blue;
-                }
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                gap:0.8rem;             
+            }
+
+             &::before {
+                transform: scaleX(0);
+                transition: .2s ease-in;
+                content: "";
+                position: absolute;
+                display: block;
+                bottom: -7px;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background-color: $blue;
             }
 
             &:hover,
             &--active {
                 a {
                     color: $blue;
-            
-                    &::before {
-                        transform: scale(100%);
-                    }
+                }
+
+                &::before {
+                    transform: scale(100%);
                 }
             }
         }
@@ -82,7 +88,7 @@
         @include media(tablet) {
             display: block;
             cursor: pointer;
-            display:block;
+            display: block;
             width: 40px;
             height: 40px;
             background: $blue;
@@ -96,18 +102,18 @@
         justify-content: flex-start;
         width: 100%;
         height: $nav-mobile-height;
+
         &__container {
-            overflow-y:auto;
+            overflow-y: auto;
             flex-direction: column;
             flex-grow: 1;
             transition: .3s ease;
-            position:absolute;
-            top: 80px;
-            padding:2rem 0;
+            position: absolute;
+            top: $nav-mobile-height;
             background: $white;
-            height:calc(100vh - 80px);
-            min-height: calc(100vh - 80px);
-
+            height: calc(100vh - 80px);
+            justify-content: flex-start;
+            padding-bottom: 3rem;
             &.mobile-hidden {
                 transform: translateX(-100%);
             }
@@ -116,7 +122,6 @@
         &__logo {
             width: 100%;
             padding: 0 3rem;
-            margin-right: 0;
             margin: 0;
             justify-content: center;
             font-size: map-get($fontSize, l);
@@ -125,18 +130,19 @@
             }
         }
 
-        &__button{
+        &__button {
             margin: 5rem 0;
         }
 
         &__list {
             flex-direction: column;
+            justify-content: center;
             align-items: center;
-            justify-content:center;
-            flex-grow:1;
+            flex-grow: 1;
             gap: 5rem;
 
             &__element {
+                flex-grow: 0;
                 margin: 0;
                 font-size: map-get($fontSize, m);
             }
