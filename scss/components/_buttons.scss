@@ -11,7 +11,9 @@
         background-color: transparent;
         color: $blue;
     }
-
+    @include media(tablet) {
+        padding:1.2rem 1rem;
+    }
     @include media(mobile) {
         font-size: map-get($fontSize, m);
     }

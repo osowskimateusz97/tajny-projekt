@@ -1,7 +1,8 @@
 // breakpoints
 
-$breakpoint-desktop: 768px;
-$breakpoint-mobile: $breakpoint-desktop - 0.3px;
+$breakpoint-desktop: 1025px;
+$breakpoint-tablet: $breakpoint-desktop - 0.3px;
+$breakpoint-mobile: 480px;
 
 $primary: #333;
 $secondary: #222;
@@ -22,5 +23,5 @@ $fontSize: (
     s: 1.2rem,
     m: 1.4rem,
     l: 1.6rem,
-    xl: 2rem,
+    xl: 2.5rem,
 )

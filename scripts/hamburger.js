@@ -4,6 +4,7 @@ const navContainer = document.querySelector(
 );
 const toggleMenuVisibility = () => {
   navContainer.classList.toggle("mobile-hidden");
+  document.body.classList.toggle("body-overflow");
 };
 
 hamburger.addEventListener("click", toggleMenuVisibility);
