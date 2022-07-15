@@ -2,9 +2,8 @@
     margin:0 auto;
 
     &__container {
-        padding: 2rem;
         max-width: 1400px;
-        min-height: 100vh;
+        padding: 0 2rem;
         &--first{
             padding-top: $nav-desktop-height;
             

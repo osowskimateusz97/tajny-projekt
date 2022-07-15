@@ -8,12 +8,13 @@ $primary: #333;
 $secondary: #222;
 $lightGrey:#F1F5F8;
 $blue:#1580eb;
+$lightBlue:#1580eb69;
 $black:#000;
 $white:#fff;
 
 // navigation
 
-$nav-desktop-height: 15rem;
+$nav-desktop-height: 10rem;
 $nav-mobile-height: 8rem;
 
 
@@ -24,9 +25,21 @@ $borderRadius: (
 );
 
 $fontSize: (
-    xs: 1rem,
-    s: 1.2rem,
-    m: 1.4rem,
-    l: 1.6rem,
+    xs: 1.4rem,
+    s: 1.6rem,
+    m: 1.8rem,
+    l: 2rem,
     xl: 2.5rem,
+);
+
+$padding: (
+    xs: 1rem,
+    s: 1.3rem,
+    m: 2rem,
+    l: 5rem,
+    xl: 2.5rem,
+);
+
+$boxShadow: (
+    card: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px,
 )

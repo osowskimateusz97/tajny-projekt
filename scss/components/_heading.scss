@@ -1,0 +1,20 @@
+.heading {
+    font-size: map-get($fontSize, l);
+    font-weight: 800;
+    &--isBig {
+        font-size: map-get($fontSize, xl);
+    }
+
+    @include media(tablet) {
+        font-size: map-get($fontSize, m);
+        &--isBig {
+            font-size: map-get($fontSize, l);
+        }   
+    }
+    @include media(mobile) {
+        font-size: map-get($fontSize, s);
+        &--isBig {
+            font-size: map-get($fontSize, m);
+        }   
+    }
+}

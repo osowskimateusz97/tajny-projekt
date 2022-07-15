@@ -1,20 +1,24 @@
 .button {
     border:none;
-    padding:1.4rem 2rem;
+    padding:1rem 2rem;
     background-color: $blue;
     border-radius: map-get($borderRadius, small);
     border: 2px solid $blue;
     color: $white;
-    transition: all 0.3s ease;
-    font-size: map-get($fontSize, l);
+    transition: all 0.2s ease;
+    font-size: map-get($fontSize, s);
+    
     &:hover{
         background-color: transparent;
         color: $blue;
     }
     @include media(tablet) {
         padding:1.2rem 1.5rem;
+       
     }
     @include media(mobile) {
-        font-size: map-get($fontSize, m);
+        font-size: map-get($fontSize, s);
     }
+
+    
 }

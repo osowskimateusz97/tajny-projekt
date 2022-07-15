@@ -1,0 +1,24 @@
+.paragraph {
+    font-size: map-get($fontSize, m);
+    line-height: 1.5;
+    color: $primary;
+    &--isBig {
+        font-size: map-get($fontSize, l);
+    }
+
+    @include media(tablet) {
+        font-size: map-get($fontSize, s);
+
+        &--isBig {
+            font-size: map-get($fontSize, m);
+        }
+    }
+
+    @include media(mobile) {
+        font-size: map-get($fontSize, xs);
+
+        &--isBig {
+            font-size: map-get($fontSize, m);
+        }
+    }
+}

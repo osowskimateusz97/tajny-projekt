@@ -34,7 +34,7 @@
             align-items: center;
             font-weight: 700;
             color: $primary;
-            font-size: map-get($fontSize, l);
+            font-size: map-get($fontSize, s);
             white-space: nowrap;
             flex-grow: 1;
             position: relative;
@@ -78,7 +78,7 @@
         align-items:center;
         margin-right: 2rem;
         font-weight: 700;
-        font-size: map-get($fontSize,xl);
+        font-size: map-get($fontSize, xl);
 
         a {
             color: $blue;
@@ -128,14 +128,13 @@
             padding: 0 3rem;
             margin: 0;
             justify-content: center;
-            font-size: map-get($fontSize, l);
+            font-size: map-get($fontSize, m);
             &--title {
                 flex-grow: 1;
             }
         }
-
-        &__button {
-            margin: 5rem 0;
+        &__button{
+            margin-bottom:5rem;
         }
 
         &__list {
@@ -143,12 +142,12 @@
             justify-content: center;
             align-items: center;
             flex-grow: 1;
-            gap: 5rem;
+            gap: 8rem;
 
             &__element {
                 flex-grow: 0;
                 margin: 0;
-                font-size: map-get($fontSize, m);
+                font-size: map-get($fontSize, s);
             }
             
         }
