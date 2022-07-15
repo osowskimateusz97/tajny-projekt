@@ -52,5 +52,6 @@
     @include media(tablet) {
         grid-template-columns:1fr;
         grid-template-rows: 1fr;
+        margin: 5rem auto;
     }
 }
