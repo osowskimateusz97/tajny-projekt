@@ -9,7 +9,7 @@
         top: -20px;
         right: -20px;
         position: absolute;
-        border-radius: map-get($borderRadius, big);
+        border-radius: map-get($borderRadius, l);
         box-shadow: map-get($boxShadow, card);
         z-index: -1;
     }

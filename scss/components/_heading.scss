@@ -1,6 +1,7 @@
 .heading {
     font-size: map-get($fontSize, l);
     font-weight: 800;
+    color: $blue;
     &--isBig {
         font-size: map-get($fontSize, xl);
     }

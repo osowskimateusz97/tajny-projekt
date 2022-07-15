@@ -19,17 +19,17 @@ $nav-mobile-height: 8rem;
 
 
 $borderRadius: (
-    small: 1rem,
-    medium: 1.5rem,
-    big: 2rem,
+    s: 1rem,
+    m: 1.5rem,
+    l: 2rem,
 );
 
 $fontSize: (
     xs: 1.2rem,
     s: 1.4rem,
     m: 1.6rem,
-    l: 1.8rem,
-    xl: 2.5rem,
+    l: 2.5rem,
+    xl: 4rem,
 );
 
 $padding: (
@@ -42,4 +42,5 @@ $padding: (
 
 $boxShadow: (
     card: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px,
+    small: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px,
 )

@@ -1,0 +1,77 @@
+.specializations {
+    padding:5rem;
+    background: rgba($lightBlue, 0.1);
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 15rem;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        
+        &__paragraph {
+            width: 60%;
+            text-align:center;
+        }
+    }
+
+    &__card-list {
+        display: grid;
+        grid-template-columns: repeat(4, 150px);
+        justify-content: center;
+        gap: 4rem;
+
+        &__card {
+            background: $white;
+            display: flex;
+            flex-direction: column;
+            gap:2rem;
+            align-items:center;
+            padding: map-get($padding, m);
+            border-radius: map-get($borderRadius, s);
+            box-shadow: map-get($boxShadow, small);
+            transition: all .2s;
+            opacity:0.8;
+            cursor: pointer;
+
+            &:hover {
+                opacity:1;
+                transform:translateY(-10px);
+            }
+
+            &__icon {
+                max-width:30%;
+            }
+
+            &__title {
+                font-weight: 700;
+                font-size: map-get($fontSize, s);
+            }
+            @include media(tablet) {
+                gap:1rem;
+                max-height:100px;
+                
+                &__title{
+                    font-size: map-get($fontSize, xs);
+                }
+            }
+        }
+    
+        @include media(tablet) {
+            gap: 2rem;
+            grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+        }
+        @include media(mobile) {
+            gap: 2rem;
+            grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+        }
+    }
+    @include media(tablet) {
+        padding: 2rem;
+    }
+}

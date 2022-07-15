@@ -2,7 +2,7 @@
     border:none;
     padding:1rem 2rem;
     background-color: $blue;
-    border-radius: map-get($borderRadius, small);
+    border-radius: map-get($borderRadius, s);
     border: 2px solid $blue;
     color: $white;
     transition: all 0.2s ease;
