@@ -1,4 +1,4 @@
-/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -610,6 +610,7 @@ a {
           backdrop-filter: blur(7px);
   background: rgba(255, 255, 255, 0.9);
   z-index: 99;
+  top: 0;
 }
 .navigation__list {
   display: -webkit-box;
@@ -881,8 +882,7 @@ a {
   margin: 10rem auto 10rem;
 }
 .section__container--first {
-  margin-top: 0;
-  padding-top: 10rem;
+  margin-top: 10rem;
 }
 @media all and (max-width: 1024.7px) {
   .section__container--first {
@@ -984,7 +984,8 @@ a {
   display: grid;
   grid-template-columns: 1fr 0.5fr;
   gap: 2rem;
-  min-height: 100vh;
+  min-height: 90vh;
+  padding: 7rem;
 }
 .hero .first-col {
   grid-row: 1/-1;
@@ -1011,11 +1012,13 @@ a {
 }
 @media all and (max-width: 1024.7px) {
   .hero {
+    padding: 2rem;
     grid-template-columns: 1fr;
   }
 }
 @media all and (tablet) {
   .hero {
+    padding: 2rem;
     grid-template-columns: 1fr;
   }
 }

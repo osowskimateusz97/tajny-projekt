@@ -23,6 +23,7 @@
         backdrop-filter: blur(7px);
         background: rgba($white, 0.9);
         z-index: 99;
+        top:0;
     }
 
     &__list {

@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 0.5fr;
     gap: 2rem;
-    min-height:100vh;
-    
+    min-height:90vh;
+    padding: 7rem;
     .first-col {
         grid-row: 1 / -1;
         grid-column: 1;
@@ -22,7 +22,7 @@
     }   
     
     @include media(tablet) {
-
+        padding:2rem; 
         grid-template-columns:1fr;
     }
 }
