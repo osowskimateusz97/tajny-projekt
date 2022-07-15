@@ -1,5 +1,5 @@
 .specializations {
-    padding:5rem;
+    padding:5rem 0;
     background: rgba($lightBlue, 0.1);
 
     &__container {
@@ -22,7 +22,7 @@
 
     &__card-list {
         display: grid;
-        grid-template-columns: repeat(4, 150px);
+        grid-template-columns: repeat(5, 150px);
         justify-content: center;
         gap: 4rem;
 

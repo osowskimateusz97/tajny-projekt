@@ -1,4 +1,4 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -1125,7 +1125,7 @@ a {
 }
 
 .specializations {
-  padding: 5rem;
+  padding: 5rem 0;
   background: rgba(21, 128, 235, 0.1);
 }
 .specializations__container {
@@ -1157,7 +1157,7 @@ a {
 }
 .specializations__card-list {
   display: grid;
-  grid-template-columns: repeat(4, 150px);
+  grid-template-columns: repeat(5, 150px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
