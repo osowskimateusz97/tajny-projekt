@@ -546,6 +546,9 @@ a {
 .heading--center {
   text-align: center;
 }
+.heading--white {
+  color: #fff;
+}
 
 .paragraph {
   font-size: 1.5rem;
@@ -1187,6 +1190,7 @@ a {
   right: -15px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 2rem;
   -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -1768,8 +1772,25 @@ a {
 
 .person {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 0.7fr 1fr;
+  gap: 7rem;
+  position: relative;
+  padding: 10rem;
+  max-width: 1400px;
+}
+.person__background {
+  background: rgba(182, 219, 255, 0.4117647059);
+}
+.person__background::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: rgb(208, 223, 251);
+  width: 100%;
+  height: 35%;
 }
 .person__img {
   width: 100%;
@@ -1777,9 +1798,9 @@ a {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 2rem;
+  max-height: 800px;
 }
-.person__description {
-  padding: 2rem;
+.person__services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1787,16 +1808,126 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
-.person__description .heading {
-  color: #333;
-}
-.person__description .heading span {
-  color: #1580eb;
+.person__description {
+  padding: 0 2rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10rem;
 }
 .person__description__card {
-  padding: 2rem;
-  background: rgba(21, 128, 235, 0.4117647059);
+  padding: 7rem 5rem 2rem;
   border-radius: 1rem;
+  position: relative;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background: #ffffff;
+}
+.person__description__card .heading {
+  color: #fff;
+  font-size: 2rem;
+}
+.person__description__card .heading span {
+  color: #1580eb;
+  font-size: 1.5rem;
+}
+.person__description__card .paragraph {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.person__description__card__headingWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: -20px;
+  left: -2.5%;
+  background: #1580eb;
+  width: 105%;
+  border-radius: 1rem;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 1.7rem;
+}
+.person__description__card__headingWrapper svg {
+  height: 30px;
+}
+.person__description__card--normal {
+  padding: 2rem 3rem 4rem;
+}
+.person__description__card--normal .heading {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  line-height: 100%;
+  padding: 0;
+  position: static;
+  background: transparent;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  color: #333;
+}
+.person__description__card--normal .heading span {
+  display: block;
+}
+@media all and (max-width: 1024.7px) {
+  .person {
+    grid-template-columns: 1fr;
+  }
+  .person__img {
+    grid-row: 1;
+  }
+  .person__description {
+    gap: 6rem;
+    padding: 0;
+  }
+  .person__description__card {
+    padding: 7rem 3rem 2rem;
+  }
+  .person__description__card--normal {
+    padding: 2rem 3rem;
+  }
+  .person__description__card--normal .heading span {
+    margin-bottom: 0.6rem;
+  }
+  .person__description .heading {
+    font-size: 1.5rem;
+  }
+}
+@media all and (tablet) {
+  .person {
+    grid-template-columns: 1fr;
+  }
+  .person__img {
+    grid-row: 1;
+  }
+  .person__description {
+    gap: 6rem;
+    padding: 0;
+  }
+  .person__description__card {
+    padding: 7rem 3rem 2rem;
+  }
+  .person__description__card--normal {
+    padding: 2rem 3rem;
+  }
+  .person__description__card--normal .heading span {
+    margin-bottom: 0.6rem;
+  }
+  .person__description .heading {
+    font-size: 1.5rem;
+  }
+}
+@media all and (max-width: 480px) {
+  .person {
+    padding: 2rem 2rem 5rem;
+  }
 }/*# sourceMappingURL=index.css.map */

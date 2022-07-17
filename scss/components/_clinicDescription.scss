@@ -13,7 +13,7 @@
             top: -15px;
             right: -15px;
             object-fit:cover;
-            // border-radius: map-get($borderRadius, l);
+            border-radius: map-get($borderRadius, l);
             box-shadow: map-get($boxShadow, small);
         }
 
