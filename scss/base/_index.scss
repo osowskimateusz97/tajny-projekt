@@ -1,7 +1,7 @@
 @import 'normalize';
 @import 'reset';
 
-html{
+html {
     font-size:62.5%;
     font-family: 'Montserrat', sans-serif;
 }
@@ -14,6 +14,7 @@ button, a {
 body {
     margin:0 auto;
     font-size:1.6rem;
+    background:rgb(250, 249, 249);
 }
 
 a {
