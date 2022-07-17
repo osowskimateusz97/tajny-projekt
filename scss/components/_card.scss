@@ -19,8 +19,8 @@
     &__title {
         font-size: map-get($fontSize, l);
         font-weight: 700;
-        top: 10%;
-        left: 10%;
+        top: 50px;
+        left: 5%;
         position: absolute;
         color: $white;
     }
@@ -36,6 +36,7 @@
         background-color: #0009;
         transition: 0.2s linear;
     }
+    
     &:hover {
         &::before {
             background-color: #0000002c;
@@ -45,14 +46,16 @@
             transform: scale(1.1);
         }
     }
-    @include media(tablet) {
 
+    @include media(tablet) {
         &__title {
             font-size: map-get($fontSize, l);
         }
     }
+
     @include media(tablet) {
         &__title {
+            top: 25px;
             font-size: map-get($fontSize, m);
         }
     }

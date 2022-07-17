@@ -52,5 +52,15 @@
         grid-template-columns:1fr;
         grid-template-rows: 1fr;
         margin: 5rem auto;
+        padding: 2rem;
+        
+        &__info {
+            &__title {
+                padding-top: map-get($padding, s);
+            }
+        }
+        .overlay {
+            display:none;
+        }
     }
 }

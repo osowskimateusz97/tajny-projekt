@@ -10,9 +10,20 @@
     }
     @include media(tablet) {
         grid-template-columns: 1fr 1fr;
-
         .card {
             height: 150px;
+            &__title {
+                font-size: map-get($fontSize, s);
+            }
+        }
+    }
+    @include media(mobile) {
+        .card {
+            &__title {
+                font-size: map-get($fontSize, xs);
+                left:50%;
+                transform:translateX(-50%);
+            }
         }
     }
 }

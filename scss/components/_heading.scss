@@ -11,11 +11,11 @@
     @include media(tablet) {
         font-size: map-get($fontSize, m);
         &--isBig {
-            font-size: map-get($fontSize, l);
+            font-size: map-get($fontSize, m);
         }   
     }
     @include media(mobile) {
-        font-size: map-get($fontSize, s);
+        font-size: map-get($fontSize, m);
         &--isBig {
             font-size: map-get($fontSize, m);
         }   

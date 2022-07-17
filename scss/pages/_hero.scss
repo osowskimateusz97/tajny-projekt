@@ -19,10 +19,13 @@
     }
     .card {
         min-height:250px;
-    }   
-    
+    }
+       
     @include media(tablet) {
-        padding:2rem; 
+        padding:2rem
+    }
+
+    @include media(mobile) {
         grid-template-columns:1fr;
     }
 }

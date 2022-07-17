@@ -30,22 +30,22 @@
             background: $white;
             display: flex;
             flex-direction: column;
-            gap:2rem;
-            align-items:center;
+            gap: 2rem;
+            align-items: center;
             padding: map-get($padding, m);
             border-radius: map-get($borderRadius, s);
             box-shadow: map-get($boxShadow, small);
             transition: all .2s;
-            opacity:0.8;
+            opacity: 0.8;
             cursor: pointer;
 
             &:hover {
-                opacity:1;
-                transform:translateY(-10px);
+                opacity: 1;
+                transform: translateY(-10px);
             }
 
             &__icon {
-                max-width:30%;
+                max-width: 30%;
             }
 
             &__title {
@@ -72,7 +72,7 @@
         }
     }
     @include media(tablet) {
-        padding: 2rem;
+        padding: 2rem 2rem 5rem;
         .heading{
             text-align:center;
         }
