@@ -1,10 +1,9 @@
 .section {
     margin:0 auto;
-
     &__container {
         max-width: 1400px;
-        padding: 0 2rem;
-        margin: 10rem auto 10rem;
+        padding: 10rem 2rem;
+        margin: 0 auto;
         &--first{
             margin-top: $nav-desktop-height;
             @include media(tablet) {
