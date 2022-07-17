@@ -1177,7 +1177,20 @@ a {
   min-height: 60vh;
   gap: 10rem;
 }
-.clinicDescription__img {
+.clinicDescription__imgWrapper {
+  position: relative;
+}
+.clinicDescription__imgWrapper__logo {
+  position: absolute;
+  width: 110px;
+  top: -15px;
+  right: -15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.clinicDescription__imgWrapper__img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -1228,6 +1241,11 @@ a {
     gap: 2rem;
     min-height: unset;
   }
+  .clinicDescription__imgWrapper__logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
   .clinicDescription__description__title, .clinicDescription__description__content {
     text-align: center;
     margin: 2rem auto;
@@ -1247,6 +1265,11 @@ a {
     grid-template-columns: 1fr;
     gap: 2rem;
     min-height: unset;
+  }
+  .clinicDescription__imgWrapper__logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   .clinicDescription__description__title, .clinicDescription__description__content {
     text-align: center;
@@ -1281,11 +1304,13 @@ a {
 @media all and (max-width: 1024.7px) {
   .gallery {
     padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 @media all and (tablet) {
   .gallery {
     padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 
@@ -1739,4 +1764,39 @@ a {
 }
 .specific-clinic__title, .specific-clinic__subtitle, .specific-clinic__content {
   color: #fff;
+}
+
+.person {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.person__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2rem;
+}
+.person__description {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+.person__description .heading {
+  color: #333;
+}
+.person__description .heading span {
+  color: #1580eb;
+}
+.person__description__card {
+  padding: 2rem;
+  background: rgba(21, 128, 235, 0.4117647059);
+  border-radius: 1rem;
 }/*# sourceMappingURL=index.css.map */
