@@ -2,7 +2,7 @@
     background-color: $lightGrey;
     padding-top: 0;
     padding-bottom: 2rem;
-
+    color: $primary;
     &__heading {
         margin:0 auto;
         width: 80%;
@@ -29,6 +29,9 @@
         display:flex;
         flex-direction: column;
         gap: 5rem;
+        a {
+            color: $primary;
+        }
         &__description {
             display: flex;
             flex-direction: column;
@@ -55,6 +58,8 @@
         border-top:1px solid $blue;
         padding-top:3rem;
         text-align: center;
+        color: $blue;
+        font-weight:500;
     }
 
     @include media(tablet) {

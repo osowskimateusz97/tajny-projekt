@@ -984,6 +984,7 @@ a {
   background-color: #F1F5F8;
   padding-top: 0;
   padding-bottom: 2rem;
+  color: #333;
 }
 .footer__heading {
   margin: 0 auto;
@@ -1018,6 +1019,9 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 5rem;
+}
+.footer__link a {
+  color: #333;
 }
 .footer__link__description {
   display: -webkit-box;
@@ -1055,6 +1059,8 @@ a {
   border-top: 1px solid #1580eb;
   padding-top: 3rem;
   text-align: center;
+  color: #1580eb;
+  font-weight: 500;
 }
 @media all and (max-width: 1024.7px) {
   .footer__links {
