@@ -1,4 +1,4 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -1040,7 +1040,7 @@ a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin: 5rem 0 2rem;
+  margin: 2rem 0 2rem;
 }
 .footer__links__container {
   display: grid;
@@ -1113,7 +1113,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   gap: 2rem;
-  margin: 5rem 0 0;
+  margin: 2rem 0 0;
   padding: 3rem;
 }
 .footer__rights {

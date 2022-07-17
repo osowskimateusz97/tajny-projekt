@@ -3,7 +3,8 @@
     padding-top: 0;
     padding-bottom: 2rem;
     color: $primary;
-    margin-top:15rem;
+    margin-top: 15rem;
+
     &__heading {
         margin:0 auto;
         width: 80%;
@@ -19,7 +20,7 @@
     &__links {
         display: flex;
         justify-content: space-evenly;
-        margin: 5rem 0 2rem;
+        margin: 2rem 0 2rem;
         
         &__container {
             display: grid;
@@ -70,7 +71,7 @@
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-        margin: 5rem 0 0;
+        margin: 2rem 0 0;
         padding:3rem;
        
     }
