@@ -1,4 +1,4 @@
-/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -511,6 +511,8 @@ a {
   font-size: 2.5rem;
   font-weight: 800;
   color: #1580eb;
+  line-height: 150%;
+  letter-spacing: 0.9px;
 }
 .heading--isBig {
   font-size: 3.5rem;
@@ -542,8 +544,9 @@ a {
 
 .paragraph {
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 150%;
   color: #333;
+  letter-spacing: 0.7px;
 }
 .paragraph--isBig {
   font-size: 2.5rem;
@@ -566,7 +569,7 @@ a {
 }
 @media all and (max-width: 480px) {
   .paragraph {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .paragraph--isBig {
     font-size: 1.6rem;
@@ -1081,6 +1084,9 @@ a {
   .footer__links {
     gap: 0;
   }
+  .footer__link {
+    gap: 1rem;
+  }
   .footer__links, .footer__contactUs, .footer__socials {
     margin: 0;
     -webkit-box-pack: start;
@@ -1352,9 +1358,27 @@ a {
   .specializations {
     padding: 2rem;
   }
+  .specializations .heading {
+    text-align: center;
+  }
+  .specializations__container {
+    gap: 5rem;
+  }
+  .specializations__description__paragraph {
+    width: 100%;
+  }
 }
 @media all and (tablet) {
   .specializations {
     padding: 2rem;
+  }
+  .specializations .heading {
+    text-align: center;
+  }
+  .specializations__container {
+    gap: 5rem;
+  }
+  .specializations__description__paragraph {
+    width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */

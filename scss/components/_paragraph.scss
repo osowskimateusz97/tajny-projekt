@@ -1,7 +1,8 @@
 .paragraph {
     font-size: map-get($fontSize, m);
-    line-height: 1.5;
+    line-height: 150%;
     color: $primary;
+    letter-spacing: 0.7px;
     &--isBig {
         font-size: map-get($fontSize, l);
     }
@@ -15,7 +16,7 @@
     }
 
     @include media(mobile) {
-        font-size: map-get($fontSize, xs);
+        font-size: map-get($fontSize, s);
 
         &--isBig {
             font-size: map-get($fontSize, m);
