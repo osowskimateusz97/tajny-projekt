@@ -6,7 +6,8 @@
     border: 2px solid $blue;
     color: $white;
     transition: all 0.2s ease;
-    font-size: map-get($fontSize, s);
+    font-size: map-get($fontSize, m);
+    font-weight: 500;
     display: block;
     &:hover{
         background-color: transparent;
