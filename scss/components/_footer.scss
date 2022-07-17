@@ -12,6 +12,7 @@
         transform:translateY(-50%);
         text-align:center;
         border-radius: map-get($borderRadius, m);
+        box-shadow: map-get($boxShadow, card);
     }
 
     &__links {

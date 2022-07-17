@@ -7,7 +7,7 @@
     color: $white;
     transition: all 0.2s ease;
     font-size: map-get($fontSize, s);
-    
+    display: block;
     &:hover{
         background-color: transparent;
         color: $blue;

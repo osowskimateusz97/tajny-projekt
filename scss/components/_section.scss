@@ -4,7 +4,7 @@
         max-width: 1400px;
         padding: 10rem 2rem;
         margin: 0 auto;
-        
+        min-height: 60vh;
         &--pt0 {
             padding-top: 0;
         }
@@ -17,6 +17,7 @@
         }
         @include media(tablet) {
             padding: 3rem 2rem;
+            min-height: unset;
         }
     }
 }

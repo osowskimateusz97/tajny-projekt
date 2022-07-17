@@ -22,4 +22,7 @@
             font-size: map-get($fontSize, m);
         }
     }
+    &--center {
+        text-align:center;
+    }
 }
