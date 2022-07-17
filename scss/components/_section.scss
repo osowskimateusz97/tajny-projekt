@@ -11,10 +11,12 @@
 
         &--first{
             margin-top: $nav-desktop-height;
+
             @include media(tablet) {
                 padding-top: $nav-mobile-height;
             }
         }
+
         @include media(tablet) {
             padding: 3rem 2rem;
             min-height: unset;

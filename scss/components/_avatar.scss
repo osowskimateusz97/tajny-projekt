@@ -1,0 +1,19 @@
+.avatar {
+    display:grid;
+    grid-template-rows: 250px 1fr;
+    gap: 1.5rem;
+    padding: 3rem;
+    box-shadow: map-get($boxShadow, card);
+    border-radius: map-get($borderRadius, s);
+    
+    &__img {
+        border-radius: map-get($borderRadius, s);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    @include media(mobile) {
+        grid-template-rows: 150px 1fr;
+    }
+}

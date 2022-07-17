@@ -24,6 +24,9 @@
         font-size: map-get($fontSize, m);
         font-weight: 800;
         margin: 0 auto;
+        &__description {
+            margin-bottom: 1.5rem;
+        }
     }
     &__map {
         width: 100%;
@@ -32,6 +35,7 @@
         margin: 5rem auto;
         text-align: center;
         border-radius: map-get($borderRadius, l);
+        overflow:hidden;
     }
     &::before {
         content: "";
@@ -50,6 +54,7 @@
         grid-template-columns: 1fr;
         gap: 2rem;
         min-height: unset;
+        
         &__description {
             &__title, 
             &__content {
@@ -57,6 +62,14 @@
                 margin:2rem auto;
             }
         }
+        &__map{
+            max-height: 300px;
+        }
+
+         &__button {
+            font-size: map-get($fontSize, s);
+        }
+
         &::before{
            display: none;
         }

@@ -1,0 +1,44 @@
+.specific-clinic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+    &::before {
+            display: block;
+            content: "";
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+            background: rgb(0, 0, 0);
+            z-index:-2;
+    }
+
+    &__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        opacity: 0.4;
+        object-fit:cover;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction:column;
+        gap: 3rem;
+        width:60%;
+        text-align:center;
+    }
+
+    &__title,
+    &__subtitle,
+    &__content {
+        color: $white;
+    }
+    
+}

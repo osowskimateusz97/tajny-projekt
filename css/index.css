@@ -1014,6 +1014,7 @@ a {
   padding-top: 0;
   padding-bottom: 2rem;
   color: #333;
+  margin-top: 15rem;
 }
 .footer__heading {
   margin: 0 auto;
@@ -1149,6 +1150,9 @@ a {
   }
 }
 @media all and (max-width: 480px) {
+  .footer {
+    margin-top: 5rem;
+  }
   .footer__links {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1192,6 +1196,9 @@ a {
   font-weight: 800;
   margin: 0 auto;
 }
+.clinicDescription__button__description {
+  margin-bottom: 1.5rem;
+}
 .clinicDescription__map {
   width: 100%;
   max-height: 500px;
@@ -1200,6 +1207,7 @@ a {
   margin: 5rem auto;
   text-align: center;
   border-radius: 2rem;
+  overflow: hidden;
 }
 .clinicDescription::before {
   content: "";
@@ -1224,6 +1232,12 @@ a {
     text-align: center;
     margin: 2rem auto;
   }
+  .clinicDescription__map {
+    max-height: 300px;
+  }
+  .clinicDescription__button {
+    font-size: 1.3rem;
+  }
   .clinicDescription::before {
     display: none;
   }
@@ -1238,8 +1252,62 @@ a {
     text-align: center;
     margin: 2rem auto;
   }
+  .clinicDescription__map {
+    max-height: 300px;
+  }
+  .clinicDescription__button {
+    font-size: 1.3rem;
+  }
   .clinicDescription::before {
     display: none;
+  }
+}
+
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  padding: 5rem;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+@media all and (max-width: 1024.7px) {
+  .gallery {
+    padding: 2rem;
+  }
+}
+@media all and (tablet) {
+  .gallery {
+    padding: 2rem;
+  }
+}
+
+.avatar {
+  display: grid;
+  grid-template-rows: 250px 1fr;
+  gap: 1.5rem;
+  padding: 3rem;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 1rem;
+}
+.avatar__img {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media all and (max-width: 480px) {
+  .avatar {
+    grid-template-rows: 150px 1fr;
   }
 }
 
@@ -1433,7 +1501,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 15rem;
+  gap: 5rem;
 }
 .specializations__description {
   display: -webkit-box;
@@ -1564,6 +1632,9 @@ a {
   gap: 2rem;
   grid-template-columns: repeat(3, minmax(250px, 1fr));
 }
+.clinic__list--specific {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 .clinic__list__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1606,9 +1677,66 @@ a {
   .clinic__list {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+  .clinic__list__item {
+    padding: 1.5rem;
+  }
 }
 @media all and (tablet) {
   .clinic__list {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+  .clinic__list__item {
+    padding: 1.5rem;
+  }
+}
+
+.specific-clinic {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: unset;
+}
+.specific-clinic::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  z-index: -2;
+}
+.specific-clinic__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.4;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.specific-clinic__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+  width: 60%;
+  text-align: center;
+}
+.specific-clinic__title, .specific-clinic__subtitle, .specific-clinic__content {
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */
