@@ -87,7 +87,7 @@ function init() {
 
   barba.init({
     preventRunning: true,
-    prevent: ({ el }) => el.dataset && el.dataset.fslightbox,
+    prevent: ({ el }) => el.dataset && el.dataset?.fslightbox,
     transitions: [
       {
         async leave({ current }) {
@@ -113,7 +113,7 @@ function init() {
         afterLeave() {
           document.body.classList.remove("body-overflow");
         },
-        async after(data) {
+        after(data) {
           if (data.next.namespace === "clinic") {
             refreshFsLightbox();
           }
