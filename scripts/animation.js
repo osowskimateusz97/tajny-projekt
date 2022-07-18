@@ -113,10 +113,9 @@ function init() {
         afterLeave() {
           document.body.classList.remove("body-overflow");
         },
-        async after() {
-          if (refreshFsLightbox) {
-            console.log("xx");
-            await refreshFsLightbox();
+        async after(data) {
+          if (data.next.namespace === "clinic") {
+            refreshFsLightbox();
           }
         },
       },
