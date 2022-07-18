@@ -16,11 +16,15 @@
 
     @include media(mobile) {
         grid-template-rows: 150px 1fr;
+        justify-items: center;
         &__img {
             max-width: 200px;
         }
+        &__description{
+            text-align: center;
+        }
     }
-    &:hover{
+    &:hover {
         background: #79bdffa7;
         transform: translateY(-10px);
     }

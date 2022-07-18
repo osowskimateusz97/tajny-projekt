@@ -1355,9 +1355,13 @@ strong {
 @media all and (max-width: 480px) {
   .avatar {
     grid-template-rows: 150px 1fr;
+    justify-items: center;
   }
   .avatar__img {
     max-width: 200px;
+  }
+  .avatar__description {
+    text-align: center;
   }
 }
 .avatar:hover {
@@ -2043,8 +2047,12 @@ strong {
   }
   .contact__wrapper__list {
     grid-template-columns: 1fr;
+    margin-top: 2rem;
   }
   .contact__wrapper__list__col {
     width: 100%;
+  }
+  .contact__wrapper__list__col .heading {
+    text-align: center;
   }
 }/*# sourceMappingURL=index.css.map */

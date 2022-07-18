@@ -20,8 +20,6 @@
             justify-items: center;
             grid-template-columns: 1fr 1fr 1fr;
             margin-top: 4rem;
-            
-            
         }
     }
 
@@ -54,9 +52,12 @@
 
             &__list {
                 grid-template-columns: 1fr;
-
+                margin-top: 2rem;
                 &__col {
-                        width: 100%;
+                    width: 100%;
+                    .heading{
+                        text-align:center;
+                    }
                 }
             }
         }
