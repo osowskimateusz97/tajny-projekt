@@ -119,8 +119,12 @@
             height: calc(100vh - 80px);
             justify-content: flex-start;
             padding-bottom: 3rem;
+            padding-top:3rem;
             &.mobile-hidden {
                 transform: translateX(-100%);
+            }
+            & > a {
+                flex-grow: 1;
             }
         }
       
@@ -136,6 +140,7 @@
         }
         &__button{
             margin-bottom:5rem;
+            flex-grow: 1;
         }
 
         &__list {
