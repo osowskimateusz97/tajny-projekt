@@ -5,7 +5,8 @@
     padding: 3rem;
     box-shadow: map-get($boxShadow, card);
     border-radius: map-get($borderRadius, s);
-    
+    transition: all .2s;
+    font-weight: 500;
     &__img {
         border-radius: map-get($borderRadius, s);
         width: 100%;
@@ -15,5 +16,9 @@
 
     @include media(mobile) {
         grid-template-rows: 150px 1fr;
+    }
+    &:hover{
+        background: #79bdffa7;
+        transform: translateY(-10px);
     }
 }

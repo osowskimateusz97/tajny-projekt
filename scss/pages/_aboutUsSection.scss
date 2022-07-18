@@ -1,0 +1,66 @@
+.aboutUs {
+    padding: map-get($padding, xl);
+    display:grid;
+    align-items: flex-start;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows:1fr;
+    gap: 3rem;
+    
+    &__imgContainer {
+        img {
+            border-radius: map-get($borderRadius, l);
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+    }
+   
+    &__info {
+        grid-column: 1;
+        grid-row: 2;
+        width: 80%;
+        border-radius: map-get($borderRadius, l);
+        transform: translate(75%, -50%);
+        box-shadow: map-get($boxShadow, card);
+        &__description {
+            position: relative;
+            z-index: 10;
+            background: $white;
+            border-radius: map-get($borderRadius, l);
+        }
+        
+        &__title {
+            text-align:center;
+            padding-top: map-get($padding, l);
+            color: $blue;
+        }
+
+        &__description {
+            padding: map-get($padding, m);
+        }
+
+        @include media(tablet) {
+            margin: 0 auto;
+            transform: translate(0);
+            width: 100%;
+            &__description {
+                padding: map-get($padding, s);
+            }
+        }
+    }
+    @include media(tablet) {
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr;
+        margin: 5rem auto;
+        padding: 2rem;
+        
+        &__info {
+            &__title {
+                padding-top: map-get($padding, s);
+            }
+        }
+        .overlay {
+            display:none;
+        }
+    }
+}

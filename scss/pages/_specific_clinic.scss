@@ -40,5 +40,14 @@
     &__content {
         color: $white;
     }
-    
+    @include media(tablet) {
+        &__description{
+            width: 70%;
+        }
+    }
+    @include media(mobile) {
+        &__description{
+            width: 90%;
+        }
+    }
 }

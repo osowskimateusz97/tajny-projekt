@@ -13,8 +13,10 @@
         flex-direction: column;
         gap: 2rem;
         height: 100%;
-        .card {
-          flex-grow: 1;
+        
+        .card,
+        & > a {
+            flex-grow: 1;
         }
     }
     .card {
