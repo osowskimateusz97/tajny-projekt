@@ -1,4 +1,4 @@
-/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -2000,9 +2000,6 @@ strong {
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 4rem;
 }
-.contact__wrapper__list__col {
-  width: 100%;
-}
 .contact__hours-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2015,8 +2012,9 @@ strong {
   gap: 1rem;
 }
 .contact__hours-list__day {
+  margin-left: 2rem;
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  grid-template-columns: 0.3fr 1fr;
 }
 .contact__hours-list__day p {
   font-weight: 500;
@@ -2045,5 +2043,8 @@ strong {
   }
   .contact__wrapper__list {
     grid-template-columns: 1fr;
+  }
+  .contact__wrapper__list__col {
+    width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */
