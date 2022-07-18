@@ -1,0 +1,10 @@
+.loader {
+    position: fixed;
+    width: 100vw;
+    height: 200vh;
+    pointer-events: none;
+    background-color: #d1e8ff;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+}

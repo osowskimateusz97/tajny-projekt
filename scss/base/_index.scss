@@ -30,3 +30,8 @@ strong {
     padding: 0.3rem;
     font-weight: 500;
 }
+
+.is-transitioning {
+    pointer-events: none;
+    cursor: progress;
+}

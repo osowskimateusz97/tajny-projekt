@@ -1,4 +1,4 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -482,6 +482,11 @@ strong {
   border-radius: 3px;
   padding: 0.3rem;
   font-weight: 500;
+}
+
+.is-transitioning {
+  pointer-events: none;
+  cursor: progress;
 }
 
 .button {
@@ -1389,6 +1394,17 @@ strong {
           transform: translateY(-10px);
 }
 
+.loader {
+  position: fixed;
+  width: 100vw;
+  height: 200vh;
+  pointer-events: none;
+  background-color: #d1e8ff;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 0.5fr;
@@ -2047,7 +2063,7 @@ strong {
   display: grid;
   grid-template-columns: 0.3fr 1fr;
 }
-.contact__hours-list__day p {
+.contact__hours-list__day.paragraph {
   font-weight: 500;
 }
 @media all and (max-width: 1024.7px) {
