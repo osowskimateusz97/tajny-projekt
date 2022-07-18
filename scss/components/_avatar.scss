@@ -17,6 +17,7 @@
     @include media(mobile) {
         grid-template-rows: 150px 1fr;
         justify-items: center;
+        padding: 2rem;
         &__img {
             max-width: 200px;
         }

@@ -58,7 +58,9 @@
 
             .paragraph {
                 font-weight: 500;
-                margin-bottom:1rem;
+            }
+            > .paragraph {
+                margin-bottom: 1rem;
             }
 
              &__headingWrapper {
