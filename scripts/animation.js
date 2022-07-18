@@ -1,4 +1,18 @@
 function init() {
+  //toggle hamburger
+  function initHamburger(container) {
+    const hamburger = container.querySelector('svg[data-type="hamburger"]');
+    const navContainer = container.querySelector(
+      'nav[data-type="navigation-container"]'
+    );
+    const toggleMenuVisibility = () => {
+      navContainer.classList.toggle("mobile-hidden");
+      document.body.classList.toggle("body-overflow");
+    };
+
+    hamburger.addEventListener("click", toggleMenuVisibility);
+  }
+
   const loader = document.querySelector(".loader");
 
   // reset position of the loading screen
@@ -60,21 +74,20 @@ function init() {
     window.scrollTo(0, 0);
   });
 
-  //toggle hamburger
-  function initHamburger(container) {
-    const hamburger = container.querySelector('svg[data-type="hamburger"]');
-    const navContainer = container.querySelector(
-      'nav[data-type="navigation-container"]'
-    );
-    const toggleMenuVisibility = () => {
-      navContainer.classList.toggle("mobile-hidden");
-      document.body.classList.toggle("body-overflow");
-    };
-
-    hamburger.addEventListener("click", toggleMenuVisibility);
+  var links = document.querySelectorAll("a[href]");
+  var cbk = function (e) {
+    if (e.currentTarget.href === window.location.href) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  };
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", cbk);
   }
 
   barba.init({
+    preventRunning: true,
+    prevent: ({ el }) => el.dataset && el.dataset.fslightbox,
     transitions: [
       {
         async leave({ current }) {
@@ -92,6 +105,19 @@ function init() {
           const container = next.container;
           loaderAway();
           initHamburger(container);
+        },
+        once({ next }) {
+          const container = next.container;
+          initHamburger(container);
+        },
+        afterLeave() {
+          document.body.classList.remove("body-overflow");
+        },
+        async after() {
+          if (refreshFsLightbox) {
+            console.log("xx");
+            await refreshFsLightbox();
+          }
         },
       },
     ],

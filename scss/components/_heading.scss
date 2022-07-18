@@ -4,8 +4,10 @@
     color: $blue;
     line-height:150%;
     letter-spacing:0.9px;
+    margin: 1rem 0;
     &--isBig {
         font-size: map-get($fontSize, xl);
+        margin: 2rem 0;
     }
 
     @include media(tablet) {
@@ -17,11 +19,12 @@
     @include media(mobile) {
         font-size: map-get($fontSize, m);
         &--isBig {
-            font-size: map-get($fontSize, m);
+            font-size: calc(map-get($fontSize, m) + 3px);
+            margin: 1rem 0;
         }   
     }
     &--center {
-        text-align:center;
+        text-align: center;
     }
     &--white {
         color: $white;

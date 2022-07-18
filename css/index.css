@@ -489,6 +489,10 @@ strong {
   cursor: progress;
 }
 
+main {
+  min-height: 100vh;
+}
+
 .button {
   border: none;
   padding: 1rem 2rem;
@@ -528,9 +532,11 @@ strong {
   color: #1580eb;
   line-height: 150%;
   letter-spacing: 0.9px;
+  margin: 1rem 0;
 }
 .heading--isBig {
   font-size: 3.5rem;
+  margin: 2rem 0;
 }
 @media all and (max-width: 1024.7px) {
   .heading {
@@ -553,7 +559,8 @@ strong {
     font-size: 1.5rem;
   }
   .heading--isBig {
-    font-size: 1.5rem;
+    font-size: calc(1.5rem + 3px);
+    margin: 1rem 0;
   }
 }
 .heading--center {
@@ -945,13 +952,13 @@ strong {
 }
 @media all and (max-width: 1024.7px) {
   .section__container {
-    padding: 3rem 2rem;
+    padding: 3rem 2rem 2rem;
     min-height: unset;
   }
 }
 @media all and (tablet) {
   .section__container {
-    padding: 3rem 2rem;
+    padding: 3rem 2rem 2rem;
     min-height: unset;
   }
 }
@@ -1142,7 +1149,6 @@ strong {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 2rem;
   margin: 2rem 0 0;
   padding: 3rem;
 }
@@ -1294,6 +1300,7 @@ strong {
   }
   .clinicDescription__map {
     max-height: 300px;
+    margin-top: 3rem;
   }
   .clinicDescription__button {
     font-size: 1.3rem;
@@ -1319,6 +1326,7 @@ strong {
   }
   .clinicDescription__map {
     max-height: 300px;
+    margin-top: 3rem;
   }
   .clinicDescription__button {
     font-size: 1.3rem;
@@ -1375,6 +1383,25 @@ strong {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.avatar:hover {
+  background: rgba(121, 189, 255, 0.6549019608);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+@media all and (max-width: 1024.7px) {
+  .avatar:hover {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    background: #fff;
+  }
+}
+@media all and (tablet) {
+  .avatar:hover {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    background: #fff;
+  }
+}
 @media all and (max-width: 480px) {
   .avatar {
     grid-template-rows: 150px 1fr;
@@ -1388,11 +1415,6 @@ strong {
     text-align: center;
   }
 }
-.avatar:hover {
-  background: rgba(121, 189, 255, 0.6549019608);
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
 
 .loader {
   position: fixed;
@@ -1400,7 +1422,7 @@ strong {
   height: 200vh;
   pointer-events: none;
   background-color: #d1e8ff;
-  z-index: 1;
+  z-index: 99;
   visibility: hidden;
   opacity: 0;
 }
@@ -1595,6 +1617,11 @@ strong {
   padding-left: 0;
   padding-right: 0;
 }
+@media all and (max-width: 480px) {
+  .aboutUsPage__ourSpecialists {
+    margin-top: 1.5rem;
+  }
+}
 
 .specializations {
   padding: 5rem 0;
@@ -1670,13 +1697,14 @@ strong {
 }
 @media all and (max-width: 1024.7px) {
   .specializations {
-    padding: 2rem 2rem 5rem;
+    padding: 2rem;
   }
   .specializations .heading {
     text-align: center;
   }
   .specializations__container {
-    gap: 5rem;
+    gap: 1.5rem;
+    padding-bottom: 3rem;
   }
   .specializations__description__paragraph {
     width: 100%;
@@ -1695,13 +1723,14 @@ strong {
 }
 @media all and (tablet) {
   .specializations {
-    padding: 2rem 2rem 5rem;
+    padding: 2rem;
   }
   .specializations .heading {
     text-align: center;
   }
   .specializations__container {
-    gap: 5rem;
+    gap: 1.5rem;
+    padding-bottom: 3rem;
   }
   .specializations__description__paragraph {
     width: 100%;
@@ -1843,6 +1872,9 @@ strong {
 }
 .specific-clinic__title, .specific-clinic__subtitle, .specific-clinic__content {
   color: #fff;
+}
+.specific-clinic__subtitle {
+  font-weight: 500;
 }
 @media all and (max-width: 1024.7px) {
   .specific-clinic__description {

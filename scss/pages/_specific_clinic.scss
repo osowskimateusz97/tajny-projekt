@@ -40,6 +40,11 @@
     &__content {
         color: $white;
     }
+    
+    &__subtitle {
+        font-weight: 500;
+    } 
+
     @include media(tablet) {
         &__description{
             width: 70%;

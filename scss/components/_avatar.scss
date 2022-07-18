@@ -13,6 +13,17 @@
         height: 100%;
         object-fit: cover;
     }
+    &:hover {
+        background: #79bdffa7;
+        transform: translateY(-10px);
+    }
+
+    @include media(tablet) {
+        &:hover {
+            transform: translateY(0);
+            background: $white;
+        }
+    }
 
     @include media(mobile) {
         grid-template-rows: 150px 1fr;
@@ -25,8 +36,5 @@
             text-align: center;
         }
     }
-    &:hover {
-        background: #79bdffa7;
-        transform: translateY(-10px);
-    }
+    
 }
