@@ -16,6 +16,9 @@
 
     @include media(mobile) {
         grid-template-rows: 150px 1fr;
+        &__img {
+            max-width: 200px;
+        }
     }
     &:hover{
         background: #79bdffa7;

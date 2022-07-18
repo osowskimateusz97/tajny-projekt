@@ -50,23 +50,6 @@
                 font-weight: 700;
                 font-size: map-get($fontSize, s);
             }
-            @include media(tablet) {
-                gap:1rem;
-                max-height:100px;
-                
-                &__title{
-                    font-size: map-get($fontSize, xs);
-                }
-            }
-        }
-    
-        @include media(tablet) {
-            gap: 2rem;
-            grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
-        }
-        @include media(mobile) {
-            gap: 2rem;
-            grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
         }
     }
     @include media(tablet) {
@@ -82,11 +65,26 @@
                 width: 100%;
             }
         }
+        &__card-list{
+            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            
+            &__card {
+                gap: 1rem;
+                max-height: 100px;
+                &__title {
+                    font-size: map-get($fontSize, xs);
+                }
+            }
+        }
+        
     }
+
     @include media(mobile) {
-        &__container{
-            padding-left: 0;
-            padding-right: 0;
+
+        &__card-list {
+            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         }
     }
 }

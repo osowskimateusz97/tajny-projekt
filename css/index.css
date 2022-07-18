@@ -1356,6 +1356,9 @@ strong {
   .avatar {
     grid-template-rows: 150px 1fr;
   }
+  .avatar__img {
+    max-width: 200px;
+  }
 }
 .avatar:hover {
   background: rgba(121, 189, 255, 0.6549019608);
@@ -1546,6 +1549,13 @@ strong {
   margin: 0 auto;
   font-weight: 500;
 }
+.aboutUsPage .section__container {
+  gap: 2rem;
+}
+.aboutUsPage .specializations__container {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .specializations {
   padding: 5rem 0;
@@ -1620,6 +1630,22 @@ strong {
   font-size: 1.3rem;
 }
 @media all and (max-width: 1024.7px) {
+  .specializations {
+    padding: 2rem 2rem 5rem;
+  }
+  .specializations .heading {
+    text-align: center;
+  }
+  .specializations__container {
+    gap: 5rem;
+  }
+  .specializations__description__paragraph {
+    width: 100%;
+  }
+  .specializations__card-list {
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
   .specializations__card-list__card {
     gap: 1rem;
     max-height: 100px;
@@ -1629,64 +1655,34 @@ strong {
   }
 }
 @media all and (tablet) {
+  .specializations {
+    padding: 2rem 2rem 5rem;
+  }
+  .specializations .heading {
+    text-align: center;
+  }
+  .specializations__container {
+    gap: 5rem;
+  }
+  .specializations__description__paragraph {
+    width: 100%;
+  }
+  .specializations__card-list {
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
   .specializations__card-list__card {
     gap: 1rem;
     max-height: 100px;
   }
   .specializations__card-list__card__title {
     font-size: 1.2rem;
-  }
-}
-@media all and (max-width: 1024.7px) {
-  .specializations__card-list {
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  }
-}
-@media all and (tablet) {
-  .specializations__card-list {
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
 @media all and (max-width: 480px) {
   .specializations__card-list {
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  }
-}
-@media all and (max-width: 1024.7px) {
-  .specializations {
-    padding: 2rem 2rem 5rem;
-  }
-  .specializations .heading {
-    text-align: center;
-  }
-  .specializations__container {
-    gap: 5rem;
-  }
-  .specializations__description__paragraph {
-    width: 100%;
-  }
-}
-@media all and (tablet) {
-  .specializations {
-    padding: 2rem 2rem 5rem;
-  }
-  .specializations .heading {
-    text-align: center;
-  }
-  .specializations__container {
-    gap: 5rem;
-  }
-  .specializations__description__paragraph {
-    width: 100%;
-  }
-}
-@media all and (max-width: 480px) {
-  .specializations__container {
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
@@ -1978,5 +1974,76 @@ strong {
 @media all and (max-width: 480px) {
   .person {
     padding: 2rem 2rem 5rem;
+  }
+}
+
+.contact {
+  margin: 2rem;
+}
+.contact .specializations__container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.contact__wrapper {
+  background: rgba(21, 128, 235, 0.4117647059);
+  padding: 5rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.contact__wrapper .heading--hour {
+  color: #333;
+}
+.contact__wrapper__list {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 4rem;
+}
+.contact__wrapper__list__col {
+  width: 100%;
+}
+.contact__hours-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+.contact__hours-list__day {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+.contact__hours-list__day p {
+  font-weight: 500;
+}
+@media all and (max-width: 1024.7px) {
+  .contact__wrapper {
+    padding: 5rem 2rem;
+  }
+  .contact__wrapper__list {
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (tablet) {
+  .contact__wrapper {
+    padding: 5rem 2rem;
+  }
+  .contact__wrapper__list {
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media all and (max-width: 480px) {
+  .contact__wrapper {
+    padding: 2rem;
+  }
+  .contact__wrapper__list {
+    grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=index.css.map */
