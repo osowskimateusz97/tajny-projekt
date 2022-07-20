@@ -1944,7 +1944,7 @@ main {
   gap: 10rem;
 }
 .person__description__card {
-  padding: 7rem 5rem 2rem;
+  padding: 9rem 5rem 2rem;
   border-radius: 1rem;
   position: relative;
   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -2014,7 +2014,7 @@ main {
     padding: 0;
   }
   .person__description__card {
-    padding: 7rem 3rem 2rem;
+    padding: 9rem 3rem 2rem;
   }
   .person__description__card--normal {
     padding: 2rem 3rem;
@@ -2038,7 +2038,7 @@ main {
     padding: 0;
   }
   .person__description__card {
-    padding: 7rem 3rem 2rem;
+    padding: 9rem 3rem 2rem;
   }
   .person__description__card--normal {
     padding: 2rem 3rem;
