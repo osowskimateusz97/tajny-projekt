@@ -569,6 +569,9 @@ main {
 .heading--white {
   color: #fff;
 }
+.heading--intro {
+  margin-top: 0;
+}
 
 .paragraph {
   font-size: 1.5rem;
@@ -1760,7 +1763,7 @@ main {
   grid-template-columns: repeat(3, minmax(250px, 1fr));
 }
 .clinic__list--specific {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .clinic__list__item {
   display: -webkit-box;
