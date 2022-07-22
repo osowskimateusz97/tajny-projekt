@@ -1,98 +1,95 @@
 .specializations {
-    padding: 5rem 0;
-    background: rgba($lightBlue, 0.1);
+  padding: 5rem 0;
+  background: rgba($lightBlue, 0.1);
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__paragraph {
+      width: 60%;
+      text-align: center;
+    }
+  }
+
+  &__card-list {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    justify-content: center;
+    gap: 4rem;
+
+    &__card {
+      background: $white;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+      padding: map-get($padding, m);
+      border-radius: map-get($borderRadius, s);
+      box-shadow: map-get($boxShadow, small);
+      transition: all 0.2s;
+      opacity: 0.8;
+      text-align: center;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 1;
+        transform: translateY(-10px);
+      }
+
+      &__icon {
+        max-width: 30%;
+      }
+
+      &__title {
+        font-weight: 700;
+        font-size: map-get($fontSize, s);
+      }
+    }
+  }
+
+  @include media(tablet) {
+    padding: 2rem;
+
+    .heading {
+      text-align: center;
+    }
+
     &__container {
-        display: flex;
-        flex-direction: column;
-        gap: 5rem;
+      gap: 1.5rem;
+      padding-bottom: 3rem;
     }
 
     &__description {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        &__paragraph {
-            width: 60%;
-            text-align:center;
-        }
+      &__paragraph {
+        width: 100%;
+      }
     }
 
     &__card-list {
-        display: grid;
-        grid-template-columns: repeat(5, 150px);
-        justify-content: center;
-        gap: 4rem;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
-        &__card {
-            background: $white;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            align-items: center;
-            padding: map-get($padding, m);
-            border-radius: map-get($borderRadius, s);
-            box-shadow: map-get($boxShadow, small);
-            transition: all .2s;
-            opacity: 0.8;
-            cursor: pointer;
-
-            &:hover {
-                opacity: 1;
-                transform: translateY(-10px);
-            }
-
-            &__icon {
-                max-width: 30%;
-            }
-
-            &__title {
-                font-weight: 700;
-                font-size: map-get($fontSize, s);
-            }
+      &__card {
+        gap: 1rem;
+        max-height: 100px;
+        &__title {
+          font-size: map-get($fontSize, xs);
         }
+      }
     }
+  }
 
-
-    @include media(tablet) {
-        padding: 2rem;
-
-        .heading{
-            text-align:center;
-        }
-
-        &__container {
-            gap: 1.5rem;
-            padding-bottom: 3rem;
-        }
-
-        &__description {
-
-            &__paragraph {
-                width: 100%;
-            }
-        }
-        
-        &__card-list{
-            gap: 2rem;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            
-            &__card {
-                gap: 1rem;
-                max-height: 100px;
-                &__title {
-                    font-size: map-get($fontSize, xs);
-                }
-            }
-        }
-        
+  @include media(mobile) {
+    &__card-list {
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     }
-
-    @include media(mobile) {
-
-        &__card-list {
-            gap: 2rem;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        }
-    }
+  }
 }
