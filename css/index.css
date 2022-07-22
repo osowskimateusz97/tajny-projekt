@@ -1,4 +1,4 @@
-/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -1684,6 +1684,7 @@ main {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   opacity: 0.8;
+  text-align: center;
   cursor: pointer;
 }
 .specializations__card-list__card:hover {
