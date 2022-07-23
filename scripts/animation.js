@@ -113,11 +113,11 @@ function init() {
         afterLeave() {
           document.body.classList.remove("body-overflow");
         },
-        // after(data) {
-        //   if (data.next.namespace === "clinic") {
-        //     refreshFsLightbox();
-        //   }
-        // },
+        after(data) {
+          if (data.next.namespace === "clinic") {
+            refreshFsLightbox();
+          }
+        },
       },
     ],
   });
