@@ -1,4 +1,4 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -1252,7 +1252,8 @@ main {
   margin-bottom: 2rem;
 }
 .clinicDescription__description__content {
-  max-width: 80%;
+  max-width: 90%;
+  font-weight: 500;
 }
 .clinicDescription__button {
   padding: 2rem;

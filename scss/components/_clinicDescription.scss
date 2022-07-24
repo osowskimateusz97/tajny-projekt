@@ -35,7 +35,8 @@
             margin-bottom: 2rem;
         }
         &__content{
-            max-width: 80%;
+            max-width: 90%;
+            font-weight: 500;
         }
     }
 
@@ -48,6 +49,7 @@
             margin-bottom: 1.5rem;
         }
     }
+
     &__map {
         width: 100%;
         max-height: 500px;
@@ -57,6 +59,7 @@
         border-radius: map-get($borderRadius, l);
         overflow:hidden;
     }
+
     &::before {
         content: "";
         display: block;
@@ -86,6 +89,7 @@
             &__content {
                 text-align:center;
                 margin:2rem auto;
+                
             }
         }
         &__map{
