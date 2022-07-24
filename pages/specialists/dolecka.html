@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wolmedica - Twoja przychodnia</title>
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="../css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +20,7 @@
         <header class="navigation">
           <div class="navigation__logo">
             <h1 class="navigation__logo--title">
-              <a href="./index.html"> Wolmedica </a>
+              <a href="../../index.html"> Wolmedica </a>
             </h1>
             <svg
               class="navigation__hamburger"
@@ -45,28 +45,28 @@
           >
             <ul class="navigation__list">
               <li class="navigation__list__element">
-                <a href="./pages/zagnanska.html">
+                <a href="../zagnanska.html">
                   <span>Wolmedica</span>
                   <span>Zagnańska</span>
                 </a>
               </li>
               <li class="navigation__list__element">
-                <a href="./pages/turystyczna.html">
+                <a href="../turystyczna.html">
                   <span>Wolmedica</span>
                   <span>Turystyczna</span>
                 </a>
               </li>
               <li class="navigation__list__element">
-                <a href="./pages/piekoszow.html">
+                <a href="../piekoszow.html">
                   <span>Wolmedica</span>
                   <span>Piekoszów</span>
                 </a>
               </li>
               <li class="navigation__list__element">
-                <a href="./pages/o-nas.html"> O nas </a>
+                <a href="../o-nas.html"> O nas </a>
               </li>
             </ul>
-            <a href="./pages/kontakt.html">
+            <a href="../kontakt.html">
               <button
                 class="button button--big button--primary navigation__button"
               >
@@ -76,282 +76,62 @@
           </nav>
         </header>
       </div>
-      <section
-        class="section section__container section__container--first hero"
-      >
-        <a href="pages/zagnanska.html">
-          <div class="card first-col">
-            <h1 class="card__title">Wolmedica Zagnańska</h1>
-            <img class="card__img" src="./assets/images/hero.jpg" alt="hero" />
+      <div class="person__background">
+        <section class="section section__container--first person">
+          <div class="person__description">
+            <div
+              class="person__description__card person__description__card--normal"
+            >
+              <h1 class="heading">
+                <span>dr n. med.</span>Magdalena Dolecka-Ślusarczyk
+              </h1>
+              <p class="paragraph">
+                Przyjmuje pacjentów w Wolmedica Zagnańska oraz Wolmedica
+                Turystyczna
+              </p>
+            </div>
+            <div class="person__description__card person__description__about">
+              <div class="person__description__card__headingWrapper">
+                <svg
+                  width="64"
+                  height="68"
+                  viewBox="0 0 64 68"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.8986 17C29.9484 17 28.0419 17.6231 26.4204 18.7906C24.7988 19.9581 23.535 21.6175 22.7887 23.559C22.0424 25.5005 21.8471 27.6368 22.2276 29.6978C22.608 31.7589 23.5471 33.6521 24.9262 35.138C26.3052 36.6239 28.0622 37.6359 29.9749 38.0458C31.8877 38.4558 33.8703 38.2454 35.672 37.4412C37.4738 36.637 39.0138 35.2752 40.0973 33.5279C41.1808 31.7807 41.7591 29.7264 41.7591 27.625C41.7591 24.8071 40.7202 22.1046 38.871 20.112C37.0218 18.1194 34.5138 17 31.8986 17ZM31.8986 34C30.7285 34 29.5846 33.6261 28.6117 32.9256C27.6387 32.2251 26.8804 31.2295 26.4326 30.0646C25.9849 28.8997 25.8677 27.6179 26.096 26.3813C26.3243 25.1447 26.8877 24.0088 27.7151 23.1172C28.5425 22.2256 29.5967 21.6185 30.7444 21.3725C31.892 21.1265 33.0816 21.2528 34.1627 21.7353C35.2437 22.2178 36.1677 23.0349 36.8178 24.0832C37.4679 25.1316 37.8149 26.3641 37.8149 27.625C37.8131 29.3152 37.1892 30.9356 36.0801 32.1307C34.971 33.3258 33.4671 33.9981 31.8986 34Z"
+                    fill="#FEFEFE"
+                  />
+                  <path
+                    d="M31.8985 4.25C26.4378 4.25 21.0999 5.99481 16.5595 9.26378C12.0192 12.5328 8.4804 17.1791 6.39071 22.6152C4.30103 28.0513 3.75427 34.033 4.81958 39.8039C5.8849 45.5749 8.51444 50.8758 12.3757 55.0364C16.2369 59.197 21.1564 62.0304 26.5121 63.1784C31.8678 64.3263 37.4192 63.7371 42.4641 61.4854C47.5091 59.2337 51.8211 55.4206 54.8548 50.5282C57.8886 45.6358 59.5079 39.884 59.5079 34C59.4996 26.1125 56.5881 18.5507 51.4122 12.9734C46.2362 7.39611 39.2184 4.25889 31.8985 4.25ZM20.0659 56.0501V53.125C20.0676 51.4348 20.6915 49.8144 21.8006 48.6192C22.9098 47.4241 24.4136 46.7519 25.9822 46.75H37.8148C39.3833 46.7519 40.8872 47.4241 41.9963 48.6192C43.1055 49.8144 43.7293 51.4348 43.7311 53.125V56.0501C40.1402 58.3094 36.0567 59.5 31.8985 59.5C27.7403 59.5 23.6567 58.3094 20.0659 56.0501ZM47.6605 52.9673C47.6213 50.1798 46.5672 47.5206 44.7256 45.5626C42.8839 43.6046 40.402 42.5047 37.8148 42.5H25.9822C23.395 42.5047 20.9131 43.6046 19.0714 45.5626C17.2297 47.5206 16.1757 50.1798 16.1365 52.9673C12.5602 49.5264 10.0382 44.9962 8.90445 39.9765C7.7707 34.9568 8.07866 29.6844 9.78756 24.8575C11.4965 20.0306 14.5257 15.8769 18.4741 12.9463C22.4226 10.0157 27.104 8.4465 31.8985 8.4465C36.693 8.4465 41.3744 10.0157 45.3228 12.9463C49.2712 15.8769 52.3005 20.0306 54.0094 24.8575C55.7183 29.6844 56.0262 34.9568 54.8925 39.9765C53.7587 44.9962 51.2368 49.5264 47.6605 52.9673Z"
+                    fill="white"
+                  />
+                </svg>
+                <h1 class="heading heading--white">O Specjaliście</h1>
+              </div>
+              <p class="paragraph">
+                Specjalista II stopnia w zakresie chorób wewnętrznych.
+              </p>
+              <p class="paragraph">
+                Wieloletni członek Polskiego Towarzystwa Diabetologicznego,
+                przewodnicząca Świętokrzyskiego Oddziału Polskiego Towarzystwa
+                Diabetologicznego.
+              </p>
+              <p class="paragraph">
+                Kierownik Kliniki Chorób Wewnętrznych Wojewódzkiego Szpitala
+                Zespolonego, Konsultantem w zakresie diabetologii w Klinice
+                Położnictwa i Ginekologii Wojewódzkiego Szpitala Zespolonego.
+              </p>
+            </div>
           </div>
-        </a>
-        <div class="second-col">
-          <a href="./pages/turystyczna.html">
-            <div class="card">
-              <h1 class="card__title">Wolmedica Turystyczna</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero2.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-          <a href="./pages/piekoszow.html">
-            <div class="card">
-              <h1 class="card__title">Wolmedica Piekoszów</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero3.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-        </div>
-      </section>
-      <section class="section section__container section__container--pt0">
-        <div class="services">
-          <a href="pages/poradnie/poradnia-diabetologiczna.html">
-            <div class="card">
-              <h1 class="card__title">Diabetologia</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-          <a href="pages/poradnie/poradnia-endokrynologiczna.html">
-            <div class="card">
-              <h1 class="card__title">Endokrynologia</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero2.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-          <a href="pages/poradnie/poradnia-reumatologiczna.html">
-            <div class="card">
-              <h1 class="card__title">Reumatologia</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero3.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-          <a href="pages/poradnie/poradnia-seksuologiczna.html">
-            <div class="card">
-              <h1 class="card__title">Seksuologia</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero2.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-          <a href="pages/poradnie/poradnia-kardiologiczna.html">
-            <div class="card">
-              <h1 class="card__title">Kardiologia</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero2.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-          <a href="pages/poradnie/poradnia-stomatologiczna.html">
-            <div class="card">
-              <h1 class="card__title">Stomatologia</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-          <a href="pages/poradnie/poradnia-medycyny-rodzinnej.html">
-            <div class="card">
-              <h1 class="card__title">Medycyna rodzinna</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero2.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-          <a href="pages/poradnie/poradnia-fizjoterapeutyczna.html">
-            <div class="card">
-              <h1 class="card__title">Fizjoterapia</h1>
-              <img
-                class="card__img"
-                src="./assets/images/hero3.jpg"
-                alt="hero"
-              />
-            </div>
-          </a>
-        </div>
-      </section>
-      <section class="section section__container aboutUs">
-        <div class="aboutUs__imgContainer">
-          <img src="assets/images/aboutUs.jpg" alt="About us" />
-        </div>
-        <div class="aboutUs__info">
-          <span class="overlay"></span>
-          <div class="aboutUs__info__description">
-            <h1 class="aboutUs__info__title heading">Wolmedica</h1>
-            <p class="aboutUs__info__description paragraph">
-              Wolmedica to dwie, wielospecjalistyczne placówki medyczne
-              działające w Kielcach. Przychodnia Wolmedica znajduje się przy
-              ulicy Turystycznej 11 G/H, a Centrum Medyczne Wolmedica przy ulicy
-              Zagnańskiej 76. Pacjentom oferujemy dostęp do lekarzy różnych
-              specjalizacji, w tym stomatologów oraz wykwalifikowanych położnych
-              i fizjoterapeutów. Wolmedica działa od sierpnia 2020 roku. W
-              naszych placówkach, przyjmuje w kilkunastu poradniach, ponad 20
-              lekarzy różnych specjalizacji, z Kielc, ale i spoza województwa
-              świętokrzyskiego. Pacjenci - w jednym miejscu - mają zapewniony
-              dostęp do szeregu uznanych specjalistów, a także do wysokiej klas
-              badań diagnostycznych. Stale poszerzamy swoją ofertę i nawiązujemy
-              współpracę z kolejnymi lekarzami.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="section specializations">
-        <div class="section__container specializations__container">
-          <div class="specializations__description">
-            <p class="specializations__description__paragraph paragraph">
-              Oferujemy najwyższej jakości usługi
-            </p>
-            <h1 class="heading heading--isBig heading--intro">
-              Usługi w Wolmedica
-            </h1>
-          </div>
-          <div class="specializations__card-list">
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/midwife.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-              <p class="specializations__card-list__card__title paragraph">
-                Konsultacje położnicze
-              </p>
-            </article>
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/ultrasound(1).png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-              <p class="specializations__card-list__card__title paragraph">
-                USG położnicze 3D i 4D
-              </p>
-            </article>
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/ultrasound.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-
-              <p class="specializations__card-list__card__title paragraph">
-                USG 2D, 3D i 4D
-              </p>
-            </article>
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/heart-rate.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-
-              <p class="specializations__card-list__card__title paragraph">
-                Echo serca płodu
-              </p>
-            </article>
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/syringe-outline.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-
-              <p class="specializations__card-list__card__title paragraph">
-                Badania prenatalne
-              </p>
-            </article>
-
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/blood-tube.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-
-              <p class="specializations__card-list__card__title paragraph">
-                Testy NIFTY
-              </p>
-            </article>
-
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/3d-printer.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-
-              <p class="specializations__card-list__card__title paragraph">
-                Modele płodu 3D
-              </p>
-            </article>
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/mri.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-
-              <p class="specializations__card-list__card__title paragraph">
-                Badania radiologiczne
-              </p>
-            </article>
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/clean-tooth.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-
-              <p class="specializations__card-list__card__title paragraph">
-                Stomatologia
-              </p>
-            </article>
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/orthodontic.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-
-              <p class="specializations__card-list__card__title paragraph">
-                Ortodoncja
-              </p>
-            </article>
-            <article class="specializations__card-list__card">
-              <img
-                src="assets/icons/main/blood-tube.png"
-                class="specializations__card-list__card__icon"
-                alt="woman and man icon"
-              />
-
-              <p class="specializations__card-list__card__title paragraph">
-                Badania krwi
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
+          <img
+            class="person__img"
+            src="../../assets/images/doctors/dolecka.jpg"
+            alt="Magdalena Dolecka-Ślusarczyk"
+          />
+        </section>
+      </div>
       <footer class="footer">
         <div class="section section__container footer">
           <h1 class="heading footer__heading">Skontaktuj się z nami</h1>
@@ -520,11 +300,10 @@
         </div>
         <div class="footer__rights">
           <p class="paragraph">&copy; 2022 Wolmedica, All Rights Reserved</p>
-          <p class="paragraph">Created with &#10084; by Szymon Osowski</p>
         </div>
       </footer>
     </main>
-    <script src="./scripts/fslightbox.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
@@ -532,6 +311,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="./scripts/animation.js"></script>
+    <script src="../scripts/animation.js"></script>
   </body>
 </html>

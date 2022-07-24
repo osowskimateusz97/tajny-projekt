@@ -1,34 +1,85 @@
 .clinicDescription {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    min-height:60vh;
-    gap: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 60vh;
+  gap: 10rem;
+
+  &__imgWrapper {
+    position: relative;
+
+    &__logo {
+      position: absolute;
+      width: 110px;
+      top: -15px;
+      right: -15px;
+      object-fit: cover;
+      border-radius: map-get($borderRadius, l);
+      box-shadow: map-get($boxShadow, small);
+    }
+
+    &__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: map-get($borderRadius, l);
+    }
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: map-get($borderRadius, l);
+  }
+  &__description {
+    &__title {
+      margin-bottom: 2rem;
+    }
+    &__content {
+      max-width: 80%;
+    }
+  }
+
+  &__button {
+    padding: 2rem;
+    font-size: map-get($fontSize, m);
+    font-weight: 800;
+    margin: 0 auto;
+    &__description {
+      margin-bottom: 1.5rem;
+    }
+  }
+  &__map {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    margin: 5rem auto;
+    text-align: center;
+    border-radius: map-get($borderRadius, l);
+    overflow: hidden;
+  }
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 57%;
+    width: 100vw;
+    top: 15rem;
+    right: 0;
+    background: $white;
+    z-index: -1;
+    box-shadow: map-get($boxShadow, small);
+  }
+
+  @include media(tablet) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    min-height: unset;
 
     &__imgWrapper {
-        position:relative; 
-
-        &__logo {
-            position: absolute;
-            width:110px;
-            top: -15px;
-            right: -15px;
-            object-fit:cover;
-            border-radius: map-get($borderRadius, l);
-            box-shadow: map-get($boxShadow, small);
-        }
-
-        &__img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: map-get($borderRadius, l);
-        }
-    }
-    &__img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: map-get($borderRadius, l);
+      &__logo {
+        left: 50%;
+        transform: translateX(-50%);
+      }
     }
     &__description {
         &__title {
@@ -61,16 +112,7 @@
     }
 
     &::before {
-        content: "";
-        display: block;
-        position: absolute;
-        height: 40%;
-        width: 100vw;
-        top: 15rem;
-        right: 0;
-        background: $white;
-        z-index:-1;
-        box-shadow: map-get($boxShadow, small);
+      display: none;
     }
 
     @include media(tablet) {
