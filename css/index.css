@@ -1,4 +1,4 @@
-/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -1252,8 +1252,7 @@ main {
   margin-bottom: 2rem;
 }
 .clinicDescription__description__content {
-  max-width: 90%;
-  font-weight: 500;
+  max-width: 80%;
 }
 .clinicDescription__button {
   padding: 2rem;
@@ -1278,7 +1277,7 @@ main {
   content: "";
   display: block;
   position: absolute;
-  height: 57%;
+  height: 40%;
   width: 100vw;
   top: 15rem;
   right: 0;
@@ -1288,6 +1287,73 @@ main {
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 @media all and (max-width: 1024.7px) {
+  .clinicDescription {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    min-height: unset;
+  }
+  .clinicDescription__imgWrapper__logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .clinicDescription__description__title {
+    margin-bottom: 2rem;
+  }
+  .clinicDescription__description__content {
+    max-width: 90%;
+    font-weight: 500;
+  }
+  .clinicDescription__button {
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 auto;
+  }
+  .clinicDescription__button__description {
+    margin-bottom: 1.5rem;
+  }
+  .clinicDescription__map {
+    width: 100%;
+    max-height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 5rem auto;
+    text-align: center;
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+  .clinicDescription::before {
+    display: none;
+  }
+}
+@media all and (max-width: 1024.7px) and (max-width: 1024.7px) {
+  .clinicDescription {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    min-height: unset;
+  }
+  .clinicDescription__imgWrapper__logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .clinicDescription__description__title, .clinicDescription__description__content {
+    text-align: center;
+    margin: 2rem auto;
+  }
+  .clinicDescription__map {
+    max-height: 300px;
+    margin-top: 3rem;
+  }
+  .clinicDescription__button {
+    font-size: 1.3rem;
+  }
+  .clinicDescription::before {
+    display: none;
+  }
+}
+@media all and (max-width: 1024.7px) and (tablet) {
   .clinicDescription {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -1314,6 +1380,73 @@ main {
   }
 }
 @media all and (tablet) {
+  .clinicDescription {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    min-height: unset;
+  }
+  .clinicDescription__imgWrapper__logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .clinicDescription__description__title {
+    margin-bottom: 2rem;
+  }
+  .clinicDescription__description__content {
+    max-width: 90%;
+    font-weight: 500;
+  }
+  .clinicDescription__button {
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 auto;
+  }
+  .clinicDescription__button__description {
+    margin-bottom: 1.5rem;
+  }
+  .clinicDescription__map {
+    width: 100%;
+    max-height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 5rem auto;
+    text-align: center;
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+  .clinicDescription::before {
+    display: none;
+  }
+}
+@media all and (tablet) and (max-width: 1024.7px) {
+  .clinicDescription {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    min-height: unset;
+  }
+  .clinicDescription__imgWrapper__logo {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .clinicDescription__description__title, .clinicDescription__description__content {
+    text-align: center;
+    margin: 2rem auto;
+  }
+  .clinicDescription__map {
+    max-height: 300px;
+    margin-top: 3rem;
+  }
+  .clinicDescription__button {
+    font-size: 1.3rem;
+  }
+  .clinicDescription::before {
+    display: none;
+  }
+}
+@media all and (tablet) and (tablet) {
   .clinicDescription {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -2077,6 +2210,9 @@ main {
 }
 .contact__wrapper .heading--hour {
   color: #333;
+}
+.contact__wrapper .heading--sub {
+  color: #fff;
 }
 .contact__wrapper__list {
   display: grid;
