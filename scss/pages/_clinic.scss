@@ -40,9 +40,7 @@
     }
     @include media(tablet) {
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      &--specific {
-        justify-items: center;
-      }
+      
       &__item {
         padding: 1.5rem;
       }

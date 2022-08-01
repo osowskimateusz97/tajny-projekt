@@ -1,6 +1,6 @@
 .hero {
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     min-height:90vh;
     padding: 7rem;
@@ -19,15 +19,26 @@
             flex-grow: 1;
         }
     }
+    .third-col {
+        transform: translateX(50%);
+    }
     .card {
-        min-height:250px;
+        min-height: 60vh;
     }
        
     @include media(tablet) {
-        padding:2rem
+        padding: 2rem;
+
+        .card {
+            min-height: 35vh;
+        }
     }
 
     @include media(mobile) {
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
+        
+        .third-col {
+            transform: translateX(0);
+        }
     }
 }
