@@ -17,3 +17,12 @@ MicroModal.init({
   disableScroll: true,
   onShow: handleOpenModal,
 });
+
+
+const modalOverlay = document.querySelector('.modal__overlay');
+
+modalOverlay.addEventListener('mousedown', (e) => {
+    if (e.target.closest('.modal__container'))
+        return;
+    MicroModal.close('modal-1');
+});
