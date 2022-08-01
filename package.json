@@ -1,0 +1,24 @@
+{
+  "name": "tajny-projekt",
+  "version": "1.0.0",
+  "description": "Wolmedica project",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./scss/index.scss ./css/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osowskimateusz97/tajny-projekt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osowskimateusz97/tajny-projekt/issues"
+  },
+  "homepage": "https://github.com/osowskimateusz97/tajny-projekt#readme",
+  "devDependencies": {
+    "sass": "^1.54.0"
+  }
+}

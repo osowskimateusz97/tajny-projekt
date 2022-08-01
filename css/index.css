@@ -1252,9 +1252,54 @@ main {
 .modal {
   display: none;
 }
-
+.modal__container {
+  background-color: #fff;
+  box-shadow: rgba(33, 33, 39, 0.36) 9px 7px 29px 0px;
+  border-radius: 1rem;
+  padding: 3rem;
+  max-width: 500px;
+  max-height: 75vh;
+  min-height: 50vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 2rem;
+  margin: 0 2rem;
+}
+.modal__title, .modal__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__content {
+  overflow-y: auto;
+  margin: 1rem 0 3rem;
+}
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 12rem;
+}
 .modal.is-open {
   display: block;
+}
+.modal main {
+  min-height: unset;
+}
+@media all and (max-width: 480px) {
+  .modal__container {
+    padding: 1rem;
+  }
+  .modal__content {
+    padding: 1rem;
+  }
 }
 
 .hero {
@@ -1474,23 +1519,25 @@ main {
   justify-content: center;
   gap: 4rem;
 }
-.specializations__card-list__card {
+.specializations__card-list__card-link {
+  border-radius: 1rem;
   background: #fff;
+  transition: all 0.2s;
+  opacity: 0.8;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+.specializations__card-list__card-link:hover {
+  opacity: 1;
+  transform: translateY(-10px);
+}
+.specializations__card-list__card {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
   padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  transition: all 0.2s;
-  opacity: 0.8;
   text-align: center;
-  cursor: pointer;
-}
-.specializations__card-list__card:hover {
-  opacity: 1;
-  transform: translateY(-10px);
 }
 .specializations__card-list__card__icon {
   max-width: 30%;
@@ -1519,7 +1566,6 @@ main {
   }
   .specializations__card-list__card {
     gap: 1rem;
-    max-height: 100px;
   }
   .specializations__card-list__card__title {
     font-size: 1.2rem;
@@ -1545,7 +1591,6 @@ main {
   }
   .specializations__card-list__card {
     gap: 1rem;
-    max-height: 100px;
   }
   .specializations__card-list__card__title {
     font-size: 1.2rem;

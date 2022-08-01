@@ -24,24 +24,29 @@
     justify-content: center;
     gap: 4rem;
 
-    &__card {
+    &__card-link {
+      border-radius: map-get($borderRadius, s);
       background: $white;
+      transition: all 0.2s;
+      opacity: 0.8;
+      box-shadow: map-get($boxShadow, small);
+      cursor: pointer;
+      
+      &:hover {
+        opacity: 1;
+        transform: translateY(-10px);
+      }
+    }
+
+    &__card {
       display: flex;
       flex-direction: column;
       gap: 2rem;
       align-items: center;
       padding: map-get($padding, m);
-      border-radius: map-get($borderRadius, s);
-      box-shadow: map-get($boxShadow, small);
-      transition: all 0.2s;
-      opacity: 0.8;
       text-align: center;
-      cursor: pointer;
 
-      &:hover {
-        opacity: 1;
-        transform: translateY(-10px);
-      }
+      
 
       &__icon {
         max-width: 30%;
@@ -78,7 +83,7 @@
 
       &__card {
         gap: 1rem;
-        max-height: 100px;
+        
         &__title {
           font-size: map-get($fontSize, xs);
         }

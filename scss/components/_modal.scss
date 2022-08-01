@@ -1,0 +1,62 @@
+.modal {
+  display: none;
+
+  &__container {
+    background-color: $white;
+    box-shadow: map-get($boxShadow, modal);
+    border-radius: map-get($borderRadius, s);
+    padding: 3rem;
+    max-width: 500px;
+    max-height: 75vh;
+    min-height: 50vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 2rem;
+    margin: 0 2rem;
+  }
+  
+  &__title,
+  &__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content {
+    overflow-y: auto;
+    margin: 1rem 0 3rem;
+  }
+
+  &__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 12rem;
+  }
+
+  &.is-open {
+    display: block;
+  }
+
+  main {
+    min-height: unset;
+  }
+
+  @include media(mobile) {
+
+    &__container {
+      padding: 1rem;
+    }
+
+    &__content {
+        padding: 1rem;
+    }
+  }
+}
