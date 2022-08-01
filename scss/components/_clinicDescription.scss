@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr;
   min-height: 60vh;
   gap: 10rem;
-  box-shadow: map-get($boxShadow, small);
   background: $white;
 
   &__imgWrapper {
