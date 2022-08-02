@@ -1,161 +1,160 @@
 .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  height: $nav-desktop-height;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  &__container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 3rem;
-    height: $nav-desktop-height;
-    padding: 2rem;
+    gap: 5rem;
+    justify-content: flex-end;
     width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
+  }
 
-    &__container {
+  &__wrapper {
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(7px);
+    background: rgba($white, 0.9);
+    z-index: 99;
+    top: 0;
+  }
+
+  &__list {
+    display: flex;
+    gap: 5rem;
+
+    &__element {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      color: $primary;
+      font-size: map-get($fontSize, s);
+      white-space: nowrap;
+      flex-grow: 1;
+      position: relative;
+      a {
+        color: $primary;
+        transition: 0.2s linear;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        gap: 5rem;
-        justify-content:flex-end;
+        gap: 0.8rem;
+      }
+
+      &::before {
+        transform: scaleX(0);
+        transition: 0.2s ease-in;
+        content: "";
+        position: absolute;
+        display: block;
+        bottom: -7px;
+        left: 0;
         width: 100%;
-    }
+        height: 2px;
+        background-color: $blue;
+      }
 
-    &__wrapper {
-        position: fixed;
-        width: 100%;
-        backdrop-filter: blur(7px);
-        background: rgba($white, 0.9);
-        z-index: 99;
-        top:0;
-    }
-
-    &__list {
-        display: flex;
-        gap: 5rem;
-
-        &__element {
-            display:flex;
-            align-items: center;
-            font-weight: 700;
-            color: $primary;
-            font-size: map-get($fontSize, s);
-            white-space: nowrap;
-            flex-grow: 1;
-            position: relative;
-            a {
-                color: $primary;             
-                transition: 0.2s linear;
-                display:flex;
-                flex-direction:column;
-                align-items:center;
-                gap:0.8rem;             
-            }
-
-             &::before {
-                transform: scaleX(0);
-                transition: .2s ease-in;
-                content: "";
-                position: absolute;
-                display: block;
-                bottom: -7px;
-                left: 0;
-                width: 100%;
-                height: 2px;
-                background-color: $blue;
-            }
-
-            &:hover,
-            &--active {
-                a {
-                    color: $blue;
-                }
-
-                &::before {
-                    transform: scale(100%);
-                }
-            }
+      &:hover,
+      &--active {
+        a {
+          color: $blue;
         }
+
+        &::before {
+          transform: scale(100%);
+        }
+      }
+    }
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    font-weight: 700;
+    font-size: map-get($fontSize, xl);
+    text-transform: uppercase;
+    a {
+      color: $blue;
+    }
+  }
+
+  &__hamburger {
+    display: none;
+
+    @include media(tablet) {
+      display: block;
+      cursor: pointer;
+      display: block;
+      width: 40px;
+      height: 40px;
+      background: $blue;
+      padding: 1rem;
+      border-radius: map-get($borderRadius, s);
+    }
+  }
+
+  @include media(tablet) {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: $nav-mobile-height;
+    backdrop-filter: unset;
+    background: $white;
+    &__container {
+      overflow-y: auto;
+      flex-direction: column;
+      flex-grow: 1;
+      transition: 0.3s ease;
+      position: absolute;
+      top: $nav-mobile-height;
+      background: $white;
+      height: calc(100vh - 80px);
+      justify-content: flex-start;
+      padding-bottom: 3rem;
+      padding-top: 3rem;
+      &.mobile-hidden {
+        transform: translateX(-100%);
+      }
+      & > a {
+        flex-grow: 1;
+      }
     }
 
     &__logo {
-        display:flex;
-        align-items:center;
-        margin-right: 2rem;
-        font-weight: 700;
-        font-size: map-get($fontSize, xl);
-
-        a {
-            color: $blue;
-        }
+      width: 100%;
+      padding: 0 3rem;
+      margin: 0;
+      justify-content: center;
+      font-size: map-get($fontSize, m);
+      &--title {
+        flex-grow: 1;
+      }
+    }
+    &__button {
+      margin-bottom: 5rem;
+      flex-grow: 1;
     }
 
-    &__hamburger {
-        display: none;
+    &__list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+      gap: 8rem;
 
-        @include media(tablet) {
-            display: block;
-            cursor: pointer;
-            display: block;
-            width: 40px;
-            height: 40px;
-            background: $blue;
-            padding: 1rem;
-            border-radius: map-get($borderRadius, s);
-        }
+      &__element {
+        flex-grow: 0;
+        margin: 0;
+        font-size: map-get($fontSize, s);
+      }
     }
-    
-    @include media(tablet) {
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 100%;
-        height: $nav-mobile-height;
-        backdrop-filter: unset;
-        background: $white;
-        &__container {
-            overflow-y: auto;
-            flex-direction: column;
-            flex-grow: 1;
-            transition: .3s ease;
-            position: absolute;
-            top: $nav-mobile-height;
-            background: $white;
-            height: calc(100vh - 80px);
-            justify-content: flex-start;
-            padding-bottom: 3rem;
-            padding-top:3rem;
-            &.mobile-hidden {
-                transform: translateX(-100%);
-            }
-            & > a {
-                flex-grow: 1;
-            }
-        }
-      
-        &__logo {
-            width: 100%;
-            padding: 0 3rem;
-            margin: 0;
-            justify-content: center;
-            font-size: map-get($fontSize, m);
-            &--title {
-                flex-grow: 1;
-            }
-        }
-        &__button{
-            margin-bottom:5rem;
-            flex-grow: 1;
-        }
-
-        &__list {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            flex-grow: 1;
-            gap: 8rem;
-
-            &__element {
-                flex-grow: 0;
-                margin: 0;
-                font-size: map-get($fontSize, s);
-            }
-            
-        }
-    }
+  }
 }
