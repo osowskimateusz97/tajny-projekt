@@ -6,42 +6,45 @@ $breakpoint-mobile: 480px;
 
 $primary: #333;
 $secondary: #222;
-$lightGrey:#F1F5F8;
-$blue:#1580eb;
-$lightBlue:#1580eb69;
-$black:#000;
-$white:#fff;
+$lightGrey: #e8e5d9;
+$blue: #b8982f;
+$lightBlue: #e3d5a7;
+$black: #000;
+$white: #fff;
+
+// $lightGrey:#F1F5F8;
+// $blue:#1580eb;
+// $lightBlue:#1580eb69;
 
 // navigation
 
 $nav-desktop-height: 10rem;
 $nav-mobile-height: 8rem;
 
-
 $borderRadius: (
-    s: 1rem,
-    m: 1.5rem,
-    l: 2rem,
+  s: 1rem,
+  m: 1.5rem,
+  l: 2rem,
 );
 
 $fontSize: (
-    xs: 1.2rem,
-    s: 1.3rem,
-    m: 1.5rem,
-    l: 2rem,
-    xl: 3.5rem,
+  xs: 1.2rem,
+  s: 1.3rem,
+  m: 1.5rem,
+  l: 2rem,
+  xl: 3.5rem,
 );
 
 $padding: (
-    xs: 1rem,
-    s: 1.3rem,
-    m: 2rem,
-    l: 5rem,
-    xl: 2.5rem,
+  xs: 1rem,
+  s: 1.3rem,
+  m: 2rem,
+  l: 5rem,
+  xl: 2.5rem,
 );
 
 $boxShadow: (
-    card: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px,
-    small: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px,
-    modal: rgb(33 33 39 / 36%) 9px 7px 29px 0px,
-)
+  card: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px,
+  small: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px,
+  modal: rgb(33 33 39 / 36%) 9px 7px 29px 0px,
+);

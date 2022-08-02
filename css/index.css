@@ -496,9 +496,9 @@ main {
 .button {
   border: none;
   padding: 1rem 2rem;
-  background-color: #1580eb;
+  background-color: #b8982f;
   border-radius: 1rem;
-  border: 2px solid #1580eb;
+  border: 2px solid #b8982f;
   color: #fff;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -508,7 +508,7 @@ main {
 }
 .button:hover {
   background-color: transparent;
-  color: #1580eb;
+  color: #b8982f;
 }
 @media all and (max-width: 1024.7px) {
   .button {
@@ -529,7 +529,7 @@ main {
 .heading {
   font-size: 2rem;
   font-weight: 800;
-  color: #1580eb;
+  color: #b8982f;
   line-height: 150%;
   letter-spacing: 0.9px;
   margin: 1rem 0;
@@ -699,10 +699,10 @@ main {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #1580eb;
+  background-color: #b8982f;
 }
 .navigation__list__element:hover a, .navigation__list__element--active a {
-  color: #1580eb;
+  color: #b8982f;
 }
 .navigation__list__element:hover::before, .navigation__list__element--active::before {
   -webkit-transform: scale(100%);
@@ -721,7 +721,7 @@ main {
   text-transform: uppercase;
 }
 .navigation__logo a {
-  color: #1580eb;
+  color: #b8982f;
 }
 .navigation__hamburger {
   display: none;
@@ -733,7 +733,7 @@ main {
     display: block;
     width: 40px;
     height: 40px;
-    background: #1580eb;
+    background: #b8982f;
     padding: 1rem;
     border-radius: 1rem;
   }
@@ -745,7 +745,7 @@ main {
     display: block;
     width: 40px;
     height: 40px;
-    background: #1580eb;
+    background: #b8982f;
     padding: 1rem;
     border-radius: 1rem;
   }
@@ -1042,7 +1042,7 @@ main {
 .overlay::before {
   content: "";
   display: block;
-  background-color: rgba(21, 128, 235, 0.4117647059);
+  background-color: #e3d5a7;
   width: 100%;
   height: 100%;
   top: -20px;
@@ -1055,7 +1055,7 @@ main {
 }
 
 .footer {
-  background-color: #F1F5F8;
+  background-color: #e8e5d9;
   padding-top: 0;
   padding-bottom: 2rem;
   color: #333;
@@ -1065,7 +1065,7 @@ main {
   margin: 0 auto;
   width: 80%;
   color: white;
-  background-color: #1580eb;
+  background-color: #b8982f;
   padding: 3rem;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -1157,10 +1157,10 @@ main {
   padding: 3rem;
 }
 .footer__rights {
-  border-top: 1px solid #1580eb;
+  border-top: 1px solid #b8982f;
   padding-top: 3rem;
   text-align: center;
-  color: #1580eb;
+  color: #b8982f;
   font-weight: 500;
 }
 @media all and (max-width: 1024.7px) {
@@ -1420,7 +1420,7 @@ main {
   width: 100vw;
   height: 200vh;
   pointer-events: none;
-  background-color: #d1e8ff;
+  background-color: #e3d5a7;
   z-index: 99;
   visibility: hidden;
   opacity: 0;
@@ -1628,7 +1628,7 @@ main {
 .aboutUs__info__title {
   text-align: center;
   padding-top: 5rem;
-  color: #1580eb;
+  color: #b8982f;
 }
 .aboutUs__info__description {
   padding: 2rem;
@@ -1704,7 +1704,7 @@ main {
 
 .specializations {
   padding: 5rem 0;
-  background: rgba(21, 128, 235, 0.1);
+  background: rgba(227, 213, 167, 0.1);
 }
 .specializations__container {
   display: -webkit-box;
@@ -1878,7 +1878,7 @@ main {
 }
 .clinic__list__description__subtitle {
   font-weight: 500;
-  color: #1580eb;
+  color: #b8982f;
 }
 @media all and (max-width: 1024.7px) {
   .clinic__list {
@@ -2030,7 +2030,7 @@ main {
   font-size: 2rem;
 }
 .person__description__card .heading span {
-  color: #1580eb;
+  color: #b8982f;
   font-size: 1.5rem;
 }
 .person__description__card .paragraph {
@@ -2049,7 +2049,7 @@ main {
   position: absolute;
   top: -20px;
   left: -2.5%;
-  background: #1580eb;
+  background: #b8982f;
   width: 105%;
   border-radius: 1rem;
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -2138,7 +2138,7 @@ main {
   padding-right: 0;
 }
 .contact__wrapper {
-  background: rgba(21, 128, 235, 0.4117647059);
+  background: #e3d5a7;
   padding: 5rem;
   border-radius: 1rem;
   -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
