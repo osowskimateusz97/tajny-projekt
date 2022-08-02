@@ -493,6 +493,12 @@ main {
   min-height: 100vh;
 }
 
+.specializations__card-list__card__icon,
+.clinic__list__item__icon {
+  -webkit-filter: invert(56%) sepia(64%) saturate(484%) hue-rotate(8deg) brightness(95%) contrast(83%);
+          filter: invert(56%) sepia(64%) saturate(484%) hue-rotate(8deg) brightness(95%) contrast(83%);
+}
+
 .button {
   border: none;
   padding: 1rem 2rem;
@@ -1383,7 +1389,7 @@ main {
   justify-self: center;
 }
 .avatar:hover {
-  background: rgba(121, 189, 255, 0.6549019608);
+  background: #efe9d3;
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
 }
@@ -1975,7 +1981,7 @@ main {
   max-width: 1400px;
 }
 .person__background {
-  background: rgba(182, 219, 255, 0.4117647059);
+  background: #f4f3ef;
 }
 .person__background::before {
   content: "";
@@ -1984,7 +1990,7 @@ main {
   left: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background: rgb(208, 223, 251);
+  background: #e7daa9;
   width: 100%;
   height: 35%;
 }

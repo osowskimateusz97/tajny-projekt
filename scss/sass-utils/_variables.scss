@@ -48,3 +48,10 @@ $boxShadow: (
   small: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px,
   modal: rgb(33 33 39 / 36%) 9px 7px 29px 0px,
 );
+
+//zmiana koloru ikonek png
+.specializations__card-list__card__icon,
+.clinic__list__item__icon {
+  filter: invert(56%) sepia(64%) saturate(484%) hue-rotate(8deg) brightness(95%)
+    contrast(83%);
+}
