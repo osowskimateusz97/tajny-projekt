@@ -1,12 +1,8 @@
-/*# sourceMappingURL=index.css.map */e | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-html {
-  line-height: 1.15;
+.specializations__card-list__card__icon,
+.clinic__list__item__icon {
+  -webkit-filter: invert(56%) sepia(64%) saturate(484%) hue-rotate(8deg) brightness(95%) contrast(83%);
+          filter: invert(56%) sepia(64%) saturate(484%) hue-rotate(8deg) brightness(95%) contrast(83%);
+}/*# sourceMappingURL=index.css.map */ght: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
