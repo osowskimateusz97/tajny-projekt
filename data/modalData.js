@@ -5,7 +5,7 @@ const modalData = {
     nieinwazyjna i bezpieczna: zarówno dla matki, jak i dziecka. Bicie serca dziecka słychać już
     w 6 tygodniu ciąży. Organ ten jest zupełnie ukształtowany już około 8 tygodnia ciąży.
     Naszym pacjentkom zalecamy echo serca płodu, dlatego, że anomalia tego organu dotyczą
-    około 2- 2,5 % płodów i są - obok wad układu nerwowego - najczęstszymi zaburzeniami
+    około 2-2,5% płodów i są - obok wad układu nerwowego - najczęstszymi zaburzeniami
     stwierdzanymi w ciąży. Diagnoza pozwala lekarzom na przygotowanie się do tego jak
     postępować z dzieckiem.
     Echo serca płodu warto wykonać między 18., a 22. tygodniem ciąży, gdy organy wewnętrzne
@@ -26,19 +26,19 @@ const modalData = {
     `,
   },
   usg: {
-    title: "USG 3d 2d",
-    description: `<p class='paragraph'>W Wolmedica oferujemy naszym ciężarnym pacjentkom pełne spektrum badań USG.
+    title: "USG 2D 3D 4D",
+    description: `<p class='paragraph'>W Wolmedica oferujemy naszym ciężarnym pacjentkom pełne spektrum badań USG. <br><br>
     USG 2D pozwala na obserwację wnętrza macicy i ogólnego zarysu rozwijającego się płodu,
     w tym jego narządów wewnętrznych: serca, nerek, mózgu, żołądka, pęcherza moczowego.
     USG 2D umożliwia również ocenę łożyska oraz ilości wód płodowych. Obrazy i przekroje
-    ciała płodu są płaskie i to odróżnia te technikę od badań USG 3D i 4D.
-    USG 3 D pokazuje rozwijający się płód w trójwymiarze. USG 4D to technika, która pozwala
+    ciała płodu są płaskie i to odróżnia te technikę od badań USG 3D i 4D.<br><br>
+    USG 3D pokazuje rozwijający się płód w trójwymiarze. USG 4D to technika, która pozwala
     na przestrzenne obrazowanie płodu, w czasie rzeczywistym.
     Zarówno USG 3D, jak i 4D może być dużym doznaniem emocjonalnym dla rodziców. W
-    trakcie USG 3D widać precyzyjny obraz dziecka. Z kolej USG 4D to ruchomy obraz w
+    trakcie USG 3D widać precyzyjny obraz dziecka. <br><br> Z koleji USG 4D to ruchomy obraz w
     trójwymiarze. Badania te pozwalają na precyzyjniejszą niż przy USG 2D, ocenę
     rozwijającego się: mózgowia, serca, nerek twarzy i innych organów dziecka. Widać wyraźnie
-    rączki, nóżki i całą powierzchnię płodu.
+    rączki, nóżki i całą powierzchnię płodu.<br><br>
     Obrazowanie 3D/4D nie zawsze jest jednak czytelne. Przeszkodą, by dobrze zobaczyć
     dziecko, może być jego niekorzystne ułożenie lub ustawienie, mała objętość płynu
     owodniowego bądź słaba przezierność tkanek ciężarnej.
@@ -50,16 +50,16 @@ const modalData = {
     title: "Badania prenatalne",
     description: `<p class='paragraph'>W naszych przychodniach zapewniamy pacjentkom dostęp do pełnego zestawu badań
     prenatalnych.
-    
+    <br><br>
     Te są zalecane określonej grupie kobiet w ciąży:
-    
-    ● pacjentkom, które ukończyły 35 lat;
+    <br>
+    ● pacjentkom, które ukończyły 35 lat;<br>
     ● kobietom, które zaszły w ciążę z dużo starszym od siebie partnerem, zwłaszcza po
-    55. roku życia;
+    55. roku życia;<br>
     ● gdy w rodzinie matki lub ojca dziecka zdiagnozowano choroby uwarunkowane
-    genetycznie;
-    ● w przypadku zapłodnienia pozaustrojowego in vitro;
-    ● gdy ciężarna urodziła już chore dziecko.
+    genetycznie;<br>
+    ● w przypadku zapłodnienia pozaustrojowego in vitro;<br>
+    ● gdy ciężarna urodziła już chore dziecko.<br><br>
     Badania prenatalne pozwalają wykryć lub wykluczyć wady rozwojowe u płodu, przed
     narodzinami.
     
@@ -67,24 +67,23 @@ const modalData = {
     bezpieczne badanie przesiewowe z krwi (NIFTY).
     
     Pomiędzy 14 a 21 tygodniem ciąży, można wykonać test podwójny, który polega na pobraniu
-    krwi ciężarnej i analizowaniu go pod kątem stężeniu hormonu ciążowego beta-HCG i pappa
+    krwi ciężarnej i analizowaniu go pod kątem stężeniu hormonu ciążowego beta-HCG i pappa.
+    <br><br>
+    Wśród inwazyjnych badań prenatalnych można wyróżnić:<br>
     
-    Wśród inwazyjnych badań prenatalnych można wyróżnić:
-    
-    - amniopunkcję (wykonuje się ją między 15 a 20 tygodniem ciąży);
+    - amniopunkcję (wykonuje się ją między 15 a 20 tygodniem ciąży);<br>
     
     - biopsja kosmówki (CVS) – zabieg wykonywany przez powłoki brzuszne lub szyjkę macicy
-    pomiędzy 11 a 14 tygodniem ciąży;
+    pomiędzy 11 a 14 tygodniem ciąży;<br>
     
     - kardocenteza – realizuje się ją po 20 tygodniu ciąży, polega na nakłuciu sznura
-    pępowinowego i  pobraniu krwi pępowinowej.
+    pępowinowego i  pobraniu krwi pępowinowej.<br><br>
     
     W Wolmedica gwarantujemy pacjentkom również dostęp do nieinwazyjnych, bardzo
-    precyzyjnych testów prenatalnych: Nifty i Harmony.
+    precyzyjnych testów prenatalnych: Nifty i Harmony.<br>
     
     Nieinwazyjnymi badaniami prenatalnymi, które oferujemy naszym pacjentkom są też
-    echokardiografia płodu, która umożliwia ocenę stanu serca płodu i jego układu krążenia oraz
-    ultrasonografia genetyczna.
+    echokardiografia płodu, która umożliwia ocenę stanu serca płodu i jego układu krążenia oraz ultrasonografia genetyczna.
     </p>`,
   },
 
@@ -116,18 +115,18 @@ const modalData = {
     pozwala wykryć określone zaburzenia chromosomalne u płodu już od 10 tygodnia ciąży. 
     Test prenatalny Harmony określa prawdopodobieństwo występowania najczęstszych zaburzeń
     chromosomalnych, takich jak: zespół Downa (trisomia 21), zespół Edwardsa (trisomia 18) i
-    zespół Patau (trisomia 13).
+    zespół Patau (trisomia 13).<br><br>
     
     Poza badaniem przesiewowym, w kierunku wyżej wymienionych zaburzeń, test Harmony
-    pozwala również uzyskać informacje na temat:
-    ● płci dziecka
+    pozwala również uzyskać informacje na temat: <br>
+    ● płci dziecka <br>
     ● monosomii X – nazywanej także zespołem Turnera, w którym u osoby płci żeńskiej
     brakuje jednego chromosomu X, co może prowadzić do wad serca, zaburzeń
-    hormonalnych oraz problemów z nauką,
+    hormonalnych oraz problemów z nauką,<br>
     
     ● mikrodelecji 22q11.2 – nazywanej także zespołem DiGeorge’a, zaburzenia
     spowodowanego brakiem małych fragmentów (mikrodelecji) chromosomu 22, co
-    może prowadzić do zaburzeń pracy serca, nerek, wzrostu czy kłopotów z nauką,
+    może prowadzić do zaburzeń pracy serca, nerek, wzrostu czy kłopotów z nauką,<br>
     ● aneuploidii chromosomów płciowych – zmiany liczby chromosomów X i Y, mogące
     prowadzić do trudności w nauce i zaburzeń behawioralnych oraz innych problemów
     zdrowotnych.
@@ -169,7 +168,7 @@ const modalData = {
     W trakcie tych badań, możliwa jest ocena stanu narządów i wykrycie wszelkich, również
     niebezpiecznych zmian w naszym organizmie.
     W Wolmedice dysponujemy również wielofunkcyjnym aparatem rentgenowskim,
-    pantomogramem, który pozwala uzyska c obraz zębów i żuchwy u pacjentów przed
+    pantomogramem, który pozwala uzyskać obraz zębów i żuchwy u pacjentów przed
     założeniem aparatu ortodontycznego. Cefalogramem obrazuje z kolei czaszkę, tkanki twarde i
     miękkie twarzy, podniebienie twarde oraz zatoki przynosowe. Ta odmiana zdjęć RTG jest
     również wykorzystywana w ortodoncji.
@@ -186,7 +185,7 @@ const modalData = {
       Posiadamy wykwalifikowany personel, wyspecjalizowany w pobraniach krwi u dzieci, w tym
       noworodków i niemowląt. Można nam zaufać.
       Pobrania odbywają się w przyjaznej atmosferze i w komfortowych dla pacjenta warunkach.
-      Wyniki badań są dostępne on – line.
+      Wyniki badań są dostępne on–line.
       
     </p>
     `,

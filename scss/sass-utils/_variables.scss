@@ -55,3 +55,9 @@ $boxShadow: (
   filter: invert(56%) sepia(64%) saturate(484%) hue-rotate(8deg) brightness(95%)
     contrast(83%);
 }
+
+//ikony fb, ig
+
+.footer__link__icons svg path {
+  fill: $blue;
+}

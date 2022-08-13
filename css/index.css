@@ -499,6 +499,10 @@ main {
           filter: invert(56%) sepia(64%) saturate(484%) hue-rotate(8deg) brightness(95%) contrast(83%);
 }
 
+.footer__link__icons svg path {
+  fill: #b8982f;
+}
+
 .button {
   border: none;
   padding: 1rem 2rem;
