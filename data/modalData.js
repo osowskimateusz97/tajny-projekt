@@ -146,6 +146,8 @@ const modalData = {
     przetworzony przez specjalne oprogramowanie. Na tej podstawie powstaje niezwykle
     precyzyjny model płodu.
       </p>
+      <img src="./assets/images/modal/model3d/model3DT.jpg" width="80%" alt="model3d">
+      <img src="./assets/images/modal/model3d/modelploduT.jpg" width="80%" alt="model3d">
       <img src="./assets/images/modal/model3d/model3d.jpeg" width="80%" alt="model3d">
       <img src="./assets/images/modal/model3d/model3d2.jpg" width="80%" alt="model3d">
       <img src="./assets/images/modal/model3d/model3d3.jpg" width="80%" alt="model3d">
