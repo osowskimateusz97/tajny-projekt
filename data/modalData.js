@@ -139,15 +139,15 @@ const modalData = {
     title: "Model płodu 3D",
     description: `<p class='paragraph'>Przychodnia Wolmedica, jako jedyny ośrodek medyczny w województwie świętokrzyskim
     wykonuje trójwymiarowe modele płodów. Jest to możliwe, dzięki specjalnej drukarce 3D,
-    która na podstawie danych z USG 3D , tworzy rzeźbę rozwijającego się dziecka. Model może
+    która na podstawie danych z USG 3D, tworzy rzeźbę rozwijającego się dziecka. Model może
     być wyjątkowa pamiątką z okresu ciąży.
     By powstał, konieczne jest by ciężarna w 11-13 albo w 22-34 tygodniu ciąży przeszła badanie
     USG 3D. Obraz zostanie zapisany jako plik odpowiedniego formatu, a następnie
     przetworzony przez specjalne oprogramowanie. Na tej podstawie powstaje niezwykle
     precyzyjny model płodu.
       </p>
-      <img src="./assets/images/modal/model3d/model3DT.jpg" width="80%" alt="model3d">
-      <img src="./assets/images/modal/model3d/modelploduT.jpg" width="80%" alt="model3d">
+      <img src="./assets/images/modal/model3d/model3DT.JPG" width="80%" alt="model3d">
+      <img src="./assets/images/modal/model3d/modelploduT.JPG" width="80%" alt="model3d">
       <img src="./assets/images/modal/model3d/model3d.jpeg" width="80%" alt="model3d">
       <img src="./assets/images/modal/model3d/model3d2.jpg" width="80%" alt="model3d">
       <img src="./assets/images/modal/model3d/model3d3.jpg" width="80%" alt="model3d">
