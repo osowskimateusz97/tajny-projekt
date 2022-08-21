@@ -156,20 +156,9 @@ tlAboutUs.fromTo(".aboutUs__info", { y: 50, opacity: 0 }, { y: 0, opacity: 1 });
 // observer testing
 const boxes = document.querySelectorAll(".services .card");
 
-const config = {
-  threshold: 0.5,
-};
-
-const tlServices = gsap.timeline({
-  defaults: {
-    duration: 0.75,
-    ease: "elastic.out(1, 0.5)",
-  },
-});
-
 gsap.set(boxes, { opacity: 0 });
 
-ScrollTrigger.batch(".services .card", {
+ScrollTrigger.batch(boxes, {
   // interval: 0.1, // time window (in seconds) for batching to occur.
   // batchMax: 3,   // maximum batch size (targets)
   onEnter: (batch) =>
