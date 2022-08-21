@@ -1,25 +1,23 @@
 .button {
-    border:none;
-    padding:1rem 2rem;
-    background-color: $blue;
-    border-radius: map-get($borderRadius, s);
-    border: 2px solid $blue;
-    color: $white;
-    transition: all 0.2s ease;
-    font-size: map-get($fontSize, m);
-    font-weight: 500;
-    display: block;
-    &:hover{
-        background-color: transparent;
-        color: $blue;
-    }
-    @include media(tablet) {
-        padding:1.2rem 1.5rem;
-       
-    }
-    @include media(mobile) {
-        font-size: map-get($fontSize, s);
-    }
+  border: none;
+  padding: 1rem 2rem;
+  background-color: $blue;
+  border-radius: map-get($borderRadius, s);
+  border: 2px solid $blue;
+  color: $white;
+  transition: all 0.2s ease;
+  font-size: map-get($fontSize, m);
+  font-weight: 500;
+  display: block;
 
-    
+  &:hover {
+    background-color: transparent;
+    color: $blue;
+  }
+  @include media(tablet) {
+    padding: 1.2rem 1.5rem;
+  }
+  @include media(mobile) {
+    font-size: map-get($fontSize, s);
+  }
 }

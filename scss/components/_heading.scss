@@ -1,10 +1,13 @@
 .heading {
   font-size: map-get($fontSize, l);
   font-weight: 800;
-  color: $blue;
   line-height: 150%;
   letter-spacing: 0.9px;
   margin: 1rem 0;
+  background: $gradient;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   &--isBig {
     font-size: map-get($fontSize, xl);

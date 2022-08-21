@@ -50,7 +50,10 @@
       .heading {
         color: $white;
         font-size: map-get($fontSize, l);
-
+        &--white {
+          color: white;
+          -webkit-text-fill-color: currentcolor;
+        }
         span {
           color: $blue;
           font-size: map-get($fontSize, m);
@@ -90,7 +93,7 @@
           line-height: 100%;
           padding: 0;
           position: static;
-          background: transparent;
+          // background: transparent;
           margin-bottom: 2rem;
           font-size: 3rem;
           color: $primary;

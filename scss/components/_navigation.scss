@@ -82,7 +82,10 @@
     font-size: map-get($fontSize, xl);
     text-transform: uppercase;
     a {
-      color: $blue;
+      background: $gradient;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
@@ -134,6 +137,7 @@
       margin: 0;
       justify-content: center;
       font-size: map-get($fontSize, m);
+
       &--title {
         flex-grow: 1;
       }

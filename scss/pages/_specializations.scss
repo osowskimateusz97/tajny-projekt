@@ -31,7 +31,7 @@
       opacity: 0.8;
       box-shadow: map-get($boxShadow, small);
       cursor: pointer;
-      
+
       &:hover {
         opacity: 1;
         transform: translateY(-10px);
@@ -45,8 +45,6 @@
       align-items: center;
       padding: map-get($padding, m);
       text-align: center;
-
-      
 
       &__icon {
         max-width: 30%;
@@ -83,7 +81,7 @@
 
       &__card {
         gap: 1rem;
-        
+
         &__title {
           font-size: map-get($fontSize, xs);
         }
