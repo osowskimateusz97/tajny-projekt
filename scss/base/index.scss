@@ -1,40 +1,41 @@
-@import 'normalize';
-@import 'reset';
+@import "normalize";
+@import "reset";
 
 html {
-    font-size:62.5%;
-    font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+  font-family: "Lora", "Montserrat", sans-serif;
 }
 
-button, a {
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
+button,
+a {
+  font-family: "Lora", "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
 body {
-    margin:0 auto;
-    font-size:1.6rem;
-    background:rgb(250, 249, 249);
+  margin: 0 auto;
+  font-size: 1.6rem;
+  background: rgb(250, 249, 249);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .body-overflow {
-    overflow: hidden;
+  overflow: hidden;
 }
 strong {
-    background: #1580eb2c;
-    border-radius: 3px;
-    padding: 0.3rem;
-    font-weight: 500;
+  background: #1580eb2c;
+  border-radius: 3px;
+  padding: 0.3rem;
+  font-weight: 500;
 }
 
 .is-transitioning {
-    pointer-events: none;
-    cursor: progress;
+  pointer-events: none;
+  cursor: progress;
 }
 main {
-    min-height:100vh;
+  min-height: 100vh;
 }

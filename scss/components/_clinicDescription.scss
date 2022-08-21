@@ -24,7 +24,20 @@
       object-fit: cover;
       border-radius: map-get($borderRadius, l);
     }
+
+    .medicover {
+      height: 60%;
+    }
+
+    .diagnostyka {
+      height: 60%;
+    }
+
+    .bon {
+      height: 50%;
+    }
   }
+
   &__img {
     width: 100%;
     height: 100%;
@@ -58,44 +71,43 @@
     border-radius: map-get($borderRadius, l);
     overflow: hidden;
   }
-  
-    @include media(tablet) {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-      min-height: unset;
 
-      &__imgWrapper {
-        &__logo {
-          left: 50%;
-          transform: translateX(-50%);
-        }
-      }
-      &__description {
-        &__title,
-        &__content {
-          text-align: center;
-          margin: 2rem auto;
-        }
-      }
-      &__map {
-        max-height: 300px;
-        margin-top: 3rem;
-      }
+  @include media(tablet) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    min-height: unset;
 
-      &__button {
-        font-size: map-get($fontSize, s);
-      }
-
-      &::before {
-        display: none;
+    &__imgWrapper {
+      &__logo {
+        left: 50%;
+        transform: translateX(-50%);
       }
     }
-    @include media(mobile) {
-      &__imgWrapper{
-        &__logo {
-          max-width: 65px;
-        }
+    &__description {
+      &__title,
+      &__content {
+        text-align: center;
+        margin: 2rem auto;
+      }
+    }
+    &__map {
+      max-height: 300px;
+      margin-top: 3rem;
+    }
+
+    &__button {
+      font-size: map-get($fontSize, s);
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+  @include media(mobile) {
+    &__imgWrapper {
+      &__logo {
+        max-width: 65px;
       }
     }
   }
-
+}

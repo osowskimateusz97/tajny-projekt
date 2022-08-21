@@ -4,7 +4,7 @@
   "description": "Wolmedica project",
   "main": "index.js",
   "scripts": {
-    "start": "sass --watch ./scss/index.scss ./css/index.css",
+    "compile:scss": "sass --watch ./scss/index.scss ./css/index.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

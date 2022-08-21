@@ -1,44 +1,44 @@
 .hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  min-height: 90vh;
+  padding: 7rem 10rem;
+  .first-col {
+    grid-row: 1 / -1;
+    grid-column: 1;
+  }
+  .second-col {
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
-    min-height:90vh;
-    padding: 7rem;
-    .first-col {
-        grid-row: 1 / -1;
-        grid-column: 1;
+    height: 100%;
+
+    .card,
+    & > a {
+      flex-grow: 1;
     }
-     .second-col {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        height: 100%;
-        
-        .card,
-        & > a {
-            flex-grow: 1;
-        }
-    }
-    .third-col {
-        transform: translateX(50%);
-    }
+  }
+  //   .third-col {
+  // transform: translateX(50%);
+  //   }
+  .card {
+    min-height: 60vh;
+  }
+
+  @include media(tablet) {
+    padding: 2rem;
+
     .card {
-        min-height: 60vh;
+      min-height: 200px;
     }
-       
-    @include media(tablet) {
-        padding: 2rem;
+  }
 
-        .card {
-            min-height: 200px;
-        }
-    }
+  @include media(mobile) {
+    grid-template-columns: 1fr;
 
-    @include media(mobile) {
-        grid-template-columns: 1fr;
-        
-        .third-col {
-            transform: translateX(0);
-        }
+    .third-col {
+      transform: translateX(0);
     }
+  }
 }
