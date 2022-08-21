@@ -17,6 +17,7 @@ const initModal = () => {
   MicroModal.init({
     disableScroll: true,
     onShow: handleOpenModal,
+    awaitCloseAnimation: true,
   });
 
   const modalOverlay = document.querySelector(".modal__overlay");

@@ -130,3 +130,51 @@ function init() {
 window.addEventListener("load", function () {
   init();
 });
+
+// ********** GSAP ANIMATION **********
+
+const tlAboutUs = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".aboutUs",
+    once: true,
+    markers: true,
+    start: "-30%",
+  },
+  defaults: {
+    duration: 0.75,
+  },
+});
+
+tlAboutUs.fromTo(
+  ".aboutUs__imgContainer",
+  { y: 50, opacity: 0 },
+  { y: 0, opacity: 1 }
+);
+
+tlAboutUs.fromTo(".aboutUs__info", { y: 50, opacity: 0 }, { y: 0, opacity: 1 });
+
+// observer testing
+const boxes = document.querySelectorAll(".services .card");
+
+const config = {
+  threshold: 0.5,
+};
+
+const tlServices = gsap.timeline({
+  defaults: {
+    duration: 0.75,
+    ease: "elastic.out(1, 0.5)",
+  },
+});
+
+gsap.set(boxes, { opacity: 0 });
+
+ScrollTrigger.batch(".services .card", {
+  // interval: 0.1, // time window (in seconds) for batching to occur.
+  // batchMax: 3,   // maximum batch size (targets)
+  onEnter: (batch) =>
+    gsap.fromTo(batch, { x: 30 }, { x: 0, autoAlpha: 1, stagger: 0.1 }),
+  // also onLeave, onEnterBack, and onLeaveBack
+  // also most normal ScrollTrigger values like start, end, etc.
+  start: "30% bottom",
+});
