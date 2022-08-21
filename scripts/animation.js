@@ -67,6 +67,10 @@ function init() {
   barba.hooks.after(() => {
     document.querySelector("html").classList.remove("is-transitioning");
     barba.wrapper.classList.remove("is-animating");
+
+    if (MicroModal) {
+      initModal();
+    }
   });
 
   // scroll to the top of the page

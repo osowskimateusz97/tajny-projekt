@@ -11,18 +11,18 @@ const handleOpenModal = (modal, triggerEl) => {
   appendModalText(modal, modalType);
 };
 
-// Init micro modal
+const initModal = () => {
+  // Init micro modal
 
-MicroModal.init({
-  disableScroll: true,
-  onShow: handleOpenModal,
-});
+  MicroModal.init({
+    disableScroll: true,
+    onShow: handleOpenModal,
+  });
 
+  const modalOverlay = document.querySelector(".modal__overlay");
 
-const modalOverlay = document.querySelector('.modal__overlay');
-
-modalOverlay.addEventListener('mousedown', (e) => {
-    if (e.target.closest('.modal__container'))
-        return;
-    MicroModal.close('modal-1');
-});
+  modalOverlay.addEventListener("mousedown", (e) => {
+    if (e.target.closest(".modal__container")) return;
+    MicroModal.close("modal-1");
+  });
+};
