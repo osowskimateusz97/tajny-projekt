@@ -1389,6 +1389,9 @@ main {
   min-height: 90vh;
   padding: 7rem 10rem;
 }
+.hero > a {
+  opacity: 0;
+}
 .hero .first-col {
   grid-row: 1/-1;
   grid-column: 1;
@@ -1427,6 +1430,9 @@ main {
   }
   .hero .third-col {
     transform: translateX(0);
+  }
+  .hero > a {
+    opacity: 1;
   }
 }
 
