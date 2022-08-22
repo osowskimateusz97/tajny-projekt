@@ -94,25 +94,36 @@ function init() {
     prevent: ({ el }) => el.dataset && el.dataset?.fslightbox,
     transitions: [
       {
-        async leave({ current }) {
+        leave({ current }) {
+          const done = this.async();
           const container = current.container;
           const navContainer = container.querySelector(
             ".navigation__container"
           );
           const isMobile = window.innerWidth <= 1025;
 
-          if (isMobile)
-            await gsap.to(navContainer, { x: "-100%", duration: 0.2 });
-          await loaderIn();
+          if (isMobile) gsap.to(navContainer, { x: "-100%", duration: 0.2 });
+          loaderIn();
+          setTimeout(function () {
+            done();
+            console.log("LEAVE");
+          }, 800);
         },
         enter({ next }) {
           const container = next.container;
           loaderAway();
           initHamburger(container);
+          setTimeout(function () {
+            showAnimation(next, container);
+          }, 0);
         },
         once({ next }) {
           const container = next.container;
           initHamburger(container);
+
+          setTimeout(function () {
+            showAnimation(next, container);
+          }, 0);
         },
         afterLeave() {
           document.body.classList.remove("body-overflow");
@@ -132,65 +143,75 @@ window.addEventListener("load", function () {
 });
 
 // ********** GSAP ANIMATION **********
+gsap.registerPlugin(ScrollTrigger);
 
-// HERO ANIMATION
+function showAnimation(next, container) {
+  if (window.innerWidth <= 768) return;
+  switch (next.namespace) {
+    case "home":
+      return homeAnimation(container);
+    default:
+      return;
+  }
+}
 
-const tlHero = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".hero",
+function homeAnimation(container) {
+  const heroImgs = container.querySelectorAll(".hero > a");
+  // HERO ANIMATION
+  gsap.set(heroImgs, { transformOrigin: "top", opacity: 0 });
+
+  ScrollTrigger.batch(heroImgs, {
+    onEnter: (batch) =>
+      gsap.fromTo(
+        batch,
+        { scale: 0, opacity: 0 },
+        {
+          scale: 1,
+          opacity: 1,
+          stagger: 0.2,
+          duration: 0.75,
+          ease: "power3.out",
+        }
+      ),
+    start: "30% bottom",
+  });
+
+  // SERVICES ANIMATION
+
+  const boxes = container.querySelectorAll(".services .card");
+
+  gsap.set(boxes, { opacity: 0 });
+
+  ScrollTrigger.batch(boxes, {
+    onEnter: (batch) =>
+      gsap.fromTo(batch, { x: 30 }, { x: 0, autoAlpha: 1, stagger: 0.1 }),
+    start: "30% bottom",
     once: true,
-  },
-  defaults: {
-    duration: 0.75,
-    ease: "power3.out",
-  },
-});
+  });
 
-gsap.set(".hero > a", { transformOrigin: "top", opacity: 0 });
-const heroImgs = document.querySelectorAll(".hero > a");
+  // ABOUT US ANIMATION
 
-ScrollTrigger.batch(heroImgs, {
-  onEnter: (batch) =>
-    gsap.fromTo(
-      batch,
-      { scale: 0, opacity: 0 },
-      { scale: 1, opacity: 1, stagger: 0.2, duration: 0.75, ease: "power3.out" }
-    ),
-  start: "30% bottom",
-  once: true,
-});
+  const tlAboutUs = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".aboutUs",
+      once: true,
+      start: "-40%",
+    },
+    defaults: {
+      duration: 0.75,
+      ease: "power3.out",
+    },
+  });
 
-// SERVICES ANIMATION
+  tlAboutUs.fromTo(
+    ".aboutUs__imgContainer",
+    { y: 50, opacity: 0 },
+    { y: 0, opacity: 1 }
+  );
 
-const boxes = document.querySelectorAll(".services .card");
-
-gsap.set(boxes, { opacity: 0 });
-
-ScrollTrigger.batch(boxes, {
-  onEnter: (batch) =>
-    gsap.fromTo(batch, { x: 30 }, { x: 0, autoAlpha: 1, stagger: 0.1 }),
-  start: "30% bottom",
-  once: true,
-});
-
-// ABOUT US ANIMATION
-
-const tlAboutUs = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".aboutUs",
-    once: true,
-    start: "-40%",
-  },
-  defaults: {
-    duration: 0.75,
-    ease: "power3.out",
-  },
-});
-
-tlAboutUs.fromTo(
-  ".aboutUs__imgContainer",
-  { y: 50, opacity: 0 },
-  { y: 0, opacity: 1 }
-);
-
-tlAboutUs.fromTo(".aboutUs__info", { y: 50, opacity: 0 }, { y: 0, opacity: 1 });
+  tlAboutUs.fromTo(
+    ".aboutUs__info",
+    { y: 50, opacity: 0 },
+    { y: 0, opacity: 1 }
+  );
+}
