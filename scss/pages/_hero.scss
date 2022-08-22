@@ -4,6 +4,8 @@
   gap: 2rem;
   min-height: 90vh;
   padding: 7rem 10rem;
+  opacity: 0;
+
   .first-col {
     grid-row: 1 / -1;
     grid-column: 1;
@@ -36,7 +38,7 @@
 
   @include media(mobile) {
     grid-template-columns: 1fr;
-
+    opacity: 1;
     .third-col {
       transform: translateX(0);
     }
