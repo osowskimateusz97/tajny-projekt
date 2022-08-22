@@ -133,15 +133,57 @@ window.addEventListener("load", function () {
 
 // ********** GSAP ANIMATION **********
 
+// HERO ANIMATION
+
+const tlHero = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".hero",
+    once: true,
+  },
+  defaults: {
+    duration: 0.75,
+    ease: "power3.out",
+  },
+});
+
+gsap.set(".hero > a", { transformOrigin: "top", opacity: 0 });
+const heroImgs = document.querySelectorAll(".hero > a");
+
+ScrollTrigger.batch(heroImgs, {
+  onEnter: (batch) =>
+    gsap.fromTo(
+      batch,
+      { scale: 0, opacity: 0 },
+      { scale: 1, opacity: 1, stagger: 0.2, duration: 0.75, ease: "power3.out" }
+    ),
+  start: "30% bottom",
+  once: true,
+});
+
+// SERVICES ANIMATION
+
+const boxes = document.querySelectorAll(".services .card");
+
+gsap.set(boxes, { opacity: 0 });
+
+ScrollTrigger.batch(boxes, {
+  onEnter: (batch) =>
+    gsap.fromTo(batch, { x: 30 }, { x: 0, autoAlpha: 1, stagger: 0.1 }),
+  start: "30% bottom",
+  once: true,
+});
+
+// ABOUT US ANIMATION
+
 const tlAboutUs = gsap.timeline({
   scrollTrigger: {
     trigger: ".aboutUs",
     once: true,
-    markers: true,
-    start: "-30%",
+    start: "-40%",
   },
   defaults: {
     duration: 0.75,
+    ease: "power3.out",
   },
 });
 
@@ -152,18 +194,3 @@ tlAboutUs.fromTo(
 );
 
 tlAboutUs.fromTo(".aboutUs__info", { y: 50, opacity: 0 }, { y: 0, opacity: 1 });
-
-// observer testing
-const boxes = document.querySelectorAll(".services .card");
-
-gsap.set(boxes, { opacity: 0 });
-
-ScrollTrigger.batch(boxes, {
-  // interval: 0.1, // time window (in seconds) for batching to occur.
-  // batchMax: 3,   // maximum batch size (targets)
-  onEnter: (batch) =>
-    gsap.fromTo(batch, { x: 30 }, { x: 0, autoAlpha: 1, stagger: 0.1 }),
-  // also onLeave, onEnterBack, and onLeaveBack
-  // also most normal ScrollTrigger values like start, end, etc.
-  start: "30% bottom",
-});

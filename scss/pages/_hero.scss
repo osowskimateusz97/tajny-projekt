@@ -41,4 +41,7 @@
       transform: translateX(0);
     }
   }
+  & > a {
+    opacity: 0;
+  }
 }

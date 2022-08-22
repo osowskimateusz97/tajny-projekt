@@ -1429,6 +1429,9 @@ main {
     transform: translateX(0);
   }
 }
+.hero > a {
+  opacity: 0;
+}
 
 .services {
   display: grid;
