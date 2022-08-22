@@ -175,6 +175,7 @@ function homeAnimation(container) {
           ease: "power3.out",
         }
       ),
+    once: true,
     start: "30% bottom",
   });
 
