@@ -106,7 +106,6 @@ function init() {
           loaderIn();
           setTimeout(function () {
             done();
-            console.log("LEAVE");
           }, 800);
         },
         enter({ next }) {
@@ -124,6 +123,9 @@ function init() {
           setTimeout(function () {
             showAnimation(next, container);
           }, 0);
+          if (MicroModal) {
+            initModal();
+          }
         },
         afterLeave() {
           document.body.classList.remove("body-overflow");
