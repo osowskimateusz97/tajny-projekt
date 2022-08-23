@@ -90,16 +90,17 @@
     }
     &--logo-img {
       position: absolute;
-      width: 80px;
       object-fit: cover;
     }
     &--logo-img-1 {
-      top: -25px;
+      width: 60px;
+      top: -20px;
       left: 230px;
     }
     &--logo-img-2 {
-      top: 10px;
-      left: 270px;
+      width: 90px;
+      top: -5px;
+      left: 255px;
     }
   }
 
@@ -156,17 +157,13 @@
         flex-grow: 1;
       }
 
-      &--logo-img {
-        width: 50px;
-      }
-
       &--logo-img-1 {
         top: -10px;
-        left: 170px;
+        left: 160px;
       }
       &--logo-img-2 {
-        top: 10px;
-        left: 200px;
+        top: -5px;
+        left: 185px;
       }
     }
 
