@@ -683,6 +683,7 @@ main {
 }
 .navigation__logo {
   display: flex;
+  position: relative;
   align-items: center;
   margin-right: 2rem;
   font-weight: 700;
@@ -694,6 +695,20 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.navigation__logo--logo-img {
+  position: absolute;
+  object-fit: cover;
+}
+.navigation__logo--logo-img-1 {
+  width: 60px;
+  top: -20px;
+  left: 230px;
+}
+.navigation__logo--logo-img-2 {
+  width: 90px;
+  top: -5px;
+  left: 255px;
 }
 .navigation__hamburger {
   display: none;
@@ -755,10 +770,18 @@ main {
     padding: 0 3rem;
     margin: 0;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .navigation__logo--title {
     flex-grow: 1;
+  }
+  .navigation__logo--logo-img-1 {
+    top: -10px;
+    left: 160px;
+  }
+  .navigation__logo--logo-img-2 {
+    top: -5px;
+    left: 185px;
   }
   .navigation__button {
     margin-bottom: 5rem;
@@ -810,10 +833,18 @@ main {
     padding: 0 3rem;
     margin: 0;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .navigation__logo--title {
     flex-grow: 1;
+  }
+  .navigation__logo--logo-img-1 {
+    top: -10px;
+    left: 160px;
+  }
+  .navigation__logo--logo-img-2 {
+    top: -5px;
+    left: 185px;
   }
   .navigation__button {
     margin-bottom: 5rem;
@@ -1963,6 +1994,10 @@ main {
 }
 .contact__wrapper .heading--sub {
   color: #fff;
+}
+.contact__wrapper .heading--contact {
+  color: #000;
+  -webkit-text-fill-color: currentColor;
 }
 .contact__wrapper__list {
   display: grid;

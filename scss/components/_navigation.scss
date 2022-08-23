@@ -76,6 +76,7 @@
 
   &__logo {
     display: flex;
+    position: relative;
     align-items: center;
     margin-right: 2rem;
     font-weight: 700;
@@ -86,6 +87,20 @@
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+    &--logo-img {
+      position: absolute;
+      object-fit: cover;
+    }
+    &--logo-img-1 {
+      width: 60px;
+      top: -20px;
+      left: 230px;
+    }
+    &--logo-img-2 {
+      width: 90px;
+      top: -5px;
+      left: 255px;
     }
   }
 
@@ -136,12 +151,22 @@
       padding: 0 3rem;
       margin: 0;
       justify-content: center;
-      font-size: map-get($fontSize, m);
+      font-size: map-get($fontSize, l);
 
       &--title {
         flex-grow: 1;
       }
+
+      &--logo-img-1 {
+        top: -10px;
+        left: 160px;
+      }
+      &--logo-img-2 {
+        top: -5px;
+        left: 185px;
+      }
     }
+
     &__button {
       margin-bottom: 5rem;
       flex-grow: 1;
