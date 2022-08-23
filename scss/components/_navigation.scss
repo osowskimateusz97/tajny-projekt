@@ -169,23 +169,24 @@
         left: 200px;
       }
     }
-  }
-  &__button {
-    margin-bottom: 5rem;
-    flex-grow: 1;
-  }
 
-  &__list {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    gap: 8rem;
+    &__button {
+      margin-bottom: 5rem;
+      flex-grow: 1;
+    }
 
-    &__element {
-      flex-grow: 0;
-      margin: 0;
-      font-size: map-get($fontSize, s);
+    &__list {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+      gap: 8rem;
+
+      &__element {
+        flex-grow: 0;
+        margin: 0;
+        font-size: map-get($fontSize, s);
+      }
     }
   }
 }
