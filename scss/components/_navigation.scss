@@ -76,6 +76,7 @@
 
   &__logo {
     display: flex;
+    position: relative;
     align-items: center;
     margin-right: 2rem;
     font-weight: 700;
@@ -86,6 +87,19 @@
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+    &--logo-img {
+      position: absolute;
+      width: 80px;
+      object-fit: cover;
+    }
+    &--logo-img-1 {
+      top: -25px;
+      left: 230px;
+    }
+    &--logo-img-2 {
+      top: 10px;
+      left: 270px;
     }
   }
 
@@ -141,24 +155,37 @@
       &--title {
         flex-grow: 1;
       }
-    }
-    &__button {
-      margin-bottom: 5rem;
-      flex-grow: 1;
-    }
 
-    &__list {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      flex-grow: 1;
-      gap: 8rem;
-
-      &__element {
-        flex-grow: 0;
-        margin: 0;
-        font-size: map-get($fontSize, s);
+      &--logo-img {
+        width: 50px;
       }
+
+      &--logo-img-1 {
+        top: -10px;
+        left: 170px;
+      }
+      &--logo-img-2 {
+        top: 10px;
+        left: 200px;
+      }
+    }
+  }
+  &__button {
+    margin-bottom: 5rem;
+    flex-grow: 1;
+  }
+
+  &__list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 8rem;
+
+    &__element {
+      flex-grow: 0;
+      margin: 0;
+      font-size: map-get($fontSize, s);
     }
   }
 }

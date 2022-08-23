@@ -683,6 +683,7 @@ main {
 }
 .navigation__logo {
   display: flex;
+  position: relative;
   align-items: center;
   margin-right: 2rem;
   font-weight: 700;
@@ -694,6 +695,19 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.navigation__logo--logo-img {
+  position: absolute;
+  width: 80px;
+  object-fit: cover;
+}
+.navigation__logo--logo-img-1 {
+  top: -25px;
+  left: 230px;
+}
+.navigation__logo--logo-img-2 {
+  top: 10px;
+  left: 270px;
 }
 .navigation__hamburger {
   display: none;
@@ -760,21 +774,16 @@ main {
   .navigation__logo--title {
     flex-grow: 1;
   }
-  .navigation__button {
-    margin-bottom: 5rem;
-    flex-grow: 1;
+  .navigation__logo--logo-img {
+    width: 50px;
   }
-  .navigation__list {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    gap: 8rem;
+  .navigation__logo--logo-img-1 {
+    top: -10px;
+    left: 170px;
   }
-  .navigation__list__element {
-    flex-grow: 0;
-    margin: 0;
-    font-size: 1.3rem;
+  .navigation__logo--logo-img-2 {
+    top: 10px;
+    left: 200px;
   }
 }
 @media all and (tablet) {
@@ -815,22 +824,33 @@ main {
   .navigation__logo--title {
     flex-grow: 1;
   }
-  .navigation__button {
-    margin-bottom: 5rem;
-    flex-grow: 1;
+  .navigation__logo--logo-img {
+    width: 50px;
   }
-  .navigation__list {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    gap: 8rem;
+  .navigation__logo--logo-img-1 {
+    top: -10px;
+    left: 170px;
   }
-  .navigation__list__element {
-    flex-grow: 0;
-    margin: 0;
-    font-size: 1.3rem;
+  .navigation__logo--logo-img-2 {
+    top: 10px;
+    left: 200px;
   }
+}
+.navigation__button {
+  margin-bottom: 5rem;
+  flex-grow: 1;
+}
+.navigation__list {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  gap: 8rem;
+}
+.navigation__list__element {
+  flex-grow: 0;
+  margin: 0;
+  font-size: 1.3rem;
 }
 
 .section {
@@ -1963,6 +1983,10 @@ main {
 }
 .contact__wrapper .heading--sub {
   color: #fff;
+}
+.contact__wrapper .heading--contact {
+  color: #000;
+  -webkit-text-fill-color: currentColor;
 }
 .contact__wrapper__list {
   display: grid;
