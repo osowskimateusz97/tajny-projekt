@@ -19,8 +19,12 @@
             <header class="navigation">
                 <div class="navigation__logo">
                     <h1 class="navigation__logo--title">
-                        <a href="../../index.html">
-                            Wolmedica
+                        <a class="navigation__logo--link" href="../../index.html">Wolmedica
+                            <img class="navigation__logo--logo-img navigation__logo--logo-img-1"
+                                src="../../assets/images/logo/turystyczna.png" alt="logo">
+                            <img class="navigation__logo--logo-img navigation__logo--logo-img-2"
+                                src="../../assets/images/logo/zagnanska.png" alt="logo">
+
                         </a>
                     </h1>
                     <svg class="navigation__hamburger" data-type="hamburger" width="40" height="30" viewBox="0 0 40 30"
@@ -95,7 +99,7 @@
                             <img src="../../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="">
 
                             <div class="clinic__list__description">
-                                <p class="clinic__list__description__title paragraph">USG piersi</p>
+                                <p class="clinic__list__description__title paragraph">USG piersi u dzieci</p>
                             </div>
                         </article>
                     </a>
@@ -119,16 +123,6 @@
                             </div>
                         </article>
                     </a>
-                    <a class="clinic__list__item-wrapper" data-id="usgdoppler" data-micromodal-trigger="modal-1"
-                        href="javascript:;">
-                        <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="">
-
-                            <div class="clinic__list__description">
-                                <p class="clinic__list__description__title paragraph">USG Doppler</p>
-                            </div>
-                        </article>
-                    </a>
                     <a class="clinic__list__item-wrapper" data-id="usgtarczycy" data-micromodal-trigger="modal-1"
                         href="javascript:;">
                         <article class="clinic__list__item">
@@ -139,18 +133,6 @@
                             </div>
                         </article>
                     </a>
-
-
-
-
-                </div>
-            </div>
-            <div class="section__container specializations__container">
-                <div>
-                    <p class="paragraph paragraph--center"></p>
-                    <h1 class="heading heading--isBig heading--center heading--intro">Usługi dla dzieci</h1>
-                </div>
-                <div class="clinic__list">
                     <a class="clinic__list__item-wrapper" data-id="usgprzedciemiaczkowe"
                         data-micromodal-trigger="modal-1" href="javascript:;">
                         <article class="clinic__list__item">
@@ -161,6 +143,7 @@
                             </div>
                         </article>
                     </a>
+
                     <a class="clinic__list__item-wrapper" data-id="usgjader" data-micromodal-trigger="modal-1"
                         href="javascript:;">
                         <article class="clinic__list__item">
@@ -168,26 +151,6 @@
 
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">USG jąder</p>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="clinic__list__item-wrapper" data-id="usgukladumoczowego" data-micromodal-trigger="modal-1"
-                        href="javascript:;">
-                        <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="">
-
-                            <div class="clinic__list__description">
-                                <p class="clinic__list__description__title paragraph">USG układu moczowego</p>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="clinic__list__item-wrapper" data-id="usgstawubiodrowego" data-micromodal-trigger="modal-1"
-                        href="javascript:;">
-                        <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="">
-
-                            <div class="clinic__list__description">
-                                <p class="clinic__list__description__title paragraph">USG stawu biodrowego</p>
                             </div>
                         </article>
                     </a>
@@ -201,46 +164,19 @@
                             </div>
                         </article>
                     </a>
-                    <a class="clinic__list__item-wrapper" data-id="usgtkanekmiekkich" data-micromodal-trigger="modal-1"
+                    <a class="clinic__list__item-wrapper" data-id="usgbioderek" data-micromodal-trigger="modal-1"
                         href="javascript:;">
                         <article class="clinic__list__item">
                             <img src="../../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="">
 
                             <div class="clinic__list__description">
-                                <p class="clinic__list__description__title paragraph">USG tkanek miękkich</p>
+                                <p class="clinic__list__description__title paragraph">USG bioderek (u niemowląt)</p>
                             </div>
                         </article>
                     </a>
-
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="">
-
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">USG węzłów szyjnych</p>
-                        </div>
-                    </article>
-
-
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="">
-
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">USG węzłów obwodowych</p>
-                        </div>
-                    </article>
-
-
-
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="">
-
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">USG jam opłucnowych</p>
-                        </div>
-                    </article>
-
                 </div>
             </div>
+
         </section>
         <section class="section__container specializations__container">
             <h1 class="heading heading--isBig heading--center">Specjaliści w Poradni Radiologii i Diagnostyki Obrazowej
@@ -396,7 +332,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
         integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
         integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>

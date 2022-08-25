@@ -334,12 +334,10 @@ Dziecko od 1 do 5. roku życia, przed USG miednicy małej, powinno wypić 100-30
     </p>
     `,
   },
-  usgtkanekmiekkich: {
+  usgbioderek: {
     title: "USG tkanek miękkich",
     description: `<p class='paragraph'>
-    Ten rodzaj USG pozwala na bardzo precyzyjną diagnostykę patologii w obrębie tkanek miękkich, wykrycie guzów, torbieli, a także takich zmian jak guzy, krwiaki, ropnie, nacieki zapalne.<br><br>
-Wskazaniami do badania USG tkanek miękkich są: urazy, powiększone węzły chłonne, guzy skóry i tkanki podskórnej, obrzęk mięśni – asymetria obwodu kończyny, ból.<br><br>
-Badanie nie wymaga wcześniejszego przygotowania.
+    Opis w przygotowaniu.
 
     </p>
     `,
