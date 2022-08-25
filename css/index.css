@@ -776,12 +776,14 @@ main {
     flex-grow: 1;
   }
   .navigation__logo--logo-img-1 {
+    width: 35px;
     top: -10px;
     left: 160px;
   }
   .navigation__logo--logo-img-2 {
+    width: 65px;
     top: -5px;
-    left: 185px;
+    left: 175px;
   }
   .navigation__button {
     margin-bottom: 5rem;
@@ -839,12 +841,14 @@ main {
     flex-grow: 1;
   }
   .navigation__logo--logo-img-1 {
+    width: 35px;
     top: -10px;
     left: 160px;
   }
   .navigation__logo--logo-img-2 {
+    width: 65px;
     top: -5px;
-    left: 185px;
+    left: 175px;
   }
   .navigation__button {
     margin-bottom: 5rem;
