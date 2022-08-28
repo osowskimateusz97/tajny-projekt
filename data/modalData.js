@@ -1,5 +1,5 @@
 const modalData = {
-  echoserca: {
+  echosercaplodu: {
     title: "Echo serca płodu",
     description: `<p class='paragraph'>Echo serca płodu to badanie przypominające zwykłe USG w ciąży. Procedura jest zupełnie
     nieinwazyjna i bezpieczna: zarówno dla matki, jak i dziecka. Bicie serca dziecka słychać już
@@ -613,69 +613,545 @@ Lecząc trądzik warto wykonać badania hormonalne: tarczycy, a także sprawdzi�
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  konsultacjekardiologiczne: {
+    title: "Konsultacje kardiologiczne",
     description: `<p class='paragraph'>
+    Kardiologia to dziedzina medycyny, w ramach której diagnozuje się i leczy choroby serca oraz układu krążenia.<br><br>
+Zalecane jest, by osoby w wieku 45-50 lat, profilaktycznie, zgłaszały się do kardiologa, co najmniej raz w roku.<br><br>
+Na wizytę należy udać się również w przypadku niepokojących objawów takich jak:<br>
+·        nieregularna, przyspieszona praca serca<br>
+·        ból w klatce piersiowej<br>
+·        duszności<br>
+·        ból i zawroty głowy<br>
+·        omdlenia.<br><br>
+ 
+W takich sytuacjach, kardiolog zleci odpowiednią diagnostykę i wdroży, dopasowane do potrzeb leczenie. W wielu przypadkach, wystarczające jest zastosowanie odpowiednich leków i zmiana stylu życia.
+
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  echoserca: {
+    title: "Echo serca",
     description: `<p class='paragraph'>
+    Echo serca jest podstawowym narzędziem diagnostyki kardiologicznej w chorobach serca i układu krążenia. Jest nieinwazyjne, bezbolesne i bezpieczne. To najczęściej USG serca przezklatkowe.<br><br>
+Podczas badania, głowica aparatu echokardiograficznego emituje ultradźwięki, które powracają i powstaje obraz („echo”) serca.<br><br>
+Echo serca pozwala:<br>
+ - ocenić budowę serca oraz naczyń krwionośnych i wykryć ewentualne wady (wrodzone lub nabyte)<br>
+-sprawdzić pracę mięśnia sercowego<br>
+-zweryfikować prawidłowość pracy zastawek serca<br>
+-zmierzyć parametry<br>
+-ocenić przepływ krwi w obrębie przedsionków i komór serca<br>
+-ocenić przepływy w obrębie dużych naczyń sercowych i naczyń wieńcowych.
+
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  holterEKG: {
+    title: "Holter EKG",
     description: `<p class='paragraph'>
+    Holter EKG to badanie elektrycznej czynności serca, które musi trwać minimum 24 godziny, a w niektórych przypadkach nawet przez kilka dni.<br><br>
+Holter umożliwia ciągły zapis pracy serca i przez to ocenę dynamicznych zmian zachodzących w mięśniu oraz zdiagnozowanie utajonych zaburzeń, których nie można wykryć w standardowym, spoczynkowym badaniu EKG.  Holter umożliwia ocenę pracy serca również w trakcie snu.<br><br>
+Holter jest wielkości niedużego telefonu. Po odpowiednim przygotowaniu skóry na klatce piersiowej, montowane są specjalne elektrody połączone z rejestratorem Pacjent w trakcie badania powinien funkcjonować normalnie. W czasie noszenia holtera nie wolno się jedynie kąpać.<br><br>
+ 
+Głównymi wskazaniami do przeprowadzenia Holtera EKG są:<br>
+- choroba niedokrwienna serca<br>
+- nawracające omdlenia i zasłabnięcia<br>
+- zaburzenia rytmu serca (nierówne lub przyspieszone bicie lub kołatanie)<br>
+- monitorowanie pracy rozrusznika serca<br>
+- nadciśnienie tętnicze<br>
+- choroba wieńcowa<br>
+- przebyty zawał serca<br>
+- napady duszności<br>
+- zaburzenia rytmu serca pojawiające się wyłącznie w trakcie snu.
+
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  holtercisnieniowy: {
+    title: "Holter ciśnieniowy",
     description: `<p class='paragraph'>
+    Badanie holterem (ABPM, czyli ambulatory blood pressure monitoring) jest jednym z najpopularniejszych badań kardiologicznych, które polega na automatycznym monitorowaniu ciśnienia tętniczego krwi przez całą dobę. Celem holtera jest wykrycie nieprawidłowości pracy serca.<br><br>
+ 
+Holter ciśnieniowy mierzy wartość ciśnienia skurczowego, ciśnienia rozkurczowego oraz częstotliwość rytmu serca. Wygląda bardzo podobnie do tradycyjnego ciśnieniomierza (tak samo przebiega też badanie), ale monitoruje pracę serca przez 24 godziny, a nie jednorazowo. Urządzenie dokonuje pomiarów średnio co 15 minut, a w nocy co 30 minut. W ciągu doby, jest to łącznie około 70 pomiarów ciśnienia. <br><br>
+ 
+Badanie holterem ciśnieniowym nie wymaga specjalistycznych przygotowań. W czasie badania, pacjent powinien prowadzić normalny tryb życia.
+
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  kwalifdokardiowerterow: {
+    title: "Kwalifikowanie do implantacji kardiowerterów-defibrylatorów",
     description: `<p class='paragraph'>
+    Kardiowerter-defibrylator (ICD, implantable cardioverter defibrillator) to urządzenie wszczepiane pacjentom z zaawansowaną niewydolnością serca, u których występuje zagrożenie nagłym zgonem, z powodu złożonych, komorowych zaburzeń rytmu serca, takich jak: częstoskurcz komorowy, migotanie komór.<br><br>
+Kardiowerter-defibrylator jest niewielkim urządzeniem elektronicznym.<br><br>
+Jego zadaniem jest: rozpoznawanie groźnych dla życia arytmii serca i wykonanie odpowiedniej interwencji elektrycznej, w celu ich przerwania (stymulacja antyarytmiczna, kardiowersja, defibrylacja).<br><br>
+Implantacja ICD zalecana jest pacjentom z niewydolnością serca, u których występuje ryzyko występowania złożonych arytmii komorowych. Zabieg wykonuje się także u osób z wrodzonymi i nabytymi chorobami mięśnia serca (np. kardiomiopatie, choroby kanałów jonowych).
+
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  kwalifdostymulatorow: {
+    title: "Kwalifikowanie do implantacji stymulatorów serca",
     description: `<p class='paragraph'>
+    Stymulator serca to miniaturowe urządzenie elektroniczne, korygujące zbyt wolny rytm serca. Stymulator resynchronizujący (CRT) dodatkowo może poprawiać kurczliwość serca i zapobiegać przedwczesnej śmierci u pacjentów z niewydolnością serca.<br><br>
+Stymulatory stosuje się u pacjentów z niewydolnością rytmu zatokowego lub zaburzeniami przewodzenia przedsionkowo-komorowego, a w przypadku CRT – w pewnych postaciach, niewydolności serca. <br><br>
+Wszczepienie stymulatora odbywa się w znieczuleniu miejscowym. Pacjent wymaga później kontroli w poradni specjalistycznej.<br><br>
+Stymulator zużywa się po około 10 latach, konieczne jest wtedy wstawienie nowego, z pozostawieniem dotychczasowych elektrod.
+
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  kwalifdokoronarografii: {
+    title: "Kwalifikowanie do koronarografii",
     description: `<p class='paragraph'>
+    Zabieg koronarografii, czyli angiografii wieńcowej jest jednym z najczęściej przeprowadzanych zabiegów diagnostycznych, a jest wykonywany przede wszystkim u osób, u których podejrzewa się poważne zmiany w naczyniach krwionośnych.<br><br>
+Koronarografia serca ułatwia ocenę stanu mięśnia sercowego, jak również nasilenie zmian miażdżycowych.<br><br>
+Zabieg ma na celu uwidocznienie tętnic wieńcowych, czyli tętnic doprowadzających krew do serca. Jest to możliwe, poprzez podanie do ich wnętrza, za pomocą specjalnych cewników, środka kontrastowego.<br><br>
+Widać wówczas: lewą oraz prawą tętnicę wieńcową i ich odgałęzienia. Lekarz może stwierdzić, czy krew w tętnicach przepływa prawidłowo, czy występuje zwężenie nieistotne, czyli takie które nie utrudnia przepływu krwi albo istotne, które upośledza te funkcję. Koronarografia pozwala wykryć również zamknięcie tętnicy.<br><br>
+ 
+Koronarografia powinna być wykonana u osób, które zmagają się z różnego rodzaju chorobami tętnic wieńcowych, a także u tych, u których występuje podejrzenie tych chorób. <br><br>
+Objawami klinicznymi sugerującymi, że warto wykonać koronarografię jest uczucie ucisku, zatykania, ból w klatce piersiowej.<br><br>
+ 
+Koronarografia jest wskazana również u pacjentów z:<br>
+-niewłaściwymi wynikami próby obciążeniowej serca<br>
+-zaburzeniami rytmu serca<br>
+-niewydolnością mięśnia sercowego<br>
+-wadami zastawek<br>
+-zawałem<br>
+-tętniakiem<br>
+-zastojem krążenia z nieznanych przyczyn<br>
+-bólami w klatce piersiowej z niewiadomych względów<br>
+-dławicą piersiowa<br>
+-znacznie podwyższonym poziomem cholesterolu.
+
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  kwalifdoablacji: {
+    title: "Kwalifikowanie do zabiegów ablacji arytmii serca",
     description: `<p class='paragraph'>
+    Ablacja to procedura medyczna, mająca na celu przywrócenie prawidłowego rytmu serca, które zwykle bije od 60 do 80 razy na minutę. <br><br>
+Zabieg zalecany jest w przypadku tachykardii, czyli przy leczeniu serca, które bije zbyt szybko (powyżej 100 uderzeń na minutę) lub u pacjentów, których serce migota, czyli kurczy się w sposób nieskoordynowany.<br><br>
+Oprócz tego do ablacji kwalifikują się osoby u których występują:<br>
+- ektopowe skurcze przedsionkowe<br>
+- pozawałowe częstoskurcze komór<br>
+- napadowe, niewyjaśnione kołatania serca<br>
+- omdlenia, zasłabnięcia i utraty przytomności<br>
+- komorowe zaburzenia rytmu serca u pacjentów bez choroby organicznej serca (ekstrasystolia z dróg odpływu serca i z innych miejsc)<br>
+- zespoły preekscytacji (zespół Wolffa-Parkinsona-White'a, zespół Mahaima itp.)<br><br>
+ 
+ 
+Ablacja jest zabiegiem przezskórnym, małoinwazyjnym, którego celem jest zniszczenie lub odizolowanie niewielkiego obszaru tkanki serca, który odpowiada za powstawanie arytmii. Za pomocą elektrod ablacyjnych, wprowadzanych do serca (końcówka elektrody może mieć podwyższoną albo niską temperaturę) wytwarza się niewielką bliznę blokującą przewodzenie impulsów indukujących arytmię. Ablacja umożliwia całkowite wyleczenie pacjenta.<br><br>
+ 
+Kwalifikację do zabiegu przeprowadza kardiolog, który zdecyduje o rodzaju leczenia antyarytmicznego oraz przeciwzakrzepowego.<br><br>
+ 
+Pacjent przed zabiegiem powinien być zaszczepiony przeciwko wirusowemu zapaleniu wątroby typu B.
+
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  ocenarozwoju: {
+    title: "Ocena rozwoju ruchowego",
     description: `<p class='paragraph'>
+    Pierwszy rok życia dziecka to czas, w którym dzieje się bardzo dużo i wszystko jest pierwsze: pierwszy spacer, pierwszy uśmiech, ząb, słowa, ale i rozwój ruchowy oraz pierwsze kroki. Dlatego, tak ważna jest ocena specjalisty, który stwierdzi czy dziecko rozwija się prawidłowo i czy wszystko jest w porządku. Zapraszamy do naszej poradni rodziców, którzy potrzebują fachowej oceny i wsparcia w trudach wychowania. 
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  diagnozowaniezabrozwoju: {
+    title: "Diagnozowanie zaburzeń rozwoju ruchowego",
     description: `<p class='paragraph'>
+    Zaburzenia rozwoju ruchowego u dziecka są często powiązane z zaburzeniami ośrodkowego układu nerwowego. Część z nich mija samoistnie, ale niektóre mogą eskalować, a wówczas utrwalone już błędne wzorce ruchowe, nie będą możliwe do całkowitego zlikwidowania. Dlatego, tak ważna jest diagnostyka.<br><br>
+Charakterystyczne, przy zaburzeniach ośrodkowego układu nerwowego, jest małe zainteresowanie otoczeniem, które może ograniczyć w znacznej mierze rozwój psychoruchowy dziecka.<br><br>
+W zmianie ułożenia ciała dziecka, uczestniczy wiele połączeń nerwowych. Bodźce powstałe na skutek zmiany postawy, docierają drogą nerwową do mózgu. Jeżeli pojawiają się zakłócenia na drodze nerwowej zostaje zaburzona prawidłowa reakcję.
+ W takich sytuacjach pomóc może rehabilitacja.<br><br>
+Specjalista diagnozując zaburzenia ruchowe, zwraca uwagę przede wszystkim na odcinek głowy wraz z kręgosłupem, zwany organem osiowym, który daje poczucie stabilizacji i rozwija inne umiejętności, takie jak: podparcie się przez dziecko na łokciu, osiągnięcie pozycji pionowej, wykonywanie ruchów za pomocą rąk i nóg.<br><br>
+Zaburzeniom ruchowym towarzyszy nierzadko brak poczucia równowagi, co przejawia się odruchem Moro, polegającym na odrzuceniu rąk w bok. <br><br>
+Nieprawidłowości w obrębie rączek polegają m.in.: na zaciskaniu piąstek, niepełnym otwarciu ręki, a w obrębie nóg niepoprawne reakcje to m.in.:  wyprost kończyn, któremu często towarzyszy zgięcie podeszwowe stopy, szpotawienie stopy. <br><br>
+Objawem świadczącym o zaburzeniach ośrodkowego układu nerwowego są występujące zbyt długo odruchy pierwotne, które jeżeli trwają zbyt długo mogą mieć poważne konsekwencje dla dalszego rozwoju. Przykładem może być odruch ssania, który często przyczynia się do zaburzeń mowy. <br><br>
+W naszej Poradni Fizjoterapeutycznej oferujemy: <br>
+-diagnostykę<br>
+-terapię zaburzeń rozwoju ruchowego<br>
+-terapię zaburzeń układu ruchu. 
+
     </p>
     `,
   },
-  douzycia: {
-    title: "Badania radiologiczne",
+  nieprawidlowenapieciemiesni: {
+    title: "Nieprawidłowe napięcie mięśni",
     description: `<p class='paragraph'>
+    Wzmożone napięcie mięśniowe, inaczej hipertonia, to jedno z zaburzeń napięcia mięśniowego. Objawia się najczęściej: zwiększonym oporem kończyn, tułowia i głowy podczas badania fizjoterapeutycznego.<br><br>
+Diagnozuje się je najczęściej u niemowląt i małych dzieci, ale może także dotyczyć dorosłych (np. chorujących na SM lub chorobę Parkinsona). <br><br>
+U niemowlaka objawy wzmożonego napięcia mięśni są to m. in.:<br> 
+- prężenie ciała<br>
+- asymetria ułożeniowa<br><br>
+U starszych dzieci hipertonia objawia się:<br>
+- zaburzeniami chodu<br>
+- zaburzeniami równowagi<br>
+- upośledzoną koordynacją.<br><br>
+Jako główne przyczyny zaburzeń regulacji napięcia mięśniowego, podaje się zaburzenia pracy układu nerwowego. Hipertonię diagnozuje się często także u wcześniaków, dzieci o niskiej masie urodzeniowej oraz po niedotlenieniu czy zatrzymaniu krążenia. <br><br>
+Z kolei obniżone napięcie mięśniowe u niemowląt (tzw. hipotonia) objawia się najczęściej tym, że dziecko jest mniej ruchliwe w porównaniu do innych, ma problemy z utrzymaniem kontroli postawy ciała, utrzymaniem główki czy podniesieniem rączki – układ nerwowy nie współpracuje bowiem z układem mięśniowym. Czasami obniżone napięcie mięśniowe mija samoistnie. <br><br>
+Najczęściej przyczyny obniżenia napięcia mięśniowego u niemowląt mają podłoże neurologiczne 
+(może być spowodowane m.in.: chorobami nerwowo-mięśniowymi, niedotlenieniem, uszkodzeniem mózgu, niską masą urodzeniową, przedwczesnym porodem, czy komplikacjami w trakcie porodu).
+
+    </p>
+    `,
+  },
+
+  asymetrieciala: {
+    title: "Asymetrie ciała",
+    description: `<p class='paragraph'>
+    Asymetria ciała do ok. 3-4 miesiąca życia jest naturalnym, fizjologicznym elementem rozwoju dziecka. <br><br>
+    Niemowlę stopniowo uczy się:<br>
+    - symetrycznego ustawiania główki w linii środkowej ciała<br>
+    - zabawy obiema rączkami z łączeniem dłoni<br>
+    - wykonywania ruchów w trakcie których odrywa kończyny, głowę i tułów od podłoża dzięki swojemu napięciu mięśniowemu. <br><br>
+    W trakcie rozwoju, z różnych przyczyn, dziecko może preferować patrzenie w jedną stronę.<br><br>
+    Nie zawsze asymetria ułożeniowa jest powodem do obaw, ale aby upewnić się czy rozwój przebiega prawidłowo, warto wybrać się do fizjoterapeuty. Asymetria zaburza bowiem rozwój dziecka, a w przyszłości może powodować wady postawy. <br><br>
+    Asymetria prawostronna czy lewostronna może pojawić się u dzieci, ze względu na błędy popełniane w opiece (karmienie tylko z jednej piersi, noszenie dziecka na jednej ręce, układanie w łóżeczku w jedną stronę). <br><br>
+    Poważniejszą przyczyną asymetrii u dziecka jest: wzmożone lub obniżone napięcie mięśniowe, albo <br><br>
+    wady słuchu czy wzroku, kiedy maluch odbiera sygnały z otoczenia zawsze z jednej i tej samej strony. Dlatego warto skontrolować rozwój dziecka u fizjoterapeuty.
+    
+    </p>
+    `,
+  },
+
+  anatomiapalpacyjna: {
+    title: "Anatomia palpacyjna",
+    description: `<p class='paragraph'>
+    Anatomia palpacyjna to badanie za pomocą dotyku, które umożliwia wskazanie określonych struktur, a także ich ewentualne patologie.<br><br>
+    Anatomia palpacyjna pozwala na to, że późniejsza terapia jest bardziej skuteczna. Badanie opiera się nie tylko na bardzo szerokiej wiedzy anatomicznej, ale także na zdolności palpacji.<br><br>
+    W organizmie człowieka można palpować praktycznie każdą strukturę: <br>
+    •	kości – szczególnie te położone tuż pod skórą<br>
+    •	mięśnie i ścięgna<br>
+    •	naczynia krwionośne – np. tętnicę promieniową czy tętnicę piszczelową<br>
+    •	nerwy<br>
+    •	narządy wewnętrzne<br>
+    •	inne struktury – jak np. więzadła, spojenie łonowe czy przegrody mięśniowe.
+    
+    </p>
+    `,
+  },
+
+  bebo: {
+    title: "Metoda Bebo",
+    description: `<p class='paragraph'>
+    Metoda BeBo uczy pacjentki prawidłowych zachowań w życiu codziennym - takich, które pozwalają chronić dno miednicy. Kobiety uczą się jak:  jak prawidłowo kaszleć, wchodzić po schodach, a nawet jak siedzieć, aby nie obciążać mięśni dna miednicy oraz jak rozpoznać i je zaktywować. <br><br>
+Osłabione mięśnie dna miednicy ma znaczna część pań, choć objawy pojawiają się dopiero z czasem, gdy organizm się starzeje.<br><br>
+ Na osłabienie mięśni dna miednicy mają wpływ:<br>
+- regularne treningi siłowe i skocznościowe<br>
+- przebyte ciąże i porody<br>
+- operacje ginekologiczne<br>
+- siedzący tryb życia, brak aktywności fizycznej<br>
+- nieprawidłowa postawa ciała<br>
+- choroby przewlekłe.<br><br>
+Typowymi objawami wskazującymi na słabe mięśnie dna miednicy są:<br>
+-nietrzymanie moczu i częstomocz<br>
+-uczucie zalegania moczu<br>
+-hemoroidy<br>
+-uczucie ciała obcego w pochwie<br>
+-bolesne miesiączki<br>
+-niekomfortowe współżycia.<br><br>
+Wszystkie te objawy potrafią w dużym stopniu utrudnić życie kobiety. Dlatego warto wybrać się do fizjoterapeuty uroginekologicznego, by ten przeprowadził diagnostykę i ocenił w jaki sposób można pomóc pacjentce.<br><br>
+Ćwiczenia według metody BeBo opierają się na treningu 3 warstw mięśni dna miednicy – zewnętrznej, środkowej i wewnętrznej.<br><br>
+Co ciekawe, nie tylko kobiety mogą ćwiczyć swoje mięśnie dna miednicy, Treningi polecane są również mężczyznom z:<br>
+-zaburzeniami erekcji<br>
+-problemami z prostatą<br>
+-nietrzymaniem moczu. 
+
+
+    </p>
+    `,
+  },
+
+  terapiamanualna: {
+    title: "Terapia manualna",
+    description: `<p class='paragraph'>
+    Terapia manualna jest metodą leczniczo-diagnostyczną, która  wspomaga leczenie schorzeń narządów ruchu. <br><br>
+    Opiera się na biomechanice i funkcji układu ruchu człowieka. Fizjoterapeuta pracuje ze wszystkimi stawami, więzadłami i mięśniami, poprzez ucisk odpowiednich punktów na ciele, stosując różne techniki terapii tkanek miękkich, dociera do miejsc bolesnych i przywraca równowagę mięśniową. <br><br>
+    Terapia manualna jest stosowana w leczeniu stawów, które nie mają odpowiedniej ruchomości i zakresu ruchu. <br><br>
+    Efekty przynoszą jedynie zabiegi wykonywane regularnie. <br><br>
+     Terapię manualną można zastosować gdy występują:<br>
+    •	bóle mięśni<br>
+    •	różnego rodzaju schorzenia i dolegliwości bólowe kręgosłupa<br>
+    •	rwa kulszowa<br>
+    •	chroniczne bóle głowy i karku<br>
+    •	bóle migrenowe<br>
+    •	bóle stawowe kończyn górnych i dolnych<br>
+    •	rwa barkowa<br>
+    •	stany przeciążeniowe tkanek<br>
+    •	wady postawy<br>
+    •	zaburzenia napięcia mięśni okolic miednicy<br>
+    •	zaburzenia snu<br>
+    •	drętwienie kończyn i palców<br>
+    •	napięcia wynikające ze stresu i przemęczenia. 
+    </p>
+    `,
+  },
+
+  terapiablizny: {
+    title: "Terapia blizny",
+    description: `<p class='paragraph'>
+    Terapia blizny jest stosowana najczęściej w rehabilitacji pozabiegowej (bądź po urazach ), tak by wpłynąć na wygląd blizny oraz prawidłowy przebieg jej gojenia. <br><br>
+    W miejscu urazu, powstaje nowa tkanka włóknista, która pozwala zespolić uszkodzone struktury. Tkanki zrastają się na wszystkich poziomach. Głównym budulcem nowej struktury jest kolagen, który zapewnia wytrzymałość, ale przez to, że układa się w sposób nieregularny, wbudowuje się pomiędzy struktury mięśniowe, powięziowe czy ścięgniste.  <br><br>
+    Dlatego blizna, często może zaburzać funkcjonowanie danego obszaru, przez ucisk struktur mięśniowych, nerwowych czy powodować zaburzenie ruchomości. <br><br>
+    Terapię blizny warto zastosować, tak by nie doszło nie tylko do pogorszenia walorów estetycznych, ale aby blizna nie była źródłem późniejszych, różnego rodzaju dolegliwości..Objawy powikłań powstawania blizny to m.in:<br>
+    •	dolegliwości bólowe np. przez wrastanie w tkankę mięśniową i powięziową, a także pociąganie włókien kolagenowych<br>
+    •	przykurcze mięśniowe  spowodowane ograniczeniem ruchomości przez zrosty<br>
+    •	zaburzenie postawy ciała<br>
+    •	zaburzenie biomechaniki danego obszaru<br>
+    •	przerost, zmniejszenie ruchomości.<br><br>
+     
+    W terapii blizny, fizjoterapeuta początkowo zajmuje się tkankami sąsiadującymi. Praca z samą blizną możliwa jest po zakończeniu procesu gojenia, czyli po 3-4 tygodniach. 
+    
+    </p>
+    `,
+  },
+
+  zachowawczeleczeniemoczu: {
+    title: "Zachowawcze leczenie nietrzymania mocz",
+    description: `<p class='paragraph'>
+    Leczenie nietrzymania moczu może być zachowawcze lub operacyjne. <br><br>
+    Wśród metod zachowawczych można wyliczyć: trening mięśni dna miednicy (szczególnie ważny u kobiet z wysiłkowym nietrzymaniem moczu), elektrostymulację i terapię behawioralna mająca na celu zmianę zachowań związanych z oddawaniem moczu.<br><br>
+     
+    Na początku terapii, specjalista tak jak w wielu jednostkach chorobowych, może zalecić zmianę stylu życia, czyli m.in.  dietę (jeżeli jest konieczność normalizacji masy ciała), ograniczenie spożycia płynów zwiększających diurezę (np. słodkie napoje, kawa), czy ograniczenie ciężkiej pracy fizycznej.<br><br>
+     
+    Odrębną częścią są ćwiczenia, określane jako kinezyterapia, które koncentrują się wokół tzw. mięśni Kegla, zlokalizowanych w okolicy krocza i dna miednicy. Poprzez wielokrotne napinanie i późniejsze rozluźnianie ich, w odpowiedni sposób ulegają one wzmocnieniu. Szacuje się, że dla wystąpienia efektu, konieczne jest regularne ćwiczenie przez minimum 3 miesiące. <br><br>
+    Możliwe jest również leczenie farmakologiczne. 
+    
+    </p>
+    `,
+  },
+
+  plastrowaniedynamiczne: {
+    title: "Plastrowanie dynamiczne",
+    description: `<p class='paragraph'>
+    Kinesiotaping (ang. Kinesiology Taping), zwany także plastrowaniem dynamicznym, polega na oklejaniu specjalnymi, elastycznymi taśmami ściśle określonych obszarów ciała. <br><br>
+    Plastrowanie dynamiczne, ma działanie przeciwbólowe, powoduje również rozluźnienie mięśni i zmniejszenie ich napięcia. Plastry stabilizują stawy, dlatego znajdują zastosowanie podczas uprawiania sportu, bo zapobiegają powstawaniu kontuzji.
+    
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
+    </p>
+    `,
+  },
+
+  puste: {
+    title: "",
+    description: `<p class='paragraph'>
+
     </p>
     `,
   },
