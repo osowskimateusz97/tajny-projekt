@@ -187,5 +187,18 @@
         font-size: map-get($fontSize, s);
       }
     }
+
+    @media (max-width: 340px) {
+      .navigation__logo--logo-img-1 {
+        width: 30px;
+        top: -5px;
+        left: 155px;
+      }
+      .navigation__logo--logo-img-2 {
+        width: 50px;
+        top: 5px;
+        left: 165px;
+      }
+    }
   }
 }

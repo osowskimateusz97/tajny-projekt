@@ -314,7 +314,7 @@ U noworodków i niemowląt zaleca się karmienie lub pojenie pół godziny przed
     `,
   },
   usgstawubiodrowego: {
-    title: "USG stawu biodrowego",
+    title: "USG stawów biodrowych",
     description: `<p class='paragraph'>
     Badanie przeprowadzane jest u niemowląt po to, aby móc ocenić budowę stawu biodrowego. USG pozwala bezinwazyjnie i całkowicie bezpiecznie określić położenie głowy kości udowej oraz panewki. Stwierdzenie ewentualnych nieprawidłowości (np.:  dysplazji stawów biodrowych) pozwala wdrożyć właściwe leczenie, aby dziecko mogło prawidłowo się rozwijać.<br><br>
 Badanie USG bioder u dzieci jest zalecane w ramach profilaktyki, między 6. a 12. tygodniem życia.<br><br>
@@ -932,49 +932,119 @@ Co ciekawe, nie tylko kobiety mogą ćwiczyć swoje mięśnie dna miednicy, Tren
     `,
   },
 
-  puste: {
-    title: "",
+  // Poradnia laryngologiczna
+
+  diagendoskopowajamnosa: {
+    title: "Diagnostyka endoskopowa jam nosa",
     description: `<p class='paragraph'>
+    Badanie endoskopowe jam nosa i zatok przynosowych jest zalecane w:<br>
+- chorobach nosa<br>
+- zatok przynosowych<br>
+- zaburzeniach oddychania u dzieci i dorosłych<br>
+- diagnostyce niedosłuchów<br>
+- bezdechach<br>
+- zaburzeniach mowy<br>
+- przy okazji kwalifikacji do leczenia operacyjnego nosa, zatok przynosowych i migdałków.<br><br>
+Ponadto, endoskopię nosa wykonuje się rutynowo u wszystkich pacjentów z zaburzeniami drożności tej części organizmu.<br><br>
+Endoskopia nosa jest wykonywana w pozycji siedzącej lub półleżącej i polega na wprowadzeniu do jam wąskiego wziernika i ocenie ich stanu, poprzez okular lub tor wizyjny (na ekranie monitora).<br><br>
+Badanie pozwala na ocenę stanu przegrody nosa, struktury bocznej ściany jamy nosa, wielkości małżowin nosowych, drożności kompleksów ujściowo-przewodowych.<br><br>
+Poza tym, diagnostyka endoskopowa pozwala wykryć obecność wszelkich patologicznych zmian w jamach nosa.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  diagnosogardla: {
+    title: "Diagnostyka endoskopowa nosogardła i krtani",
     description: `<p class='paragraph'>
+    Fiberoskopia (nasofiberoskopia) pozwala na sprawdzenie górnych dróg oddechowych - nawet w trudno dostępnych miejscach. Badanie nie jest inwazyjne, nie wymaga żadnego specjalnego przygotowania, czy podania znieczulenia. Trwa tylko kilka minut.<br><br>
+    Przeprowadza się je w pozycji siedzącej, z głową opartą o zagłówek. Do nosa i jamy nosowo-gardłowej wprowadzane jest specjalne urządzenie – fiberoskop.<br><br>
+    Badanie można wykonać nawet przy występowaniu obrzęków i przerostów błony śluzowej oraz przy anatomicznych zmianach jamy nosa.<br><br>
+    
+    Kiedy wskazana jest endoskopia nosogardła i krtani:<br>
+- przy podejrzeniu przerostu trzeciego migdała<br>
+- w przypadku przewlekłych dolegliwości ze strony gardła<br>
+- w przypadku diagnostyki chrapania<br>
+- podejrzeniu nowotworu nosogardła<br>
+- diagnostyce krwawień z nosa<br>
+- diagnostyce przewlekłych nieżytów nosa<br>
+- zaburzeniach głosu, połykania<br>
+- uczuciu ciała obcego w przełyku<br>
+- zaburzeniach połykania<br>
+- gdy występują bóle w okolicy gardła dolnego, krtani<br>
+- w diagnostyce przyczyn powiększonych węzłów chłonnych.
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  migdalgardlowy: {
+    title: "Diagnostyka przerostu migdałka gardłowego",
     description: `<p class='paragraph'>
+    Trzeci migdałek, czyli przerost migdałka gardłowego oznacza nadmierny rozrost migdałka znajdującego się za nosem, w miejscu, w którym jama nosowa przechodzi w gardło. Struktura ta u małych dzieci rośnie bardzo szybko. Trzeci migdał jest elementem układu odpornościowego: chroni dziecko przed bakteriami, wirusami oraz innymi patogenami.<br><br>
+W okresie dojrzewania zaczyna się zmniejszać, a następnie całkowicie zanika. Dlatego powiększone migdały zwykle występują u dzieci od 3. do 6. roku życia.<br><br>
+Przyczyny powiększonych migdałków, to najczęściej:<br>
+- częste i przewlekłe infekcje dróg oddechowych i jamy ustnej<br>
+- przebycie niektórych chorób zakaźnych<br>
+- alergie<br>
+- predyspozycje genetyczne.<br><br>
+ 
+Objawy przerostu migdałka gardłowego:<br>
+- oddychanie przez usta<br>
+- chrapanie<br>
+- nawracające infekcje górnych i dolnych dróg oddechowych<br>
+- przewlekły katar<br>
+- zmiana barwy głosu i mówienie przez nos<br>
+- zaburzenie odruchu ssania albo trudności w jedzeniu<br>
+- nawracające zapalenie ucha środkowego wraz z uczuciem pełności i przelewania płynu w uchu<br>
+- niedosłuch wynikający z nacisku powiększonego migdałka na trąbki słuchowe.<br><br>
+Trzeci migdał może również doprowadzić do wad zgryzu oraz zmian w ukształtowaniu twarzoczaszki.<br><br>
+W przypadku podejrzenie trzeciego migdała wykonuje się badanie przy użyciu fiberoskopu. Jest to endoskop z kamerką, pozwalający na przeprowadzenie bardzo dokładnego badania. Pomocniczym badaniem jest RTG boczne nosogardła (choć ze względu na przyjętą dawkę promieniowania powinno być wykonywane w ostateczności).<br><br>
+Trzeci migdał nie jest widoczny gołym okiem. Prawidłowo może ocenić tę strukturę jedynie specjalista laryngolog.<br><br>
+Coraz rzadziej, z uwagi na nieprzyjemne doznania, stosuje się ocenę trzeciego migdałka palcem.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  niedroznoscnosaichrypki: {
+    title: "Diagnostyka niedrożności nosa i chrypki",
     description: `<p class='paragraph'>
+    Prawidłowe oddychanie przez nos pomaga w oczyszczaniu, ogrzaniu i nawilżeniu powietrza oddechowego.<br><br>
+Drożny nos stanowi ochronę górnych i dolnych dróg oddechowych, przed zanieczyszczeniami oraz patogenami. Niedrożność nosa powoduje z kolei powstanie szeregu zjawisk patologicznych, niekorzystnych dla organizmu (niedotlenienie ośrodkowego układu nerwowego, zmęczenie, zmiany w budowie klatki piersiowej i twarzoczaszki, wady wymowy, zaburzenia artykulacyjne i fonacyjne, wady zgryzu).<br><br>
+Diagnostyka niedrożności nosa obejmuje: badania endoskopowe, obrazowe oraz czynnościowe nosa.<br><br>
+Podstawowym badaniem nosa jest rynoskopia przednia uzupełniona o rynoskopię tylną, która pozwala na ocenę jam nosowych, przegrody nosowej, przewodów nosowych wspólnych, małżowin nosowych dolnych, nozdrzy tylnych oraz częściowo małżowin nosowych środkowych, przewodów nosowych dolnych i środkowych.<br><br>
+Anatomię jam nosowych wraz ze wszystkimi strukturami pozwala ocenić endoskopia.<br><br>
+ 
+Chrypka są to nieprawidłowe drgania strun głosowych, które połączone są z turbulentnym przepływem powietrza w okolicy głośni. Chrypce z reguły towarzyszy uczucie suchości w jamie ustnej oraz nieprzyjemne drapanie w gardle. Chrypka utrzymująca się ponad cztery tygodnie powinna być wskazaniem do wizyty u laryngologa.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  diagnostykabezdechów: {
+    title: "Diagnostyka bezdechów",
     description: `<p class='paragraph'>
+
+    Bezdech śródsenny jest objawem nieprawidłowej drożności dróg oddechowych w czasie snu.<br><br>
+W leczeniu bezdechu sennego (postać obturacyjna), podstawowe znaczenie ma leczenie laryngologiczne, którego celem jest wyeliminowanie potencjalnych patologii w obrębie górnych dróg oddechowych, w tym głównie w zakresie podniebienia miękkiego, migdałków, nosa, czy nasady języka.<br><br>
+Chrapania nie można lekceważyć, gdyż niesie ze sobą wymierne zagrożenie dla pacjenta, które wynika z przejściowego niedotlenienia. Najbardziej zaawansowanym stadium chrapania jest tzw. zespół obturacyjnych bezdechów śródsennych, który cechują przerwy w oddychaniu (trwające ponad 10 sekund i powtarzające się 5 lub więcej razy w czasie jednej godziny snu).<br><br>
+W diagnostyce bezdechów sennych, ważny jest bardzo dokładny wywiad laryngologiczny, badanie laryngologiczne z oceną endoskopową jam nosa, nosogardła, jamy ustnej, gardła i krtani.<br><br>
+W zależności od zlokalizowania przyczyny schorzenia, lekarz laryngolog kwalifikuje do odpowiedniego sposobu leczenia chrapania.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  wycinaniezmianskornych: {
+    title: "Wycinanie zmian skórnych",
     description: `<p class='paragraph'>
+    Są to drobne, małoinwazyjne zabiegi laryngologiczne. Dzięki nim dochodzi do natychmiastowego usunięcia nieprawidłowych, rozrostowych zmian skórnych lub śluzówkowych w jamie ustnej, gardle i nosie, a także ustąpienia dolegliwości związanych m.in.: z kamicą i zapaleniem gruczołów ślinowych.
+
 
     </p>
     `,
