@@ -1483,16 +1483,34 @@ Wolmedica dysponuje aparatami USG wysokiej klasy, które pozwalają na USG ginek
     `,
   },
 
-  kolejne: {
-    title: "",
+  //Poradnia chirurgiczna
+  konsultacjechirurgiczne: {
+    title: "Konsultacja chirurgiczna",
     description: `<p class='paragraph'>
+    W naszej poradni, w trakcie konsultacji chirurgicznych, przeprowadzana jest kwalifikacja pacjentów do zabiegów operacyjnych:<br>
+- przepuklin pachwinowych<br>
+- zabiegów bariatrycznych<br>
+- laparoskopowych resekcji jelita grubego z powodu chorób nowotworowych<br>
+- laparoskopowych resekcji żołądka<br>
+- laparoskopowych resekcji jelita cienkiego<br>
+- operacji pęcherzyka żółciowego<br>
+- laparoskopowych zabiegów z powodu guzów trzustki<br>
+- zabiegów trzustki przeprowadzanych metodą klasyczną<br>
+- różnych zabiegów otwartych, czyli całej gamy procedur medycznych z zakresu chirurgii ogólnej.  <br><br>
+Każdy pacjent, znajdujący się pod opieką poradni otrzyma plan postępowania diagnostyczno-terapeutycznego, w przypadku konkretnego schorzenia.
+
         </p>
     `,
   },
 
-  kolejne: {
-    title: "",
+  zabiegichirurgii: {
+    title: "Zabieg chirurgiczny",
     description: `<p class='paragraph'>
+    W Poradni Chirurgicznej Wolmedica, w trybie ambulatoryjnym, możliwe jest wycięcie zmian ogniskowych skóry i tkanki podskórnej, w znieczuleniu miejscowym. <br><br>
+W naszym ośrodku usuwane są m.in.: brodawki, zmiany barwnikowe, tłuszczaki. <br><br>
+Wycięty materiał jest przesyłany do badania histopatologicznego. <br><br>
+Pacjent, przed wizytą w trakcie której zmiana zostanie usunięta, powinien wcześniej zgłosić się na konsultację, w czasie której otrzyma kompleksową informację, jak przygotować się do zabiegu. 
+
         </p>
     `,
   },
