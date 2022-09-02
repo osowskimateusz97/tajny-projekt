@@ -1050,179 +1050,569 @@ W zależności od zlokalizowania przyczyny schorzenia, lekarz laryngolog kwalifi
     `,
   },
 
-  puste: {
-    title: "",
+  //Centrum Diagnostyki Prenatalnej i Echokardiografii Płodowej
+
+  usg1trymestr: {
+    title: "USG I trymestr",
     description: `<p class='paragraph'>
+    USG I trymestru wykonuje się pomiędzy 11, a 14 tygodniem ciąży (po ukończeniu 11., a przed rozpoczęciem 14, tygodnia ciąży).<br><br>
+    Jest to jedno z trzech, obowiązkowych badań ultrasonograficznych, jakie wykonuje się u ciężarnej. Dostarcza wielu istotnych informacji dotyczących rozwoju płodu. <br><br>
+     
+    Badanie USG I trymestru daje wiedzę m.in.: na temat:<br>
+    · tego czy ciąża jest pojedyncza czy mnoga <br>
+    · struktur anatomicznych płodu: czaszki, sierpu mózgu, splotów naczyniówkowych komór bocznych, ścian powłok brzusznych, przyczepu brzusznego pępowiny, żołądka, wielkości serca, jego położenia i osi, pęcherza moczowego, kręgosłupa  
+    kończyn górnych i kończyn dolnych<br>
+    · długości ciemieniowo-siedzeniowej (CRL) (lekarz na tej podstawie określa czas trwania ciąży) <br>
+    · wad takich jak: przepukliny brzuszne, czy niewykształcone kończyny <br>
+    · czynności serca <br>
+    · kosmówki, która w późniejszym etapie wejdzie w skład łożyska oraz worka owodniowego otaczającego zarodek <br>
+    · przezierności karku płodu <br>
+    · pomiarów biometrycznych płodu. <br><br>
+     
+    USG I trymestru jest nazywane genetycznym, gdyż umożliwia wykrycie cech, które wskazują na pojawienie się najczęściej spotykanych u dzieci wad genetycznych: zespołu Downa, Edwardsa, czy Patau. <br><br>
+    Podstawowymi markerami wad genetycznych płodu, które pozwalają z dużą dokładnością oszacować ryzyko ich wystąpienia jest: ocena grubości przezierności karkowej NT oraz uwidocznienie kości nosowej.
+    
+    </p>
+    `,
+  },
+
+  usg2trymestr: {
+    title: "USG II trymestr",
+    description: `<p class='paragraph'>
+    Nazywane jest USG połówkowym. Zgodnie z zaleceniami PTGiP, badanie powinno zostać wykonane między 18. a 22. tygodniem ciąży. <br><br>
+    Możliwe jest wtedy wykonanie wszystkich, niezbędnych pomiarów rozwijającego się dziecka. <br><br>
+    USG połówkowe pozwala na dokładną ocenę budowy malucha m.in.: czaszki, ośrodkowego układu nerwowego, serca, kręgosłupa, kończyn, klatki piersiowej, jamy brzusznej, żołądka, jelit, nerek, pęcherza moczowego. <br><br>
+    W trakcie USG połówkowego, określana jest szacunkowa masa dziecka, a także ocenianie jest łożysko oraz jego położenie. <br><br>
+    Podczas USG połówkowego ginekolog jest w stanie rozpoznać: rozszczep wargi czy też podniebienia, wady nerek, albo przepuklinę.<br><br>
+    Specjaliści wykonujący badania USG w Wolmedica to uznane autorytety w tej dziedzinie. Lekarze posiadają niezbędne certyfikaty i kursy. Przychodnia dysponuje wysokiej klasy sprzętem, który pozwala na wykonywanie niezwykle precyzyjnych badań. <br><br>
+    W trakcie badania USG w II trymestrze możliwa jest również ocena ryzyka wystąpienia porodu przedwczesnego, na podstawie pomiaru długości kanału szyjki macicy. <br><br>
+    II trymestr ciąży to również najlepszy moment na obrazowanie dziecka w technologii 3D.
+    
+    </p>
+    `,
+  },
+
+  usg3trymestr: {
+    title: "USG III trymestr",
+    description: `<p class='paragraph'>
+    USG III trymestru jest wykonywane między 28. a 32. tygodniem ciąży. Badanie pozwala stwierdzić, czy dziecko rozwija się prawidłowo, zgodnie z wiekiem ciążowym. <br><br>
+W czasie USG III trymestru, oceniane są te same parametry, które analizowane były podczas drugiego badania - niektóre nieprawidłowości ujawniają się dopiero na zaawansowanym etapie ciąży. <br><br>
+USG III trymestru pozwala na ocenę: głowy (twarzy, czaszki, ilości płynu mózgowo-rdzeniowego, mózgowia oraz szyi), klatki piersiowej, płuc, pracy serca i zastawek. <br><br>
+USG III trymestru umożliwia lekarzowi dokładną ocenę: kręgosłupa, jamy brzusznej, żołądka, nerek, pęcherza moczowego, ale i narządów płciowych oraz rąk i nóg. <br><br>
+ 
+W trakcie USG III trymestru można wykonać pomiary biometryczne takie jak: obwód brzucha płodu (AC), długość kości udowej (FL), wymiary główki płodu (BPD), obwód główki płodu (HC), długość kości ramiennej (HL), wymiar poprzeczny móżdżku (TCD). <br><br>
+ 
+Sprawdzana jest również ilość płynu owodniowego (AFI) oraz dojrzałość, grubość i położenie łożyska. <br><br>
+Szacowana jest prawdopodobna waga noworodka. <br><br>
+Specjalista widzi również to, czy dziecko przyjęło pozycję głową w dół, która ma kluczowe znaczenie w przebiegu porodu. 
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  testpodwojny: {
+    title: "Test podwójny PAPP-A i beta-hCG",
     description: `<p class='paragraph'>
+    Test podwójny w ciąży to: nieinwazyjne badanie prenatalne, które zakłada ocenę dwóch hormonów - PAPP-A (Pregnancy-associated plasma protein-A) i wolnej podjednostki beta hCG. <br><br>
+Test zaleca się kobietom, bez względu na ich wiek, a wykonuje się go pomiędzy 10. a 14. tygodniem ciąży. Test umożliwia wykrycie nieprawidłowości w rozwoju dziecka, przede wszystkim wad genetycznych, takich jak m.in. zespół Downa czy Edwardsa.<br><br>
+Test PAPP-A wykrywa się aż 9 na 10 płodów z zaburzeniami. <br><br>
+By wykonać test podwójny, potrzebna jest próbka krwi ciężarnej.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  testynifty: {
+    title: "Testy NIFTY",
     description: `<p class='paragraph'>
+    To nieinwazyjne testy prenatalne, które są dostępne dla ciężarnych pacjentek, w Centrum Medycznym Wolmedica przy ulicy Zagnańskiej. Można wykonać je już od 10. tygodnia ciąży. Wystarczy mała próbka matczynej krwi żylnej.<br><br>
+ 
+Test NIFTY by GenePlanet zalecamy: każdej kobiecie, która chce spokojnie przeżyć ciążę,
+ciężarnym mających 35 lat lub więcej, pacjentkom u których inne badanie przesiewowe,
+wykonane w pierwszym trymestrze ciąży, wykazało pośrednie ryzyko aneuploidii lub ryzyko
+pomiędzy 1:100 a 1:1000. <br><br>
+ 
+Test Nifty wykrywa szeroka gamę zaburzeń genetycznych płodu, w tym:
+zespół Downa (trisomia 21), Edwardsa (trisomia 18) i Patau (trisomia 13),aneuploidie
+chromosomu płci, trisomie 9, 16, 22. Dzięki testowi można poznać również płeć dziecka.
+Test NIFTY by GenePlanet cechuje najwyższy wskaźnik wykrywalności najczęstszych
+trisomii (powyżej 99% - w przypadku zespołu Downa).
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  //Poradnia Ginekologiczno-Położnicza
+  konsultacjeprzedkoncepcyjne: {
+    title: "Konsultacje przedkoncepcyjne",
     description: `<p class='paragraph'>
+    Opieka przedkoncepcyjna obejmuje zespół działań sprzyjających bezpiecznemu poczęciu dziecka oraz utrzymaniu ciąży. <br><br>
+    Pierwsze tygodnie po zapłodnieniu są bardzo ważne dla rozwoju małego człowieka. Tworzą się wtedy zawiązki wszystkich narządów i układów, które następnie, wraz z rozwojem ciąży, będą się coraz bardziej udoskonalać, by w dniu porodu, noworodek był samodzielnie funkcjonującym organizmem. <br><br>
+    Opieka przedkoncepcyjna nie tylko zmniejsza częstość powikłań ciąży, ale daje kobietom poczucie bezpieczeństwa w czasie starań o dziecko. <br><br>
+    Opieka przedciążowa opiera się na profilaktyce i wdrożeniu takich działań medycznych, które mają za zadanie ustabilizować stan zdrowia kobiety. <br><br>
+    Opieka przedkoncepcyjna obejmuje również konsultacje w przypadku pacjentek, które z różnych przyczyn odłożyły decyzję o macierzyństwie.
+    
+    </p>
+    `,
+  },
+
+  konsultacjepoloznicze: {
+    title: "Konsultacje położnicze",
+    description: `<p class='paragraph'>
+    Konsultacje położnicze odbywają się w trakcie całej ciąży, a ich celem jest stały monitoring stanu zdrowia ciężarnej oraz rozwijającego się w jej brzuchu dziecka. <br><br>
+    Pacjentka, która dowiaduje się, że jest w ciąży, powinna zgłosić się do lekarza ginekologa najpóźniej w 10. tygodniu. <br><br>
+    W trakcie pierwszej konsultacji położniczej, należy podać informacje na temat: <br>
+    - daty ostatniej miesiączki <br>
+    - wcześniejszych ciąży, porodów, ewentualnie poronień <br>
+    - chorób przewlekłych <br>
+    - przyjmowanych leków <br>
+    - zabiegów operacyjnych w obrębie układu rodnego i brzucha <br>
+    - pracy, trybu życia, nałogów <br><br>
+    W trakcie konsultacji położniczych lekarz wykonuje m.in.: badanie ginekologiczne USG, przekazuje zalecenia dotyczące odżywiania, przyjmowania suplementów oraz zleca badania, które należy wykonać przed kolejną wizytą. <br><br>
+    Ginekolog-położnik wskazuje termin kolejnych konsultacji, które z reguły odbywają się co 4 tygodnie. <br><br>
+    Standardowo, w trakcie każdej, kolejnej wizyty położniczej, ciężarna najpierw rozmawia z położną i ma m.in.: mierzone ciśnienie krwi.
+    
+    </p>
+    `,
+  },
+
+  konsultacjegenetyczne: {
+    title: "Konsultacje genetyczne ",
+    description: `<p class='paragraph'>
+    Czynniki genetyczne mogą być jednym z powodów niepłodności. Dlatego diagnostyka genetyczna, po wykluczeniu innych przyczyn, jest bardzo istotna.<br><br>
+Wady genetyczne mogą być jedną z przyczyn problemów z donoszeniem ciąży. <br><br>
+W przypadku złego wyniku badań prenatalnych, konsultacja z lekarzem genetykiem. pozwoli uzyskać odpowiedź na pytanie, czy dziecko może urodzić się z wadą genetyczną. <br><br>
+Więcej informacji na temat usług jakie Wolmedica oferuje w zakresie genetyki, znaleźć można w zakładce Poradnia Genetyczna.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  ultrasonografiapoloznicza: {
+    title: "Ultrasonografia położnicza 2D/3D/4D",
     description: `<p class='paragraph'>
+    W Wolmedica oferujemy naszym ciężarnym pacjentkom pełne spektrum badań USG. <br><br>
+ 
+USG 2D pozwala na obserwację wnętrza macicy i ogólnego zarysu rozwijającego się płodu, w tym jego narządów wewnętrznych: serca, nerek, mózgu, żołądka, pęcherza moczowego. <br><br>
+USG 2D umożliwia również ocenę łożyska oraz ilości wód płodowych. Obrazy i przekroje ciała płodu są płaskie i to odróżnia te technikę od badań USG 3D i 4D. <br><br>
+USG 3 D pokazuje rozwijający się płód w trójwymiarze. <br><br>
+USG 4D to technika, która pozwala na przestrzenne obrazowanie płodu, w czasie rzeczywistym. <br><br>
+Zarówno USG 3D, jak i 4D może być dużym doznaniem emocjonalnym dla rodziców. W trakcie USG 3D widać precyzyjny obraz dziecka. Z kolej USG 4D to ruchomy obraz w trójwymiarze. Badania te pozwalają na precyzyjniejszą niż przy USG 2D, ocenę rozwijającego się: mózgowia, serca, nerek twarzy i innych organów dziecka. Widać wyraźnie rączki, nóżki i całą powierzchnię płodu. <br><br>
+Obrazowanie 3D/4D nie zawsze jest jednak czytelne. Przeszkodą, by dobrze zobaczyć dziecko, może być jego niekorzystne ułożenie lub ustawienie, mała objętość płynu owodniowego bądź słaba przezierność tkanek ciężarnej.<br><br>
+Aparat USG którym dysponujemy umożliwia również badanie dopplerowskie, czyli ocenę przepływu krwi przez naczynia matki i rozwijającego się w jej brzuchu dziecka.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  badaniaprenatalne: {
+    title: "Badania prenatalne",
     description: `<p class='paragraph'>
+    W naszych przychodniach zapewniamy pacjentkom dostęp do pełnego zestawu badań prenatalnych.<br><br>
+ 
+    Te są zalecane określonej grupie kobiet w ciąży:<br>
+     
+    ● pacjentkom, które ukończyły 35 lat <br>
+    ● kobietom, które zaszły w ciążę z dużo starszym od siebie partnerem, zwłaszcza po
+    55. roku życia <br>
+    ● gdy w rodzinie matki lub ojca dziecka zdiagnozowano choroby uwarunkowane
+    genetycznie <br>
+    ● w przypadku zapłodnienia pozaustrojowego in vitro <br>
+    ● gdy ciężarna urodziła już chore dziecko. <br><br>
+     
+    Badania prenatalne pozwalają wykryć lub wykluczyć wady rozwojowe u płodu, przed narodzinami. <br><br>
+     
+    Pierwsze badania prenatalne, można wykonać już od 10. tygodnia ciąży. Jest to nieinwazyjne i bezpieczne badanie przesiewowe z krwi (NIFTY). <br><br>
+     
+    Pomiędzy 14 a 21 tygodniem ciąży, można wykonać test podwójny, który polega na pobraniu krwi ciężarnej i analizowaniu go pod kątem stężeniu hormonu ciążowego beta-HCG i pappa. <br><br>
+     
+    Wśród inwazyjnych badań prenatalnych można wyróżnić: <br>
+     
+    - amniopunkcję (wykonuje się ją między 15 a 20 tygodniem ciąży)<br>
+     
+    - biopsja kosmówki (CVS) – zabieg wykonywany przez powłoki brzuszne lub szyjkę macicy  pomiędzy 11 a 14 tygodniem ciąży<br>
+     
+    - kardocenteza – realizuje się ją po 20 tygodniu ciąży, polega na nakłuciu sznura
+    pępowinowego i  pobraniu krwi pępowinowej.<br><br>
+     
+    W Wolmedica gwarantujemy pacjentkom również dostęp do nieinwazyjnych, bardzo
+    precyzyjnych testów prenatalnych: Nifty i Harmony.<br><br>
+     
+    Nieinwazyjnymi badaniami prenatalnymi, które oferujemy naszym pacjentkom są też echokardiografia płodu, która umożliwia ocenę stanu serca płodu i jego układu krążenia oraz ultrasonografia genetyczna.
+    
+    </p>
+    `,
+  },
+
+  badaniabiochemiczne: {
+    title: "Badania biochemiczne",
+    description: `<p class='paragraph'>
+    Badania biochemiczne wchodzą w skład badań prenatalnych. Można przewidzieć dzięki nim zdrowotną przyszłość dziecka. Diagnostyka prenatalna umożliwia leczenie noworodka zaraz po urodzeniu lub jeszcze w łonie matki. Testy oparte na badaniach biochemicznych są w pełni bezpieczne dla dziecka.<br><br>
+Są nazywane podwójnymi, potrójnymi i poczwórnymi, zintegrowanymi lub testami PAPP-A.<br><br>
+Polskie Towarzystwo Ginekologiczne (PTG) rekomenduje, by nieinwazyjne badania prenatalne, w kierunku najczęstszych wad rozwojowych i nieprawidłowości genetycznych były proponowane wszystkim kobietom w ciąży, bez względu na wiek.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  badaniamikrobiologiczne: {
+    title: "Badania mikrobiologiczne",
     description: `<p class='paragraph'>
+    Badanie GBS jest przesiewowym testem mikrobiologicznym na obecność paciorkowców grupy B (skrót GBS pochodzi od ich angielskiej nazwy Group B Streptococcus). <br><br>
+    Powinno być przeprowadzone u kobiet ciężarnych, tak by określić ryzyko przeniesienia infekcji na dziecko podczas porodu, gdy zakażenie noworodka bakterią może spowodować stan zagrażający jego życiu.  Ciężarna powinna być poddana badaniu GBS nie wcześniej niż między 35. a 37.  tygodniem ciąży. Specjalistyczna diagnostyka jest konieczna, gdyż zakażenie paciorkowcami nie daje charakterystycznych objawów. <br><br>
+    Próbkę do badania na obecność paciorkowców pobiera się z dolnej części pochwy (przedsionka pochwy) oraz odbytnicy.
+    
+    </p>
+    `,
+  },
+
+  kardiotokografia: {
+    title: "Kardiotokografia (KTG)",
+    description: `<p class='paragraph'>
+    Kardiotokografia to rejestracja czynności serca płodu (FHR- fetal heart rate) oraz czynności skurczowej macicy. KTG pozwala na kontrolę stanu dziecka i pojawiających się skurczy, a także wzajemną zależność obu parametrów.<br><br>
+    Do brzucha ciężarnej są przykładane dwie specjalne głowice, uprzednio posmarowane żelem do USG. <br><br>
+    Prawidłowe jest tętno dziecka między 110-160 uderzeń na minutę. <br><br>
+    KTG jest zalecane szczególnie, gdy w trakcie ciąży kobieta choruje na: cukrzycę, nadciśnienie lub np. choroby nerek.  KTG wykonuje się również podczas trwania porodu.
+    
+    </p>
+    `,
+  },
+
+  zalozeniewkladki: {
+    title: "Założenie wkładki wewnątrzmacicznej",
+    description: `<p class='paragraph'>
+    Wkładka wewnątrzmaciczna, powszechnie nazywana również spiralą domaciczną, to jedna z najbardziej skutecznych form antykoncepcji. Jest niewielka i elastyczna. <br><br>
+Ginekolog, po wykluczeniu przeciwwskazań, umieszcza ją w macicy. Jej użytkowanie nie wymaga od kobiety regularnych czynności związanych z zachowaniem ciągłości działania antykoncepcyjnego. <br><br>
+Wyróżnia się dwa rodzaje spirali antykoncepcyjnych: wkładkę niehormonalną (miedzianą) oraz wkładkę uwalniającą hormony. <br><br>
+Wkładka domaciczna niehormonalna może być stosowana, w zależności od producenta, przez nawet 5-10 lat, bez konieczności jej wymiany.  <br><br>
+Wkładka hormonalna (uwalniająca progestagen) posiada skuteczność ok. 99.8% i może być stosowana, w zależności od producenta, przez 3 lub 5 lat.  <br><br>
+ 
+Obydwie wkładki mogą być stosowane zarówno u nieródek, jak i kobiet, które już rodziły.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  zalozenieimplantu: {
+    title: "Założenie implantu antykoncepcyjnego",
     description: `<p class='paragraph'>
+    Implant antykoncepcyjny to niewielkich rozmiarów giętki pręciki, w którym znajduje się hormon progestagen, stopniowo uwalniany do organizmu kobiety.<br><br>
+    Progestagen, wpływa na hamowanie owulacji i zmiany w śluzie szyjki macicy, które znacznie utrudniają poruszanie się plemników. <br><br>
+    Implant jest niezwykle wygodny w stosowaniu. Jest zalecany szczególnie kobietom, które z przyczyn zdrowotnych nie mogą stosować tabletek antykoncepcyjnych, dwuskładnikowych. <br><br>
+    Skuteczność implantu antykoncepcyjnego jest bardzo wysoka: na poziomie 99,5% (w ciągu dwóch lat), w trzecim roku owulacja pojawia się bardzo rzadko.
+    
+    </p>
+    `,
+  },
+
+  biopsjeendometrium: {
+    title: "Biopsje endometrium",
+    description: `<p class='paragraph'>
+    Biopsja endometrium, inaczej scratching endometrium, polega na uszkodzeniu (skaleczeniu) błony śluzowej macicy, tak by doszło do reakcji zapalnej w jej obrębie, w konsekwencji czego dochodzi do zwiększenia zdolności endometrium na przyjęcie zarodka. <br><br>
+    Biopsję endometrium można wykonać kilkoma metodami. Najczęściej stosowana jest tzw. biopsja aspiracyjna, w trakcie której używany jest specjalny, cienki cewnik. <br><br>
+    Zabieg przeprowadza się również podczas histeroskopii oraz tradycyjnego łyżeczkowania macicy. 
+    
+    </p>
+    `,
+  },
+
+  usuwanieznamionsromu: {
+    title: "Usuwanie znamion sromu",
+    description: `<p class='paragraph'>
+    Zmiany skórne z okolic sromu i krocza takie jak polipy, włókniaki, kłykciny, należą do częstych dolegliwości kobiet w różnym wieku.<br><br>
+ 
+    W naszej przychodni wykonujemy zabiegi usunięcia tych zmian, po wcześniejszej konsultacji medycznej.<br><br>
+     
+    W czasie zabiegu istnieje możliwość pobrania materiału tkankowego do badania histopatologicznego.<br><br>
+    Zabieg wykonywany jest ambulatoryjnie i trwa, zależnie od wielkości i umiejscowienia zmiany kilkadziesiąt minut.
+    
+    </p>
+    `,
+  },
+
+  usuwaniepolipow: {
+    title: "Usuwanie polipów szyjki macicy",
+    description: `<p class='paragraph'>
+    Polip szyjki macicy jest zmianą łagodną. To przerośnięty fragment błony śluzowej szyjki macicy. Ryzyko zezłośliwienia wynosi jedynie 0–0,1%. Polip szyjki macicy może jednak powodować uciążliwe objawy, takie jak:<br>
+    - nieprawidłowe krwawienia miesiączkowe<br>
+    - krwawienia międzymiesiączkowe, po stosunku lub pojawienie się krwistych upławów w jego trakcie<br>
+    - nadmierna biaława śluzowa wydzielina pochwowa, z krwią lub bez obecności krwi.<br><br>
+     
+    Obecność polipa szyjki macicy powoduje zwiększoną predyspozycję do zakażeń i zapaleń błony śluzowej szyjki macicy.
+    
+    </p>
+    `,
+  },
+
+  badaniesono: {
+    title: "Badanie Sono-HSG",
+    description: `<p class='paragraph'>
+    Badanie sono-HSG, czyli ultrasonograficzna histerosalpingografia, służy do oceny stanu jajowodów i jamy macicy. Badanie umożliwia wykrycie niedrożności jajowodów oraz nieprawidłowości w budowie lub kształcie macicy, które mogą powodować trudności z zajściem w ciążę lub z jej utrzymaniem.<br><br>
+    Sono-HSG to skuteczna i bezpieczna metoda diagnostyczna, ważna w diagnostyce niepłodności. <br><br>
+    Przed zabiegiem warto wykonać m.in.: cytologię oraz posiew z kanału szyjki macicy, a także badania wirusologiczne (Anty HIV 1,2, HBS Antygen, VDRL, Anty-HBc, Anty HCV).
+    
+    </p>
+    `,
+  },
+
+  cytologia: {
+    title: "Cytologia, w tym cytologia na podłożu płynnym LBC",
+    description: `<p class='paragraph'>
+    Cytologia jest procedurą przesiewową w kierunku raka szyjki macicy. Sprawdza obecność komórek przedrakowych lub rakowych z tarczy i kanału szyjki macicy. <br><br>
+ 
+    Cytologia jest rutynowym, bezbolesnym badaniem, które pozwala na wykrycie chorób nowotworowych szyjki macicy w początkowym stadium. <br><br>
+    Zalecamy, by kobiety wykonywały cytologię raz do roku. <br><br>
+    Badanie można połączyć z pobraniem materiału w kierunku wirusa HPV, który wywołuje raka szyjki macicy. <br><br>
+    Cytologię warto wykonywać w każdym wieku, po rozpoczęciu współżycia seksualnego. W przypadku kobiet, które dopiero urodziły dziecko, warto zbadać się po połogu, czyli co najmniej 6 tygodni po porodzie. <br><br>
+     
+    W tradycyjnej cytologii szyjki macicy, specjalista pobierając wymaz, ręcznie nanosi go na szkiełko za pomocą specjalnej szczoteczki. Metoda ta nie pozwala jednak na równomierne rozprowadzenie materiału, a jego większa część pozostaje często na szczoteczce. <br><br>
+    W przypadku cytologii na podłożu płynnym, wymaz pobierany jest z szyjki macicy za pomocą szczoteczki cytologicznej, której końcówka jest przenoszona do pojemnika ze specjalnym płynem. W przypadku cytologii płynnej stosowana jest technika, która zapobiega uszkodzeniu pobranych komórek.<br><br>
+    Pojemnik do którego pobierany jest materiał zostaje szczelnie zamknięty i przetransportowany do laboratorium.
+    
+    </p>
+    `,
+  },
+
+  konsultacjeonkologiczne: {
+    title: "Konsultacje onkologiczne",
+    description: `<p class='paragraph'>
+    Kobieta powinna się zgłosić na konsultację z zakresu ginekologii onkologicznej w przypadku m.in.:<br>
+    ●	obciążenia genetycznego chorobami nowotworowymi w obrębie narządów płciowych <br>
+    ●	nieprawidłowego wyniku cytologii <br>
+    ●	nieprawidłowego wyniku kolposkopii lub wulwoskopii <br>
+    ●	nieprawidłowego wyniku biopsji endometrium <br>
+    ●	zaleceń ginekologa prowadzącego <br>
+    ●	krwawienia w okresie pomenopauzalnym lub stwierdzenia w badaniu USG podejrzanej zmiany w obrębie błony śluzowej macicy <br>
+    ●	stwierdzonej w USG nieprawidłowej zmiany w obrębie jajników <br>
+    ●	utraty masy ciała <br>
+    ●	przyrostu obwodu brzucha i bólu w obrębie jamy brzusznej. <br><br>
+     
+     
+    Ginekologia onkologiczna zajmuje się diagnostyką i leczeniem chorób onkologicznych w obrębie kobiecych narządów płciowych. Specjalista ginekologii onkologicznej zajmuje się również chorobami onkologicznymi występującymi w trakcie trwania ciąży.
+    
+    </p>
+    `,
+  },
+
+  badanieginekologicznezUSG: {
+    title: "Badanie ginekologiczne z USG ",
+    description: `<p class='paragraph'>
+    Narządy płciowe dzielą się na zewnętrzne i wewnętrzne ( jest to macica, pochwa i przydatki (jajniki i jajowody)).  Dla każdego z narządów istnieją odrębne procedury diagnostyczne. <br><br>
+Badanie ginekologiczne przeprowadza się na specjalnym fotelu. Pacjentka w jego trakcie znajduje się w pozycji leżącej, z nogami odpowiednio umieszczonymi na specjalnych oparciach. <br><br>
+Zalecane jest by kobieta bezpośrednio przed badaniem oddała mocz i tym samym ułatwiła pracę lekarzowi. <br><br>
+Każda kobieta w wieku rozrodczym powinna odwiedzać ginekologa co roku.
+
 
     </p>
     `,
   },
 
-  puste: {
-    title: "",
+  monitorowaniecyklu: {
+    title: "Monitorowanie cyklu",
     description: `<p class='paragraph'>
+    Monitorowanie owulacji określane również jako monitoring owulacji to jedno z podstawowych badań, które wykonuje się w diagnostyce niepłodności. Celem kontroli jest ustalenie, czy rozwój pęcherzyka Graafa jest prawidłowy oraz kiedy zaczyna się owulacja tzn. kiedy dochodzi (czy w ogóle dochodzi) do pęknięcia tego pęcherzyka i uwolnienia z niego dojrzałej komórki jajowej. Badanie pozwala również wyznaczyć najbardziej prawdopodobny termin jajeczkowania, co ułatwia poczęcia dziecka. <br><br>
+ 
+Monitorowanie owulacji jest zalecane kobietom, które współżyją co najmniej rok, bez zabezpieczenia i nie mogą zajść w ciążę. Wskazane jest także u pacjentek w trakcie stymulacji jajeczkowania. <br><br>
+Monitorowanie owulacji polega na wykonaniu kilku dopochwowych badań USG, w pewnych odstępach czasu. Na pierwsze badanie kobieta powinna się zgłosić na początku cyklu (pomiędzy piątym a ósmym dniem, licząc od pierwszego dnia miesiączki).
 
-    </p>
+        </p>
     `,
   },
 
-  puste: {
-    title: "",
+  biocenoza: {
+    title: "Biocenoza (st. czystości pochwy)",
     description: `<p class='paragraph'>
+    Biocenoza pochwy (badanie czystości pochwy) polega na pobraniu próbki wydzieliny z pochwy i wykonaniu rozmazu. Badanie pozwala określić, czy flora bakteryjna pochwy jest prawidłowa. Wskazaniem do wykonania biocenozy są nawracające stany zapalne pochwy.<br><br>
+Dzięki temu badaniu, możliwe jest określenie, jaki rodzaj bakterii /grzybów przyczynia się do dolegliwości, co pozwala skuteczniej dobrać leki i przyspieszyć proces leczenia.
+Badanie to wykonuje się również rutynowo u pacjentek w ciąży.
 
-    </p>
+        </p>
     `,
   },
 
-  puste: {
-    title: "",
+  badaniawkierunku: {
+    title: "Badania w kierunku Chlamydia, Ureaplasma, Mycoplasma, HR, HPV14",
     description: `<p class='paragraph'>
+    Zakażenia wirusem HPV należą do najczęstszych zakażeń przenoszonych drogą płciową. Przewlekłe zakażenie HPV przerodzić się w raka szyjki macicy. Zidentyfikowano ponad sto typów wirusa HPV, spośród których ponad czterdzieści atakuje nabłonek płaski błon śluzowych i narządów rodnych. Przy okazji badania w kierunku HPV, możliwe jest przeprowadzenie panelu badań zakażeń urogenitalnych, gdyż u części pacjentek występują również zakażenia m.in.: Chlamydia trachomatis, Ureaplasma urealyticum  i/ub Mycoplasma genitalium. <br><br>
+Drobnoustroje te wymagają odmiennych strategii leczenia. <br><br>
+Materiałem do wyżej wymienionych badań są m.in: wymazy z dróg moczowo-płciowych kobiet (kanał szyjki macicy, szyjka macicy, tarcza szyjki, pochwa, cewka moczowa, miejsca zmienione chorobowo).
 
-    </p>
+        </p>
     `,
   },
 
-  puste: {
-    title: "",
+  posiewzpochwy: {
+    title: "Posiew z pochwy",
     description: `<p class='paragraph'>
+    Upławy, świąd czy pieczenie w pochwie to objawy infekcji intymnej, żeby zdiagnozować ich dokładną przyczynę, warto pobrać wymaz z pochwy lub szyjki macicy. <br><br>
+Badanie pozwala zidentyfikować konkretny rodzaj bakterii, grzybów lub innych drobnoustrojów powodujących dane dolegliwości oraz dopasować odpowiednie leki. <br><br>
+Pobranie wymazu jest szybkie i bezbolesne, chociaż niektórym kobietom może sprawić dyskomfort.
 
-    </p>
+        </p>
     `,
   },
 
-  puste: {
-    title: "",
+  uusgginekologiczne: {
+    title: "USG ginekologiczne 2D/ 3D/4D",
     description: `<p class='paragraph'>
+    USG ginekologiczne jest wskazane, gdy u pacjentki występuje podejrzenie zmian chorobowych lub wady rozwojowych narządów rodnych.<br><br>
+Badanie jest wskazane gdy pojawia się m.in.:<br>
+- krwawienie z dróg rodnych, które nie jest menstruacją<br>
+- bóle podbrzusza nieznanego pochodzenia<br>
+ - inne dolegliwości związane z cyklem miesiączkowym<br><br>
+USG ginekologiczne pozwala wykryć:<br>
+ 
+nieprawidłową grubość endometrium<br>
+zespół policystycznych jajników<br>
+torbiele<br>
+mięśniaki<br>
+zmiany nowotworowe w obrębie narządów płciowych<br>
+nieprawidłową budowę mięśni macicy, kości i tkanek miednicy.<br><br>
+ 
+Badanie nie wymaga specjalnych przygotowań. Jest bezbolesne. Pacjentka powinna jedynie opróżnić pęcherz moczowy.<br><br>
+Wolmedica dysponuje aparatami USG wysokiej klasy, które pozwalają na USG ginekologiczne 2D, 3D i 4D.
 
-    </p>
+        </p>
     `,
   },
 
-  puste: {
+  kolejne: {
     title: "",
     description: `<p class='paragraph'>
-
-    </p>
+        </p>
     `,
   },
 
-  puste: {
+  kolejne: {
     title: "",
     description: `<p class='paragraph'>
-
-    </p>
+        </p>
     `,
   },
 
-  puste: {
+  kolejne: {
     title: "",
     description: `<p class='paragraph'>
-
-    </p>
+        </p>
     `,
   },
 
-  puste: {
+  kolejne: {
     title: "",
     description: `<p class='paragraph'>
-
-    </p>
+        </p>
     `,
   },
 
-  puste: {
+  kolejne: {
     title: "",
     description: `<p class='paragraph'>
-
-    </p>
+        </p>
     `,
   },
 
-  puste: {
+  kolejne: {
     title: "",
     description: `<p class='paragraph'>
-
-    </p>
+        </p>
     `,
   },
 
-  puste: {
+  kolejne: {
     title: "",
     description: `<p class='paragraph'>
-
-    </p>
+        </p>
     `,
   },
 
-  puste: {
+  kolejne: {
     title: "",
     description: `<p class='paragraph'>
-
-    </p>
+        </p>
     `,
   },
 
-  puste: {
+  kolejne: {
     title: "",
     description: `<p class='paragraph'>
+        </p>
+    `,
+  },
 
-    </p>
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
+    `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
+    `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
+    `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
+    `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
+    `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
+    `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
+    `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
+    `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
+    `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+        </p>
     `,
   },
 };
