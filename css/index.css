@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 @font-face {
-  src: url(../assets/font/Brain\ Wants.ttf);
-  font-family: "Brain Wants";
+  src: url(../assets/font/brain.ttf);
+  font-family: "Brain";
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -715,7 +715,7 @@ main {
   left: 228px;
 }
 .navigation__logo--link {
-  font-family: "Brain Wants";
+  font-family: "Brain";
   letter-spacing: 1.5px;
 }
 .navigation__hamburger {
