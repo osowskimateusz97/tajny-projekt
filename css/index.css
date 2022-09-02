@@ -786,12 +786,15 @@ main {
   .navigation__logo--logo-img-1 {
     width: 35px;
     top: -10px;
-    left: 160px;
+    left: 200px;
   }
   .navigation__logo--logo-img-2 {
     width: 65px;
     top: -5px;
-    left: 175px;
+    left: 210px;
+  }
+  .navigation__logo--link {
+    font-size: 3rem;
   }
   .navigation__button {
     margin-bottom: 5rem;
@@ -863,12 +866,15 @@ main {
   .navigation__logo--logo-img-1 {
     width: 35px;
     top: -10px;
-    left: 160px;
+    left: 200px;
   }
   .navigation__logo--logo-img-2 {
     width: 65px;
     top: -5px;
-    left: 175px;
+    left: 210px;
+  }
+  .navigation__logo--link {
+    font-size: 3rem;
   }
   .navigation__button {
     margin-bottom: 5rem;
