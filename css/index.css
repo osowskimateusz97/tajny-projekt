@@ -1457,7 +1457,7 @@ main {
 }
 .hero {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-areas: "zag zag zag blood" "tur tur tur tur" "piek piek piek piek";
   gap: 2rem;
   min-height: 90vh;
   padding: 7rem 10rem;
@@ -1465,15 +1465,17 @@ main {
 .hero > a {
   opacity: 0;
 }
-.hero .first-col {
-  grid-row: 1/-1;
-  grid-column: 1;
+.hero .zag {
+  grid-area: zag;
 }
-.hero .second-col {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  height: 100%;
+.hero .blood {
+  grid-area: blood;
+}
+.hero .tur {
+  grid-area: tur;
+}
+.hero .piek {
+  grid-area: piek;
 }
 .hero .second-col .card, .hero .second-col > a {
   flex-grow: 1;
