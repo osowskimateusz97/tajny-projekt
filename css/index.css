@@ -1462,9 +1462,6 @@ main {
   min-height: 90vh;
   padding: 7rem 10rem;
 }
-.hero > a {
-  opacity: 0;
-}
 .hero .zag {
   grid-area: zag;
 }
@@ -1477,7 +1474,7 @@ main {
 .hero .piek {
   grid-area: piek;
 }
-.hero > a {
+.hero .hero > a {
   flex-grow: 1;
 }
 
@@ -1498,13 +1495,10 @@ main {
 @media all and (max-width: 480px) {
   .hero {
     padding: 2rem;
-    grid-template-areas: "zag zag zag zag" "blood blood blood blood" "tur tur tur tur" "piek piek piek piek";
+    grid-template-areas: "zag zag blood blood" "tur tur tur tur" "piek piek piek piek";
   }
   .third-col {
     transform: translateX(0);
-  }
-  .hero > a {
-    opacity: 1;
   }
 }
 .services {
