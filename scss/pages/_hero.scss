@@ -60,7 +60,7 @@
   .third-col {
     transform: translateX(0);
   }
-  // & > a {
-  // opacity: 1;
-  // }
+  .hero > a {
+    opacity: 1;
+  }
 }
