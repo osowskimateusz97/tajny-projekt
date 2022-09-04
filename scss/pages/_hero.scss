@@ -43,9 +43,9 @@
   .hero {
     padding: 2rem;
     grid-template-areas:
-      "zag zag zag blood"
-      "tur tur tur tur"
-      "piek piek piek piek";
+      "zag zag zag blood blood"
+      "tur tur tur tur tur"
+      "piek piek piek piek piek";
   }
   .third-col {
     transform: translateX(0);
