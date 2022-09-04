@@ -1,6 +1,5 @@
 .hero {
   display: grid;
-  // grid-template-columns: 1fr;
   grid-template-areas:
     "zag zag zag blood"
     "tur tur tur tur"
@@ -23,8 +22,6 @@
   }
 
   .blood {
-    // grid-row: 1;
-    // grid-column: 4;
     grid-area: blood;
   }
 
@@ -35,37 +32,35 @@
   .piek {
     grid-area: piek;
   }
-  .second-col {
-    // display: flex;
-    // flex-direction: column;
-    // gap: 2rem;
-    // height: 100%;
 
-    .card,
-    & > a {
-      flex-grow: 1;
-    }
+  & > a {
+    flex-grow: 1;
   }
+}
 
+.card {
+  min-height: 60vh;
+}
+
+@include media(tablet) {
   .card {
-    min-height: 60vh;
+    min-height: 200px;
   }
+}
 
-  @include media(tablet) {
+@include media(mobile) {
+  .hero {
     padding: 2rem;
-
-    .card {
-      min-height: 200px;
-    }
+    grid-template-areas:
+      "zag zag zag zag"
+      "blood blood blood blood"
+      "tur tur tur tur"
+      "piek piek piek piek";
   }
-
-  @include media(mobile) {
-    grid-template-columns: 1fr;
-    .third-col {
-      transform: translateX(0);
-    }
-    & > a {
-      opacity: 1;
-    }
+  .third-col {
+    transform: translateX(0);
   }
+  // & > a {
+  // opacity: 1;
+  // }
 }

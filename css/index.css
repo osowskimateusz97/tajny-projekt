@@ -1477,40 +1477,33 @@ main {
 .hero .piek {
   grid-area: piek;
 }
-.hero .second-col .card, .hero .second-col > a {
+.hero > a {
   flex-grow: 1;
 }
-.hero .card {
+
+.card {
   min-height: 60vh;
 }
+
 @media all and (max-width: 1024.7px) {
-  .hero {
-    padding: 2rem;
-  }
-  .hero .card {
+  .card {
     min-height: 200px;
   }
 }
 @media all and (tablet) {
-  .hero {
-    padding: 2rem;
-  }
-  .hero .card {
+  .card {
     min-height: 200px;
   }
 }
 @media all and (max-width: 480px) {
   .hero {
-    grid-template-columns: 1fr;
+    padding: 2rem;
+    grid-template-areas: "zag zag zag zag" "blood blood blood blood" "tur tur tur tur" "piek piek piek piek";
   }
-  .hero .third-col {
+  .third-col {
     transform: translateX(0);
   }
-  .hero > a {
-    opacity: 1;
-  }
 }
-
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
