@@ -1515,44 +1515,149 @@ Pacjent, przed wizytą w trakcie której zmiana zostanie usunięta, powinien wcz
     `,
   },
 
-  kolejne: {
-    title: "",
+  //Poradnia Reumatologiczna
+
+  reumatoidalnezapaleniestawow: {
+    title: "Reumatoidalne zapalenie stawów",
     description: `<p class='paragraph'>
+    Reumatoidalne zapalenie stawów (w skrócie RZS) jest przewlekłą i postępującą chorobą tkanki łącznej, o immunologicznym podłożu, bez jasno określonej przyczyny. Szacunki mówią o tym, że w krajach rozwiniętych na RZS choruje 1 na 100 osób.<br><br>
+ 
+Choroba rozpoczyna się od zapalenia w błonie maziowej stawów, które prowadzi do destrukcji i zniekształcenia chrząstki stawowej oraz samych stawów i ich zesztywnienia. Najczęściej RZS rozwija się przez kilka, kilkanaście tygodni. Nasilenie objawów zwykle występuje stopniowo.<br><br>
+ 
+ Charakterystyczne dla reumotoidalnego zapalenia stawów jest to, że choroba atakuje te same stawy, po obu stronach ciała.<br><br>
+W pierwszym etapie zajmuje stopy i dłonie, a następnie m.in.: stawy kolanowe, łokciowe czy biodrowe.<br><br>
+ 
+RZS można podejrzewać, gdy występują:<br>
+-  sztywność i symetryczny ból stawów (najbardziej odczuwalny po obudzeniu lub dłuższym bezruchu)<br>
+ - wrażliwość na ucisk (ból może wywołać zwykłe podanie dłoni)<br>
+ - symetryczne obrzęki<br>
+ - zmiany w więzadłach i ścięgnach<br>
+- zapalenie powięzi<br>
+- zmniejszenie ruchomości w stawie<br>
+- zniekształcenie stawów.<br><br>
+ 
+W przypadku reumatoidalnego zapalenia stawów, bardzo ważne jest szybkie rozpoznanie i wdrożenie leczenia, gdyż choroba może doprowadzić do całkowitego zniszczenia stawów, niepełnosprawności, inwalidztwa a nawet do śmierci.
+
         </p>
     `,
   },
 
-  kolejne: {
-    title: "",
+  luszczycowezapaleniestawow: {
+    title: "Łuszczycowe zapalenie stawów",
     description: `<p class='paragraph'>
+    Łuszczycowe zapalenie stawów (ŁZS) objawia się przewlekłym zapaleniem stawów i łuszczycą skóry. <br><br>
+Choroba czasami atakuje inne partie ciała, m.in. oczy i serce, ale może też przyczynić się do rozwoju miażdżycy i jej powikłań. <br><br>
+Najczęściej, objawy pojawiają się u osób z potwierdzoną łuszczycą lub równocześnie zmianami skórnymi. Zdarza się jednak, że łuszczycowe zapalenie stawów rozpoczyna się u osób bez skórnych objawów łuszczycy. <br><br>
+ 
+Choroba może mieć przebieg łagodny, który występuje najczęściej, ale może również  doprowadzić do zniszczenia stawów i niesprawności. <br><br>
+Warto, by chory był pod stałą opieką specjalisty, gdyż postęp jaki odnotowano w leczeniu ŁZS, pozwala na skuteczną kontrolę objawów oraz hamowanie postępu schorzenia, choć nie zawsze możliwe jest osiągnięcie pełnej reemisji. <br><br>
+ 
+Etiologa ŁZS nie jest do końca znana. Wiadomo, że choroba pojawia się u osób z predyspozycją genetyczną, a wywołują ją określone czynniki takie jak:
+stres, zakażenie bakteryjne, czy wirusowe albo nawet uraz.<br><br>
+ 
+ Charakterystyczne objawy łuszczycowego zapalenia stawów to: <br>
+· ból, sztywność i obrzęk stawów z ograniczeniem ich ruchomości<br>
+· zapalenie przyczepów ścięgnistych<br>
+· zapalenie palca <br>
+· deformacje stawów <br>
+· dna moczanowa. <br><br>
+ 
+Można wyróżnić pięć głównych postaci łuszczycowego zapalenia stawów (dwie pierwsze stanowią większość przypadków choroby):<br>
+
+
+· niesymetryczne zapalenie kilku stawów: dotyczy różnych miejsc po obydwu stronach ciała, najczęściej choruje mniej niż 5 stawów; początkowo rąk i stóp<br>
+· symetryczne zapalenie wielu stawów: w postaci tej zajęte są nadgarstki, stawy rąk i stóp, stawy skokowe<br>
+· zapalenie dystalnych stawów międzypaliczkowych (występuje u 5–10% osób z ŁZS)<br>
+· postać osiowa (5% przypadków): choroba atakuje stawy kręgosłupa i stawy krzyżowo-biodrowe, a objawia się bólem i sztywnością kręgosłupa<br>
+· postać okaleczająca: prowadzi do zniszczenie i deformacje stawów.<br><br>
+ 
+ 
+Chory na ŁZS powinien być pod stałą opieka lekarza. Do specjalisty należy się również zgłosić w razie niepokojących objawów, w tym pogarszającego się, mimo leczenia stanu chorego.
+
         </p>
     `,
   },
 
-  kolejne: {
-    title: "",
+  goraczkareumatoidalna: {
+    title: "Gorączka reumatoidalna",
     description: `<p class='paragraph'>
+    Gorączka reumatoidalna (częściej nazywana gorączką reumatyczną), polega na nieprawidłowym funkcjonowaniu układu odpornościowego. Najczęściej,  pojawia się w wyniku nieleczonej anginy paciorkowcowej, czyli zapalenia gardła i migdałków, które są spowodowane zakażeniem bakterią zwaną paciorkowcem beta-hemolizującym z grupy A. <br><br>
+Gorączka reumatyczna uszkadza wiele narządów, przede wszystkim: serce, stawy i ośrodkowy układ nerwowy. Atakuje najczęściej dzieci w wieku 6–15 lat, bardzo rzadko pojawia się u osób po 30. roku życia. Ryzyko zachorowania wzrasta u pacjentów, którzy często chorują na anginę. <br><br>
+Główne objawy gorączki reumatycznej to: gorączka, zapalenie stawów (występuje u 75% chorych, po jednej stronie ciała), zapalenie serca, pląsawica oraz zmiany skórne. <br><br>
+By uniknąć gorączki reumatycznej należy ściśle przestrzegać zaleceń lekarskich w trakcie anginy.  <br><br>
+Decyzję o sposobie leczenia choroby, lekarz podejmuje indywidualnie w przypadku każdego pacjenta. <br><br>
+Gorączka reumatyczna miewa - w ciągu 2 lat od zachorowania - skłonność do nawrotów.  Zwiększa się wówczas prawdopodobieństwo wystąpienia powikłań sercowych.
+
         </p>
     `,
   },
 
-  kolejne: {
-    title: "",
+  przewleklestanyzapalnetkanki: {
+    title: "Przewlekłe stany zapalne tkanki łącznej",
     description: `<p class='paragraph'>
+    Grupa chorób, które przyczyniają się do patologicznych zmian tkanki łącznej to kolagenozy. <br><br>
+Wśród chorób tkanki łącznej można wymienić: reumatoidalne zapalenie stawów, toczeń rumieniowy układowy i układowe zapalenie naczyń. <br><br>
+Kolagenozy mają podłoże autoimmunologiczne, czyli komórki układu odpornościowego atakują tkanki własnego organizmu. Wywołują je czynniki genetyczne, ale i infekcje wirusowe, leki, wahania hormonów czy zaburzenia immunologiczne. <br><br>
+Reumatoidalne zapalenie stawów objawia się:  obrzękiem, bólem i sztywnością stawów, które nasilają się po przebudzeniu, tkliwością stawu na ucisk, ograniczeniem ruchomości, a w końcu deformacją, ale i stanami podgorączkowymi, osłabieniem i zmniejszeniem masy ciała. Kluczową rolę w terapii odgrywają leki modyfikujące przebieg choroby i hamujące niszczenie stawów. <br><br>
+ 
+Toczeń rumieniowaty układowy można rozpoznać po rumieniu w kształcie motyla na twarzy lub innych, odsłoniętych częściach ciała. Choroba wywołuje również m.in.: ból stawów i ich opuchliznę oraz łysienie. <br><br>
+Podobnie jak w RZS, przy toczeniu rumieniowatym, pojawia się również: osłabienie, stany podgorączkowe/gorączka, ale i  utrata masy ciała. <br><br>
+W terapii, choremu podaje się niesteroidowe leki przeciwzapalne, kortykosteroidy, leki przeciwmalaryczne.  <br><br>
+ 
+Układowe zapalenia naczyń (Vasculitis) jest to z kolei grupa układowych chorób tkanki łącznej,  które powodują stan zapalny ścian naczyń i ich martwicę. Konsekwencją schorzeń mogą być krwawienia lub powstawanie zakrzepów i zatorów i niedokrwienia tkanek oraz narządów zaopatrywanych w krew przez te naczynia. <br><br>
+Układowe zapalenia naczyń mogą doprowadzić m.in. do: <br>
+●	zespołów uszkodzenia nerwów obwodowych<br>
+●	krwawienia jelitowego<br>
+●	udaru mózgu <br>
+●	uszkodzenia wątroby <br>
+●	zapalenie osierdzia <br>
+●	astmy <br>
+●	zmian w zatokach przynosowych <br>
+●	kłębuszkowego zapalenie nerek <br>
+●	zmian skórnych (wysypka krwotoczna i owrzodzenia) <br>
+●	zapalenie stawów i mięśni. <br><br>
+Leczenie układowego zapalenia naczyń to przede wszystkim podawanie leków, takich jak: glikosterydy i cyklofosfamid.
+
+
         </p>
     `,
   },
 
-  kolejne: {
-    title: "",
+  osteoporoza: {
+    title: "Osteoporoza",
     description: `<p class='paragraph'>
+    Osteoporoza to choroba szkieletu w trakcie której, nawet przy niewielkim urazie może dojść do złamań kości. Są to tak zwane złamania osteoporotyczne i najczęściej dotyczą kręgosłupa, kości przedramienia i szyjki kości udowej, ale mogą wystąpić również w innych lokalizacjach. Złamania to konsekwencja zmniejszenia gęstości mineralnej kości i zaburzenia jej struktury i jakości. <br><br>
+Osteoporoza ze względu na podstępny, często bezobjawowy przebieg nazywana jest „cichą epidemią”. Choruje na nią co trzecia kobieta po menopauzie. U kobiet 50-letnich ryzyko wystąpienia złamania kości w wyniku osteoporozy wynosi około 40%, natomiast u mężczyzn 13–22%. <br><br>
+ 
+Wyróżniamy osteoporozę pierwotną, która jest konsekwencją starzenia się układu szkieletowego, a rozwija się u kobiet po menopauzie oraz u mężczyzn w podeszłym wieku. Utrata gęstości mineralnej kości rozpoczyna się już około 40. roku życia u kobiet i 45. roku życia u mężczyzn. <br><br>
+Rozwój osteoporozy przyspiesza m.in.: zła dieta (uboga w wapń i witaminę D3), palenie tytoniu, mała aktywność fizyczna, nadużywanie alkoholu oraz zbyt mała ekspozycja na słońce.  <br><br>
+Rzadziej występuje osteoporoza wtórna, która jest konsekwencją innych chorób oraz stosowania niektórych leków. <br><br>
+Do przyczyn osteoporozy wtórnej należą m.in. zaburzenia hormonalne, choroby układu pokarmowego, przewlekłe zapalne choroby reumatyczne. Leki, które sprzyjają  powstaniu osteoporozy wtórnej to: glikokortykosteroidy, leki przeciwpadaczkowe i heparyna. <br><br>
+Osteoporoza początkowo nie daje żadnych zauważalnych objawów. Dochodzi jednak do złamań kręgów, których połowa przebiega skrycie, stopniowo doprowadzając do obniżenia wzrostu (powstania tzw. wdowiego garbu), problemów z poruszaniem oraz pogorszenia nastroju, czy depresji. <br><br>
+Zalecamy osobom, u których występuje realne ryzyko wystąpienia osteoporozy, by zgłosiły się do lekarza. <br><br>
+Diagnostyka konieczna jest też u pacjentów, u których wystąpiły objawowe złamania osteoporotyczne lub wyżej wymienione objawy. <br><br>
+W procesie leczenia osteoporozy konieczna jest dobra współpraca lekarza z pacjentem, działania profilaktyczne i regularne przyjmowanie leków.
+
         </p>
     `,
   },
 
-  kolejne: {
-    title: "",
+  bolemiesnistawow: {
+    title: "Bóle mięśni, stawów, kości",
     description: `<p class='paragraph'>
+    Przyczyn bólu mięśni i stawów jest bardzo dużo. Może wywołać je m.in.: przeciążenie (zbyt intensywny wysiłek fizyczny), uraz, zakażenia, zaburzenia endokrynologiczne (choroby tarczycy, choroby przytarczyc, otyłość, cukrzyca), zaburzenia elektrolitowe, choroby układowe tkanki łącznej, RZS, polimialgia, toczeń rumieniowaty układowy, choroba zwyrodnieniowa stawów, dna moczanowa. <br><br>
+ 
+Leczenie bólu mięśniowo-stawowego zależy od jego przyczyny. <br><br>
+ 
+Nowo zdefiniowaną jednostką chorobową jest fibromialgia (fibromyalgia syndrome – FMS). Jest to: przewlekły, uogólniony ból mięśni i stawów oraz występowanie tzw. punktów tkliwych, czyli miejsc ciała o nadmiernej wrażliwości na ucisk. <br><br>
+Fibromialgia występuje u osób, które mają predyspozycje genetyczne, ale wywołują ją również czynniki psychiczne (przewlekły stres, niskie poczucie wartości, niezadowolenie z pracy, silny uraz psychiczny), zakażenia, RZS, czy choroba Hashimoto. <br><br>
+Fibromialgia może mieć wiele różnorodnych objawów. Najczęstszy jest przewlekły (trwający przynajmniej 3 miesiące) ból ciała, początkowo ograniczony do jednej okolicy. <br><br>
+Typowy jest również ból kręgosłupa (głównie krzyża lub szyi) oraz dużych stawów (bioder, barków, kolan), kłucie, szarpanie, palenie mięśni, sztywność ciała i obrzęk stawów. Dolegliwości są bardziej nasilone rano oraz przy wykonywaniu jednostajnej czynności. <br><br>
+Inne objawy fibromialgii to m.in.: znaczne zmęczenie, brak energii, zaburzenia snu, depresja, niepokój, objawy jelita drażliwego, uczucie niemiarowej pracy serca i duszność bez uchwytnej przyczyny. <br><br>
+Objawy te znacznie pogarszają komfort życia pacjenta. Dlatego, tak ważne jest aby zgłosić się do lekarza. <br><br>
+W leczeniu choroby stosowane są leki przeciwdepresyjne, przeciwbólowe, ale i przeciwpadaczkowe oraz rozluźniające mięśnie. <br><br>
+Pacjentom zaleca się również unikanie stresu oraz właściwą higienę snu.
+
         </p>
     `,
   },

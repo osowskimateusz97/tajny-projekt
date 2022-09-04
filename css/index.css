@@ -1651,6 +1651,35 @@ main {
   }
 }
 
+.media-articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
+  gap: 3rem;
+  row-gap: 5rem;
+  padding: 3rem;
+}
+
+.media-article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.media-article__img {
+  width: 100%;
+}
+
+@media all and (max-width: 1024.7px) {
+  .media-articles {
+    grid-template-columns: 1fr;
+  }
+}
+@media all and (tablet) {
+  .media-articles {
+    grid-template-columns: 1fr;
+  }
+}
 .specializations {
   padding: 5rem 0;
   background: rgba(227, 213, 167, 0.1);
