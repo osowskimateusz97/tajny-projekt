@@ -1483,12 +1483,12 @@ main {
 }
 
 @media all and (max-width: 1024.7px) {
-  .card {
+  .hero .card {
     min-height: 200px;
   }
 }
 @media all and (tablet) {
-  .card {
+  .hero .card {
     min-height: 200px;
   }
 }

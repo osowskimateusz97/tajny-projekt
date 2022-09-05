@@ -34,7 +34,7 @@
 }
 
 @include media(tablet) {
-  .card {
+  .hero .card {
     min-height: 200px;
   }
 }
