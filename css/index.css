@@ -1478,7 +1478,7 @@ main {
   flex-grow: 1;
 }
 
-.card {
+.hero .card {
   min-height: 60vh;
 }
 
