@@ -1662,81 +1662,280 @@ Pacjentom zaleca się również unikanie stresu oraz właściwą higienę snu.
     `,
   },
 
-  kolejne: {
-    title: "",
+  //Poradnia Stomatologiczna
+
+  nowoczesnastomatologiazachowawcza: {
+    title: "Nowoczesna stomatologia zachowawcza",
     description: `<p class='paragraph'>
+    Stomatologia zachowawcza nazywana jest również stomatologią ogólną.
+Obejmuje najważniejsze usługi związane z prawidłową higieną jamy ustnej. Podstawowymi obszarami stomatologii zachowawczej są: profilaktyka próchnicy zębów oraz leczenie wszelkiego rodzaju ubytków. <br><br>
+Nawet osoby, które szczególnie dbają o swoje zęby, poprzez regularne szczotkowanie, płukanie oraz stosowanie nici dentystycznych, powinny przynajmniej raz na pół roku, zgłaszać się do gabinetu dentystycznego na wizytę profilaktyczną. Lekarz sprawdzi wówczas dokładnie czy zęby nie są poddawane działaniu próchnicy i w razie czego rozpocznie leczenie ubytków.   
+
         </p>
     `,
+  },
+
+  stomatologiadziecieca: {
+    title: "Stomatologia dziecięca",
+    description: `<p class='paragraph'>
+    Stomatologia dziecięca (pedodoncja) to dziedzina zajmująca się, jak sama nazwa wskazuje, profilaktyką i leczeniem zębów dziecięcych. <br><br>
+Stomatologia dziecięca zajmuje się ząbkowaniem i jego zaburzeniami oraz leczeniem zębów mlecznych, stałych zębów niedojrzałych, profilaktyką: próchnicy, wad zgryzu i chorób błony śluzowej. <br><br>
+Pedodoncja jest dziedziną, gdzie główny nacisk powinien być położony na profilaktykę i zapobieganie próchnicy.  Służą do tego zabiegi profilaktyczne stomatologii dziecięcej, takie jak: <br>
+ 
+- lakierowanie - powlekanie małych zębów substancją zapewniającą długotrwałe dostarczanie fluoru do tkanki zębowej<br>
+- lakowanie - uzupełnienie bruzd obecnych na powierzchni zębów żujących, co skutecznie zapobiega próchnicy<br>
+- fluoryzacja.
+
+        </p>
+    `,
+  },
+
+  endodoncjamikroskopowa: {
+    title: "Endodoncja mikroskopowa",
+    description: `<p class='paragraph'>
+    Leczenie endodontyczne, zwane jest również kanałowym. <br><br>
+Jego celem jest hamowanie procesów chorobowych zachodzących w korzeniu zęba, poprzez usunięcie miazgi, poszerzenie kanału i szczelne wypełnienie systemu kanałów korzeniowych przez stomatologa. <br><br>
+ Miazga zostaje zainfekowana, gdy dochodzi do pęknięcia zęba, głębokiego i rozległego ubytku, kilkukrotnego leczenia zęba, złamania zęba. <br><br>
+ 
+Objawy zapalenia miazgi zęba to: <br>
+ - spontaniczny bądź pulsujący ból utrzymujący się przez dłuższy czas<br>
+- nadwrażliwość na ciepło i zimno<br>
+- ból podczas nagryzania<br>
+- rozległy ubytek próchnicowy<br>
+- ciemna barwa zęba<br>
+- obrzęk i bolesność błony śluzowej oraz okolicznych tkanek miękkich.
+
+        </p>
+    `,
+  },
+
+  periodontologia: {
+    title: "Periodontologia",
+    description: `<p class='paragraph'>
+    Peridontologia zajmuje się chorobami przyzębia, które po próchnicy, stanowią główną przyczynę utraty zębów wśród dorosłych. <br><br>
+Zapalenie przyzębia jest wieloczynnikową chorobą, która prowadzi do postępującej destrukcji tkanek przyzębia, co jest związane ze strukturą bakterii. <br><br>
+Choroby przyzębia mogą mieć wpływ na cały organizm.<br><br>
+Wywołuje je m.in.: palenie papierosów, nadmierny stres, otyłość, schorzenia ogólne, w tym  cukrzyca, wiek i zła higiena jamy ustnej. 
+
+        </p>
+    `,
+  },
+
+  skalingnaddziaslowy: {
+    title: "Skaling naddziąsłowy i poddziąsłowy",
+    description: `<p class='paragraph'>
+    kaling to usuwanie kamienia nazębnego, który osadza się w okolicach szyjek zębowych oraz w innych trudno dostępnych miejscach, do których nie możemy dotrzeć szczoteczką.<br><br>
+Wyróżniamy różne metody usuwania kamienia nazębnego m.in.: konwencjonalną,  mechaniczną, ultradźwiękową. <br><br>
+Kamień nazębny powstaje w wyniku oddziaływania różnych czynników m.in.:. wysoko zmineralizowanej śliny, picia kawy i mocnej herbaty oraz palenia tytoniu.<br><br>
+Zalecane jest, by zabieg usuwania kamienia nazębnego, przeprowadzać raz na pół roku.
+
+        </p>
+    `,
+  },
+
+  polerowanie: {
+    title: "Polerowanie",
+    description: `<p class='paragraph'>
+    Polerowanie zębów polega na rozprowadzeniu pasty o właściwościach czyszczących i polerujących na powierzchni zębów. Zabieg określany jest również terminem polishing. <br><br>
+Polerowanie zębów jest jednym z etapów higienizacji jamy ustnej, którą można rozpocząć od skalingu, następnie warto wykonać piaskowanie, a na końcu polerowanie. <br><br>
+ 
+Polerowanie zębów nie jest bolesne. Po zabiegu warto wstrzymać się, minimum trzy godziny, z piciem barwiących napojów, takich jak herbata, kawa, wino oraz z paleniem papierosów.
+
+        </p>
+    `,
+  },
+
+  protetyka: {
+    title: "Protetyka",
+    description: `<p class='paragraph'>
+    Protetyka to dziedzina stomatologii, która daje możliwość leczenia braków w uzębieniu w sposób trwały i bezbolesny. Jest przeznaczona dla osób bez zębów lub ze zniszczonym uzębieniem. <br><br>
+Braki zębów znacząco wpływają nie tylko na estetykę, ale i m.in. żucie pokarmów. Następstwem braków w uzębieniu może być próchnica pozostałych zębów, a nawet bóle głowy, dlatego takich problemów nie wolno lekceważyć. <br><br>
+Leczenie protetycznie pozwala na odbudowę pojedynczych zębów oraz całych łuków zębowych. <br><br>
+Protetyka ma korzystny wpływ na wygląd i samopoczucie, hamuje rozwój nowych zmarszczek, czy zmniejsza ryzyko rozwinięcia próchnicy. <br><br>
+W protetyce stosowane są  stałe oraz ruchome typy uzupełnień.  <br><br>
+ 
+Stałe uzupełnienia to:<br>
+- korony – porcelanowe albo pełnoceramiczne przykrywają zniszczoną koronę zęba, <br>
+- mosty - połączenie kilku sztucznych koron, mocowanych z obu stron na zębach własnych bądź implantach, <br>
+  
+- licówki – to płaskie płatki umieszczane na powierzchni zęba, <br>
+ 
+- nakłady – wypełnienia ubytków w zębie w postaci plomby, dopasowywanej dokładnie do kształtu dziury w zębie. <br><br>
+ 
+ 
+Uzupełnienia ruchome to pojedyncze korony, przeznaczone do odbudowy pojedynczych zębów, zniszczonych przez próchnicę lub uraz, czy złamanie.
+
+        </p>
+    `,
+  },
+
+  mostydo4punktow: {
+    title: "Mosty do 4 punktów",
+    description: `<p class='paragraph'>
+    Most jest stałym, protetycznym rozwiązaniem dzięki, któremu można uzupełnić od jednego do kilkunastu zębów. W naszym centrum realizujemy mosty do 4 punktów. Most umieszcza się na stałe w jamie ustnej. <br><br>
+Składa się z koron protetycznych, które są osadzone na zębach filarowych sąsiadujących z brakiem zębowym oraz z przęsła, które imituje brakujące zęby. By wykonać most, konieczne jest oszlifowanie zębów. <br><br>
+Długotrwały brak nawet jednego zęba, doprowadza do dużych zmian w jamie ustnej i może mieć poważne konsekwencje, nie tylko estetyczne. <br><br>
+Most jest rozwiązaniem praktycznym, nie obciążającym pacjenta i szybko wykonywanym.
+
+        </p>
+    `,
+  },
+
+  protezyszkieletowe: {
+    title: "Protezy szkieletowe",
+    description: `<p class='paragraph'>
+    Protezy szkieletowe to metalowe elementy pokryte akrylem. Stosuje się je w przypadku częściowej utraty zębów, z powodu próchnicy lub chorób przyzębia. Protezy mocuje się za pomocą klamer, zaczepów, zatrzasków do zębów pozostałych w jamie ustnej. <br><br>
+Umożliwiają pacjentowi żucie i gryzienie pokarmów. <br><br>
+Protezy są wykonywane indywidualnie dla danego pacjenta, z uwzględnieniem budowy jego jamy ustnej i liczby pozostałych zębów.
+
+        </p>
+    `,
+  },
+
+  stomatologiaestetyczna: {
+    title: "Stomatologia estetyczna",
+    description: `<p class='paragraph'>
+    Pacjentów którzy nie są zadowoleni z wyglądu swoich zębów, zachęcamy by skorzystali z zabiegów w ramach stomatologii estetycznej. <br><br>
+Jej celem jest poprawa kształtu czy koloru zębów. <br><br>
+Zabiegi z zakresu stomatologii estetycznej to m.in: <br>
+- wybielanie, <br>
+- piaskowanie zębów, <br>
+- licówki.
+ 
+
+        </p>
+    `,
+  },
+
+  wybielaniezebow: {
+    title: "Wybielanie zębów",
+    description: `<p class='paragraph'>
+    Wybielanie zębów prowadzi do tego, że zęby stają się optycznie jaśniejsze. <br><br>
+Zabieg można wykonać u pacjentów, których zęby zmieniły swój kolor na skutek działania barwników z żywności, które osadzają się na powierzchni zębów. Zmiana odcienia może mieć również związek z barwnikami, które osadzają się głęboko w strukturze szkliwa, albo po prostu ze starzeniem się tkanek. <br><br>
+ 
+Zabiegi wybielania zębów wykonywane w gabinecie stomatologicznym są bezpieczne. Możliwe jest, zależnie od wybranej metody i preparatu, rozjaśnienie zębów od 3 do 10 odcieni. Efekt może utrzymać się od 3 miesięcy do kilku lat. <br><br>
+Wybielanie jest polecane pacjentom, którzy mają zdrowe zęby, bez próchnicy, pozbawione kamienia i osadów. <br><br>
+Metodę wybielania dobieramy indywidualnie do danej osoby.
+
+        </p>
+    `,
+  },
+
+  piaskowanie: {
+    title: "Piaskowanie",
+    description: `<p class='paragraph'>
+    Piaskowanie polega na oczyszczaniu zębów z kamienia i osadu, przy użyciu tłoczonej pod wysokim ciśnieniem zawiesiny, zawierającej drobinki substancji czyszczącej. <br><br>
+W czasie piaskowania stosuje się tzw. piasek stomatologiczny, stąd nazwa zabiegu. <br><br>
+Do piaskowania naddziąsłowego używany jest piasek o twardszych drobinkach, co pozwala na usunięcie nawet masywnych przebarwień. Z  kolei piaskowanie poddziąsłowe, umożliwia pozbycie się osadu i przebarwień z okolicy kieszeni zębowych. W tym przypadku, używany jest piasek o bardziej miękkich drobinkach -  najczęściej glicyny.
+
+        </p>
+    `,
+  },
+
+  chirurgiazeba: {
+    title: "Chirurgia",
+    description: `<p class='paragraph'>
+    Chirurgia w stomatologii to operacyjne usuwanie zmian chorobowych jamy ustnej i okolic. Obejmuje swoim zakresem nie tylko leczenie samego uzębienia, ale również zabiegi wykonywane na dziąsłach, kościach. <br><br>
+Do zabiegów chirurgii stomatologicznej można zaliczyć usuwanie ósemek, czyli tzw. zębów mądrości, które są zwykle najbardziej problematyczne dla pacjentów. Wyrzynają się późno i często mają  niewystarczającą ilość miejsca, aby się odpowiednio rozwinąć. Dlatego pojawiają się tzw. zęby zatrzymane, czyli takie, które nie mogą urosnąć, czego konsekwencją są stany zapalne i stłoczenie pozostałych zębów. Ósemki często się psują. Dlatego, w wielu przypadkach ich usunięcie jest zalecane.  <br><br>
+Chirurgia w stomatologii to ekstrakcje pozostałych zębów stałych, które stosuje się, gdy leczenie zachowawcze czy endodontyczne nie jest już możliwe. Usunięcie zęba bywa konieczne, by powstrzymać ból,  bądź rozprzestrzenianie się próchnicy w jamie ustnej.
+
+      </p>
+  `,
+  },
+
+  // Poradnia ortodontyczna
+
+  profilaktykawadzgryzu: {
+    title: "Profilaktyka wad zgryzu",
+    description: `<p class='paragraph'>
+    Najczęściej występującymi wadami zgryzu, są: <br>
+-   zgryz otwarty - zęby w ogóle nie stykają się ze sobą, wskutek czego tworzy się szpara niedogryzowa. Zgryz otwarty utrudnia żucie oraz odgryzanie kęsów pokarmu, a także prawidłowe wysławianiem się, wypowiadanie spółgłosek przedniojęzykowo zębowych, takich jak: d, s, t ,dz, c, n, ł. Dla zgryzu otwartego charakterystyczne jest: gotyckie podniebienie, obniżone napięcie mięśni warg, wydłużenie dolnego fragmentu twarzy oraz powiększony kąt żuchwy; <br><br>
+- zgryz krzyżowy - zęby dolne zachodzą na zęby górne w pewnych obszarach lub w całym łuku zębowym; <br><br>
+- tyłozgryz - to najczęściej występująca wada zgryzu, która stanowi około 70 proc. wszystkich wad. Objawia się cofnięciem dolnego łuku zębowego względem górnego. Zęby przednie nie stykają się. Osoby z tyłozgryzem, wymawiają s czy z, jako ś, ź; <br><br>
+- zgryz głęboki - charakteryzuje się silnym zachodzeniem górnych zębów na zęby dolne. Wadę należy korygować niezwłocznie; <br><br>
+- przodozgryz – charakteryzuje się zachodzeniem dolnego łuku zębowego na łuk górny;<br><br>
+- stłoczenia - jest to posiadanie zbyt dużych zębów w stosunku do zębodołów;  <br><br>
+- zęby odseparowane – występują gdy można zaobserwować szpary między zębami, z powodu nadmiaru miejsca w szczęce i żuchwie; <br><br>
+Wady zgryzu leczy się różnego typu aparatami czynnościowymi, szpatułką, procą bródkową, płytką przedsionkową, przez szlifowanie zębów. Zalecane są: ćwiczenia mięśniowe, usunięcia zębów, reedukacja dotyczącą; żucia, oddychania, połykania i mowy. <br><br>
+Profilaktyka ortodontyczna dotyczy dzieci już w wieku niemowlęcym, ale i przedszkolnym oraz szkolnym. Celem  profilaktyki ortodontycznej jest przede wszystkim:  motywowanie pacjentów do prawidłowego wykonywania zabiegów higienicznych jamy ustnej, zapobieganie próchnicy i leczenie jej, tak aby zapobiec przedwczesnej utracie zębów. Profilaktyka zwraca uwagę na dbałość i właściwe oczyszczanie aparatów ortodontycznych  (stałych ale i ruchomych), kilka razy dziennie, szczególnie po posiłkach. Aparaty należy wyjmować i myć, podobnie jak zęby.
+
+    </p>
+`,
+  },
+
+  leczenieortodontycznewadzgryzu: {
+    title: "Leczenie ortodontyczne wad zgryzu",
+    description: `<p class='paragraph'>
+    Aparaty ortodontyczne to urządzenia, które są stosowane w leczeniu wad zgryzu, a także w celu uporządkowania i wyprostowania zębów stałych. Przez aparaty ortodontyczne na zęby wywierana jest stała siła, która zmusza do korekty ich położenia.  <br><br>
+W ortodoncji wykorzystuje się dwa podstawowe rodzaje aparatów ortodontycznych: zdejmowane (aparaty ruchome) oraz stałe. <br><br>
+Aparat zdejmowany może być samodzielnie wyciągnięty przez pacjenta w przeciwieństwie do aparatu stałego, który jest przymocowany do zębów. Istnieje kilka rodzajów aparatów ruchomych, które są dopasowane do pacjenta w zależności od rodzaju wady, a także konstrukcji oraz sposobu działania. Koszt wykonania aparatu ruchomego jest stosunkowo niski. Takie urządzenie łatwo się naprawia, ale efekt leczenia jest uzależniony od samodyscypliny pacjenta.  <br><br>
+Aparaty stałe składają się z pierścieni i zaczepów zwanych zamkami. Oraz łuku, który łączy ze sobą wszystkie elementy. Pierścienie zamontowane są na zębach trzonowych, a zamki na szkliwie pozostałych zębów. <br><br>
+Aparaty stałe nosi się nawet do dwóch lat. Pacjent jest zobowiązany do częstych wizyt u specjalisty i utrzymywanie prawidłowej higieny jamy ustnej.
+
+      </p>
+  `,
+  },
+
+  aparatystalesamoligaturujace: {
+    title: "Aparaty stałe samoligaturujące",
+    description: `<p class='paragraph'>
+    Aparat samoligaturujący to rodzaj stałego aparatu ortodontycznego. Jego zamki są przyklejane do powierzchni zębów na cały okres leczenia.<br><br>
+ 
+W aparatach samoligaturujących zamiast ligatur (czyli gumek) wykorzystuje się specjalne klapki, dzięki czemu pacjent ma większy komfort, skraca się czas leczenia, liczba wizyt kontrolnych, a do tego - co jest bardzo ważne - łatwiej utrzymać można prawidłową higienę jamy ustnej, przez co zostaje zminimalizowane ryzyko pojawienia się próchnicy. <br><br>
+Aparat samoligaturujący może być stosowany u osób z zębami stałymi.
+
+      </p>
+  `,
+  },
+
+  aparatystaleporcelanowe: {
+    title: "Aparaty stałe porcelanowe",
+    description: `<p class='paragraph'>
+    Zalecane są pacjentom, którym zależy na estetyce. Zamki w takich aparatach są najczęściej w kolorze dostosowanym do koloru uzębienia. Mogą być również całkowicie przezroczyste, a zatem praktycznie niezauważalne.
+      </p>
+  `,
+  },
+
+  aparatystalekrysztalowe: {
+    title: "Aparaty stałe kryształowe",
+    description: `<p class='paragraph'>
+    Aparat kryształowy jest praktycznie niewidoczny na zębach. Zlewa się z zębami. Zalecamy go m.in.: osobom, które z przyczyn zawodowych muszą dbać o wygląd. <br><br>
+Zamki w aparacie kryształowym są wykonane – jak sama nazwa wskazuje - z kryształu i są doskonale gładkie, nie posiadają ostrych krawędzi i załamań. Tym samym są bardzo łatwe w czyszczeniu i odporniejsze na zaleganie osadów i tworzenie się kamienia nazębnego. <br><br>
+Dzięki temu, że aparaty stałe, kryształowe są wykonywane w systemie bezligaturowym (nie posiadają gumek utrzymujących łuk w zamkach), nie wymagają tak częstego aktywowania i wymiany elementów.
+
+      </p>
+  `,
+  },
+
+  aparatystaleligaturowanemetalowe: {
+    title: "Aparaty stałe ligaturowane metalowe",
+    description: `<p class='paragraph'>
+    Aparat ortodontyczny metalowy jest rodzajem stałego aparatu ortodontycznego, którego zadaniem jest wywieranie stałej, choć delikatnej siły na łuki zębów, w celu ich prawidłowego ustawienia w jamie ustnej. <br><br>
+Łuk ortodontyczny przymocowany jest do zamków aparatu przy użyciu ligatur. Zamki są przyklejane bezpośrednio do przedniej powierzchni zębów, z użyciem specjalnego kleju stomatologicznego. <br><br>
+W toku leczenia, ortodonta kilkakrotnie wymienia zarówno łuk ortodontyczny, jak i ligatury, czyli gumki w aparacie. <br><br>
+Wybór klasycznego aparatu stałego, metalowego to mniejsze koszty leczenia ortodontycznego. Zaletą aparatów stałych metalowych jest ich trwałość, brak alergii, podrażnień błon jamy gębowej. <br><br>
+Aparaty te są widoczne na zębach.
+
+      </p>
+  `,
+  },
+
+  aparatyzdejmowane: {
+    title: "Aparaty zdejmowane",
+    description: `<p class='paragraph'>
+    Aparat zdejmowany („ruchomy”) to taki, który pacjent samodzielnie zakłada i zdejmuje, nosi go zalecaną ilość godzin w ciągu doby. Aparaty takie przeważnie zalecane są na etapie uzębienia mlecznego i mieszanego lub w czasie tzw. retencji po leczeniu aparatem stałym. <br><br>
+Aparaty zdejmowane wykonywane są z kolorowego akrylu. Są wyposażone w różnorakie elementy, tj. śruby, sprężyny, wały nagryzowe, zapory językowe, co umożliwia poszerzanie ortopedyczne kości i przesuwanie zębów, tak by te stałe miały odpowiednią przestrzeń do wyrznięcia. <br><br>
+W przypadku aparatów zdejmowanych, w czasie leczenie bardzo ważna jest samodyscyplina pacjenta.
+
+      </p>
+  `,
   },
 
   kolejne: {
     title: "",
     description: `<p class='paragraph'>
-        </p>
-    `,
-  },
-
-  kolejne: {
-    title: "",
-    description: `<p class='paragraph'>
-        </p>
-    `,
-  },
-
-  kolejne: {
-    title: "",
-    description: `<p class='paragraph'>
-        </p>
-    `,
-  },
-
-  kolejne: {
-    title: "",
-    description: `<p class='paragraph'>
-        </p>
-    `,
-  },
-
-  kolejne: {
-    title: "",
-    description: `<p class='paragraph'>
-        </p>
-    `,
-  },
-
-  kolejne: {
-    title: "",
-    description: `<p class='paragraph'>
-        </p>
-    `,
-  },
-
-  kolejne: {
-    title: "",
-    description: `<p class='paragraph'>
-        </p>
-    `,
-  },
-
-  kolejne: {
-    title: "",
-    description: `<p class='paragraph'>
-        </p>
-    `,
-  },
-
-  kolejne: {
-    title: "",
-    description: `<p class='paragraph'>
-        </p>
-    `,
-  },
-
-  kolejne: {
-    title: "",
-    description: `<p class='paragraph'>
-        </p>
-    `,
+      </p>
+  `,
   },
 };
 
