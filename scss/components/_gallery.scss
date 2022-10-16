@@ -29,6 +29,11 @@
   & .heading--bloodtest {
     font-size: 1.6em;
   }
+
+  & .section__container {
+    padding: 4rem 2rem;
+  }
+
   @include media(tablet) {
     padding: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

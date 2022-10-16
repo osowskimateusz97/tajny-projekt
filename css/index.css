@@ -1308,6 +1308,9 @@ main {
 .bloodtests .heading--bloodtest {
   font-size: 1.6em;
 }
+.bloodtests .section__container {
+  padding: 4rem 2rem;
+}
 @media all and (max-width: 1024.7px) {
   .bloodtests {
     padding: 2rem;
