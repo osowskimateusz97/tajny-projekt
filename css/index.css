@@ -1296,6 +1296,43 @@ main {
   }
 }
 
+.bloodtests {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  padding: 0 !important;
+}
+.bloodtests .specializations__container {
+  margin: 0 1.7em;
+}
+.bloodtests .heading--bloodtest {
+  font-size: 1.6em;
+}
+@media all and (max-width: 1024.7px) {
+  .bloodtests {
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .bloodtests .specializations__container {
+    margin: 0 0.5em;
+  }
+  .bloodtests .heading--bloodtest {
+    font-size: 1.2em;
+  }
+}
+@media all and (tablet) {
+  .bloodtests {
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .bloodtests .specializations__container {
+    margin: 0 0.5em;
+  }
+  .bloodtests .heading--bloodtest {
+    font-size: 1.2em;
+  }
+}
+
 .avatar {
   display: grid;
   grid-template-rows: 250px 1fr;

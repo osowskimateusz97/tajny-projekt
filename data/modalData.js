@@ -1937,6 +1937,181 @@ W przypadku aparatów zdejmowanych, w czasie leczenie bardzo ważna jest samodys
       </p>
   `,
   },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
+
+  kolejne: {
+    title: "",
+    description: `<p class='paragraph'>
+      </p>
+  `,
+  },
 };
 
 const getTextById = (id) => {

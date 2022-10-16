@@ -1,18 +1,42 @@
 .gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  padding: 5rem;
+  &__img {
     width: 100%;
-    display:grid;
-    grid-template-columns:repeat(auto-fit ,minmax(350px, 1fr));
-    gap: 2rem;
-    padding: 5rem;
-    &__img {
-        width: 100%;
-        height: 100%;
-        object-fit:cover;
-        border-radius:map-get($borderRadius, s);
-        overflow:hidden;
+    height: 100%;
+    object-fit: cover;
+    border-radius: map-get($borderRadius, s);
+    overflow: hidden;
+  }
+  @include media(tablet) {
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+.bloodtests {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  padding: 0 !important;
+  & .specializations__container {
+    margin: 0 1.7em;
+  }
+
+  & .heading--bloodtest {
+    font-size: 1.6em;
+  }
+  @include media(tablet) {
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    & .specializations__container {
+      margin: 0 0.5em;
     }
-    @include media(tablet) {
-        padding: 2rem;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    & .heading--bloodtest {
+      font-size: 1.2em;
     }
+  }
 }
