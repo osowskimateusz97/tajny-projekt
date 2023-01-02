@@ -7,16 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wolmedica - Twoja przychodnia</title>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/icons/favicon/favicon-16x16.png">
-  <link rel="manifest" href="../../assets/icons/favicon/site.webmanifest">
-  <link rel="mask-icon" href="../../assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../assets/icons/favicon/site.webmanifest">
+  <link rel="mask-icon" href="../assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
 
-  <link rel="stylesheet" href="../../css/index.css" />
+  <link rel="stylesheet" href="../css/index.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -24,16 +24,16 @@
 
 <body data-barba="wrapper">
   <div class="loader"></div>
-  <main data-barba="container">
+  <main data-barba="container" data-barba-namespace="clinic">
     <div class="navigation__wrapper">
       <header class="navigation">
         <div class="navigation__logo">
           <h1 class="navigation__logo--title">
-            <a class="navigation__logo--link" href="../../index.html">Wolmedica
+            <a class="navigation__logo--link" href="../index.html">Wolmedica
               <img class="navigation__logo--logo-img navigation__logo--logo-img-1"
-                src="../../assets/images/logo/turystyczna.png" alt="logo">
+                src="../assets/images/logo/turystyczna.png" alt="logo">
               <img class="navigation__logo--logo-img navigation__logo--logo-img-2"
-                src="../../assets/images/logo/zagnanska.png" alt="logo">
+                src="../assets/images/logo/zagnanska.png" alt="logo">
 
             </a>
           </h1>
@@ -47,37 +47,37 @@
         <nav class="navigation__container mobile-hidden" data-type="navigation-container">
           <ul class="navigation__list">
             <li class="navigation__list__element">
-              <a href="../zagnanska.html">
+              <a href="./zagnanska.html">
                 <span>Wolmedica</span>
                 <span>Zagnańska</span>
               </a>
             </li>
             <li class="navigation__list__element">
-              <a href="../turystyczna.html">
+              <a href="./turystyczna.html">
                 <span>Wolmedica</span>
                 <span>Turystyczna</span>
               </a>
             </li>
             <li class="navigation__list__element">
-              <a href="../piekoszow.html">
+              <a href="./piekoszow.html">
                 <span>Wolmedica</span>
                 <span>Piekoszów</span>
               </a>
             </li>
             <li class="navigation__list__element">
-              <a href="../bon-podarunkowy.html">Bon podarunkowy</a>
+              <a href="./bon-podarunkowy.html">Bon podarunkowy</a>
             </li>
             <li class="navigation__list__element">
-              <a href="../wspolpraca.html">Współpraca</a>
+              <a href="./wspolpraca.html">Współpraca</a>
+            </li>
+            <li class="navigation__list__element navigation__list__element--active">
+              <a href="./pages/kariera.html">Kariera</a>
             </li>
             <li class="navigation__list__element">
-              <a href="../kariera.html">Kariera</a>
-            </li>
-            <li class="navigation__list__element">
-              <a href="../o-nas.html"> O nas </a>
+              <a href="./o-nas.html"> O nas </a>
             </li>
           </ul>
-          <a href="../kontakt.html">
+          <a href="./kontakt.html">
             <button class="button button--big button--primary navigation__button">
               Kontakt
             </button>
@@ -85,34 +85,33 @@
         </nav>
       </header>
     </div>
-    <div class="person__background">
-      <section class="section section__container--first person">
-        <div class="person__description">
-          <div class="person__description__card person__description__card--normal">
-            <h1 class="heading"><span>lek.</span>Adam Majsterkiewicz</h1>
-            <p class="paragraph">Przyjmuje pacjentów w Wolmedica Zagnańska</p>
-          </div>
-          <div class="person__description__card person__description__about">
-            <div class="person__description__card__headingWrapper">
-              <svg width="60px" height="60px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M0.877014 7.49988C0.877014 3.84219 3.84216 0.877045 7.49985 0.877045C11.1575 0.877045 14.1227 3.84219 14.1227 7.49988C14.1227 11.1575 11.1575 14.1227 7.49985 14.1227C3.84216 14.1227 0.877014 11.1575 0.877014 7.49988ZM7.49985 1.82704C4.36683 1.82704 1.82701 4.36686 1.82701 7.49988C1.82701 8.97196 2.38774 10.3131 3.30727 11.3213C4.19074 9.94119 5.73818 9.02499 7.50023 9.02499C9.26206 9.02499 10.8093 9.94097 11.6929 11.3208C12.6121 10.3127 13.1727 8.97172 13.1727 7.49988C13.1727 4.36686 10.6328 1.82704 7.49985 1.82704ZM10.9818 11.9787C10.2839 10.7795 8.9857 9.97499 7.50023 9.97499C6.01458 9.97499 4.71624 10.7797 4.01845 11.9791C4.97952 12.7272 6.18765 13.1727 7.49985 13.1727C8.81227 13.1727 10.0206 12.727 10.9818 11.9787ZM5.14999 6.50487C5.14999 5.207 6.20212 4.15487 7.49999 4.15487C8.79786 4.15487 9.84999 5.207 9.84999 6.50487C9.84999 7.80274 8.79786 8.85487 7.49999 8.85487C6.20212 8.85487 5.14999 7.80274 5.14999 6.50487ZM7.49999 5.10487C6.72679 5.10487 6.09999 5.73167 6.09999 6.50487C6.09999 7.27807 6.72679 7.90487 7.49999 7.90487C8.27319 7.90487 8.89999 7.27807 8.89999 6.50487C8.89999 5.73167 8.27319 5.10487 7.49999 5.10487Z"
-                  fill="white" />
-              </svg>
-              <h1 class="heading heading--white">O Specjaliście</h1>
-            </div>
-            <p class="paragraph">Specjalista chorób wewnętrznych</p>
-            <p class="paragraph">Specjalista kardiolog</p>
-            <p class="paragraph">Absolwent Śląskiej Akademii Medycznej</p>
-            <p class="paragraph">
-              Kierownik Oddziału Chorób Wewnętrznych Wojewódzkiego Szpitala
-              Zespolonego w Kielcach
-            </p>
-          </div>
-        </div>
-        <img class="person__img" src="../../assets/images/doctors/majsterkiewicz.jpg" alt="lek. Adam Majsterkiewicz" />
-      </section>
-    </div>
+
+    <section class="section section__container section__container--first clinicDescription">
+      <div class="clinicDescription__imgWrapper">
+        <img class="clinicDescription__img medicover" src="../assets/images/job.png"" alt=" Job" />
+      </div>
+      <div class="clinicDescription__description">
+        <h1 class="clinicDescription__description__title heading heading--isBig">
+          Przychodnia Wolmedica w Piekoszowie poszukuje lekarzy do współpracy
+        </h1>
+        <p class="clinicDescription__description__content paragraph">
+          Jesteśmy nowoczesną placówką oferującą szeroki zakres usług medycznych. <br /><br />
+          Poszukujemy lekarzy z różnych specjalizacji, którzy chcieliby do nas dołączyć i pracować w przychodni.
+          <br /><br />
+
+          Oferujemy zatrudnienie w pełnym wymiarze godzin, atrakcyjne wynagrodzenie oraz możliwość rozwoju
+          zawodowego.<br /><br />
+          Jeśli jesteś zainteresowany nawiązaniem współpracy z naszą przychodnią, zapraszamy do kontaktu. <br /><br />
+          Prosimy o
+          przesłanie CV na adres e-mail: wolmedica@gmail.com lub osobistą wizytę w naszej przychodni. W temacie
+          wiadomości
+          prosimy o dopisanie "Współpraca z lekarzami - Przychodnia Wolmedica". <br /><br />
+
+        </p>
+      </div>
+    </section>
+
+
     <footer class="footer">
       <div class="section section__container footer">
         <h1 class="heading footer__heading">Skontaktuj się z nami</h1>
@@ -213,7 +212,7 @@
       </div>
     </footer>
   </main>
-
+  <script src="../scripts/fslightbox.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
     integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
@@ -221,7 +220,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
     integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="../../scripts/animation.js"></script>
+  <script src="../scripts/animation.js"></script>
 </body>
 
 </html>
