@@ -1931,58 +1931,93 @@ W przypadku aparatów zdejmowanych, w czasie leczenie bardzo ważna jest samodys
   `,
   },
 
-  kolejne: {
-    title: "",
+  zapalenierogowki: {
+    title: "Zapalenie rogówki, twardówki, tęczówki",
     description: `<p class='paragraph'>
+    Zapalenie występuje przeważnie w stanach obniżonej odporności lub na skutek chorób autoimmunologicznych i ogólnoustrojowych. <br><br> W przypadku zapaleń rogówki, które może być zaraźliwe, przyczyna często ma podłoże: bakteryjne, grzybicze, pierwotniakowe lub wirusowe. W przypadku zapaleń tęczówki, przyczyny mogą być bardziej zróżnicowane i mogą mieć podłoże alergiczne, urazowe, czy chorobowe. <br><br>
+Objawami zapalenia oka są m.in.: ból, zaczerwienienie, uczucie ciała obcego w oku, wydzielina, łzawienie, pęcherzyki w okolicy oka, światłowstręt, wytrzeszcz i obniżenie ostrości widzenia. <br><br>
+Najczęściej leczenie polega na stosowaniu miejscowo leków. 
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  odwarstwieniesiatkowki: {
+    title: "Odwarstwienie siatkówki",
     description: `<p class='paragraph'>
+    Odwarstwienie siatkówki to bardzo poważny problem okulistyczny. Polega na oddzielaniu się siatkówki od struktury oka. Objawami odwarstwienia siatkówki jest najczęściej mętny, zamglony wzrok i stopniowe zmniejszanie się pola widzenia.  <br><br>
+Głównymi czynnikami ryzyka powodującymi odwarstwienia siatkówki są: wiek, ale również urazy, choroby zwyrodnieniowe siatkówki, zespoły wysiękowe i zapalenia siatkówki.  <br><br>
+Warto również regularnie kontrolować się u okulisty, jeśli choroba występuje u kogoś z rodziny.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  zwyrodnienieplamkizoltej: {
+    title: "Zwyrodnienie plamki żółtej",
     description: `<p class='paragraph'>
+
+    Zwyrodnienie plamki żółtej dotyczy centralnej części siatkówki. Choroba pojawia się najczęściej wraz z wiekiem (po 50 r.ż.), a wśród jej objawów można wymienić: pogorszenie widzenia, zniekształcenia linii prostych, dyskomfort przy czytaniu i pisaniu czy mroczek centralny. <br><br> Czynnikami ryzyka wystąpienia choroby jest: palenie papierosów, cukrzyca, nadciśnienie i otyłość. <br><br>
+Wyróżnia się postać suchą i wysiękową zwyrodnienia plamki żółtej. Leczenie jest uzależnione od postaci choroby. Postać wysiękową leczy się  za pomocą iniekcji środka zatrzymującego rozwój choroby do wnętrza oka. 
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  jaskra: {
+    title: "Jaskra",
     description: `<p class='paragraph'>
+    Jaskra jest podstępną chorobą, która nie daje objawów - początkowo rozwija się powoli i stopniowo, a może prowadzić do całkowitej utraty wzroku. <br><br>
+Jaskrę może wskazywać: stopniowe pogorszenie widzenia, dostrzeganie świetlistych obręczy wokół źródeł światła i zawężenie pola widzenia. <br><br>
+W przypadku ostrego przebiegu choroby, do objawów dochodzi także: ból, nudności, wymioty i zaczerwienienie oka. 
+Zmian wywołanych przez jaskrę nie da się odwrócić. Dlatego ważne jest, by w przypadku wystąpienia czynników ryzyka (wiek, predyspozycje genetyczne, zbyt wysokie ciśnienie w oku, zaburzenia gospodarki tłuszczowej organizmu), regularnie kontrolować się u okulisty.  
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  zacma: {
+    title: "Zaćma",
     description: `<p class='paragraph'>
+    Zaćma stanowi przyczynę prawie połowy przypadków całkowitej utraty wzroku na świecie. Zaćma może być wrodzona lub nabyta – tak jak większość chorób oczu. <br><br>
+Czynnikami ryzyka, oprócz wieku jest: cukrzyca, zaburzenia metaboliczne, krótkowzroczność, urazy i stany zapalne oczu, a także zbyt długie przyjmowanie niektórych leków. <br><br>
+Objawami zaćmy są najczęściej: obniżenie ostrości widzenia, zarówno z bliska, jak i z daleka, podwójne widzenie, przymglenie lub oślepiające światło oraz brak  możliwości prawidłowej oceny odległości.<br><br> Zaćmę, podobnie jak jaskrę, leczy się farmakologicznie lub za pomocą leczenia operacyjnego.
+
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  krotkowzrocznosc: {
+    title: "Krótkowzroczność ",
     description: `<p class='paragraph'>
+    To jedna z najczęściej występujących wad oka. Objawia się nieostrym widzeniem obiektów w oddali. 
+Choroba wyraża się do w dioptriach, z ujemnym symbolem. <br><br>
+Mała krótkowzroczność to wada do -3 dioptrii. Między wartością -3 dioptrii a -7 dioptrii mówimy o krótkowzroczności średniej, natomiast poniżej -7 dioptrii - o dużej krótkowzroczności.<br><br>
+Wada średnia, wymaga już noszenie szkieł czy okularów korekcyjnych. Duża krótkowzroczność powoduje również zmiany zwyrodnieniowe w oku.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  dalekowzrocznosc: {
+    title: "Dalekowzroczność/nadwzroczność",
     description: `<p class='paragraph'>
+    Dalekowzroczność/nadwzroczność to wada wzroku, która powoduje niewyraźne widzenie szczególnie z bliska, ale także z daleka. <br><br>
+Może być spowodowana zbyt słabą mocą łamiącą układu optycznego (m.in. rogówki i soczewki) lub zbyt krótką gałką oczną. <br><br>
+W zależności od wielkości wady wyróżnia się nadwzroczność małą , do +2,5 dioptrii, średnią od +2,5 do +6,0 dioptrii lub dużą, ponad +6,0 dioptrii. <br><br>
+Te wadę wzroku należy korygować tak zwanymi soczewkami plusowymi (kontaktowymi lub okularowymi), a w niektórych przypadkach leczeniem chirurgicznym. 
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  astygmatyzm: {
+    title: "Astygmatyzm",
     description: `<p class='paragraph'>
+    Astygmatyzm to wada wzroku, która może powodować nieostre i niewyraźne widzenie na każdą odległość. Choroba objawia się w każdym wieku i często towarzyszy jej krótkowzroczność lub nadwzroczność. <br><br>
+Astygmatyzm objawia się zamazanym widzeniem, gdy dana osoba próbuje skupić wzrok na obiektach znajdujących się w oddali.<br><br> Niekorygowany może powodować: bóle głowy, zmęczenie, mrużenie oczu oraz nieostre widzenie.
+
       </p>
   `,
   },
