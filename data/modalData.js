@@ -2022,86 +2022,129 @@ Astygmatyzm objawia się zamazanym widzeniem, gdy dana osoba próbuje skupić wz
   `,
   },
 
-  kolejne: {
-    title: "",
+  acne: {
+    title: "Trądzik",
     description: `<p class='paragraph'>
+    
+Trądzik to przewlekła choroba skóry, wywołana przez bakterie, której jedną z głównych przyczyn jest wydzielanie się zbyt dużej ilości sebum, które jest konsekwencją zmian hormonalnych. Sebum wydostaje się na powierzchnię skóry przez gruczoły łojowe. <br><br>
+Kanaliki prowadzące do gruczołów mogą zostać zapchane poprzez nadmiar łoju i zrogowaciały naskórek, co z kolei prowadzi do powstania tak zwanych zaskórników, czyli niezapalnych zmian trądzikowych. <br><br>
+Leczenie trądziku odbywa się m.in. z zastosowaniem leków przeciwłojotokowych, przeciwbakteryjnych i przeciwzapalnych oraz keratolitycznych. W ostrzejszych stanach zapalnych włącza się także antybiotyki.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  azs: {
+    title: "Atopowe zapalenie skóry",
     description: `<p class='paragraph'>
+    
+AZS to choroba o podłożu genetycznym i alergicznym, która polega na niepożądanej reakcji układu immunologicznego na alergeny środowiskowe. <br><br> Objawia się m.in. zaczerwienieniem oraz nadmiernym wysuszeniem skóry, uczuciem swędzenia oraz podatnością na zakażenia bakteryjne, najczęściej w rejonie zgięcia łokciowego i/lub kolanowego, a także w okolicach twarzy oraz szyi. <br><br>
+Pacjentom z AZS zaleca się m.in. wyeliminowanie alergenów, a także właściwą pielęgnację skóry oraz farmakoterapię (leki przeciwuczuleniowe (antyhistaminowe), kortykosteroidy, preparaty immunosupresyjne, inhibitory kalcyneuryny i fototerapie).
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  brodawkiwirusowe: {
+    title: "Brodawki wirusowe",
     description: `<p class='paragraph'>
+    
+To potocznie zwane kurzajki, które są konsekwencją zakażenia wirusem brodawczaka ludzkiego. <br><br> Zmiany mają postać grudkowatej narośli. <br><br> Brodawki mogą znikać samoistnie. <br><br> Można je usuwać chirurgicznie, poprzez wymrażanie lub za pomocą specjalistycznych preparatów.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  czerniak: {
+    title: "Czerniak",
     description: `<p class='paragraph'>
+    
+Czerniak to nowotwór złośliwy skóry. Bardzo ważne jest wczesne rozpoznanie choroby.<br><br> Czerniak może występować nie tylko na skórze, lecz także na paznokciach, w gałkach ocznych czy na błonach śluzowych. <br><br>Czerniak to niejednolita czerwona lub czarna plamka: pieprzyk o dość dużej powierzchni (powyżej 5 mm) i nieregularnych brzegach, najczęściej na odsłoniętych częściach skóry. <br><br>
+Na nowotwór ten najczęściej narażone są osoby o jasnej karnacji, które powinny unikać poparzeń słonecznych, a także regularnie kontrolować się u dermatologa.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  czyrak: {
+    title: "Czyrak",
     description: `<p class='paragraph'>
+    
+Czyrak jest chorobą skóry, która występuje w wyniku zakażenia gronkowcem złocistym. <br><br> To czerwono-fioletowy guzek, który po paru dniach zmienia się w krostę. <br><br> Czyraki najczęściej pojawiają się na twarzy, w okolicach ucha, karku, pach, pośladków. <br><br> Nie wolno ich bagatelizować. <br><br> Leczenie odbywa się z zastosowaniem okładów i maści ichtiolowych oraz antybiotyków.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  grzybica: {
+    title: "Grzybica",
     description: `<p class='paragraph'>
+    
+Grzybice mogą występować z powodu niedostatecznej ale i nadmiernej higieny, jak i jako konsekwencja stosowania antybiotyków, sterydów czy w wyniku chorób takich jak nowotwory czy cukrzyca. <br><br>
+Grzybice pojawiają się zarówno na skórze, jak i na paznokciach oraz stopach. <br><br> Objawem grzybicy na skórze są okrągłe, rumieniowe zmiany o czerwonej barwie, które mogą się łuszczyć, a na ich brzegach występują grudki i krosty. <br><br> Na stopach - najczęściej pomiędzy palcami - pojawiają się białawe, pomarszczone zmiany.  <br><br> Grzybice paznokci cechują przebarwienia zlokalizowane początkowo w bocznej części płytki paznokcia. Mają żółtą, a po pewnym czasie czarną barwę.  <br><br> W leczeniu grzybicy stosuje się najczęściej miejscowe preparaty.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  kontaktowezapalenieskory: {
+    title: "Kontaktowe zapalenie skóry",
     description: `<p class='paragraph'>
+    
+    Kontaktowe zapalenie skóry pojawia się w wyniku styczności skóry z substancją drażniącą lub alergenem. Występuje wówczas najczęściej wysypka. <br><br> Leczenie kontaktowego zapalenia skóry polega, przede wszystkim, na stosowaniu środków o działaniu przeciwzapalnym i przeciwalergicznym.
+    
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  liszajec: {
+    title: "Liszajec",
     description: `<p class='paragraph'>
+    
+Liszajec zakaźny to powierzchowne, bakteryjne zakażenie skóry, wywoływane najczęściej przez gronkowca złocistego. <br><br> Na skórze pojawiają się wówczas powodujące ból i swędzenie czerwone rany – często w okolicach ust oraz nosa. <br><br> Z czasem zmiany te przekształcają się w pęcherze, które mogą pękać, albo strupy koloru żółtego. <br><br> W przypadku tej choroby stosowane są miejscowo lub ogólnie antybiotyki.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  luszczyca: {
+    title: "Łuszczyca",
     description: `<p class='paragraph'>
+    
+Łuszczyca jest chorobą nawracającą i przewlekłą. Ma podłoże genetyczne. Często występuje wraz z innymi chorobami, m.in. układu sercowo-naczyniowego czy zaburzeniami metabolicznymi. <br><br>
+Choroba objawia się ogniskami ze srebrzystobiałą łuską, głównie na łokciach, kolanach, głowie oraz w okolicach lędźwiowych. Pod złuszczonym naskórkiem, może wystąpić punktowe krwawienie. <br><br>
+Leczenie łuszczycy, w lżejszych stanach, polega na stosowaniu miejscowym preparatów dziegciowych, keratolitycznych, glikokortykosteroidów.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  opryszczka: {
+    title: "Opryszczka",
     description: `<p class='paragraph'>
+    
+To choroba wywołana przez wirus opryszczki – HSV. <br><br>Jej objawami mogą być swędzące, żółtawe pęcherze na ustach oraz owrzodzenia pojawiające się także w jamie ustnej i na języku. <br><br>Leczenie opryszczki odbywa się poprzez stosowanie leków przeciwwirusowych.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  pokrzywka: {
+    title: "Pokrzywka",
     description: `<p class='paragraph'>
+    
+Występuje po kontakcie z alergenem lub innym czynnikiem drażniącym, w tym wysokimi lub niskimi temperaturami oraz uciskiem. <br><br> Objawia się: bąblami lub obrzękami o różowej barwie. <br><br> Zmiany mogą mieć charakter miejscowy lub pojawiać się na całym ciele. <br><br> W zależności od przyczyn występowania, w leczeniu pokrzywki stosuje się leki przeciwhistaminowe lub glikokortykosteroidy.
+
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  polpasiec: {
+    title: "Półpasiec",
     description: `<p class='paragraph'>
+    
+Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest efektem reaktywacji wirusa półpaśca i ospy wietrznej – VZV.  <br><br> Półpasiec jest chorobą bolesną. W jego trakcie, w okolicach międzyżebrowych, ale tylko po jednej stronie, pojawiają się bolesne zmiany w postaci wysypki, rumieni czy pęcherzyków. <br><br> Wcześniej, chory odczuwa zmęczenie i osłabienie, miejscowe swędzenie i ostry ból. <br><br> Półpaśca leczy się lekami przeciwwirusowymi, a wspomagająco także preparatami przeciwhistaminowymi i przeciwbólowymi.
+
       </p>
   `,
   },
