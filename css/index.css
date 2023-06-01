@@ -705,14 +705,9 @@ main {
   object-fit: cover;
 }
 .navigation__logo--logo-img-1 {
-  width: 60px;
-  top: -22px;
+  width: 70px;
+  top: -20px;
   left: 204px;
-}
-.navigation__logo--logo-img-2 {
-  width: 90px;
-  top: -8px;
-  left: 228px;
 }
 .navigation__logo--link {
   font-family: "Brain";
@@ -784,14 +779,9 @@ main {
     flex-grow: 1;
   }
   .navigation__logo--logo-img-1 {
-    width: 35px;
-    top: -10px;
-    left: 162px;
-  }
-  .navigation__logo--logo-img-2 {
-    width: 65px;
+    width: 50px;
     top: -5px;
-    left: 172px;
+    left: 170px;
   }
   .navigation__logo--link {
     font-size: 2.3rem;
@@ -864,14 +854,9 @@ main {
     flex-grow: 1;
   }
   .navigation__logo--logo-img-1 {
-    width: 35px;
-    top: -10px;
-    left: 162px;
-  }
-  .navigation__logo--logo-img-2 {
-    width: 65px;
+    width: 50px;
     top: -5px;
-    left: 172px;
+    left: 170px;
   }
   .navigation__logo--link {
     font-size: 2.3rem;
