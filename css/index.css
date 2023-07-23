@@ -1916,6 +1916,11 @@ main {
   }
 }
 
+.widget {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .person {
   display: grid;
   grid-template-columns: 0.7fr 1fr;
