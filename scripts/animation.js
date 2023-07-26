@@ -111,6 +111,7 @@ function init() {
         enter({ next }) {
           const container = next.container;
           loaderAway();
+          injectWidget();
           initHamburger(container);
           setTimeout(function () {
             showAnimation(next, container);
@@ -129,6 +130,7 @@ function init() {
         },
         afterLeave() {
           document.body.classList.remove("body-overflow");
+          destroyWidget();
         },
         after(data) {
           if (data.next.namespace === "clinic") {
@@ -138,6 +140,29 @@ function init() {
       },
     ],
   });
+}
+// ZNANY LEKARZ - WIDGET
+function injectWidget() {
+  !(function ($_x, _s, id) {
+    var js,
+      fjs = $_x.getElementsByTagName(_s)[0];
+    if (!$_x.getElementById(id)) {
+      js = $_x.createElement(_s);
+      js.id = id;
+      js.setAttribute("data-widget-id", "znany-lekarz");
+      js.src = "//platform.docplanner.com/js/widget.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    }
+  })(document, "script", "zl-widget-s");
+}
+
+function destroyWidget() {
+  const widget = document.querySelector(
+    'script[data-widget-id="znany-lekarz"]'
+  );
+  if (widget) {
+    widget.remove(widget);
+  }
 }
 
 window.addEventListener("load", function () {
