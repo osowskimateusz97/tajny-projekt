@@ -1,50 +1,53 @@
 .hero {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-areas:
+    "zag zag zag blood"
+    "tur tur tur tur"
+    "piek piek piek piek";
   gap: 2rem;
   min-height: 90vh;
   padding: 7rem 10rem;
-  & > a {
-    opacity: 0;
+
+  .zag {
+    grid-area: zag;
   }
 
-  .first-col {
-    grid-row: 1 / -1;
-    grid-column: 1;
-  }
-  .second-col {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    height: 100%;
-
-    .card,
-    & > a {
-      flex-grow: 1;
-    }
-  }
-  //   .third-col {
-  // transform: translateX(50%);
-  //   }
-  .card {
-    min-height: 60vh;
+  .blood {
+    grid-area: blood;
   }
 
-  @include media(tablet) {
+  .tur {
+    grid-area: tur;
+  }
+
+  .piek {
+    grid-area: piek;
+  }
+
+  .hero > a {
+    flex-grow: 1;
+  }
+}
+
+.hero .card {
+  min-height: 60vh;
+}
+
+@include media(tablet) {
+  .hero .card {
+    min-height: 200px;
+  }
+}
+
+@include media(mobile) {
+  .hero {
     padding: 2rem;
-
-    .card {
-      min-height: 200px;
-    }
+    grid-template-areas:
+      "zag zag zag zag zag zag blood blood blood blood"
+      "tur tur tur tur tur  tur tur tur tur tur"
+      "piek piek piek piek piek piek piek piek piek piek";
   }
-
-  @include media(mobile) {
-    grid-template-columns: 1fr;
-    .third-col {
-      transform: translateX(0);
-    }
-    & > a {
-      opacity: 1;
-    }
+  .third-col {
+    transform: translateX(0);
   }
 }

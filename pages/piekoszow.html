@@ -6,6 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wolmedica - Twoja przychodnia</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../assets/icons/favicon/site.webmanifest">
+  <link rel="mask-icon" href="../assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
   <link rel="stylesheet" href="../css/index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +29,11 @@
       <header class="navigation">
         <div class="navigation__logo">
           <h1 class="navigation__logo--title">
-            <a href="../index.html"> Wolmedica </a>
+            <a class="navigation__logo--link" href="../index.html">Wolmedica
+              <img class="navigation__logo--logo-img navigation__logo--logo-img-1"
+                src="../assets/images/logo/main-logo.png" alt="logo">
+
+            </a>
           </h1>
           <svg class="navigation__hamburger" data-type="hamburger" width="40" height="30" viewBox="0 0 40 30"
             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,6 +69,9 @@
               <a href="./wspolpraca.html">Współpraca</a>
             </li>
             <li class="navigation__list__element">
+              <a href="./kariera.html">Kariera</a>
+            </li>
+            <li class="navigation__list__element">
               <a href="./o-nas.html"> O nas </a>
             </li>
           </ul>
@@ -67,13 +84,24 @@
       </header>
     </div>
     <section class="section section__container section__container--first clinicDescription">
-      <img class="clinicDescription__img" src="../assets/images/piekoszow.png" alt="Szpital Piekoszów" />
+      <div class="clinicDescription__imgWrapper">
+        <img class="clinicDescription__imgWrapper__logo" src="../assets/images/logo/piekoszow.jpg" alt="Logo">
+        <img class="clinicDescription__img" src="../assets/images/piekoszow3.jpg""
+          alt=" Szpital Turystyczna" />
+      </div>
       <div class="clinicDescription__description">
         <h1 class="clinicDescription__description__title heading heading--isBig">
           Wolmedica Piekoszów
         </h1>
         <p class="clinicDescription__description__content paragraph">
-          Wkrótce otwarcie!
+          Przychodnia Wolmedica w Piekoszowie, to nowy ośrodek zdrowia na mapie powiatu kieleckiego. Oferujemy naszym
+          pacjentom dostęp do szeregu specjalistów. <br><br>
+          W przychodni przyjmują: ginekolodzy-położnicy, ginekolog-onkolog, endokrynolog, dermatolog, pediatrzy,
+          specjalista medycyny rodzinnej i sportowej oraz okulista
+          i fizjoterapeuta. Jesteśmy otwarci na współpracę z kolejnymi specjalistami.<br><br>
+          Przychodnia Wolmedica znajduje się przy ulicy Częstochowskiej 89, w Piekoszowie.<br><br> Numer telefonu:
+          796-999-360
+
         </p>
       </div>
     </section>
@@ -83,24 +111,69 @@
           Poradnie w Wolmedica Piekoszów
         </h1>
         <div class="clinic__list">
-          👉Położnictwo i ginekologia <br>
-          👉 Kardiologia <br>
-          👉 Pediatria <br>
-          👉 Medycyna rodzinna <br>
-          👉 Medycyna sportowa <br>
-          👉 Choroby wewnętrzne <br>
-          👉 Pulmonologia <br>
-          👉 Ortopedia <br>
-          👉 Fizjoterapia <br>
-          👉 Reumatologia <br>
-          👉 Laryngologia <br>
-          👉 Diabetologia <br>
-          👉 Radiologia <br>
-          👉 Endokrynologia <br>
-          👉 Neurologia <br>
-          👉 Dermatologia <br>
-          👉 Chirurgia <br>
-          👉 Okulistyka <br>
+          <a href="poradnie/poradnia-dermatologiczna.html">
+            <article class="clinic__list__item">
+              <img src="../assets/icons/main/skin.png" class="clinic__list__item__icon" alt="icon">
+              <div class="clinic__list__description">
+                <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
+                <p class="clinic__list__description__title paragraph">Dermatologiczna</p>
+              </div>
+            </article>
+          </a>
+          <a href="poradnie/poradnia-p-ginekologiczno-poloznicza.html">
+            <article class="clinic__list__item">
+              <img src="../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+              <div class="clinic__list__description">
+                <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
+                <p class="clinic__list__description__title paragraph">Ginekologiczno-Położnicza</p>
+              </div>
+            </article>
+          </a>
+          <a href="poradnie/poradnia-endokrynologiczna.html">
+            <article class="clinic__list__item">
+              <img src="../assets/icons/main/thyroid.png" class="clinic__list__item__icon" alt="icon">
+              <div class="clinic__list__description">
+                <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
+                <p class="clinic__list__description__title paragraph">Endokrynologiczna</p>
+              </div>
+            </article>
+          </a>
+          <a href="poradnie/poradnia-medycyny-rodzinnej.html">
+            <article class="clinic__list__item">
+              <img src="../assets/icons/main/family.png" class="clinic__list__item__icon" alt="icon">
+              <div class="clinic__list__description">
+                <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
+                <p class="clinic__list__description__title paragraph">Medycyny Rodzinnej</p>
+              </div>
+            </article>
+          </a>
+          <a href="poradnie/poradnia-okulistyczna.html">
+            <article class="clinic__list__item">
+              <img src="../assets/icons/main/eye.png" class="clinic__list__item__icon" alt="icon">
+              <div class="clinic__list__description">
+                <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
+                <p class="clinic__list__description__title paragraph">Okulistyczna</p>
+              </div>
+            </article>
+          </a>
+          <a href="poradnie/poradnia-pediatryczna.html">
+            <article class="clinic__list__item">
+              <img src="../assets/icons/main/child2.png" class="clinic__list__item__icon" alt="icon">
+              <div class="clinic__list__description">
+                <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
+                <p class="clinic__list__description__title paragraph">Pediatryczna</p>
+              </div>
+            </article>
+          </a>
+          <a href="poradnie/poradnia-p-radiologii.html">
+            <article class="clinic__list__item">
+              <img src="../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="icon">
+              <div class="clinic__list__description">
+                <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
+                <p class="clinic__list__description__title paragraph">Radiologii i Diagnostyki Obrazowej</p>
+              </div>
+            </article>
+          </a>
         </div>
 
         <p class="paragraph paragraph--center clinicDescription__button__description">
@@ -125,7 +198,59 @@
       <p class="paragraph paragraph--center">Zobacz nas od środka</p>
       <h2 class="heading heading--isBig heading--center heading--intro">Galeria zdjęć przychodni</h2>
       <div class="gallery">
-        <!-- PLACE FOR GALLERY -->
+
+
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/IMG-20230102-WA0002.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/IMG-20230102-WA0002.jpg">
+        </a>
+
+
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/IMG-20230102-WA0005.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/IMG-20230102-WA0005.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/IMG-20230102-WA0006.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/IMG-20230102-WA0006.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/IMG-20230102-WA0007.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/IMG-20230102-WA0007.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/IMG-20230102-WA0008.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/IMG-20230102-WA0008.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/IMG-20230102-WA0009.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/IMG-20230102-WA0009.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/1.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/1.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/2.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/2.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/3.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/3.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/4.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/4.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/5.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/5.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/6.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/6.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/7.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/7.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/8.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/8.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/9.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/9.jpg">
+        </a>
+        <a data-fslightbox="gallery" href="../assets/images/piekoszow/10.jpg">
+          <img class="gallery__img" src="../assets/images/piekoszow/10.jpg">
+        </a>
+
       </div>
     </section>
     <footer class="footer">
@@ -139,7 +264,7 @@
               </h2>
               <div class="footer__link__description">
                 <a class="paragraph" href="https://goo.gl/maps/TUGM4wEEBofjueDy6">ul. Zagnańska 76 <br />Kielce</a>
-                <a class="paragraph" href="tel:+48796999740">796-999-740</a>
+                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
               </div>
             </div>
             <div class="footer__link__icons">
@@ -197,7 +322,7 @@
               <div class="footer__link__description">
                 <a class="paragraph" href="https://goo.gl/maps/Eu1JnD5qddqhs49o8">ul. Częstochowska 89
                   <br />Piekoszów</a>
-                <a class="paragraph" href="tel:+48796999025">796-999-025</a>
+                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
               </div>
             </div>
             <div class="footer__link__icons">
@@ -230,15 +355,12 @@
   </main>
   <script src="../scripts/fslightbox.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
     integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
-      integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
+    integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../scripts/animation.js"></script>
 </body>
 

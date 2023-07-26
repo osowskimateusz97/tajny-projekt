@@ -6,6 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wolmedica - Twoja przychodnia</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../assets/icons/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../../assets/icons/favicon/site.webmanifest">
+  <link rel="mask-icon" href="../../assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
   <link rel="stylesheet" href="../../css/index.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +29,11 @@
       <header class="navigation">
         <div class="navigation__logo">
           <h1 class="navigation__logo--title">
-            <a href="../../index.html"> Wolmedica </a>
+            <a class="navigation__logo--link" href="../../index.html">Wolmedica
+              <img class="navigation__logo--logo-img navigation__logo--logo-img-1"
+                src="../../assets/images/logo/main-logo.png" alt="logo">
+
+            </a>
           </h1>
           <svg class="navigation__hamburger" data-type="hamburger" width="40" height="30" viewBox="0 0 40 30"
             fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,6 +69,9 @@
               <a href="../wspolpraca.html">Współpraca</a>
             </li>
             <li class="navigation__list__element">
+              <a href="../kariera.html">Kariera</a>
+            </li>
+            <li class="navigation__list__element">
               <a href="../o-nas.html"> O nas </a>
             </li>
           </ul>
@@ -72,8 +89,7 @@
           <div class="person__description__card person__description__card--normal">
             <h1 class="heading"><span>lek. dent.</span>Daria Wolder</h1>
             <p class="paragraph">
-              Przyjmuje pacjentów w Wolmedica Zagnańska oraz Wolmedica
-              Turystyczna
+              Przyjmuje pacjentów w Wolmedica Zagnańska
             </p>
           </div>
           <div class="person__description__card person__description__about">
@@ -122,7 +138,7 @@
               </h2>
               <div class="footer__link__description">
                 <a class="paragraph" href="https://goo.gl/maps/TUGM4wEEBofjueDy6">ul. Zagnańska 76 <br />Kielce</a>
-                <a class="paragraph" href="tel:+48796999740">796-999-740</a>
+                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
               </div>
             </div>
             <div class="footer__link__icons">
@@ -180,7 +196,7 @@
               <div class="footer__link__description">
                 <a class="paragraph" href="https://goo.gl/maps/Eu1JnD5qddqhs49o8">ul. Częstochowska 89
                   <br />Piekoszów</a>
-                <a class="paragraph" href="tel:+48796999025">796-999-025</a>
+                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
               </div>
             </div>
             <div class="footer__link__icons">
@@ -213,15 +229,12 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
     integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
-      integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
+    integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../../scripts/animation.js"></script>
 </body>
 

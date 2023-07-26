@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wolmedica - Twoja przychodnia</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/icons/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../../assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +29,10 @@
             <header class="navigation">
                 <div class="navigation__logo">
                     <h1 class="navigation__logo--title">
-                        <a href="../../index.html">
-                            Wolmedica
+                        <a class="navigation__logo--link" href="../../index.html">Wolmedica
+                            <img class="navigation__logo--logo-img navigation__logo--logo-img-1"
+                                src="../../assets/images/logo/main-logo.png" alt="logo">
+
                         </a>
                     </h1>
                     <svg class="navigation__hamburger" data-type="hamburger" width="40" height="30" viewBox="0 0 40 30"
@@ -32,7 +44,7 @@
                 </div>
                 <nav class="navigation__container mobile-hidden" data-type="navigation-container">
                     <ul class="navigation__list">
-                        <li class="navigation__list__element navigation__list__element--active">
+                        <li class="navigation__list__element">
                             <a href="../zagnanska.html">
                                 <span>Wolmedica</span>
                                 <span>Zagnańska</span>
@@ -55,6 +67,9 @@
                         </li>
                         <li class="navigation__list__element">
                             <a href="../wspolpraca.html">Współpraca</a>
+                        </li>
+                        <li class="navigation__list__element">
+                            <a href="../kariera.html">Kariera</a>
                         </li>
                         <li class="navigation__list__element">
                             <a href="../o-nas.html">
@@ -92,186 +107,240 @@
                     <h1 class="heading heading--isBig heading--center heading--intro">Usługi</h1>
                 </div>
                 <div class="clinic__list">
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
 
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Konsultacje przedkoncepcyjne</p>
-                        </div>
-                    </article>
+                    <a class="clinic__list__item-wrapper" data-id="konsultacjeprzedkoncepcyjne"
+                        data-micromodal-trigger="modal-1" href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
 
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Konsultacje położnicze</p>
-                        </div>
-                    </article>
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Konsultacje przedkoncepcyjne</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="konsultacjepoloznicze"
+                        data-micromodal-trigger="modal-1" href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Konsultacje położnicze</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="konsultacjegenetyczne"
+                        data-micromodal-trigger="modal-1" href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Konsultacje genetyczne</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="ultrasonografiapoloznicza"
+                        data-micromodal-trigger="modal-1" href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Ultrasonografia położnicza
+                                    2D/3D/4D
+                                </p>
+                            </div>
+                        </article>
+                    </a>
 
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Konsultacje genetyczne</p>
-                        </div>
-                    </article>
+                    <a class="clinic__list__item-wrapper" data-id="badaniaprenatalne" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Badania prenatalne</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="testpodwojny" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Test podwójny PAPP-A i beta-hCG
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="testynifty" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Testy NIFTY</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="badaniabiochemiczne"
+                        data-micromodal-trigger="modal-1" href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Badania biochemiczne</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="badaniamikrobiologiczne"
+                        data-micromodal-trigger="modal-1" href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Badania mikrobiologiczne</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="kardiotokografia" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Kardiotokografia (KTG)</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="zalozeniewkladki" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Założenie wkładki
+                                    wewnątrzmacicznej
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="zalozenieimplantu" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Założenie implantu
+                                    antykoncepcyjnego
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="biopsjeendometrium" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Biopsje endometrium</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="usuwanieznamionsromu"
+                        data-micromodal-trigger="modal-1" href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Usuwanie znamion sromu</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="usuwaniepolipow" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Usuwanie polipów szyjki macicy</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="badaniesono" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Badanie Sono-HSG</p>
+                            </div>
+                        </article>
+                    </a>
 
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Ultrasonografia położnicza 3D/4D</p>
-                        </div>
-                    </article>
+                    <a class="clinic__list__item-wrapper" data-id="uusgginekologiczne" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">USG ginekologiczne 2D/3D/4D</p>
+                            </div>
+                        </article>
+                    </a>
 
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Diagnostyka wad genetycznych płodu</p>
-                        </div>
-                    </article>
+                    <a class="clinic__list__item-wrapper" data-id="monitorowaniecyklu" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Monitorowanie cyklu</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="cytologia" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Cytologia, w tym cytologia na
+                                    podłożu
+                                    płynnym LBC</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="konsultacjeonkologiczne"
+                        data-micromodal-trigger="modal-1" href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Konsultacje onkologiczne</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="badanieginekologicznezUSG"
+                        data-micromodal-trigger="modal-1" href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Badanie ginekologiczne z USG</p>
+                            </div>
+                        </article>
+                    </a>
 
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Badania prenatalne</p>
-                        </div>
-                    </article>
+                    <a class="clinic__list__item-wrapper" data-id="biocenoza" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Biocenoza (st. czystości pochwy)
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="badaniawkierunku" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Badania w kierunku Chlamydia,
+                                    Ureaplasma, Mycoplasma, HR, HPV14</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a class="clinic__list__item-wrapper" data-id="posiewzpochwy" data-micromodal-trigger="modal-1"
+                        href="javascript:;">
+                        <article class="clinic__list__item">
+                            <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__title paragraph">Posiew z pochwy</p>
+                            </div>
+                        </article>
+                    </a>
 
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Test podwójny PAPP-A i beta-hCG</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Testy NIFTY</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Badania biochemiczne</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Badania mikrobiologiczne</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Kardiotokografia (KTG)</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Założenie wkładki wewnątrzmacicznej
-                            </p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Założenie implantu antykoncepcyjnego
-                            </p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Biopsje endometrium</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Usuwanie znamion sromu</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Usuwanie polipów szyjki macicy</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Badanie Sono-HSG</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">USG ginekologiczne 2D</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">USG ginekologiczne 3D/4D</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">USG genetyczne I, II, III trymestru
-                            </p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Monitorowanie cyklu</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Cytologia, w tym cytologia na podłożu
-                                płynnym LBC</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Konsultacje onkologiczne</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Badanie ginekologiczne z USG</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Kontrola owulacji</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Biocenoza (st. czystości pochwy)</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Badania w kierunku Chlamydia,
-                                Ureaplasma, Mycoplasma, HR, HPV14</p>
-                        </div>
-                    </article>
-                    <article class="clinic__list__item">
-                        <img src="../../assets/icons/main/gyno.png" class="clinic__list__item__icon" alt="">
-                        <div class="clinic__list__description">
-                            <p class="clinic__list__description__title paragraph">Posiew z pochwy</p>
-                        </div>
-                    </article>
 
                 </div>
             </div>
@@ -279,16 +348,7 @@
         <section class="section__container specializations__container">
             <h1 class="heading heading--isBig heading--center">Specjaliści w Poradni Ginekologiczno-Położniczej </h1>
             <div class="clinic__list clinic__list--specific">
-                <a href="../specialists/wolder-daniel.html">
-                    <div class="avatar">
-                        <img src="../../assets/images/doctors/wolder-daniel2.jpg" class="avatar__img"
-                            alt="lek. Daniel Wolder">
-                        <div class="avatar__description">
-                            <h2 class="heading">lek. Daniel Wolder</h2>
-                            <p class="paragraph">Ginekolog-położnik, perinatolog</p>
-                        </div>
-                    </div>
-                </a>
+
                 <a href="../specialists/swat.html">
                     <div class="avatar">
                         <img src="../../assets/images/doctors/swat2.jpg" class="avatar__img" alt="lek. Adrian Swat">
@@ -314,7 +374,7 @@
                             alt="dr n. med. Dorota Wyrwas">
                         <div class="avatar__description">
                             <h2 class="heading">dr n. med. Dorota Wyrwas</h2>
-                            <p class="paragraph">Ginekolog-położnik, seksuolog</p>
+                            <p class="paragraph">Ginekolog-położnik, seksuolog, perinatolog</p>
                         </div>
                     </div>
                 </a>
@@ -334,7 +394,17 @@
                             alt="dr hab. n. med. Piotr Kaczmarekek">
                         <div class="avatar__description">
                             <h2 class="heading">dr hab. n. med. prof. ICZMP Piotr Kaczmarek</h2>
-                            <p class="paragraph">Ginekolog-położnik, perinatolog</p>
+                            <p class="paragraph">Perinatolog</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="../specialists/blazuk.html">
+                    <div class="avatar">
+                        <img src="../../assets/images/doctors/blazuk-fortak.jpg" class="avatar__img"
+                            alt="lek. Anna Błażuk-Fortak">
+                        <div class="avatar__description">
+                            <h2 class="heading">lek. Anna Błażuk-Fortak</h2>
+                            <p class="paragraph">Ginekolog-położnik</p>
                         </div>
                     </div>
                 </a>
@@ -344,10 +414,21 @@
                             alt="dr n. med. Katarzyna Janiak">
                         <div class="avatar__description">
                             <h2 class="heading">dr n. med. Katarzyna Janiak</h2>
+                            <p class="paragraph">Perinatolog</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="../specialists/wolder-daniel.html">
+                    <div class="avatar">
+                        <img src="../../assets/images/doctors/wolder-daniel2.jpg" class="avatar__img"
+                            alt="lek. Daniel Wolder">
+                        <div class="avatar__description">
+                            <h2 class="heading">lek. Daniel Wolder</h2>
                             <p class="paragraph">Ginekolog-położnik, perinatolog</p>
                         </div>
                     </div>
                 </a>
+
             </div>
         </section>
         <footer class="footer">
@@ -360,7 +441,7 @@
                                 <div class="footer__link__description">
                                     <a class="paragraph" href="https://goo.gl/maps/TUGM4wEEBofjueDy6">ul. Zagnańska 76
                                         <br>Kielce</a>
-                                    <a class="paragraph" href="tel:+48796999740">796-999-740</a>
+                                    <a class="paragraph" href="tel:+48796999360">796-999-360</a>
                                 </div>
                         </div>
                         <div class="footer__link__icons">
@@ -419,7 +500,7 @@
                             <div class="footer__link__description">
                                 <a class="paragraph" href="https://goo.gl/maps/Eu1JnD5qddqhs49o8">ul. Częstochowska 89
                                     <br>Piekoszów</a>
-                                <a class="paragraph" href="tel:+48796999025">796-999-025</a>
+                                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
                             </div>
                         </div>
                         <div class="footer__link__icons">
@@ -452,7 +533,26 @@
             </div>
         </footer>
     </main>
-
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1">
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                <header class="modal__header">
+                    <h2 class="heading modal__title" id="modal-1-title">Micromodal</h2>
+                </header>
+                <main class="modal__content" id="modal-1-content">
+                    <p class="paragraph">
+                        Try hitting the key and notice how the focus stays within the
+                        modal itself. Also, to close modal.
+                    </p>
+                </main>
+                <footer class="modal__footer">
+                    <button class="button" data-micromodal-close aria-label="Close this dialog window">
+                        Zamknij
+                    </button>
+                </footer>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
         integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
@@ -460,6 +560,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
         integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="../../data/modalData.js"></script>
+    <script src="../../scripts/modalScript.js"></script>
     <script src="../../scripts/animation.js"></script>
 </body>
 

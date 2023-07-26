@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wolmedica - Twoja przychodnia</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/icons/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
     <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +29,10 @@
             <header class="navigation">
                 <div class="navigation__logo">
                     <h1 class="navigation__logo--title">
-                        <a href="../index.html">
-                            Wolmedica
+                        <a class="navigation__logo--link" href="../index.html">Wolmedica
+                            <img class="navigation__logo--logo-img navigation__logo--logo-img-1"
+                                src="../assets/images/logo/main-logo.png" alt="logo">
+
                         </a>
                     </h1>
                     <svg class="navigation__hamburger" data-type="hamburger" width="40" height="30" viewBox="0 0 40 30"
@@ -57,6 +69,9 @@
                             <a href="./wspolpraca.html">Współpraca</a>
                         </li>
                         <li class="navigation__list__element">
+                            <a href="./kariera.html">Kariera</a>
+                        </li>
+                        <li class="navigation__list__element">
                             <a href="./o-nas.html">
                                 O nas
                             </a>
@@ -80,8 +95,7 @@
                     Zagnańskiej 76 to szereg specjalistycznych poradni. Zapraszamy na wizyty w komfortowych warunkach,
                     zarówno rodziców z dziećmi, jak i pacjentów dorosłych. <br><br>
                     Punkt pobrań krwi pracuje od poniedziałku do soboty. <br>Rejestrację oraz informacje na temat
-                    harmonogramów pracy lekarzy można uzyskać pod numerami telefonów:
-                    <br>● 796-999-740 <br>● 796-999-360
+                    harmonogramów pracy lekarzy można uzyskać pod numerem telefonu 796-999-360
 
                 </p>
             </div>
@@ -90,9 +104,18 @@
             <div class="section__container specializations__container">
                 <h1 class="heading heading--isBig heading--center">Poradnie w Wolmedica Zagnańska</h1>
                 <div class="clinic__list">
+                    <a href="poradnie/poradnia-dermatologiczna.html">
+                        <article class="clinic__list__item">
+                            <img src="../assets/icons/main/skin.png" class="clinic__list__item__icon" alt="icon">
+                            <div class="clinic__list__description">
+                                <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
+                                <p class="clinic__list__description__title paragraph">Dermatologiczna</p>
+                            </div>
+                        </article>
+                    </a>
                     <a href="./poradnie/poradnia-chirurgiczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/surgeon.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/surgeon.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Chirurgiczna</p>
@@ -102,7 +125,7 @@
                     <a href="./poradnie/poradnia-diabetologiczna.html">
                         <article class="clinic__list__item">
                             <img src="../assets/icons/main/sugar-blood-level.png" class="clinic__list__item__icon"
-                                alt="">
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Diabetologiczna</p>
@@ -111,7 +134,7 @@
                     </a>
                     <a href="poradnie/poradnia-doractwa-laktacyjnego.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Doractwa Laktacyjnego</p>
@@ -120,7 +143,7 @@
                     </a>
                     <a href="poradnie/poradnia-endokrynologiczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/thyroid.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/thyroid.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Endokrynologiczna</p>
@@ -129,7 +152,8 @@
                     </a>
                     <a href="poradnie/poradnia-fizjoterapeutyczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/physiotherapy.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/physiotherapy.png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Fizjoterapeutyczna</p>
@@ -138,7 +162,7 @@
                     </a>
                     <a href="poradnie/poradnia-genetyczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/dna.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/dna.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Genetyczna</p>
@@ -147,7 +171,7 @@
                     </a>
                     <a href="poradnie/poradnia-kardiologiczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/heart.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/heart.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Kardiologiczna</p>
@@ -157,7 +181,7 @@
 
                     <a href="poradnie/poradnia-laryngologiczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/ear.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/ear.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Laryngologiczna</p>
@@ -167,7 +191,7 @@
 
                     <a href="poradnie/poradnia-medycyny-rodzinnej.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/family.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/family.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Medycyny Rodzinnej</p>
@@ -176,7 +200,7 @@
                     </a>
                     <a href="poradnie/poradnia-ortodontyczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/orthodontic.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/orthodontic.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Ortodontyczna</p>
@@ -185,7 +209,7 @@
                     </a>
                     <a href="poradnie/poradnia-psychologiczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/autism.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/autism.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Psychologiczna</p>
@@ -194,7 +218,7 @@
                     </a>
                     <a href="poradnie/poradnia-radiologii.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/mri.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Radiologii i Diagnostyki Obrazowej
@@ -204,7 +228,7 @@
                     </a>
                     <a href="poradnie/poradnia-reumatologiczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/joint.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/joint.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Reumatologiczna</p>
@@ -213,7 +237,7 @@
                     </a>
                     <a href="poradnie/poradnia-seksuologiczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/womanandman.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/womanandman.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Seksuologiczna</p>
@@ -222,7 +246,7 @@
                     </a>
                     <a href="poradnie/poradnia-stomatologiczna.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/clean-tooth.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/clean-tooth.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph">Poradnia</p>
                                 <p class="clinic__list__description__title paragraph">Stomatologiczna</p>
@@ -231,7 +255,7 @@
                     </a>
                     <a href="poradnie/przygotowanie-do-porodu.html">
                         <article class="clinic__list__item">
-                            <img src="../assets/icons/main/mother.png" class="clinic__list__item__icon" alt="">
+                            <img src="../assets/icons/main/mother.png" class="clinic__list__item__icon" alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph"></p>
                                 <p class="clinic__list__description__title paragraph">Przygotowanie do porodu</p>
@@ -241,7 +265,7 @@
                     <a href="./poradnie/punkt-pobran.html">
                         <article class="clinic__list__item">
                             <img src="../assets/icons/main/sugar-blood-level.png" class="clinic__list__item__icon"
-                                alt="">
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__subtitle paragraph"></p>
                                 <p class="clinic__list__description__title paragraph">Punkt pobrań</p>
@@ -300,7 +324,7 @@
                                 <div class="footer__link__description">
                                     <a class="paragraph" href="https://goo.gl/maps/TUGM4wEEBofjueDy6">ul. Zagnańska 76
                                         <br>Kielce</a>
-                                    <a class="paragraph" href="tel:+48796999740">796-999-740</a>
+                                    <a class="paragraph" href="tel:+48796999360">796-999-360</a>
                                 </div>
                         </div>
                         <div class="footer__link__icons">
@@ -358,7 +382,7 @@
                             <div class="footer__link__description">
                                 <a class="paragraph" href="https://goo.gl/maps/Eu1JnD5qddqhs49o8">ul. Częstochowska 89
                                     <br>Piekoszów</a>
-                                <a class="paragraph" href="tel:+48796999025">796-999-025</a>
+                                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
                             </div>
                         </div>
                         <div class="footer__link__icons">

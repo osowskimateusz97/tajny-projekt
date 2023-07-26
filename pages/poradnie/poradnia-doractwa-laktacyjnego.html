@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wolmedica - Twoja przychodnia</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/icons/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../../assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
     <link rel="stylesheet" href="../../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +29,10 @@
             <header class="navigation">
                 <div class="navigation__logo">
                     <h1 class="navigation__logo--title">
-                        <a href="../../index.html">
-                            Wolmedica
+                        <a class="navigation__logo--link" href="../../index.html">Wolmedica
+                            <img class="navigation__logo--logo-img navigation__logo--logo-img-1"
+                                src="../../assets/images/logo/main-logo.png" alt="logo">
+
                         </a>
                     </h1>
                     <svg class="navigation__hamburger" data-type="hamburger" width="40" height="30" viewBox="0 0 40 30"
@@ -32,7 +44,7 @@
                 </div>
                 <nav class="navigation__container mobile-hidden" data-type="navigation-container">
                     <ul class="navigation__list">
-                        <li class="navigation__list__element navigation__list__element--active">
+                        <li class="navigation__list__element">
                             <a href="../zagnanska.html">
                                 <span>Wolmedica</span>
                                 <span>Zagnańska</span>
@@ -55,6 +67,9 @@
                         </li>
                         <li class="navigation__list__element">
                             <a href="../wspolpraca.html">Współpraca</a>
+                        </li>
+                        <li class="navigation__list__element">
+                            <a href="../kariera.html">Kariera</a>
                         </li>
                         <li class="navigation__list__element">
                             <a href="../o-nas.html">
@@ -88,7 +103,8 @@
                 <div class="clinic__list">
                     <a href="#">
                         <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">Mają trudności w przystawieniu
                                     dziecka do piersi</p>
@@ -97,7 +113,8 @@
                     </a>
                     <a href="#">
                         <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">Odczuwają bolesność podczas
                                     karmienia</p>
@@ -106,7 +123,8 @@
                     </a>
                     <a href="#">
                         <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">Dziecko ma nieprawidłowy przyrost
                                     masy ciała</p>
@@ -115,7 +133,8 @@
                     </a>
                     <a href="#">
                         <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">Doświadczają nadmiaru lub braku
                                     pokarmu</p>
@@ -124,7 +143,8 @@
                     </a>
                     <a href="#">
                         <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">Obawiają się zapalenia piersi</p>
                             </div>
@@ -132,7 +152,8 @@
                     </a>
                     <a href="#">
                         <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">Karmią bliźnięta</p>
                             </div>
@@ -140,7 +161,8 @@
                     </a>
                     <a href="#">
                         <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">Karmią dziecko urodzone
                                     przedwcześnie</p>
@@ -149,7 +171,8 @@
                     </a>
                     <a href="#">
                         <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">Chcą przygotować się do karmienia
                                 </p>
@@ -158,7 +181,8 @@
                     </a>
                     <a href="#">
                         <article class="clinic__list__item">
-                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon" alt="">
+                            <img src="../../assets/icons/main/mother(1).png" class="clinic__list__item__icon"
+                                alt="icon">
                             <div class="clinic__list__description">
                                 <p class="clinic__list__description__title paragraph">Chcą zakończyć karmienie</p>
                             </div>
@@ -192,7 +216,7 @@
                                 <div class="footer__link__description">
                                     <a class="paragraph" href="https://goo.gl/maps/TUGM4wEEBofjueDy6">ul. Zagnańska 76
                                         <br>Kielce</a>
-                                    <a class="paragraph" href="tel:+48796999740">796-999-740</a>
+                                    <a class="paragraph" href="tel:+48796999360">796-999-360</a>
                                 </div>
                         </div>
                         <div class="footer__link__icons">
@@ -251,7 +275,7 @@
                             <div class="footer__link__description">
                                 <a class="paragraph" href="https://goo.gl/maps/Eu1JnD5qddqhs49o8">ul. Częstochowska 89
                                     <br>Piekoszów</a>
-                                <a class="paragraph" href="tel:+48796999025">796-999-025</a>
+                                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
                             </div>
                         </div>
                         <div class="footer__link__icons">
@@ -284,14 +308,36 @@
             </div>
         </footer>
     </main>
-
+    <div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1">
+            <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+                <header class="modal__header">
+                    <h2 class="heading modal__title" id="modal-1-title">Micromodal</h2>
+                </header>
+                <main class="modal__content" id="modal-1-content">
+                    <p class="paragraph">
+                        Try hitting the key and notice how the focus stays within the
+                        modal itself. Also, to close modal.
+                    </p>
+                </main>
+                <footer class="modal__footer">
+                    <button class="button" data-micromodal-close aria-label="Close this dialog window">
+                        Zamknij
+                    </button>
+                </footer>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
         integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
         integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="../../data/modalData.js"></script>
+    <script src="../../scripts/modalScript.js"></script>
     <script src="../../scripts/animation.js"></script>
 </body>
 

@@ -6,6 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wolmedica - Twoja przychodnia</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../assets/icons/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +28,10 @@
             <header class="navigation">
                 <div class="navigation__logo">
                     <h1 class="navigation__logo--title">
-                        <a href="../index.html">
-                            Wolmedica
+                        <a class="navigation__logo--link" href="../index.html">Wolmedica
+                            <img class="navigation__logo--logo-img navigation__logo--logo-img-1"
+                                src="../assets/images/logo/main-logo.png" alt="logo">
+
                         </a>
                     </h1>
                     <svg class="navigation__hamburger" data-type="hamburger" width="40" height="30" viewBox="0 0 40 30"
@@ -57,6 +68,9 @@
                             <a href="./wspolpraca.html">Współpraca</a>
                         </li>
                         <li class="navigation__list__element">
+                            <a href="./kariera.html">Kariera</a>
+                        </li>
+                        <li class="navigation__list__element">
                             <a href="./o-nas.html">
                                 O nas
                             </a>
@@ -72,13 +86,12 @@
             <img class="specific-clinic__img" src="../assets/images/contactHero.jpg" alt="Szpital Zagnańska">
             <div class="specific-clinic__description aboutUsPage__hero__description">
                 <h1 class="specific-clinic__title heading heading--isBig">Skontaktuj się z nami!</h1>
-                <p class="specific-clinic__content paragraph paragraph--isBig">Do dyspozycji naszych pacjentów, zarówno
+                <p class="specific-clinic__content paragraph paragraph--isBig">Do dyspozycji naszych pacjentów
                     Przychodni Wolmedica 11G/H przy ulicy Turystycznej, jak i Centrum Medycznego Wolmedica przy ulicy
-                    Zagnańskiej 76, dostępne są dwa numery telefonów: </p>
-                <p class="specific-clinic__content paragraph paragraph--isBig">796-999-740
-                    oraz 796-999-360</p>
+                    Zagnańskiej 76 oraz Wolmedica Piekoszów, dostępny jest numer telefonu: </p>
+                <p class="specific-clinic__content paragraph paragraph--isBig">796-999-360</p>
 
-                <p class="specific-clinic__content paragraph paragraph--isBig">Pod którymi można zarejestrować się na
+                <p class="specific-clinic__content paragraph paragraph--isBig">Pod którym można zarejestrować się na
                     wizyty do wszystkich specjalistów, a także uzyskać dodatkowe informacje, czy skonsultować się w
                     sprawie przedłużenia recepty.
                     Jesteśmy również dostępni dla Was za pośrednictwem komunikatora internetowego Messenger, który
@@ -116,11 +129,11 @@
                                 </div>
                                 <div class="contact__hours-list__day paragraph">
                                     <p>pt:</p>
-                                    <p>8-18</p>
+                                    <p>11-18</p>
                                 </div>
                                 <div class="contact__hours-list__day paragraph">
                                     <p>sb:</p>
-                                    <p>8-12</p>
+                                    <p>nieczynne</p>
                                 </div>
                                 <div class="contact__hours-list__day paragraph">
                                     <p>nd:</p>
@@ -166,27 +179,27 @@
                             <div class="contact__hours-list">
                                 <div class="contact__hours-list__day paragraph">
                                     <p>pon:</p>
-                                    <p>8-22</p>
+                                    <p>8-14</p>
                                 </div>
                                 <div class="contact__hours-list__day paragraph">
                                     <p>wt:</p>
-                                    <p>8-22</p>
+                                    <p>15-21</p>
                                 </div>
                                 <div class="contact__hours-list__day paragraph">
-                                    <p>sr:</p>
-                                    <p>8-22</p>
+                                    <p>śr:</p>
+                                    <p>13-18</p>
                                 </div>
                                 <div class="contact__hours-list__day paragraph">
                                     <p>czw:</p>
-                                    <p>8-22</p>
+                                    <p>nieczynne</p>
                                 </div>
                                 <div class="contact__hours-list__day paragraph">
                                     <p>pt:</p>
-                                    <p>8-22</p>
+                                    <p>12-15</p>
                                 </div>
                                 <div class="contact__hours-list__day paragraph">
                                     <p>sb:</p>
-                                    <p>8-12</p>
+                                    <p>nieczynne</p>
                                 </div>
                                 <div class="contact__hours-list__day paragraph">
                                     <p>nd:</p>
@@ -208,7 +221,7 @@
                                 <div class="footer__link__description">
                                     <a class="paragraph" href="https://goo.gl/maps/TUGM4wEEBofjueDy6">ul. Zagnańska 76
                                         <br>Kielce</a>
-                                    <a class="paragraph" href="tel:+48796999740">796-999-740</a>
+                                    <a class="paragraph" href="tel:+48796999360">796-999-360</a>
                                 </div>
                         </div>
                         <div class="footer__link__icons">
@@ -267,7 +280,7 @@
                             <div class="footer__link__description">
                                 <a class="paragraph" href="https://goo.gl/maps/Eu1JnD5qddqhs49o8">ul. Częstochowska 89
                                     <br>Piekoszów</a>
-                                <a class="paragraph" href="tel:+48796999025">796-999-025</a>
+                                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
                             </div>
                         </div>
                         <div class="footer__link__icons">
