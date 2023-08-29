@@ -2149,44 +2149,80 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   `,
   },
 
-  kolejne: {
-    title: "",
+  kwashialuronowy: {
+    title: "Zalecenia kwas hialuronowy",
     description: `<p class='paragraph'>
+    <p> Wizyta kontrolna za 2-3 tygodnie.</p></br>
+    <p>Unikanie wysiłku fizycznego przez 7 dni po zabiegu. </p></br>
+    <p> Nie korzystać z basenu, sauny, solarium przez 2 tygodnie.</p></br>
+    <p> Zakaz spożywania alkoholu do 3 dni po zabiegu.</p></br>
+    <p>  Spożywać ok. 2 l wody dziennie.</p></br>
+    <p>  W razie potrzeby rozmasować zebrany w grudki materiał albo zwrócić się do lekarza.</p></br>
+    <p>W razie wystąpienia bólu oraz zblednięcia okolicy poddawanej zabiegowi proszę natychmiast zgłosić się celem kontroli ewentualnych powikłań zabiegu. </p></br>
+    <p> Acyklowir (800-1200 mg/d) przez 5 dni.</p></br>
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  toksynabotulinowa: {
+    title: "Zalecenia toksyna botulinowa",
     description: `<p class='paragraph'>
+    <p>    Wizyta kontrolna za 2-3 tygodnie. </p> </br>
+    <p> Unikanie ogrzewania okolicy poddawanej zabiegowi.</p></br>
+    <p> Unikanie pochylania się i kładzenia przez ok. 3 godziny po zabiegu.</p></br>
+    <p> Unikanie sauny, intensywnego wysiłku fizycznego przez ok. tydzień po zabiegu.</p></br>
+    <p> Zakaz spożywania alkoholu w dniu zabiegu.</p>
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  mezoterapia: {
+    title: "Zalecenia mezoterapia",
     description: `<p class='paragraph'>
+    <p>Proszę unikać dotykania skóry poddanej zabiegowi. </p></br>
+    <p>Należy wymienić poszewkę na poduszkę. </p></br>
+    <p>Nie nakładać makijażu w dniu zabiegu. </p></br>
+    <p>Nie spożywać alkoholu w dniu zabiegu. </p></br>
+    <p>Unikanie intensywnego wysiłku fizycznego, korzystania z sauny, basenu, peelingów, depilacji przez ok. tydzień po zabiegu. </p></br>
+    <p>Nie należy opalać się przez 4 tygodnie po zabiegu. </p></br>
+    <p>Po zabiegu należy stosować kremy ochronne z filtrem SPF 30 lub SPF 50. </p></br>
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  nicipdo: {
+    title: "Zalecenia nici PDO",
     description: `<p class='paragraph'>
+
+    <p>Unikanie dotykania, masowania, pocierania okolicy poddanej zabiegowi. </p></br>
+    <p>Nie spożywać alkoholu w dniu zabiegu. </p></br>
+    <p>Unikanie wysiłku fizycznego przez 7 dni po zabiegu.</p></br>
+    <p>Nie korzystać z basenu, sauny, solarium przez 2 tygodnie </p></br>
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  stymulatory: {
+    title: "Zalecenia stymulatory",
     description: `<p class='paragraph'>
+    <p> Unikanie korzystania z solarium, basenu, sauny przez minimum 7 dni.</p></br>
+    <p> Nie należy nakładać makijażu w dniu zabiegu.</p></br>
+    <p> Nie spożywać alkoholu w dniu zabiegu.</p></br>
+    <p> Nie stosować kosmetyków i zabiegów mogących podrażnić skórę.</p></br>
+    <p> Po zabiegu należy stosować kremy ochronne z filtrem SPF 30 lub SPF 50.</p></br>
       </p>
   `,
   },
 
-  kolejne: {
-    title: "",
+  nadpotliowsc: {
+    title: "Zalecenia nadpotliwość",
     description: `<p class='paragraph'>
+    <p>Unikanie prysznica, antyperspirantów i innych kosmetyków przez ok. 12 h po zabiegu. </p></br>
+    <p>Po 12 h można stosować wodę z neutralnym mydłem. </p></br>
+    <p> Wizyta kontrolna za 2-3 tygodnie.</p></br>
+    <p>Unikanie ogrzewania okolicy poddawanej zabiegowi. </p></br>
+    <p>Unikanie sauny, intensywnego wysiłku fizycznego przez ok. tydzień po zabiegu. </p></br>
+    <p> Zakaz spożywania alkoholu w dniu zabiegu.</p></br>
       </p>
   `,
   },
