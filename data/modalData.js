@@ -2149,84 +2149,6 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   `,
   },
 
-  kwashialuronowy: {
-    title: "Zalecenia kwas hialuronowy",
-    description: `<p class='paragraph'>
-    <p> Wizyta kontrolna za 2-3 tygodnie.</p></br>
-    <p>Unikanie wysiłku fizycznego przez 7 dni po zabiegu. </p></br>
-    <p> Nie korzystać z basenu, sauny, solarium przez 2 tygodnie.</p></br>
-    <p> Zakaz spożywania alkoholu do 3 dni po zabiegu.</p></br>
-    <p>  Spożywać ok. 2 l wody dziennie.</p></br>
-    <p>  W razie potrzeby rozmasować zebrany w grudki materiał albo zwrócić się do lekarza.</p></br>
-    <p>W razie wystąpienia bólu oraz zblednięcia okolicy poddawanej zabiegowi proszę natychmiast zgłosić się celem kontroli ewentualnych powikłań zabiegu. </p></br>
-    <p> Acyklowir (800-1200 mg/d) przez 5 dni.</p></br>
-      </p>
-  `,
-  },
-
-  toksynabotulinowa: {
-    title: "Zalecenia toksyna botulinowa",
-    description: `<p class='paragraph'>
-    <p>    Wizyta kontrolna za 2-3 tygodnie. </p> </br>
-    <p> Unikanie ogrzewania okolicy poddawanej zabiegowi.</p></br>
-    <p> Unikanie pochylania się i kładzenia przez ok. 3 godziny po zabiegu.</p></br>
-    <p> Unikanie sauny, intensywnego wysiłku fizycznego przez ok. tydzień po zabiegu.</p></br>
-    <p> Zakaz spożywania alkoholu w dniu zabiegu.</p>
-      </p>
-  `,
-  },
-
-  mezoterapia: {
-    title: "Zalecenia mezoterapia",
-    description: `<p class='paragraph'>
-    <p>Proszę unikać dotykania skóry poddanej zabiegowi. </p></br>
-    <p>Należy wymienić poszewkę na poduszkę. </p></br>
-    <p>Nie nakładać makijażu w dniu zabiegu. </p></br>
-    <p>Nie spożywać alkoholu w dniu zabiegu. </p></br>
-    <p>Unikanie intensywnego wysiłku fizycznego, korzystania z sauny, basenu, peelingów, depilacji przez ok. tydzień po zabiegu. </p></br>
-    <p>Nie należy opalać się przez 4 tygodnie po zabiegu. </p></br>
-    <p>Po zabiegu należy stosować kremy ochronne z filtrem SPF 30 lub SPF 50. </p></br>
-      </p>
-  `,
-  },
-
-  nicipdo: {
-    title: "Zalecenia nici PDO",
-    description: `<p class='paragraph'>
-
-    <p>Unikanie dotykania, masowania, pocierania okolicy poddanej zabiegowi. </p></br>
-    <p>Nie spożywać alkoholu w dniu zabiegu. </p></br>
-    <p>Unikanie wysiłku fizycznego przez 7 dni po zabiegu.</p></br>
-    <p>Nie korzystać z basenu, sauny, solarium przez 2 tygodnie </p></br>
-      </p>
-  `,
-  },
-
-  stymulatory: {
-    title: "Zalecenia stymulatory",
-    description: `<p class='paragraph'>
-    <p> Unikanie korzystania z solarium, basenu, sauny przez minimum 7 dni.</p></br>
-    <p> Nie należy nakładać makijażu w dniu zabiegu.</p></br>
-    <p> Nie spożywać alkoholu w dniu zabiegu.</p></br>
-    <p> Nie stosować kosmetyków i zabiegów mogących podrażnić skórę.</p></br>
-    <p> Po zabiegu należy stosować kremy ochronne z filtrem SPF 30 lub SPF 50.</p></br>
-      </p>
-  `,
-  },
-
-  nadpotliowsc: {
-    title: "Zalecenia nadpotliwość",
-    description: `<p class='paragraph'>
-    <p>Unikanie prysznica, antyperspirantów i innych kosmetyków przez ok. 12 h po zabiegu. </p></br>
-    <p>Po 12 h można stosować wodę z neutralnym mydłem. </p></br>
-    <p> Wizyta kontrolna za 2-3 tygodnie.</p></br>
-    <p>Unikanie ogrzewania okolicy poddawanej zabiegowi. </p></br>
-    <p>Unikanie sauny, intensywnego wysiłku fizycznego przez ok. tydzień po zabiegu. </p></br>
-    <p> Zakaz spożywania alkoholu w dniu zabiegu.</p></br>
-      </p>
-  `,
-  },
-
   konsultacjamedest: {
     title: "Konsultacja",
     description: `<p class='paragraph'>
@@ -2291,7 +2213,7 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   },
 
   korektabrody: {
-    title: "Korekta brody",
+    title: "Broda",
     description: `<p class='paragraph'>
     <p>Korekta brody oraz wypełnianie bruzd wargowo-bródkowych to jedne z najpopularniejszych zabiegów wykorzystujących wypełniacze, z których najczęściej używany jest kwas hialuronowy – biodegradowalna substancja o wysokim poziomie bezpieczeństwa. </p></br>
     <p> Kwas hialuronowy, naturalnie występujący w organizmie człowieka, znalazł zastosowanie w wielu dziedzinach medycyny, w tym medycynie estetycznej.  </p></br>
@@ -2301,16 +2223,6 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
     <p>  Przy korekcie brody i bruzd wargowo-bródkowych, preparaty z ustabilizowanym kwasem hialuronowym poprawiają kontur twarzy, wygładzają zmarszczki i wypełniają bruzdy. Twarz staje się bardziej zdefiniowana, a profil twarzy ulega poprawie.   </p></br>
     <p>Wprowadzanie wypełniacza za pomocą iniekcji wykorzystują różne techniki, które pozwalają osiągnąć zamierzony efekt, nadając twarzy naturalny i piękny wygląd.  </p></br>
 
-  `,
-  },
-
-  stymulatorynucleofil: {
-    title: "Stymulatory",
-    description: `<p class='paragraph'>
-    <p> Zabieg z wykorzystaniem stymulatorów tkankowych rewitalizuje skórę poprzez stymulację produkcji kolagenu i elastyny.  </p></br>
-    <p> Użycie stymulatorów tkankowych działa przeciwstarzeniowo, redukuje objawy fotostarzenia, wpływa na roświetlenie i elastyczność skóry oraz poprawia kontór twarzy.  </p></br>
-    <p> Po przeprowadzeniu zabiegu skóra twarzy odzyskuje świeży, młodszy wygląd, a widoczność zmarszczek i przebarwień zostaje zredukowana.  </p></br>
-    <p> Seria 2-4 zabiegów co kilka tygodni daje efekty utrzymujące się do 12-16 miesięcy.  </p></br>
   `,
   },
 
@@ -2335,8 +2247,20 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   `,
   },
 
+  mezokwasem: {
+    title: "Mezoterapia kwasem hialuronowym",
+    description: `<p class='paragraph'>
+    <p> Mezoterapia kwasem hialuronowym to zaawansowany zabieg intensywnego nawilżania skóry, poprawy elastyczności, kolorytu oraz redukcji pierwszych zmarszczek. </p></br>
+    <p> Regularne serie zabiegów utrzymują skórę w zdrowej kondycji i opóźniają procesy starzenia.
+     </p></br>
+    <p> Preparat używany w Wolmedice zawiera kwas hialuronowy oraz glicerol. Kwas hialuronowy intensywnie nawilża, a glicerol tworzy ochronny płaszcz wokół niego, wzmacniając efekt nawilżenia. </p></br>
+    <p> Dzięki temu kwas skuteczniej zatrzymuje wodę, wspierając nawilżenie skóry. To połączenie działa też jak bariera przed wolnymi rodnikami, przyczyniając się do ochrony skóry.  </p></br>
+
+  `,
+  },
+
   mezooka: {
-    title: "Mezoterapia okolicy oka - RRS eyes",
+    title: "Mezoterapia okolicy oka",
     description: `<p class='paragraph'>
     <p> Mezoterapia pod oczy to popularny zabieg, który cieszy się zainteresowaniem pacjentek w różnym wieku. </p></br>
     <p> Młodsze osoby wybierają go dla odżywienia skóry, redukcji cieni i worków pod oczami, podczas gdy osoby z oznakami starzenia stosują go do wygładzenia zmarszczek.  </p></br>
@@ -2351,48 +2275,20 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   `,
   },
 
-  saypharich: {
-    title: "Saypha Rich",
+  mezoskoryglowy: {
+    title: "Mezoterapia skóry głowy",
     description: `<p class='paragraph'>
-    <p>Mezoterapia kwasem hialuronowym to zaawansowany zabieg intensywnego nawilżania skóry, poprawy elastyczności, kolorytu oraz redukcji pierwszych zmarszczek. </p></br>
-    <p>  Regularne serie zabiegów utrzymują skórę w zdrowej kondycji i opóźniają procesy starzenia.
+    <p> Mezoterapia igłowa głowy to szybki i bezpieczny zabieg, który pomaga wzmocnić włosy oraz stymuluje ich wzrost. </p></br>
+    <p> Specjalista wstrzykuje substancje aktywne w skórę głowy, co może poprawić gęstość i wygląd włosów.  </p></br>
+    <p> Ten zabieg jest skutecznym rozwiązaniem dla osób z problemami z rzadkimi, łamliwymi włosami lub łysieniem. </p></br>
+    <p>  Wyniki są widoczne po serii zabiegów, a skóra głowy staje się bardziej zdrowa i regeneruje włosy. 
      </p></br>
-    <p>  Preparat używany w Wolmedice zawiera kwas hialuronowy oraz glicerol. </p></br>
-    <p> Kwas hialuronowy intensywnie nawilża, a glicerol tworzy ochronny płaszcz wokół niego, wzmacniając efekt nawilżenia. Dzięki temu kwas skuteczniej zatrzymuje wodę, wspierając nawilżenie skóry. To połączenie działa też jak bariera przed wolnymi rodnikami, przyczyniając się do ochrony skóry.  </p></br>
-  `,
-  },
-
-  drcyj: {
-    title: "Dr Cyj",
-    description: `<p class='paragraph'>
-    <p>DR.CYJ Hair Filler to rewolucyjny zabieg zatrzymujący wypadanie włosów i przyspieszający ich odrost poprzez stymulację krążenia i rewitalizację cebulek włosowych.
-     </p></br>
-    <p> Minimalna dawka preparatu, dostarczana w trakcie zabiegu, utrzymuje się w skórze przez 2 tygodnie, dzięki czemu składniki aktywne stopniowo się uwalniają.   </p></br>
-    <p> Pierwszy zabieg zahamowuje wypadanie, a kolejne stymulują odrastanie, zagęszczają i pogrubiają włosy. Efekty widoczne już po 2 miesiącach, a peptydowa terapia włosów wymaga tylko 4 sesji co 2 tygodnie.  </p></br>
-    <p> Zalecana jest roczna powtórka.
-     </p></br>
-    <p>  Zabieg DR.CYJ Hair Filler, trwający ok. 30 minut, opiera się na mikroiniekcjach. Innowacyjność polega na mniejszej ilości wkłuć w porównaniu z mezoterapią, co sprawia, że jest bardziej komfortowy. </p></br>
-    <p> Terapia jest skierowana zarówno do mężczyzn, jak i kobiet, nie tylko w przypadku łysienia androgenowego, ale też stresu, złej diety czy nadmiernej stylizacji. Idealna również przed i po przeszczepie włosów. </p></br>
-
-  `,
-  },
-
-  rrsxlhair: {
-    title: "RRS XL hair",
-    description: `<p class='paragraph'>
-    <p> XL Hair to zaawansowany preparat, którego podawanie poprzez mezoterapię igłową jest skutecznym leczeniem łysienia. </p></br>
-    <p> Zabieg polega na delikatnym wprowadzeniu niewielkich ilości preparatu pod skórę głowy Pacjenta.   </p></br>
-    <p> XL Hair zawiera ponad 50 aktywnych substancji.
-     </p></br>
-    <p> Mezoterapia skóry głowy z XL Hair hamuje wypadanie włosów, pobudza wzrost, przyspiesza porost i poprawia jakość owłosienia. </p></br>
-    <p>  Preparat jest certyfikowany i bezpieczny. </p></br>
-    <p> Doświadczeni specjaliści wykonują ten zabieg, posiadając wiedzę w diagnozowaniu chorób skóry głowy. Dzięki tym cechom zabieg mezoterapii skóry głowy z XL Hair jest skuteczny i bezpieczny, zapewniając poprawę kondycji włosów.  </p></br>
 
   `,
   },
 
   nicipdozabieg: {
-    title: "",
+    title: "Nici PDO",
     description: `<p class='paragraph'>
     <p> Innowacyjny sposób przeciwdziałania efektom starzenia opiera się na implantacji cienkich nici podskórnych, które wzmacniają i unoszą skórę, uzyskując naturalny efekt "liftingu".  </p></br>
     <p> Specjalnie zaprojektowane igły umożliwiają umieszczenie PDO nici o większej średnicy, minimalizując dyskomfort pacjenta przy mniej inwazyjnym zabiegu.
@@ -2406,15 +2302,27 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   `,
   },
 
-  puste: {
-    title: "",
+  wolumetriapoliczkow: {
+    title: "Wolumetria/Powiększanie policzków",
     description: `<p class='paragraph'>
-    <p>  </p></br>
-    <p>  </p></br>
-    <p>  </p></br>
-    <p>  </p></br>
-    <p>  </p></br>
-    <p>  </p></br>
+    <p>
+    W Centrum Medycznym Wolmedica w Kielcach stosujemy zaawansowaną metodę wolumetrii twarzy, w tym obszaru policzków, poprzez wypełnianie preparatami zawierającymi kwas hialuronowy.  </p></br>
+    <p> Kwas ten jest naturalną substancją obecną w skórze, ale jego ilość spada wraz z wiekiem, prowadząc do powstawania zmarszczek i utraty elastyczności. Kwas hialuronowy może zatrzymać aż 250 cząsteczek wody, co nie tylko utrzymuje skórę napiętą, ale także nawilżoną.
+     </p></br>
+    <p> W naszym Centrum wybieramy różnorodne preparaty kwasu hialuronowego o zróżnicowanej gęstości i usieciowaniu, aby osiągnąć jak najbardziej naturalne efekty wolumetryczne skóry twarzy.  </p></br>
+    <p>  W przypadku policzków, często stosujemy preparaty usieciowane, które zapewniają dłuższe utrzymanie efektu. Zabieg polega na wprowadzeniu preparatu za pomocą specjalnej igły lub kaniuli, wypełniając tkankę podskórną. To podnosi, uelastycznia i wygładza skórę. Możliwe jest stosowanie miejscowego znieczulenia lub kremów znieczulających.
+     </p></br>
+    <p>Podczas zabiegu trwającego około 30 minut jesteśmy w stanie, tak podać preparat aby uzyskać naturalny, spójny wygląd. Kwas hialuronowy nie tylko natychmiast wypełnia niedoskonałości, ale również nawilża skórę, stymuluje jej regenerację i poprawia jej kondycję.   </p></br>
+    <p> Efekty utrzymują się przez około 12 miesięcy, a zabieg można powtórzyć po tym czasie. Przeciwwskazania obejmują alergię na kwas hialuronowy lub inne składniki preparatu oraz stany zapalne w obszarze zabiegu. </p></br>
+
+  `,
+  },
+
+  stymulatorytkankowe: {
+    title: "Stymulatory tkankowe",
+    description: `<p class='paragraph'>
+    <p> Zabieg z wykorzystaniem stymulatorów tkankowych rewitalizuje skórę poprzez stymulację produkcji kolagenu i elastyny. </p></br> <p>Użycie stymulatorów tkankowych działa przeciwstarzeniowo, redukuje objawy fotostarzenia, wpływa na roświetlenie i elastyczność skóry oraz poprawia kontór twarzy. </p></br>
+    <p> Po przeprowadzeniu zabiegu skóra twarzy odzyskuje świeży, młodszy wygląd, a widoczność zmarszczek i przebarwień zostaje zredukowana. </p></br> <p>Seria 2-4 zabiegów co kilka tygodni daje efekty utrzymujące się do 12-16 miesięcy. </p>
 
   `,
   },
