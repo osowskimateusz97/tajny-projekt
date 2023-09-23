@@ -1827,7 +1827,7 @@ main {
   border: 1px dotted #b3adad;
   border-collapse: collapse;
   padding: 5px;
-  width: 550px;
+  width: 50%;
   margin: 0 auto;
 }
 .clinic__list table tr {
