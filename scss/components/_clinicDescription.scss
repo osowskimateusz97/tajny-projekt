@@ -5,6 +5,14 @@
   gap: 10rem;
   background: $white;
 
+  .video {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__imgWrapper {
     position: relative;
 
