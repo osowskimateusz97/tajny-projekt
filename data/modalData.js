@@ -2326,6 +2326,40 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
 
   `,
   },
+
+  panorama: {
+    title: "Test Panorama",
+    description: `
+<p>Test Prenatalny Panorama można wykonać już od 9 tygodnia ciąży. </p></br>
+<p>Jest zalecany dla wszystkich kobiet w ciąży, które chciałyby dokładnie zbadać zdrowie swojego dziecka pod kątem wybranych zaburzeń genetycznych.  </p></br>
+<p>Panorama to jedyny test NIPT, który w trakcie analizy odróżnia DNA dziecka od DNA matki. Przekłada się to na następujące zalety: </p>
+<p>• mniejsze ryzyko wyniku fałszywie dodatniego lub fałszywie ujemnego </p>
+<p>• największa dokładność określania płci dziecka spośród wszystkich NIPT </p>
+<p>• możliwość wykrywania triploidii </p>
+<p>• możliwość ustalenia czy bliźnięta są jedno- czy dwujajowe </p> </br></br>
+<p>Test Panorama bada pod kątem występowania u dziecka nieprawidłowości takich jak: </p>
+<p>•najczęstsze trisomie – 21 (zespół Downa), 18 (zespół Edwardsa) oraz 13 (Patau); </p>
+<p>• anomalie w obrębie chromosomów płci – zespół Turnera (X), zespół Klinefertera (XXY), trisomia chromosomu X, zespół Jacobsa (XYY)</p>
+<p>•triploidia </p> </br>
+<p> Test Panorama w wersji rozszerzonej może analizować DNA dziecka także pod kątem zespołów mikrodelecji, takich jak:</p></br>
+<p>• delecja 22q11.2, czyli zespół DiGeorge’a;</p>
+<p>•delecja 1p36; </p>
+<p>•delecja 15q, czyli zespoły Angelmana/Pradera-Williego;</p>
+<p>•delecja 5q, czyli zespół r idu Chat (zespół kociego krzyku).</p></br>
+<p>Szczególnie badanie pod kątem delecji 22q11.2 zalecane jest wszystkim kobietom ciężarnym, niezależnie od historii rodzinnej, medycznej ani od wieku ciężarnej.</p></br>
+<p>Czułość testu Panorama wynosi powyżej 99% (dla nieprawidłowości chromosomowych takich jak trisomia 21, trisomia 13, trisomia chromosomów płci), szansa na uzyskanie fałszywie dodatniego wyniku jest mniejsza niż 0,1%.</p></br>
+<p>Na życzenie rodziców na wyniku testu Panorama może się znaleźć także adnotacja o płci dziecka. Czułość badania dla określenia płci wynosi powyżej 99%</p></br>
+<p>W celu wykonania badania pobiera się próbkę krwi pacjentki. Wyniki dostępne są do 14 dni kalendarzowych. Lekarz specjalista doradzi Ci, który rodzaj testu wykonać: BASIC, PLUS czy PRO.  </p>
+  `,
+  },
+
+  ktg: {
+    title: "Test KTG",
+    description: `
+    <p> </p>
+
+  `,
+  },
 };
 
 const getTextById = (id) => {
