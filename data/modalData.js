@@ -182,7 +182,7 @@ const modalData = {
   pobraniekrwi: {
     title: "Pobrania krwi",
     description: `<p class='paragraph'>W Centrum Medycznym Wolmedica przy ulicy Zagnańskiej, sześć dni w tygodniu (od
-      poniedziałku do soboty) działa punkt pobrań krwi, gdzie można zrealizować szeroki pakiet
+      poniedziałku do czwartku) działa punkt pobrań krwi, gdzie można zrealizować szeroki pakiet
       badań laboratoryjnych.
       Posiadamy wykwalifikowany personel, wyspecjalizowany w pobraniach krwi u dzieci, w tym
       noworodków i niemowląt. Można nam zaufać.
@@ -2152,20 +2152,20 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   konsultacjamedest: {
     title: "Konsultacja",
     description: `<p class='paragraph'>
-    <p>Podczas konsultacji z lekarzem medycyny estetycznej, szczegółowo omawiasz swój stan zdrowia, wcześniejsze zabiegi oraz wszelkie kwestie związane z wyglądem i własymi oczekiwaniami.</p></br>
-    <p>Lekarz na tej podstawie, razem z Tobą, ustala plan naprawczy i opowiada o planowanych zabiegach. Razem opracowujecie spersonalizowany plan terapii i harmonogram działań.</p></br>
+    <p class='paragraph'>Podczas konsultacji z lekarzem medycyny estetycznej, szczegółowo omawiasz swój stan zdrowia, wcześniejsze zabiegi oraz wszelkie kwestie związane z wyglądem i własymi oczekiwaniami.</p></br>
+    <p class='paragraph'>Lekarz na tej podstawie, razem z Tobą, ustala plan naprawczy i opowiada o planowanych zabiegach. Razem opracowujecie spersonalizowany plan terapii i harmonogram działań.</p></br>
   `,
   },
 
   toksynabotulinowazabieg: {
     title: "Toksyna botulinowa",
     description: `<p class='paragraph'>
-    <p> Zabiegi z toksyną botulinową to popularne i wszechstronne rozwiązanie zarówno w medycynie klasycznej jak i estetycznej.  </p></br>
-    <p>Działa ona poprzez blokowanie nerwów, co relaksuje mięśnie i zmniejsza zmarszczki.</p></br>
-    <p>Efekty utrzymują się przez około 3 miesięce.</p></br>
-    <p>Procedura trwa krótko, a doświadczenie specjalistów zapewnia precyzję. </p></br>
-    <p>Toksyna botulinowa poprawia wygląd zmarszczek, konturów twarzy i redukuje objawy problemów zdrowotnych. </p></br>
-    <p> W medycynie estetycznej stosowana głównie aby zmniejszyć zmarszczki poprzeczne czoła, "lwią zmarszczkę" czy "kurze łapki".</p></br>
+    <p class='paragraph'> Zabiegi z toksyną botulinową to popularne i wszechstronne rozwiązanie zarówno w medycynie klasycznej jak i estetycznej.  </p></br>
+    <p class='paragraph'>Działa ona poprzez blokowanie nerwów, co relaksuje mięśnie i zmniejsza zmarszczki.</p></br>
+    <p class='paragraph'>Efekty utrzymują się przez około 3 miesięce.</p></br>
+    <p class='paragraph'>Procedura trwa krótko, a doświadczenie specjalistów zapewnia precyzję. </p></br>
+    <p class='paragraph'>Toksyna botulinowa poprawia wygląd zmarszczek, konturów twarzy i redukuje objawy problemów zdrowotnych. </p></br>
+    <p class='paragraph'> W medycynie estetycznej stosowana głównie aby zmniejszyć zmarszczki poprzeczne czoła, "lwią zmarszczkę" czy "kurze łapki".</p></br>
 
   `,
   },
@@ -2173,41 +2173,41 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   bruksizmzabieg: {
     title: "Bruksizm",
     description: `<p class='paragraph'>
-    <p> Toksyna botulinowa jest skutecznym rozwiązaniem w leczeniu problemu znanego jako bruksizm, czyli niekontrolowane zgrzytanie zębami.  
+    <p class='paragraph'> Toksyna botulinowa jest skutecznym rozwiązaniem w leczeniu problemu znanego jako bruksizm, czyli niekontrolowane zgrzytanie zębami.  
     </p></br>
-    <p> To zaburzenie może powodować nieprzyjemne doznania, takie jak ból głowy po przebudzeniu czy uszkodzenia szkliwa. </p></br>
-    <p> W niektórych przypadkach może nawet prowadzić do ścierania zębów lub poważniejszych problemów w stawach skroniowo-żuchwowych. </p></br>
-    <p> Wykonanie zabiegu toksyną botulinową przez naszych doświadczonych lekarzy w Centrum Medycznym Wolmedica w Kielcach może przynieść ulgę.  </p></br>
-    <p>Poprzez precyzyjne podanie preparatu w odpowiednie mięśnie, jesteśmy w stanie złagodzić ich napięcie i tym samym zmniejszyć odczuwany przez pacjenta ból.   </p></br>
-    <p> Skupiamy się na zapewnieniu profesjonalnej opieki medycznej.  </p></br>
+    <p class='paragraph'> To zaburzenie może powodować nieprzyjemne doznania, takie jak ból głowy po przebudzeniu czy uszkodzenia szkliwa. </p></br>
+    <p class='paragraph'> W niektórych przypadkach może nawet prowadzić do ścierania zębów lub poważniejszych problemów w stawach skroniowo-żuchwowych. </p></br>
+    <p class='paragraph'> Wykonanie zabiegu toksyną botulinową przez naszych doświadczonych lekarzy w Centrum Medycznym Wolmedica w Kielcach może przynieść ulgę.  </p></br>
+    <p class='paragraph'>Poprzez precyzyjne podanie preparatu w odpowiednie mięśnie, jesteśmy w stanie złagodzić ich napięcie i tym samym zmniejszyć odczuwany przez pacjenta ból.   </p></br>
+    <p class='paragraph'> Skupiamy się na zapewnieniu profesjonalnej opieki medycznej.  </p></br>
   `,
   },
 
   nadpotliwosczabieg: {
     title: "Nadpotliwość",
     description: `<p class='paragraph'>
-    <p>Walka z nadmierną potliwością przy użyciu toksyny botulinowej to obecnie najszybsza i najefektywniejsza metoda. </p></br>
-    <p> Botulina blokuje uwalnianie acetylocholiny, co hamuje wytwarzanie potu w obszarze iniekcji.   </p></br>
-    <p> Zastosowanie tego preparatu jest skuteczne w terapii nadpotliwości pach, dłoni i stóp.  </p></br>
-    <p> W Centrum Medycznym Wolmedica w Kielcach zabiegi z wykorzystaniem botoksu przeprowadzają wyłącznie doświadczeni lekarze.   </p></br>
-    <p> Efekty zabiegu są widoczne po około tygodniu i utrzymują się zwykle 6-8 miesięcy, choć jest to kwestia indywidualna. </p></br>
-    <p> Czas trwania efektu zależy m.in. od miejsca iniekcji, wieku i stanu zdrowia.  </p></br>
-    <p> Zabieg można powtarzać. </p></br>
+    <p class='paragraph'>Walka z nadmierną potliwością przy użyciu toksyny botulinowej to obecnie najszybsza i najefektywniejsza metoda. </p></br>
+    <p class='paragraph'> Botulina blokuje uwalnianie acetylocholiny, co hamuje wytwarzanie potu w obszarze iniekcji.   </p></br>
+    <p class='paragraph'> Zastosowanie tego preparatu jest skuteczne w terapii nadpotliwości pach, dłoni i stóp.  </p></br>
+    <p class='paragraph'> W Centrum Medycznym Wolmedica w Kielcach zabiegi z wykorzystaniem botoksu przeprowadzają wyłącznie doświadczeni lekarze.   </p></br>
+    <p class='paragraph'> Efekty zabiegu są widoczne po około tygodniu i utrzymują się zwykle 6-8 miesięcy, choć jest to kwestia indywidualna. </p></br>
+    <p class='paragraph'> Czas trwania efektu zależy m.in. od miejsca iniekcji, wieku i stanu zdrowia.  </p></br>
+    <p class='paragraph'> Zabieg można powtarzać. </p></br>
   `,
   },
 
   wypelnianiezmarszczek: {
     title: "Wypełnianie zmarszczek",
     description: `<p class='paragraph'>
-    <p> Kwas hialuronowy jest naturalnie obecny w skórze, tkankach, stawach i chrząstkach, zapewniając jej jędrność, elastyczność i nawilżenie.</p></br>
-    <p>  Niestety, z wiekiem jego ilość drastycznie spada.  </p></br>
-    <p> Dlatego oferujemy zabiegi, które dostarczają kwas hialuronowy z zewnątrz, poprawiając wygląd skóry. </p></br>
-    <p> Dzięki temu możemy uzyskać rezultaty, które nasza skóra i my sami pokochamy.  </p></br>
-    <p>  Zabieg wypełniania zmarszczek nie tylko likwiduje niechciane zmarszczki, ale także modeluje kontur twarzy i stymuluje regenerację komórek.
+    <p class='paragraph'> Kwas hialuronowy jest naturalnie obecny w skórze, tkankach, stawach i chrząstkach, zapewniając jej jędrność, elastyczność i nawilżenie.</p></br>
+    <p class='paragraph'>  Niestety, z wiekiem jego ilość drastycznie spada.  </p></br>
+    <p class='paragraph'> Dlatego oferujemy zabiegi, które dostarczają kwas hialuronowy z zewnątrz, poprawiając wygląd skóry. </p></br>
+    <p class='paragraph'> Dzięki temu możemy uzyskać rezultaty, które nasza skóra i my sami pokochamy.  </p></br>
+    <p class='paragraph'>  Zabieg wypełniania zmarszczek nie tylko likwiduje niechciane zmarszczki, ale także modeluje kontur twarzy i stymuluje regenerację komórek.
      </p></br>
-    <p>Wypełnianie kwasem hialuronowym oferuje szeroki wachlarz możliwości.   </p></br>
-    <p> Jest to szybki i mało inwazyjny sposób, który pozwala zlikwidować zaawansowane oznaki starzenia. </p></br>
-    <p>  Ten zabieg jest całkowicie bezpieczny, wykorzystując syntetyczny kwas hialuronowy, który nie wywołuje alergii i jest przyjazny dla zdrowia.  </p></br>
+    <p class='paragraph'>Wypełnianie kwasem hialuronowym oferuje szeroki wachlarz możliwości.   </p></br>
+    <p class='paragraph'> Jest to szybki i mało inwazyjny sposób, który pozwala zlikwidować zaawansowane oznaki starzenia. </p></br>
+    <p class='paragraph'>  Ten zabieg jest całkowicie bezpieczny, wykorzystując syntetyczny kwas hialuronowy, który nie wywołuje alergii i jest przyjazny dla zdrowia.  </p></br>
 
   `,
   },
@@ -2215,13 +2215,13 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   korektabrody: {
     title: "Broda",
     description: `<p class='paragraph'>
-    <p>Korekta brody oraz wypełnianie bruzd wargowo-bródkowych to jedne z najpopularniejszych zabiegów wykorzystujących wypełniacze, z których najczęściej używany jest kwas hialuronowy – biodegradowalna substancja o wysokim poziomie bezpieczeństwa. </p></br>
-    <p> Kwas hialuronowy, naturalnie występujący w organizmie człowieka, znalazł zastosowanie w wielu dziedzinach medycyny, w tym medycynie estetycznej.  </p></br>
-    <p>  Jego zdolność do zatrzymywania wody jest znaczącym atutem – potrafi związać ilość wody tysiąc razy większą niż jego masa.  </p></br>
-    <p> W miarę upływu lat, ilość kwasu hialuronowego w organizmie spada, co wpływa na utratę jędrności i elastyczności skóry, powodując pojawienie się zmarszczek.
+    <p class='paragraph'>Korekta brody oraz wypełnianie bruzd wargowo-bródkowych to jedne z najpopularniejszych zabiegów wykorzystujących wypełniacze, z których najczęściej używany jest kwas hialuronowy – biodegradowalna substancja o wysokim poziomie bezpieczeństwa. </p></br>
+    <p class='paragraph'> Kwas hialuronowy, naturalnie występujący w organizmie człowieka, znalazł zastosowanie w wielu dziedzinach medycyny, w tym medycynie estetycznej.  </p></br>
+    <p class='paragraph'>  Jego zdolność do zatrzymywania wody jest znaczącym atutem – potrafi związać ilość wody tysiąc razy większą niż jego masa.  </p></br>
+    <p class='paragraph'> W miarę upływu lat, ilość kwasu hialuronowego w organizmie spada, co wpływa na utratę jędrności i elastyczności skóry, powodując pojawienie się zmarszczek.
     </p></br>
-    <p>  Przy korekcie brody i bruzd wargowo-bródkowych, preparaty z ustabilizowanym kwasem hialuronowym poprawiają kontur twarzy, wygładzają zmarszczki i wypełniają bruzdy. Twarz staje się bardziej zdefiniowana, a profil twarzy ulega poprawie.   </p></br>
-    <p>Wprowadzanie wypełniacza za pomocą iniekcji wykorzystują różne techniki, które pozwalają osiągnąć zamierzony efekt, nadając twarzy naturalny i piękny wygląd.  </p></br>
+    <p class='paragraph'>  Przy korekcie brody i bruzd wargowo-bródkowych, preparaty z ustabilizowanym kwasem hialuronowym poprawiają kontur twarzy, wygładzają zmarszczki i wypełniają bruzdy. Twarz staje się bardziej zdefiniowana, a profil twarzy ulega poprawie.   </p></br>
+    <p class='paragraph'>Wprowadzanie wypełniacza za pomocą iniekcji wykorzystują różne techniki, które pozwalają osiągnąć zamierzony efekt, nadając twarzy naturalny i piękny wygląd.  </p></br>
 
   `,
   },
@@ -2229,20 +2229,20 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   freshlift: {
     title: "Fresh Lift",
     description: `<p class='paragraph'>
-    <p> Fresh lift jest to zabieg wykorzystujacy usieciowany kwas hialuronowy w połączeniu z mezokoktajlem zawierającym aminokawasy i witaminy. </p></br>
-    <p>Połączenie to pozwala nawilżyć, ujędrnić i odmłodzić skórę twarzy przy zachowaniu jej naturalnych rysów. </p></br>
-    <p>  Zabieg może być wykonywany zarówno na twarzy jak i szyi i dekolcie. </p></br>
-    <p> Procedura ta pozwala na uzyskanie natychmiastowych efetków w bezpieczny dla pacjenta sposób. </p></br>
+    <p class='paragraph'> Fresh lift jest to zabieg wykorzystujacy usieciowany kwas hialuronowy w połączeniu z mezokoktajlem zawierającym aminokawasy i witaminy. </p></br>
+    <p class='paragraph'>Połączenie to pozwala nawilżyć, ujędrnić i odmłodzić skórę twarzy przy zachowaniu jej naturalnych rysów. </p></br>
+    <p class='paragraph'>  Zabieg może być wykonywany zarówno na twarzy jak i szyi i dekolcie. </p></br>
+    <p class='paragraph'> Procedura ta pozwala na uzyskanie natychmiastowych efetków w bezpieczny dla pacjenta sposób. </p></br>
   `,
   },
 
   mezoterapiazabieg: {
     title: "Mezoterapia igłowa",
     description: `<p class='paragraph'>
-    <p> Mezoterapia igłowa to technika wprowadzania leczniczych substancji za pomocą cienkich igieł lub specjalnych urządzeń.</p></br>
-    <p> Substancje te, takie jak witaminy, mikroelementy, aminokwasy czy kwas hialuronowy, dostarczane są podskórnie lub śródskórnie. </p></br>
-    <p> Proces ten wzmacnia i regeneruje skórę poprzez mikronakłucia, zwiększając przepuszczalność skóry dla składników aktywnych. </p></br>
-    <p> Zabieg stymuluje podział komórkowy, pobudza produkcję kolagenu oraz wygładza zmarszczki, blizny i poprawia jędrność skóry. Efekty widoczne są dzięki tym procesom regeneracyjnym.   </p></br>
+    <p class='paragraph'> Mezoterapia igłowa to technika wprowadzania leczniczych substancji za pomocą cienkich igieł lub specjalnych urządzeń.</p></br>
+    <p class='paragraph'> Substancje te, takie jak witaminy, mikroelementy, aminokwasy czy kwas hialuronowy, dostarczane są podskórnie lub śródskórnie. </p></br>
+    <p class='paragraph'> Proces ten wzmacnia i regeneruje skórę poprzez mikronakłucia, zwiększając przepuszczalność skóry dla składników aktywnych. </p></br>
+    <p class='paragraph'> Zabieg stymuluje podział komórkowy, pobudza produkcję kolagenu oraz wygładza zmarszczki, blizny i poprawia jędrność skóry. Efekty widoczne są dzięki tym procesom regeneracyjnym.   </p></br>
 
   `,
   },
@@ -2250,11 +2250,11 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   mezokwasem: {
     title: "Mezoterapia kwasem hialuronowym",
     description: `<p class='paragraph'>
-    <p> Mezoterapia kwasem hialuronowym to zaawansowany zabieg intensywnego nawilżania skóry, poprawy elastyczności, kolorytu oraz redukcji pierwszych zmarszczek. </p></br>
-    <p> Regularne serie zabiegów utrzymują skórę w zdrowej kondycji i opóźniają procesy starzenia.
+    <p class='paragraph'> Mezoterapia kwasem hialuronowym to zaawansowany zabieg intensywnego nawilżania skóry, poprawy elastyczności, kolorytu oraz redukcji pierwszych zmarszczek. </p></br>
+    <p class='paragraph'> Regularne serie zabiegów utrzymują skórę w zdrowej kondycji i opóźniają procesy starzenia.
      </p></br>
-    <p> Preparat używany w Wolmedice zawiera kwas hialuronowy oraz glicerol. Kwas hialuronowy intensywnie nawilża, a glicerol tworzy ochronny płaszcz wokół niego, wzmacniając efekt nawilżenia. </p></br>
-    <p> Dzięki temu kwas skuteczniej zatrzymuje wodę, wspierając nawilżenie skóry. To połączenie działa też jak bariera przed wolnymi rodnikami, przyczyniając się do ochrony skóry.  </p></br>
+    <p class='paragraph'> Preparat używany w Wolmedice zawiera kwas hialuronowy oraz glicerol. Kwas hialuronowy intensywnie nawilża, a glicerol tworzy ochronny płaszcz wokół niego, wzmacniając efekt nawilżenia. </p></br>
+    <p class='paragraph'> Dzięki temu kwas skuteczniej zatrzymuje wodę, wspierając nawilżenie skóry. To połączenie działa też jak bariera przed wolnymi rodnikami, przyczyniając się do ochrony skóry.  </p></br>
 
   `,
   },
@@ -2262,15 +2262,15 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   mezooka: {
     title: "Mezoterapia okolicy oka",
     description: `<p class='paragraph'>
-    <p> Mezoterapia pod oczy to popularny zabieg, który cieszy się zainteresowaniem pacjentek w różnym wieku. </p></br>
-    <p> Młodsze osoby wybierają go dla odżywienia skóry, redukcji cieni i worków pod oczami, podczas gdy osoby z oznakami starzenia stosują go do wygładzenia zmarszczek.  </p></br>
-    <p> Skóra wokół oczu jest delikatna i stale pracuje przy uśmiechu, mówieniu czy malowaniu. </p></br>
-    <p>  Zabieg ten jest komfortowy, wykonywany cienkimi igłami. Usuwa cienie, opuchliznę, zmniejsza wiotkość i łagodzi problemy z przesuszeniem oraz przebarwieniami.
+    <p class='paragraph'> Mezoterapia pod oczy to popularny zabieg, który cieszy się zainteresowaniem pacjentek w różnym wieku. </p></br>
+    <p class='paragraph'> Młodsze osoby wybierają go dla odżywienia skóry, redukcji cieni i worków pod oczami, podczas gdy osoby z oznakami starzenia stosują go do wygładzenia zmarszczek.  </p></br>
+    <p class='paragraph'> Skóra wokół oczu jest delikatna i stale pracuje przy uśmiechu, mówieniu czy malowaniu. </p></br>
+    <p class='paragraph'>  Zabieg ten jest komfortowy, wykonywany cienkimi igłami. Usuwa cienie, opuchliznę, zmniejsza wiotkość i łagodzi problemy z przesuszeniem oraz przebarwieniami.
      </p></br>
-    <p> Pod warunkiem wykonania przez doświadczonego specjalistę, mezoterapia pod oczami jest bezpieczna.  </p></br>
-    <p> Lekarz przeprowadza wywiad i eliminuje przeciwwskazania.  </p></br>
-    <p> Stosuje się dedykowane preparaty lub koktajle, dostosowane do delikatnej skóry oczu.   </p></br>
-    <p>Mezoterapia to skuteczny i bezpieczny sposób na poprawę wyglądu okolic oczu. Opiera się na kwasie hialuronowym i antyoksydantach, zapewniając spektakularne rezultaty w pielęgnacji i odmładzaniu tej delikatnej skóry.  </p></br>
+    <p class='paragraph'> Pod warunkiem wykonania przez doświadczonego specjalistę, mezoterapia pod oczami jest bezpieczna.  </p></br>
+    <p class='paragraph'> Lekarz przeprowadza wywiad i eliminuje przeciwwskazania.  </p></br>
+    <p class='paragraph'> Stosuje się dedykowane preparaty lub koktajle, dostosowane do delikatnej skóry oczu.   </p></br>
+    <p class='paragraph'>Mezoterapia to skuteczny i bezpieczny sposób na poprawę wyglądu okolic oczu. Opiera się na kwasie hialuronowym i antyoksydantach, zapewniając spektakularne rezultaty w pielęgnacji i odmładzaniu tej delikatnej skóry.  </p></br>
 
   `,
   },
@@ -2278,10 +2278,10 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   mezoskoryglowy: {
     title: "Mezoterapia skóry głowy",
     description: `<p class='paragraph'>
-    <p> Mezoterapia igłowa głowy to szybki i bezpieczny zabieg, który pomaga wzmocnić włosy oraz stymuluje ich wzrost. </p></br>
-    <p> Specjalista wstrzykuje substancje aktywne w skórę głowy, co może poprawić gęstość i wygląd włosów.  </p></br>
-    <p> Ten zabieg jest skutecznym rozwiązaniem dla osób z problemami z rzadkimi, łamliwymi włosami lub łysieniem. </p></br>
-    <p>  Wyniki są widoczne po serii zabiegów, a skóra głowy staje się bardziej zdrowa i regeneruje włosy. 
+    <p class='paragraph'> Mezoterapia igłowa głowy to szybki i bezpieczny zabieg, który pomaga wzmocnić włosy oraz stymuluje ich wzrost. </p></br>
+    <p class='paragraph'> Specjalista wstrzykuje substancje aktywne w skórę głowy, co może poprawić gęstość i wygląd włosów.  </p></br>
+    <p class='paragraph'> Ten zabieg jest skutecznym rozwiązaniem dla osób z problemami z rzadkimi, łamliwymi włosami lub łysieniem. </p></br>
+    <p class='paragraph'>  Wyniki są widoczne po serii zabiegów, a skóra głowy staje się bardziej zdrowa i regeneruje włosy. 
      </p></br>
 
   `,
@@ -2290,14 +2290,14 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   nicipdozabieg: {
     title: "Nici PDO",
     description: `<p class='paragraph'>
-    <p> Innowacyjny sposób przeciwdziałania efektom starzenia opiera się na implantacji cienkich nici podskórnych, które wzmacniają i unoszą skórę, uzyskując naturalny efekt "liftingu".  </p></br>
-    <p> Specjalnie zaprojektowane igły umożliwiają umieszczenie PDO nici o większej średnicy, minimalizując dyskomfort pacjenta przy mniej inwazyjnym zabiegu.
+    <p class='paragraph'> Innowacyjny sposób przeciwdziałania efektom starzenia opiera się na implantacji cienkich nici podskórnych, które wzmacniają i unoszą skórę, uzyskując naturalny efekt "liftingu".  </p></br>
+    <p class='paragraph'> Specjalnie zaprojektowane igły umożliwiają umieszczenie PDO nici o większej średnicy, minimalizując dyskomfort pacjenta przy mniej inwazyjnym zabiegu.
      </p></br>
-    <p> Zabieg nie pozostawia żadnych blizn ani nacięć. W zależności od obszaru, wykonuje się delikatne nakłucie skóry, następnie wprowadza się nić, która rewitalizuje skórę.
+    <p class='paragraph'> Zabieg nie pozostawia żadnych blizn ani nacięć. W zależności od obszaru, wykonuje się delikatne nakłucie skóry, następnie wprowadza się nić, która rewitalizuje skórę.
     </p></br>
-    <p> Nici PDO skutecznie walczą z opadającymi policzkami, "chomikami" czy wiotkim podbródkiem.   </p></br>
-    <p> Nowoczesne nici PDO (polidioksanon) są bezpieczne, wchłaniają się w ciągu 7 miesięcy, a rezultaty utrzymują się nawet do 2 lat.  </p></br>
-    <p> To innowacyjne rozwiązanie dla długotrwałego efektu odmłodzenia. </p></br>
+    <p class='paragraph'> Nici PDO skutecznie walczą z opadającymi policzkami, "chomikami" czy wiotkim podbródkiem.   </p></br>
+    <p class='paragraph'> Nowoczesne nici PDO (polidioksanon) są bezpieczne, wchłaniają się w ciągu 7 miesięcy, a rezultaty utrzymują się nawet do 2 lat.  </p></br>
+    <p class='paragraph'> To innowacyjne rozwiązanie dla długotrwałego efektu odmłodzenia. </p></br>
 
   `,
   },
@@ -2305,15 +2305,15 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   wolumetriapoliczkow: {
     title: "Wolumetria/Powiększanie policzków",
     description: `<p class='paragraph'>
-    <p>
+    <p class='paragraph'>
     W Centrum Medycznym Wolmedica w Kielcach stosujemy zaawansowaną metodę wolumetrii twarzy, w tym obszaru policzków, poprzez wypełnianie preparatami zawierającymi kwas hialuronowy.  </p></br>
-    <p> Kwas ten jest naturalną substancją obecną w skórze, ale jego ilość spada wraz z wiekiem, prowadząc do powstawania zmarszczek i utraty elastyczności. Kwas hialuronowy może zatrzymać aż 250 cząsteczek wody, co nie tylko utrzymuje skórę napiętą, ale także nawilżoną.
+    <p class='paragraph'> Kwas ten jest naturalną substancją obecną w skórze, ale jego ilość spada wraz z wiekiem, prowadząc do powstawania zmarszczek i utraty elastyczności. Kwas hialuronowy może zatrzymać aż 250 cząsteczek wody, co nie tylko utrzymuje skórę napiętą, ale także nawilżoną.
      </p></br>
-    <p> W naszym Centrum wybieramy różnorodne preparaty kwasu hialuronowego o zróżnicowanej gęstości i usieciowaniu, aby osiągnąć jak najbardziej naturalne efekty wolumetryczne skóry twarzy.  </p></br>
-    <p>  W przypadku policzków, często stosujemy preparaty usieciowane, które zapewniają dłuższe utrzymanie efektu. Zabieg polega na wprowadzeniu preparatu za pomocą specjalnej igły lub kaniuli, wypełniając tkankę podskórną. To podnosi, uelastycznia i wygładza skórę. Możliwe jest stosowanie miejscowego znieczulenia lub kremów znieczulających.
+    <p class='paragraph'> W naszym Centrum wybieramy różnorodne preparaty kwasu hialuronowego o zróżnicowanej gęstości i usieciowaniu, aby osiągnąć jak najbardziej naturalne efekty wolumetryczne skóry twarzy.  </p></br>
+    <p class='paragraph'>  W przypadku policzków, często stosujemy preparaty usieciowane, które zapewniają dłuższe utrzymanie efektu. Zabieg polega na wprowadzeniu preparatu za pomocą specjalnej igły lub kaniuli, wypełniając tkankę podskórną. To podnosi, uelastycznia i wygładza skórę. Możliwe jest stosowanie miejscowego znieczulenia lub kremów znieczulających.
      </p></br>
-    <p>Podczas zabiegu trwającego około 30 minut jesteśmy w stanie, tak podać preparat aby uzyskać naturalny, spójny wygląd. Kwas hialuronowy nie tylko natychmiast wypełnia niedoskonałości, ale również nawilża skórę, stymuluje jej regenerację i poprawia jej kondycję.   </p></br>
-    <p> Efekty utrzymują się przez około 12 miesięcy, a zabieg można powtórzyć po tym czasie. Przeciwwskazania obejmują alergię na kwas hialuronowy lub inne składniki preparatu oraz stany zapalne w obszarze zabiegu. </p></br>
+    <p class='paragraph'>Podczas zabiegu trwającego około 30 minut jesteśmy w stanie, tak podać preparat aby uzyskać naturalny, spójny wygląd. Kwas hialuronowy nie tylko natychmiast wypełnia niedoskonałości, ale również nawilża skórę, stymuluje jej regenerację i poprawia jej kondycję.   </p></br>
+    <p class='paragraph'> Efekty utrzymują się przez około 12 miesięcy, a zabieg można powtórzyć po tym czasie. Przeciwwskazania obejmują alergię na kwas hialuronowy lub inne składniki preparatu oraz stany zapalne w obszarze zabiegu. </p></br>
 
   `,
   },
@@ -2321,42 +2321,54 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   stymulatorytkankowe: {
     title: "Stymulatory tkankowe",
     description: `<p class='paragraph'>
-    <p> Zabieg z wykorzystaniem stymulatorów tkankowych rewitalizuje skórę poprzez stymulację produkcji kolagenu i elastyny. </p></br> <p>Użycie stymulatorów tkankowych działa przeciwstarzeniowo, redukuje objawy fotostarzenia, wpływa na roświetlenie i elastyczność skóry oraz poprawia kontór twarzy. </p></br>
-    <p> Po przeprowadzeniu zabiegu skóra twarzy odzyskuje świeży, młodszy wygląd, a widoczność zmarszczek i przebarwień zostaje zredukowana. </p></br> <p>Seria 2-4 zabiegów co kilka tygodni daje efekty utrzymujące się do 12-16 miesięcy. </p>
+    <p class='paragraph'> Zabieg z wykorzystaniem stymulatorów tkankowych rewitalizuje skórę poprzez stymulację produkcji kolagenu i elastyny. </p></br> <p class='paragraph'>Użycie stymulatorów tkankowych działa przeciwstarzeniowo, redukuje objawy fotostarzenia, wpływa na roświetlenie i elastyczność skóry oraz poprawia kontór twarzy. </p></br>
+    <p class='paragraph'> Po przeprowadzeniu zabiegu skóra twarzy odzyskuje świeży, młodszy wygląd, a widoczność zmarszczek i przebarwień zostaje zredukowana. </p></br> <p class='paragraph'>Seria 2-4 zabiegów co kilka tygodni daje efekty utrzymujące się do 12-16 miesięcy. </p>
 
   `,
   },
 
   panorama: {
     title: "Test Panorama",
-    description: `
-<p>Test Prenatalny Panorama można wykonać już od 9 tygodnia ciąży. </p></br>
-<p>Jest zalecany dla wszystkich kobiet w ciąży, które chciałyby dokładnie zbadać zdrowie swojego dziecka pod kątem wybranych zaburzeń genetycznych.  </p></br>
-<p>Panorama to jedyny test NIPT, który w trakcie analizy odróżnia DNA dziecka od DNA matki. Przekłada się to na następujące zalety: </p>
-<p>• mniejsze ryzyko wyniku fałszywie dodatniego lub fałszywie ujemnego </p>
-<p>• największa dokładność określania płci dziecka spośród wszystkich NIPT </p>
-<p>• możliwość wykrywania triploidii </p>
-<p>• możliwość ustalenia czy bliźnięta są jedno- czy dwujajowe </p> </br></br>
-<p>Test Panorama bada pod kątem występowania u dziecka nieprawidłowości takich jak: </p>
-<p>•najczęstsze trisomie – 21 (zespół Downa), 18 (zespół Edwardsa) oraz 13 (Patau); </p>
-<p>• anomalie w obrębie chromosomów płci – zespół Turnera (X), zespół Klinefertera (XXY), trisomia chromosomu X, zespół Jacobsa (XYY)</p>
-<p>•triploidia </p> </br>
-<p> Test Panorama w wersji rozszerzonej może analizować DNA dziecka także pod kątem zespołów mikrodelecji, takich jak:</p></br>
-<p>• delecja 22q11.2, czyli zespół DiGeorge’a;</p>
-<p>•delecja 1p36; </p>
-<p>•delecja 15q, czyli zespoły Angelmana/Pradera-Williego;</p>
-<p>•delecja 5q, czyli zespół r idu Chat (zespół kociego krzyku).</p></br>
-<p>Szczególnie badanie pod kątem delecji 22q11.2 zalecane jest wszystkim kobietom ciężarnym, niezależnie od historii rodzinnej, medycznej ani od wieku ciężarnej.</p></br>
-<p>Czułość testu Panorama wynosi powyżej 99% (dla nieprawidłowości chromosomowych takich jak trisomia 21, trisomia 13, trisomia chromosomów płci), szansa na uzyskanie fałszywie dodatniego wyniku jest mniejsza niż 0,1%.</p></br>
-<p>Na życzenie rodziców na wyniku testu Panorama może się znaleźć także adnotacja o płci dziecka. Czułość badania dla określenia płci wynosi powyżej 99%</p></br>
-<p>W celu wykonania badania pobiera się próbkę krwi pacjentki. Wyniki dostępne są do 14 dni kalendarzowych. Lekarz specjalista doradzi Ci, który rodzaj testu wykonać: BASIC, PLUS czy PRO.  </p>
+    description: ` 
+<p class='paragraph'>Test Prenatalny Panorama można wykonać już od 9 tygodnia ciąży. </p></br>
+<p class='paragraph'>Jest zalecany dla wszystkich kobiet w ciąży, które chciałyby dokładnie zbadać zdrowie swojego dziecka pod kątem wybranych zaburzeń genetycznych.  </p></br>
+<p class='paragraph'>Panorama to jedyny test NIPT, który w trakcie analizy odróżnia DNA dziecka od DNA matki. Przekłada się to na następujące zalety: </p>
+<p class='paragraph'>• mniejsze ryzyko wyniku fałszywie dodatniego lub fałszywie ujemnego </p>
+<p class='paragraph'>• największa dokładność określania płci dziecka spośród wszystkich NIPT </p>
+<p class='paragraph'>• możliwość wykrywania triploidii </p>
+<p class='paragraph'>• możliwość ustalenia czy bliźnięta są jedno- czy dwujajowe </p> </br></br>
+<p class='paragraph'>Test Panorama bada pod kątem występowania u dziecka nieprawidłowości takich jak: </p>
+<p class='paragraph'>•najczęstsze trisomie – 21 (zespół Downa), 18 (zespół Edwardsa) oraz 13 (Patau); </p>
+<p class='paragraph'>• anomalie w obrębie chromosomów płci – zespół Turnera (X), zespół Klinefertera (XXY), trisomia chromosomu X, zespół Jacobsa (XYY)</p>
+<p class='paragraph'>•triploidia </p> </br>
+<p class='paragraph'> Test Panorama w wersji rozszerzonej może analizować DNA dziecka także pod kątem zespołów mikrodelecji, takich jak:</p></br>
+<p class='paragraph'>• delecja 22q11.2, czyli zespół DiGeorge’a;</p>
+<p class='paragraph'>•delecja 1p36; </p>
+<p class='paragraph'>•delecja 15q, czyli zespoły Angelmana/Pradera-Williego;</p>
+<p class='paragraph'>•delecja 5q, czyli zespół r idu Chat (zespół kociego krzyku).</p></br>
+<p class='paragraph'>Szczególnie badanie pod kątem delecji 22q11.2 zalecane jest wszystkim kobietom ciężarnym, niezależnie od historii rodzinnej, medycznej ani od wieku ciężarnej.</p></br>
+<p class='paragraph'>Czułość testu Panorama wynosi powyżej 99% (dla nieprawidłowości chromosomowych takich jak trisomia 21, trisomia 13, trisomia chromosomów płci), szansa na uzyskanie fałszywie dodatniego wyniku jest mniejsza niż 0,1%.</p></br>
+<p class='paragraph'>Na życzenie rodziców na wyniku testu Panorama może się znaleźć także adnotacja o płci dziecka. Czułość badania dla określenia płci wynosi powyżej 99%</p></br>
+<p class='paragraph'>W celu wykonania badania pobiera się próbkę krwi pacjentki. Wyniki dostępne są do 14 dni kalendarzowych. Lekarz specjalista doradzi Ci, który rodzaj testu wykonać: BASIC, PLUS czy PRO.  </p>
   `,
   },
 
   ktg: {
     title: "Test KTG",
     description: `
-    <p> </p>
+    <p class='paragraph'> </p>
+
+  `,
+  },
+
+  kontrolapooperacyjna: {
+    title: "Kontrola pooperacyjna",
+    description: `
+    <p class='paragraph'> Każdy chory, po operacji kardiochirurgicznej, powinien pozostawać pod specjalistyczną kontrolą, gdyż istnieje ryzyko wystąpienia komplikacji czy nawrotu choroby. Jeśli pacjent zaobserwuje u siebie którykolwiek z objawów związanych z raną, takich jak: wysięk wzdłuż linii cięcia, nasilenie bólu, ocieplenie, intensywne zaczerwienienie lub obrzęk, otwarcie rany bądź gorączka powyżej 38ᵒC, kontakt z lekarzem powinien być natychmiastowy. </br></br>
+    Do lekarza należy pilnie zgłosić się jeżeli dolegliwości ze strony serca, układu krążenia nasilają się lub pojawiają się na nowo. W normalnej sytuacji, pacjent po operacji kardiochirurgicznej potrzebuje od 8 do 12 tygodni, aby odzyskać kondycję fizyczną. Zależy to od wielu czynników: stopnia zaawansowania choroby serca, rodzaju przeprowadzonej operacji, chorób współistniejących oraz wieku. </br></br>
+    Odczuwanie bólu i dyskomfortu, brak sił, to zjawisko normalne. W pierwszych tygodniach po operacji wymagana jest właściwa pielęgnacja rany pooperacyjnej. Wizyta kontrolna po operacji w sytuacji, gdy nie występują żadne niepokojące objawy, jest rekomendowana do trzech miesięcy po opuszczeniu kliniki. W jej trakcie, kardiochirurg może zalecić bardziej drobiazgowe badania: tomografię, RTG klatki piersiowej, EKG, echokardiografie, posiewy, badania krwi (INR – kluczowy po operacjach zastawek, aorty i trudny w kontrolowaniu parametr krzepliwości krwi).
+    
+     </p>
 
   `,
   },
