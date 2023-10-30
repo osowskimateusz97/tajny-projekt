@@ -2354,7 +2354,7 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
   },
 
   ktg: {
-    title: "Test KTG",
+    title: "KTG",
     description: `
     <p class='paragraph'> </p>
 
