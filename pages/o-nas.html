@@ -2,6 +2,16 @@
 <html lang="pl-PL">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WWM4BBP9');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,9 +30,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '655032106698690');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=655032106698690&ev=PageView
+  &noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0DK0RQNC9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-B0DK0RQNC9');
+    </script>
 </head>
 
 <body data-barba="wrapper">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWM4BBP9" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="loader"></div>
     <main data-barba="container">
         <div class="navigation__wrapper">
@@ -63,10 +106,13 @@
                             </a>
                         </li>
                         <li class="navigation__list__element">
-                            <a href="./bon-podarunkowy.html">Bon podarunkowy</a>
+                            <a href="./bon-podarunkowy.html"><span>Bon</span><span>podarunkowy</span></a>
                         </li>
                         <li class="navigation__list__element">
                             <a href="./wspolpraca.html">Współpraca</a>
+                        </li>
+                        <li class="navigation__list__element">
+                            <a href="./galeria.html"><span>Galeria zdjęć</span><span>USG</span></a>
                         </li>
                         <li class="navigation__list__element">
                             <a href="./kariera.html">Kariera</a>
@@ -83,7 +129,44 @@
                 </nav>
             </header>
         </div>
-        <section class="section section__container section__container--first specific-clinic aboutUsPage__hero">
+        <div class="carousel">
+            <div class="carousel__circle-wrapper"></div>
+            <div class="carousel-inner ">
+              <div class="carousel__container carousel__container--active">
+                <video class="carousel__element carousel__element--active" muted>
+                  <source
+                    src="../assets/images/movies/diagnostyka_molekularna.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="carousel__container">
+                <video class="carousel__element" muted>
+                  <source
+                    src="https://mdbcdn.b-cdn.net/img/video/forest.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+    
+              <div class="carousel__container">
+                <video class="carousel__element" muted>
+                  <source
+                    src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <!-- <div class="carousel__container">
+                <img
+                  class="carousel__element carousel__element--img"
+                  src="./assets/images/pizza-6478478_1920.jpg"
+                  alt=""
+                />
+              </div> -->
+            </div>
+          </div>
+        <section class="section section__container section__container--first specific-clinic">
             <img class="specific-clinic__img" src="../assets/images/aboutUsHero.jpg" alt="Szpital Zagnańska">
             <div class="specific-clinic__description aboutUsPage__hero__description">
                 <h1 class="specific-clinic__title heading heading--isBig">Wolmedica - poznaj nas</h1>
@@ -147,11 +230,7 @@
                                 alt="Wywiad o czerniaku">
                         </a>
 
-                        <a class="media-article" href="https://kielce.tvp.pl/39580360/misja-pacjent
-                        ">
-                            <img class="media-article__img" src="../assets/images/mediaonas/misjapacjent.png"
-                                alt="Misja Pacjent">
-                        </a>
+
 
                         <a class="media-article" href="https://echodnia.eu/swietokrzyskie/nowe-centrum-medyczne-rusza-w-piekoszowie-pod-kielcami-w-wolmedice-bedzie-kilkanascie-poradni-zobacz-zdjecia-i-film/ar/c1-17022949
                         ">
@@ -255,34 +334,13 @@
                         </div>
                     </div>
                 </a>
-
-                <a href="./specialists/jedlinski.html">
+                <a href="./specialists/blazuk.html">
                     <div class="avatar">
-                        <img src="../assets/images/doctors/jedlinski.jpeg" class="avatar__img"
-                            alt="lek. Michał Jedliński">
+                        <img src="../assets/images/doctors/blazuk-fortak.jpg" class="avatar__img"
+                            alt="lek. Anna Błażuk-Fortak ">
                         <div class="avatar__description">
-                            <h2 class="heading">lek. Michał Jedliński</h2>
-                            <p class="paragraph">Ginekolog-onkolog</p>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="./specialists/tochowicz.html">
-                    <div class="avatar">
-                        <img src="../assets/images/doctors/tochowicz.jpg" class="avatar__img"
-                            alt="lek. Monika Tochowicz">
-                        <div class="avatar__description">
-                            <h2 class="heading">lek. Monika Tochowicz</h2>
+                            <h2 class="heading">lek. Anna Błażuk-Fortak </h2>
                             <p class="paragraph">Ginekolog-położnik</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="./specialists/swat.html">
-                    <div class="avatar">
-                        <img src="../assets/images/doctors/swat2.jpg" class="avatar__img" alt="lek. Adrian Swat">
-                        <div class="avatar__description">
-                            <h2 class="heading">lek. Adrian Swat</h2>
-                            <p class="paragraph">Ginekolog-położnik, perinatolog</p>
                         </div>
                     </div>
                 </a>
@@ -296,9 +354,51 @@
                         </div>
                     </div>
                 </a>
+                <a href="./specialists/tochowicz.html">
+                    <div class="avatar">
+                        <img src="../assets/images/doctors/tochowicz.jpg" class="avatar__img"
+                            alt="lek. Monika Tochowicz">
+                        <div class="avatar__description">
+                            <h2 class="heading">lek. Monika Tochowicz</h2>
+                            <p class="paragraph">Ginekolog-położnik</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="./specialists/jedlinski.html">
+                    <div class="avatar">
+                        <img src="../assets/images/doctors/jedlinski.jpeg" class="avatar__img"
+                            alt="lek. Michał Jedliński">
+                        <div class="avatar__description">
+                            <h2 class="heading">lek. Michał Jedliński</h2>
+                            <p class="paragraph">Ginekolog-onkolog</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./specialists/sojka.html">
+                    <div class="avatar">
+                        <img src="../assets/images/doctors/sojka.jpg" class="avatar__img" alt="lek. Katarzyna Sojka ">
+                        <div class="avatar__description">
+                            <h2 class="heading">lek. Katarzyna Sojka </h2>
+                            <p class="paragraph">Lekarz medycyny estetycznej</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./specialists/swat.html">
+                    <div class="avatar">
+                        <img src="../assets/images/doctors/swat2.jpg" class="avatar__img" alt="lek. Adrian Swat">
+                        <div class="avatar__description">
+                            <h2 class="heading">lek. Adrian Swat</h2>
+                            <p class="paragraph">Ginekolog-położnik, perinatolog</p>
+                        </div>
+                    </div>
+                </a>
+
+
                 <a href="./specialists/wolder-daniel.html">
                     <div class="avatar">
-                        <img src="../assets/images/doctors/wolder-daniel2.jpg" class="avatar__img"
+                        <img src="../assets/images/doctors/wolder-daniel.jpg" class="avatar__img"
                             alt="lek. Daniel Wolder">
                         <div class="avatar__description">
                             <h2 class="heading">lek. Daniel Wolder</h2>
@@ -452,7 +552,7 @@
                     </div>
                 </a>
 
-                <a href="./specialists/piekarz.html">
+                <!-- <a href="./specialists/piekarz.html">
                     <div class="avatar">
                         <img src="../assets/images/doctors/piekarz2.jpg" class="avatar__img" alt="lek. Anna Piekarz">
                         <div class="avatar__description">
@@ -460,7 +560,7 @@
                             <p class="paragraph">Doradca laktacyjny</p>
                         </div>
                     </div>
-                </a>
+                </a> -->
                 <a href="./specialists/rut.html">
                     <div class="avatar">
                         <img src="../assets/images/reumatolog-s.jpg" class="avatar__img" alt="lek. Katarzyna Rut">
@@ -570,7 +670,16 @@
                         </div>
                     </div>
                 </a>
-                <a href="./specialists/maciak.html">
+                <a href="./specialists/stepien.html">
+                    <div class="avatar">
+                        <img src="../assets/images/doctors/stepien.jpg" class="avatar__img" alt="lek. Sylwia Wójcicka ">
+                        <div class="avatar__description">
+                            <h2 class="heading">lek. Grzegorz Stępień </h2>
+                            <p class="paragraph">Kardiochirurg</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- <a href="./specialists/maciak.html">
                     <div class="avatar">
                         <img src="../assets/images/doctors/maciak.jpg" class="avatar__img" alt="lek. Rafał Maciak ">
                         <div class="avatar__description">
@@ -578,7 +687,7 @@
                             <p class="paragraph">Okulista</p>
                         </div>
                     </div>
-                </a>
+                </a> -->
 
                 <a href="./specialists/kosiara.html">
                     <div class="avatar">
@@ -602,21 +711,16 @@
                     </div>
                 </a>
 
-                <a href="./specialists/blazuk.html">
-                    <div class="avatar">
-                        <img src="../assets/images/doctors/blazuk-fortak.jpg" class="avatar__img"
-                            alt="lek. Anna Błażuk-Fortak ">
-                        <div class="avatar__description">
-                            <h2 class="heading">lek. Anna Błażuk-Fortak </h2>
-                            <p class="paragraph">Ginekolog-położnik</p>
-                        </div>
-                    </div>
-                </a>
+
+
+
             </div>
         </section>
         <footer class="footer">
             <div class="section section__container footer">
                 <h1 class="heading footer__heading">Skontaktuj się z nami</h1>
+                <p class="footer__links footer__link__title heading">Centrala Telefoniczna Wolmedica 796-999-360</p>
+
                 <div class="footer__links">
                     <div class="footer__links__container">
                         <div class="footer__link">
@@ -624,7 +728,7 @@
                                 <div class="footer__link__description">
                                     <a class="paragraph" href="https://goo.gl/maps/TUGM4wEEBofjueDy6">ul. Zagnańska 76
                                         <br>Kielce</a>
-                                    <a class="paragraph" href="tel:+48796999360">796-999-360</a>
+                                    <a class="paragraph" href="tel:+48796999740">796-999-740</a>
                                 </div>
                         </div>
                         <div class="footer__link__icons">
@@ -654,7 +758,7 @@
                                     <a class="paragraph" href="https://goo.gl/maps/UMhXEqD35zTip6xS9">ul. Turystyczna 11
                                         G/H
                                         <br>Kielce</a>
-                                    <a class="paragraph" href="tel:+48796999360">796-999-360</a>
+                                    <a class="paragraph" href="tel:+48796999375">796-999-375</a>
                                 </div>
                         </div>
                         <div class="footer__link__icons">
@@ -683,7 +787,7 @@
                             <div class="footer__link__description">
                                 <a class="paragraph" href="https://goo.gl/maps/Eu1JnD5qddqhs49o8">ul. Częstochowska 89
                                     <br>Piekoszów</a>
-                                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
+                                <a class="paragraph" href="tel:+48796999025">796-999-025</a>
                             </div>
                         </div>
                         <div class="footer__link__icons">
@@ -712,12 +816,12 @@
                 </div>
             </div>
             <div class="footer__rights">
-                <p class="paragraph">&copy; 2022 Wolmedica, All Rights Reserved</p>
+                <p class="paragraph">&copy; 2023 Wolmedica, All Rights Reserved</p>
             </div>
         </footer>
     </main>
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
         integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>

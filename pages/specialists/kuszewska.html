@@ -2,6 +2,16 @@
 <html lang="pl-PL">
 
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WWM4BBP9');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,9 +30,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '655032106698690');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=655032106698690&ev=PageView
+&noscript=1" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0DK0RQNC9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-B0DK0RQNC9');
+  </script>
+
 </head>
 
 <body data-barba="wrapper">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWM4BBP9" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div class="loader"></div>
   <main data-barba="container">
     <div class="navigation__wrapper">
@@ -63,10 +107,13 @@
               </a>
             </li>
             <li class="navigation__list__element">
-              <a href="../bon-podarunkowy.html">Bon podarunkowy</a>
+              <a href="../bon-podarunkowy.html"><span>Bon</span><span>podarunkowy</span></a>
             </li>
             <li class="navigation__list__element">
               <a href="../wspolpraca.html">Współpraca</a>
+            </li>
+            <li class="navigation__list__element">
+              <a href="../galeria.html"><span>Galeria zdjęć</span><span>USG</span></a>
             </li>
             <li class="navigation__list__element">
               <a href="../kariera.html">Kariera</a>
@@ -138,6 +185,7 @@
     <footer class="footer">
       <div class="section section__container footer">
         <h1 class="heading footer__heading">Skontaktuj się z nami</h1>
+        <p class="footer__links footer__link__title heading">Centrala Telefoniczna Wolmedica 796-999-360</p>
         <div class="footer__links">
           <div class="footer__links__container">
             <div class="footer__link">
@@ -146,7 +194,7 @@
               </h2>
               <div class="footer__link__description">
                 <a class="paragraph" href="https://goo.gl/maps/TUGM4wEEBofjueDy6">ul. Zagnańska 76 <br />Kielce</a>
-                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
+                <a class="paragraph" href="tel:+48796999740">796-999-740</a>
               </div>
             </div>
             <div class="footer__link__icons">
@@ -175,7 +223,7 @@
               <div class="footer__link__description">
                 <a class="paragraph" href="https://goo.gl/maps/UMhXEqD35zTip6xS9">ul. Turystyczna 11 G/H
                   <br />Kielce</a>
-                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
+                <a class="paragraph" href="tel:+48796999375">796-999-375</a>
               </div>
             </div>
             <div class="footer__link__icons">
@@ -204,7 +252,7 @@
               <div class="footer__link__description">
                 <a class="paragraph" href="https://goo.gl/maps/Eu1JnD5qddqhs49o8">ul. Częstochowska 89
                   <br />Piekoszów</a>
-                <a class="paragraph" href="tel:+48796999360">796-999-360</a>
+                <a class="paragraph" href="tel:+48796999025">796-999-025</a>
               </div>
             </div>
             <div class="footer__link__icons">
@@ -231,7 +279,7 @@
         </div>
       </div>
       <div class="footer__rights">
-        <p class="paragraph">&copy; 2022 Wolmedica, All Rights Reserved</p>
+        <p class="paragraph">&copy; 2023 Wolmedica, All Rights Reserved</p>
       </div>
     </footer>
   </main>
