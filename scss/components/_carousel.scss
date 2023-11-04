@@ -3,9 +3,12 @@
     top: 100px;
     box-sizing: border-box;
     height: 70vh;
+    width:70%;
+    margin:0 auto;
     margin-bottom:17vh;
     @include media(tablet) {
         height: 50vh;
+        width:100%;
     }
     
     @include media(mobile) {
@@ -30,6 +33,10 @@
         position: absolute;
         top: 0;
         left: 0;
+        object-fit: cover;
+        &--img{
+            object-fit:contain;
+        }
     }
 
     &__circle-wrapper {
@@ -46,7 +53,9 @@
         }
         
         @include media(mobile) {
-            bottom: 23%;
+            bottom: 15%;
+            gap: 15px;
+
         }
     }
     &__circle {
@@ -58,7 +67,7 @@
         opacity: 0.5;
         cursor: pointer;
         transition: opacity 0.5s;
-
+        padding:10px;
         @include media(tablet) {
             width: 15px;
             height: 15px;

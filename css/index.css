@@ -1491,16 +1491,20 @@ main {
   top: 100px;
   box-sizing: border-box;
   height: 70vh;
+  width: 70%;
+  margin: 0 auto;
   margin-bottom: 17vh;
 }
 @media all and (max-width: 1024.7px) {
   .carousel {
     height: 50vh;
+    width: 100%;
   }
 }
 @media all and (tablet) {
   .carousel {
     height: 50vh;
+    width: 100%;
   }
 }
 @media all and (max-width: 480px) {
@@ -1527,6 +1531,10 @@ main {
   position: absolute;
   top: 0;
   left: 0;
+  object-fit: cover;
+}
+.carousel__element--img {
+  object-fit: contain;
 }
 .carousel__circle-wrapper {
   position: absolute;
@@ -1549,7 +1557,8 @@ main {
 }
 @media all and (max-width: 480px) {
   .carousel__circle-wrapper {
-    bottom: 23%;
+    bottom: 15%;
+    gap: 15px;
   }
 }
 .carousel__circle {
@@ -1561,6 +1570,7 @@ main {
   opacity: 0.5;
   cursor: pointer;
   transition: opacity 0.5s;
+  padding: 10px;
 }
 @media all and (max-width: 1024.7px) {
   .carousel__circle {
