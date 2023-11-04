@@ -5,8 +5,8 @@
     background-color: $white;
     box-shadow: map-get($boxShadow, modal);
     border-radius: map-get($borderRadius, s);
-    padding: 3rem;
-    max-width: 500px;
+    padding: 5rem;
+    max-width: 800px;
     max-height: 75vh;
     min-height: 50vh;
     overflow: hidden;
@@ -14,6 +14,16 @@
     grid-template-rows: auto 1fr auto;
     gap: 2rem;
     margin: 0 2rem;
+    @include media(tablet) {
+      padding: 3rem;
+
+  }
+  
+  @include media(mobile) {
+      bottom: 15%;
+      gap: 15px;
+
+  }
   }
 
   &__title,
