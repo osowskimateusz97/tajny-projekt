@@ -945,7 +945,6 @@ main {
   transition: 0.2s linear;
   transform-origin: center;
   position: absolute;
-  z-index: -1;
 }
 .card__title {
   font-size: 2rem;
@@ -1394,8 +1393,8 @@ main {
   background-color: #fff;
   box-shadow: rgba(33, 33, 39, 0.36) 9px 7px 29px 0px;
   border-radius: 1rem;
-  padding: 3rem;
-  max-width: 500px;
+  padding: 5rem;
+  max-width: 800px;
   max-height: 75vh;
   min-height: 50vh;
   overflow: hidden;
@@ -1403,6 +1402,22 @@ main {
   grid-template-rows: auto 1fr auto;
   gap: 2rem;
   margin: 0 2rem;
+}
+@media all and (max-width: 1024.7px) {
+  .modal__container {
+    padding: 3rem;
+  }
+}
+@media all and (tablet) {
+  .modal__container {
+    padding: 3rem;
+  }
+}
+@media all and (max-width: 480px) {
+  .modal__container {
+    bottom: 15%;
+    gap: 15px;
+  }
 }
 .modal__title, .modal__footer {
   display: flex;
@@ -1487,6 +1502,117 @@ main {
     transform: translateY(-10%);
   }
 }
+.carousel {
+  position: relative;
+  top: 100px;
+  box-sizing: border-box;
+  height: 80vh;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 17vh;
+}
+@media all and (max-width: 1024.7px) {
+  .carousel {
+    height: 50vh;
+    width: 100%;
+  }
+}
+@media all and (tablet) {
+  .carousel {
+    height: 50vh;
+    width: 100%;
+  }
+}
+@media all and (max-width: 480px) {
+  .carousel {
+    height: 30vh;
+  }
+}
+.carousel-inner {
+  width: 100%;
+  max-height: 100%;
+}
+.carousel__container {
+  transition: opacity 0.6s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+.carousel__container--active {
+  visibility: visible;
+  opacity: 1;
+}
+.carousel__element {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.carousel__element--img {
+  object-fit: contain;
+}
+.carousel__circle-wrapper {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex;
+  gap: 10px;
+}
+@media all and (max-width: 1024.7px) {
+  .carousel__circle-wrapper {
+    bottom: 3%;
+  }
+}
+@media all and (tablet) {
+  .carousel__circle-wrapper {
+    bottom: 3%;
+  }
+}
+@media all and (max-width: 480px) {
+  .carousel__circle-wrapper {
+    bottom: 15%;
+    gap: 15px;
+  }
+}
+.carousel__circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(201, 201, 201);
+  background: rgba(253, 253, 253, 0.635);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.5s;
+  padding: 10px;
+}
+@media all and (max-width: 1024.7px) {
+  .carousel__circle {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media all and (tablet) {
+  .carousel__circle {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media all and (max-width: 480px) {
+  .carousel__circle {
+    width: 10px;
+    height: 10px;
+  }
+}
+.carousel__circle:hover {
+  opacity: 1;
+}
+.carousel__circle--active {
+  opacity: 1;
+}
+
 .hero {
   display: grid;
   grid-template-areas: "zag zag zag blood" "tur tur tur tur" "piek piek piek piek";

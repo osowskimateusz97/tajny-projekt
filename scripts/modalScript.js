@@ -13,17 +13,19 @@ const handleOpenModal = (modal, triggerEl) => {
 
 const initModal = () => {
   // Init micro modal
-
-  MicroModal.init({
-    disableScroll: true,
-    onShow: handleOpenModal,
-    awaitCloseAnimation: true,
-  });
-
+  if (typeof MicroModal !== "undefined") {
+    MicroModal.init({
+      disableScroll: true,
+      onShow: handleOpenModal,
+      awaitCloseAnimation: true,
+    });
+  }
   const modalOverlay = document.querySelector(".modal__overlay");
 
   modalOverlay.addEventListener("mousedown", (e) => {
     if (e.target.closest(".modal__container")) return;
-    MicroModal.close("modal-1");
+    if (typeof MicroModal !== "undefined") {
+      MicroModal.close("modal-1");
+    }
   });
 };

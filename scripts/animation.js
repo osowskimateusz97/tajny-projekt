@@ -1,3 +1,138 @@
+class Carousel {
+  nodeType = {
+    video: "VIDEO",
+    img: "IMG",
+  };
+  constructor(container) {
+    this.container = container;
+    this.setup();
+  }
+
+  setup() {
+    this.setActiveElements();
+    this.createDots();
+    this.addListeners();
+  }
+  setActiveElements() {
+    this.activeContainer = this.container.querySelector(
+      ".carousel__container--active"
+    );
+    this.activeElement = this.container.querySelector(
+      ".carousel__element--active"
+    );
+  }
+  createDots() {
+    const dotWrapper = this.container.querySelector(
+      ".carousel__circle-wrapper"
+    );
+    this.getAllCarouselElements().forEach((_, i) => {
+      const dot = document.createElement("div");
+      const isFirst = i === 0;
+      dot.classList = `carousel__circle ${
+        isFirst ? "carousel__circle--active" : ""
+      }`;
+
+      dot.setAttribute("data-index", i);
+      dotWrapper.appendChild(dot);
+    });
+  }
+
+  addListeners() {
+    const circleWrapper = this.container.querySelector(
+      ".carousel__circle-wrapper"
+    );
+    if (circleWrapper) {
+      circleWrapper.addEventListener("click", (e) => this.handleDotClick(e));
+    }
+  }
+
+  handleDotClick(e) {
+    const index = e.target.dataset.index;
+    const allElements = this.getAllCarouselElements();
+    if (index !== undefined) {
+      const container = allElements[index];
+      const element = container.querySelector(".carousel__element");
+      this.switchDot(index);
+      clearTimeout(this.imgIndex);
+      clearTimeout(this.videoIndex);
+      this.runSpecificMovie(container, element);
+    }
+  }
+
+  isVideo(el) {
+    return el.nodeName === this.nodeType.video;
+  }
+
+  isImg(el) {
+    return el.nodeName === this.nodeType.img;
+  }
+
+  getAllCarouselElements() {
+    return [...this.container.querySelectorAll(".carousel__container")];
+  }
+  getIndexOfActiveElement() {
+    const allElements = this.getAllCarouselElements();
+    const currentIndex = allElements.findIndex((el) => {
+      return el.classList.contains("carousel__container--active");
+    });
+    return currentIndex;
+  }
+  getNextElements() {
+    const allElements = this.getAllCarouselElements();
+    const currentIndex = this.getIndexOfActiveElement();
+    const nextIdx = (currentIndex + 1) % allElements.length;
+    const nextContainer = allElements[nextIdx];
+    this.switchDot(nextIdx);
+    const nextElement = nextContainer.querySelector(".carousel__element");
+    return {
+      nextContainer,
+      nextElement,
+    };
+  }
+
+  runMovie() {
+    this.activeElement.currentTime = 0;
+    this.activeElement.play();
+    const activeElDuration = this.activeElement.duration * 1000;
+    this.videoIndex = setTimeout(() => {
+      this.next();
+    }, activeElDuration);
+  }
+  runImg() {
+    this.imgIndex = setTimeout(() => {
+      this.next();
+    }, 5000);
+  }
+
+  start() {
+    if (this.isImg(this.activeElement)) this.runImg();
+    if (this.isVideo(this.activeElement)) this.runMovie();
+  }
+
+  next() {
+    const { nextContainer, nextElement } = this.getNextElements();
+    this.runSpecificMovie(nextContainer, nextElement);
+  }
+  switchDot(nextIdx) {
+    const activeDotClass = "carousel__circle--active";
+    const dots = [...this.container.querySelectorAll(".carousel__circle")];
+    const prevIdx = dots.findIndex((dot) =>
+      dot.classList.contains("carousel__circle--active")
+    );
+    dots[prevIdx].classList.remove(activeDotClass);
+    dots[nextIdx].classList.add(activeDotClass);
+  }
+  runSpecificMovie(nextContainer, nextElement) {
+    this.activeContainer.classList.remove("carousel__container--active");
+    this.activeElement.classList.remove("carousel__element--active");
+    nextContainer.classList.add("carousel__container--active");
+    nextElement.classList.add("carousel__element--active");
+    this.activeContainer = nextContainer;
+    this.activeElement = nextElement;
+    this.start();
+  }
+}
+
 function init() {
   //toggle hamburger
   function initHamburger(container) {
@@ -68,7 +203,7 @@ function init() {
     document.querySelector("html").classList.remove("is-transitioning");
     barba.wrapper.classList.remove("is-animating");
 
-    if (MicroModal) {
+    if (typeof MicroModal !== "undefined") {
       initModal();
     }
   });
@@ -88,7 +223,6 @@ function init() {
   for (var i = 0; i < links.length; i++) {
     links[i].addEventListener("click", cbk);
   }
-
   barba.init({
     preventRunning: true,
     prevent: ({ el }) => el.dataset && el.dataset?.fslightbox,
@@ -101,7 +235,6 @@ function init() {
             ".navigation__container"
           );
           const isMobile = window.innerWidth <= 1025;
-
           if (isMobile) gsap.to(navContainer, { x: "-100%", duration: 0.2 });
           loaderIn();
           setTimeout(function () {
@@ -113,6 +246,11 @@ function init() {
           loaderAway();
           injectWidget();
           initHamburger(container);
+          const carouselDiv = container.querySelector(".carousel");
+          if (carouselDiv) {
+            const carousel = new Carousel(container);
+            carousel.start();
+          }
           setTimeout(function () {
             showAnimation(next, container);
           }, 0);
@@ -120,11 +258,12 @@ function init() {
         once({ next }) {
           const container = next.container;
           initHamburger(container);
-
-          setTimeout(function () {
-            showAnimation(next, container);
-          }, 0);
-          if (MicroModal) {
+          const carouselDiv = container.querySelector(".carousel");
+          if (carouselDiv) {
+            const carousel = new Carousel(container);
+            carousel.start();
+          }
+          if (typeof MicroModal !== "undefined") {
             initModal();
           }
         },

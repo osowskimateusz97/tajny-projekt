@@ -3,32 +3,37 @@
 
 <head>
   <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-WWM4BBP9');</script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js",
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-WWM4BBP9");
+  </script>
   <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wolmedica - Twoja przychodnia</title>
 
-
   <link href="//db.onlinewebfonts.com/c/4b6615ca5c3c01f097b07394e74bc343?family=Brain+Wants" rel="stylesheet"
     type="text/css" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon/favicon-16x16.png">
-  <link rel="manifest" href="./assets/icons/favicon/site.webmanifest">
-  <link rel="mask-icon" href="./assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/icons/favicon/site.webmanifest" />
+  <link rel="mask-icon" href="./assets/icons/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
   <link rel="stylesheet" href="css/index.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,19 +42,31 @@
 
   <!-- Facebook Pixel Code -->
   <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+    !(function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod
+          ? n.callMethod.apply(n, arguments)
+          : n.queue.push(arguments);
       };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '655032106698690');
-    fbq('track', 'PageView');
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = "2.0";
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s);
+    })(
+      window,
+      document,
+      "script",
+      "https://connect.facebook.net/en_US/fbevents.js"
+    );
+    fbq("init", "655032106698690");
+    fbq("track", "PageView");
   </script>
   <noscript>
     <img height="1" width="1" src="https://www.facebook.com/tr?id=655032106698690&ev=PageView
@@ -60,17 +77,18 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0DK0RQNC9"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-B0DK0RQNC9');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-B0DK0RQNC9");
   </script>
 </head>
 
 <body data-barba="wrapper">
-
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWM4BBP9" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+      style="display: none; visibility: hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class="loader"></div>
   <main data-barba="container" data-barba-namespace="home">
@@ -80,7 +98,7 @@
           <h1 class="navigation__logo--title">
             <a class="navigation__logo--link" href="./index.html">Wolmedica
               <img class="navigation__logo--logo-img navigation__logo--logo-img-1"
-                src="./assets/images/logo/main-logo.png" alt="logo">
+                src="./assets/images/logo/main-logo.png" alt="logo" />
             </a>
           </h1>
           <svg class="navigation__hamburger" data-type="hamburger" width="40" height="30" viewBox="0 0 40 30"
@@ -134,6 +152,40 @@
         </nav>
       </header>
     </div>
+    <div class="carousel">
+      <div class="carousel__circle-wrapper"></div>
+      <div class="carousel-inner">
+        <div class="carousel__container carousel__container--active">
+          <video class="carousel__element carousel__element--active" muted>
+            <source src="./assets/videos/2023-10-25-175736002.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="carousel__container">
+          <video class="carousel__element" muted>
+            <source src="./assets/videos/2023-10-18-174128424.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <div class="carousel__container">
+          <img src="./assets/images/slider/4.png" alt="" class="carousel__element carousel__element--img" />
+        </div>
+        <div class="carousel__container">
+          <img src="./assets/images/slider/5.png" alt="" class="carousel__element carousel__element--img" />
+        </div>
+        <div class="carousel__container">
+          <img src="./assets/images/slider/6.png" alt="" class="carousel__element carousel__element--img" />
+        </div>
+        <div class="carousel__container">
+          <img src="./assets/images/slider/7.png" alt="" class="carousel__element carousel__element--img" />
+        </div>
+        <div class="carousel__container">
+          <img src="./assets/images/slider/8.png" alt="" class="carousel__element carousel__element--img" />
+        </div>
+        <div class="carousel__container">
+          <img src="./assets/images/slider/9.png" alt="" class="carousel__element carousel__element--img" />
+        </div>
+      </div>
+    </div>
     <section class="section section__container section__container--first hero">
       <a class="zag" href="pages/zagnanska.html">
         <div class="card first-col card--main">
@@ -143,7 +195,7 @@
       </a>
       <a class="blood" href="./pages/poradnie/punkt-pobran.html">
         <div class="card card--main">
-          <h1 class=" card__title">Wolmedica Zagnańska<br>Punkt pobrań</h1>
+          <h1 class="card__title">Wolmedica Zagnańska<br />Punkt pobrań</h1>
           <img class="card__img" src="./assets/images/punkt-m.jpg" alt="hero" />
         </div>
       </a>
@@ -159,7 +211,6 @@
           <img class="card__img" src="./assets/images/piekoszow2.jpeg" alt="hero" />
         </div>
       </a>
-
     </section>
     <section class="section section__container section__container--pt0">
       <div class="services">
@@ -309,9 +360,9 @@
           <p class="aboutUs__info__description paragraph">
             Wolmedica to trzy, wielospecjalistyczne placówki medyczne
             działające w Kielcach oraz Piekoszowie. <br /><br />
-            Przychodnia Wolmedica znajduje się przy ulicy Turystycznej 11 G/H w Kielcach,
-            Centrum Medyczne Wolmedica przy ulicy Zagnańskiej 76 w Kielcach, a Wolmedica Piekoszów znajduje się przy
-            ulicy
+            Przychodnia Wolmedica znajduje się przy ulicy Turystycznej 11 G/H
+            w Kielcach, Centrum Medyczne Wolmedica przy ulicy Zagnańskiej 76 w
+            Kielcach, a Wolmedica Piekoszów znajduje się przy ulicy
             Częstochowskiej 89 w Piekoszowie.<br />
             <br />Pacjentom oferujemy dostęp do lekarzy różnych specjalizacji,
             w tym stomatologów oraz wykwalifikowanych położnych i
@@ -464,9 +515,10 @@
       <div class="section section__container footer">
         <h1 class="heading footer__heading">
           <span class="footer__heading--text">Skontaktuj się z nami</span>
-
         </h1>
-        <p class="footer__links footer__link__title heading">Centrala Telefoniczna Wolmedica 796-999-360</p>
+        <p class="footer__links footer__link__title heading">
+          Centrala Telefoniczna Wolmedica 796-999-360
+        </p>
         <div class="footer__links">
           <div class="footer__links__container">
             <div class="footer__link">
@@ -596,7 +648,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"
     integrity="sha512-6BvDODEWgjWWyBrg6YFio6xmzgKWpf54tDlnCtG05m++/jgh/7jQcx6jUJrq44lB84cf68FzYiT0LipabA5g8g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
   <script src="./data/modalData.js"></script>
   <script src="./scripts/modalScript.js"></script>
   <script src="./scripts/animation.js"></script>
