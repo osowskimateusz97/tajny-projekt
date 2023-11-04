@@ -953,6 +953,7 @@ main {
   left: 5%;
   position: absolute;
   color: #fff;
+  z-index: 2;
 }
 .card::before {
   position: absolute;
@@ -964,6 +965,7 @@ main {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   transition: 0.2s linear;
+  z-index: 1;
 }
 .card--main::before {
   background-color: rgba(0, 0, 0, 0.15);
@@ -1506,27 +1508,10 @@ main {
   position: relative;
   top: 100px;
   box-sizing: border-box;
-  height: 80vh;
-  width: 100%;
-  margin: 0 auto;
+  height: 50vh;
+  width: 70%;
+  margin: 1rem auto 0;
   margin-bottom: 17vh;
-}
-@media all and (max-width: 1024.7px) {
-  .carousel {
-    height: 50vh;
-    width: 100%;
-  }
-}
-@media all and (tablet) {
-  .carousel {
-    height: 50vh;
-    width: 100%;
-  }
-}
-@media all and (max-width: 480px) {
-  .carousel {
-    height: 30vh;
-  }
 }
 .carousel-inner {
   width: 100%;
@@ -1534,17 +1519,20 @@ main {
 }
 .carousel__container {
   transition: opacity 0.6s ease-in-out;
-  visibility: hidden;
+  display: none;
   opacity: 0;
+  height: 50vh;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 .carousel__container--active {
-  visibility: visible;
+  display: block;
   opacity: 1;
 }
 .carousel__element {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   object-fit: cover;
@@ -1582,7 +1570,7 @@ main {
   height: 20px;
   border-radius: 50%;
   border: 2px solid rgb(201, 201, 201);
-  background: rgba(253, 253, 253, 0.635);
+  background: rgba(253, 253, 253, 0.729);
   opacity: 0.5;
   cursor: pointer;
   transition: opacity 0.5s;
@@ -1604,6 +1592,7 @@ main {
   .carousel__circle {
     width: 10px;
     height: 10px;
+    padding: 8px;
   }
 }
 .carousel__circle:hover {

@@ -208,11 +208,6 @@ function init() {
     }
   });
 
-  // scroll to the top of the page
-  barba.hooks.enter(() => {
-    window.scrollTo(0, 0);
-  });
-
   var links = document.querySelectorAll("a[href]");
   var cbk = function (e) {
     if (e.currentTarget.href === window.location.href) {
@@ -278,6 +273,22 @@ function init() {
         },
       },
     ],
+  });
+  history.scrollRestoration = "manual";
+  var scrollPosY = [0];
+
+  barba.hooks.enter((data) => {
+    if (data.trigger !== "back") {
+      scrollPosY.push(barba.history.current.scroll.y);
+    }
+  });
+
+  barba.hooks.after((data) => {
+    if (data.trigger !== "back") {
+      window.scrollTo(0, 0);
+    } else {
+      window.scrollTo(0, scrollPosY.pop());
+    }
   });
 }
 // ZNANY LEKARZ - WIDGET
