@@ -44,7 +44,15 @@ const modalData = {
     owodniowego bądź słaba przezierność tkanek ciężarnej.
     Aparat USG którym dysponujemy umożliwia również badanie dopplerowskie, czyli ocenę
     przepływu krwi przez naczynia matki i rozwijającego się w jej brzuchu dziecka.
-    </p>`,
+    </p>
+    <br>
+    <img src="./assets/images/modal/usgI/usg1.png" width="80%" alt="usg">
+    <br>
+    <img src="./assets/images/modal/usgI/usg2.png" width="80%" alt="usg">
+    <br>
+    <img src="./assets/images/modal/usgI/usg3.png" width="80%" alt="usg">
+
+    `,
   },
   badaniaprenatalne: {
     title: "Badania prenatalne",
@@ -2357,6 +2365,8 @@ Półpasiec pojawia się w wyniku osłabienia układu odpornościowego i jest ef
     title: "KTG",
     description: `
     <p class='paragraph'> </p>
+    <img src="./assets/images/modal/ktg/ktg1.png" width="80%" alt="ktg">
+    <img src="./assets/images/modal/ktg/ktg2.png" width="80%" alt="ktg">
 
   `,
   },
