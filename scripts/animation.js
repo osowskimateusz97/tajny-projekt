@@ -254,6 +254,7 @@ function init() {
         once({ next }) {
           const container = next.container;
           initHamburger(container);
+          homeAnimation(container);
           const carouselDiv = container.querySelector(".carousel");
           if (carouselDiv) {
             const carousel = new Carousel(container);
@@ -322,6 +323,7 @@ window.addEventListener("load", function () {
 gsap.registerPlugin(ScrollTrigger);
 
 function showAnimation(next, container) {
+  console.log(next.namespace);
   if (window.innerWidth <= 768) return;
   switch (next.namespace) {
     case "home":
