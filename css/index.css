@@ -1510,16 +1510,18 @@ main {
   box-sizing: border-box;
   width: 70%;
   margin: 1rem auto 0;
-  margin-bottom: 17vh;
+  margin-bottom: 25vh;
 }
 @media all and (max-width: 1024.7px) {
   .carousel {
     width: 100%;
+    margin-bottom: 25vh;
   }
 }
 @media all and (tablet) {
   .carousel {
     width: 100%;
+    margin-bottom: 25vh;
   }
 }
 .carousel-inner {
@@ -1620,25 +1622,37 @@ main {
 }
 
 .video__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  justify-content: center;
   width: 100%;
+  grid-gap: 2rem;
+  margin: 5rem auto;
+  max-width: 1400px;
+  padding: 0 2rem;
 }
 .video__wrapper--small {
   width: 100%;
   height: 700px;
 }
-@media all and (max-width: 1024.7px) {
-  .video__wrapper--small {
-    height: 400px;
-  }
-}
-@media all and (tablet) {
-  .video__wrapper--small {
-    height: 400px;
-  }
-}
 .video__element {
   width: 100%;
   height: 100%;
+}
+@media all and (max-width: 1024.7px) {
+  .video__element {
+    max-height: 350px;
+  }
+}
+@media all and (tablet) {
+  .video__element {
+    max-height: 350px;
+  }
+}
+@media all and (max-width: 480px) {
+  .video__element {
+    height: 200px;
+  }
 }
 
 .hero {
@@ -1831,7 +1845,7 @@ main {
 .aboutUsPage__socials-wrapper {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 .aboutUsPage__socials-icon {
   width: 30px;

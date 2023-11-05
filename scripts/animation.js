@@ -220,6 +220,7 @@ function init() {
   }
   barba.init({
     preventRunning: true,
+    // debug: true,
     prevent: ({ el }) => el.dataset && el.dataset?.fslightbox,
     transitions: [
       {
@@ -267,9 +268,7 @@ function init() {
           destroyWidget();
         },
         after(data) {
-          if (data.next.namespace === "clinic") {
-            refreshFsLightbox();
-          }
+          refreshFsLightbox();
         },
       },
     ],
