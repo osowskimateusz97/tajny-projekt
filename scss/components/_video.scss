@@ -1,0 +1,16 @@
+.video {
+  &__wrapper {
+    width: 100%;
+    &--small {
+       width:100%;
+       height: 700px;
+       @include media(tablet) {
+        height: 400px
+       }
+    }
+  }
+  &__element {
+    width: 100%;
+    height: 100%;
+  }
+}

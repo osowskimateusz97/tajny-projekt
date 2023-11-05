@@ -1508,22 +1508,39 @@ main {
   position: relative;
   top: 100px;
   box-sizing: border-box;
-  height: 50vh;
   width: 70%;
   margin: 1rem auto 0;
   margin-bottom: 17vh;
 }
+@media all and (max-width: 1024.7px) {
+  .carousel {
+    width: 100%;
+  }
+}
+@media all and (tablet) {
+  .carousel {
+    width: 100%;
+  }
+}
 .carousel-inner {
   width: 100%;
-  max-height: 100%;
 }
 .carousel__container {
   transition: opacity 0.6s ease-in-out;
   display: none;
   opacity: 0;
   height: 50vh;
-  border-radius: 1rem;
   overflow: hidden;
+}
+@media all and (max-width: 1024.7px) {
+  .carousel__container {
+    height: auto;
+  }
+}
+@media all and (tablet) {
+  .carousel__container {
+    height: auto;
+  }
 }
 .carousel__container--active {
   display: block;
@@ -1535,14 +1552,14 @@ main {
   position: relative;
   top: 0;
   left: 0;
-  object-fit: cover;
+  object-fit: contain;
 }
 .carousel__element--img {
   object-fit: contain;
 }
 .carousel__circle-wrapper {
   position: absolute;
-  bottom: 5%;
+  top: 105%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
@@ -1566,8 +1583,8 @@ main {
   }
 }
 .carousel__circle {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border: 2px solid rgb(201, 201, 201);
   background: rgba(253, 253, 253, 0.729);
@@ -1592,7 +1609,7 @@ main {
   .carousel__circle {
     width: 10px;
     height: 10px;
-    padding: 8px;
+    padding: 5px;
   }
 }
 .carousel__circle:hover {
@@ -1600,6 +1617,28 @@ main {
 }
 .carousel__circle--active {
   opacity: 1;
+}
+
+.video__wrapper {
+  width: 100%;
+}
+.video__wrapper--small {
+  width: 100%;
+  height: 700px;
+}
+@media all and (max-width: 1024.7px) {
+  .video__wrapper--small {
+    height: 400px;
+  }
+}
+@media all and (tablet) {
+  .video__wrapper--small {
+    height: 400px;
+  }
+}
+.video__element {
+  width: 100%;
+  height: 100%;
 }
 
 .hero {
@@ -1788,6 +1827,16 @@ main {
   .aboutUsPage__ourSpecialists {
     margin-top: 1.5rem;
   }
+}
+.aboutUsPage__socials-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.aboutUsPage__socials-icon {
+  width: 30px;
+  height: 30px;
+  filter: invert(56%) sepia(64%) saturate(484%) hue-rotate(8deg) brightness(95%) contrast(83%);
 }
 
 .media-articles {

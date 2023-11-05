@@ -16,6 +16,20 @@
       margin-top: 1.5rem;
     }
   }
+  &__socials {
+    &-wrapper{
+      display:flex;
+      justify-content: center;
+      gap: 10px;
+  
+    }
+    &-icon {
+      width:30px;
+      height:30px;
+      filter: invert(56%) sepia(64%) saturate(484%) hue-rotate(8deg) brightness(95%)
+      contrast(83%);
+    }
+  }
 }
 
 .media-articles {
