@@ -334,7 +334,7 @@ function showAnimation(next, container) {
 }
 
 function homeAnimation(container) {
-  const heroImgs = container.querySelectorAll(".hero > a");
+  const heroImgs = container.querySelectorAll(".hero > a:not(.no-anim)");
   // HERO ANIMATION
   gsap.set(heroImgs, { transformOrigin: "top", opacity: 0 });
 
