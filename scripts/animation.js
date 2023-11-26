@@ -6,6 +6,8 @@ class Carousel {
   isVoiceOn = false;
   constructor(container) {
     this.container = container;
+    this.handleDotClick = this.handleDotClick.bind(this);
+    this.handleControllersListener = this.handleControllersListener.bind(this);
     this.setup();
   }
 
@@ -38,29 +40,43 @@ class Carousel {
     });
   }
 
-  addListeners() {
-    const circleWrapper = this.container.querySelector(
-      ".carousel__circle-wrapper"
-    );
-    if (circleWrapper) {
-      circleWrapper.addEventListener("click", (e) => this.handleDotClick(e));
+  removeListeners() {
+    clearTimeout(this.imgIndex);
+    clearTimeout(this.videoIndex);
+    if (this.circleWrapper) {
+      this.circleWrapper.removeEventListener("click", this.handleDotClick);
     }
-    const controllers = [
-      ...this.container.querySelectorAll(".carousel__controller"),
-    ];
-    if (controllers) {
-      controllers.forEach((controller) => {
-        controller.addEventListener("click", (e) => {
-          this.handleManageVoiceClick(e, controllers);
-          this.handleVoiceIconClick(e, controllers);
-        });
+    if (this.controllers) {
+      this.controllers.forEach((controller) => {
+        controller.removeEventListener("click", this.handleControllersListener);
       });
     }
   }
 
+  addListeners() {
+    this.circleWrapper = this.container.querySelector(
+      ".carousel__circle-wrapper"
+    );
+    if (this.circleWrapper) {
+      this.circleWrapper.addEventListener("click", this.handleDotClick);
+    }
+    this.controllers = [
+      ...this.container.querySelectorAll(".carousel__controller"),
+    ];
+    if (this.controllers) {
+      this.controllers.forEach((controller) => {
+        controller.addEventListener("click", this.handleControllersListener);
+      });
+    }
+  }
+
+  handleControllersListener(e) {
+    this.handleManageVoiceClick(e);
+    this.handleVoiceIconClick(e);
+  }
+
   handleManageVoiceClick(e) {
     const btnTypeId = e.currentTarget.dataset.id;
-    console.log(btnTypeId);
     if (btnTypeId === "pause") {
       this.activeElement.muted = false;
       this.isVoiceOn = true;
@@ -70,9 +86,9 @@ class Carousel {
     this.isVoiceOn = false;
   }
 
-  handleVoiceIconClick(e, controllers) {
+  handleVoiceIconClick(e) {
     const btnTypeId = e.currentTarget.dataset.id;
-    controllers.forEach((controller) => {
+    this.controllers.forEach((controller) => {
       const id = controller.dataset.id;
       if (id !== btnTypeId) {
         controller.classList.add("carousel__controller--active");
@@ -170,6 +186,7 @@ class Carousel {
     nextElement.classList.add("carousel__element--active");
     if (this.isVideo(this.activeElement)) {
       this.activeElement.pause();
+      this.activeElement.currentTime = 0;
     }
     this.activeContainer = nextContainer;
     this.activeElement = nextElement;
@@ -262,6 +279,9 @@ function init() {
   for (var i = 0; i < links.length; i++) {
     links[i].addEventListener("click", cbk);
   }
+
+  let carousel = null;
+
   barba.init({
     preventRunning: true,
     // debug: true,
@@ -277,6 +297,10 @@ function init() {
           const isMobile = window.innerWidth <= 1025;
           if (isMobile) gsap.to(navContainer, { x: "-100%", duration: 0.2 });
           loaderIn();
+          if (carousel) {
+            carousel.removeListeners();
+            delete carousel;
+          }
           setTimeout(function () {
             done();
           }, 800);
@@ -288,7 +312,7 @@ function init() {
           initHamburger(container);
           const carouselDiv = container.querySelector(".carousel");
           if (carouselDiv) {
-            const carousel = new Carousel(container);
+            carousel = new Carousel(container);
             carousel.start();
           }
           setTimeout(function () {
@@ -301,7 +325,7 @@ function init() {
           homeAnimation(container);
           const carouselDiv = container.querySelector(".carousel");
           if (carouselDiv) {
-            const carousel = new Carousel(container);
+            carousel = new Carousel(container);
             carousel.start();
           }
           if (typeof MicroModal !== "undefined") {
@@ -367,7 +391,6 @@ window.addEventListener("load", function () {
 gsap.registerPlugin(ScrollTrigger);
 
 function showAnimation(next, container) {
-  console.log(next.namespace);
   if (window.innerWidth <= 768) return;
   switch (next.namespace) {
     case "home":
