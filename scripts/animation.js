@@ -3,6 +3,7 @@ class Carousel {
     video: "VIDEO",
     img: "IMG",
   };
+  isVoiceOn = false;
   constructor(container) {
     this.container = container;
     this.setup();
@@ -44,6 +45,41 @@ class Carousel {
     if (circleWrapper) {
       circleWrapper.addEventListener("click", (e) => this.handleDotClick(e));
     }
+    const controllers = [
+      ...this.container.querySelectorAll(".carousel__controller"),
+    ];
+    if (controllers) {
+      controllers.forEach((controller) => {
+        controller.addEventListener("click", (e) => {
+          this.handleManageVoiceClick(e, controllers);
+          this.handleVoiceIconClick(e, controllers);
+        });
+      });
+    }
+  }
+
+  handleManageVoiceClick(e) {
+    const btnTypeId = e.currentTarget.dataset.id;
+    console.log(btnTypeId);
+    if (btnTypeId === "pause") {
+      this.activeElement.muted = false;
+      this.isVoiceOn = true;
+      return;
+    }
+    this.activeElement.muted = true;
+    this.isVoiceOn = false;
+  }
+
+  handleVoiceIconClick(e, controllers) {
+    const btnTypeId = e.currentTarget.dataset.id;
+    controllers.forEach((controller) => {
+      const id = controller.dataset.id;
+      if (id !== btnTypeId) {
+        controller.classList.add("carousel__controller--active");
+        return;
+      }
+      controller.classList.remove("carousel__controller--active");
+    });
   }
 
   handleDotClick(e) {
@@ -55,7 +91,7 @@ class Carousel {
       this.switchDot(index);
       clearTimeout(this.imgIndex);
       clearTimeout(this.videoIndex);
-      this.runSpecificMovie(container, element);
+      this.runSpecificCarouselElement(container, element);
     }
   }
 
@@ -93,6 +129,11 @@ class Carousel {
   runMovie() {
     this.activeElement.currentTime = 0;
     this.activeElement.play();
+    if (this.isVoiceOn) {
+      this.activeElement.muted = false;
+    } else {
+      this.activeElement.muted = true;
+    }
     const activeElDuration = this.activeElement.duration * 1000;
     this.videoIndex = setTimeout(() => {
       this.next();
@@ -111,7 +152,7 @@ class Carousel {
 
   next() {
     const { nextContainer, nextElement } = this.getNextElements();
-    this.runSpecificMovie(nextContainer, nextElement);
+    this.runSpecificCarouselElement(nextContainer, nextElement);
   }
   switchDot(nextIdx) {
     const activeDotClass = "carousel__circle--active";
@@ -122,11 +163,14 @@ class Carousel {
     dots[prevIdx].classList.remove(activeDotClass);
     dots[nextIdx].classList.add(activeDotClass);
   }
-  runSpecificMovie(nextContainer, nextElement) {
+  runSpecificCarouselElement(nextContainer, nextElement) {
     this.activeContainer.classList.remove("carousel__container--active");
     this.activeElement.classList.remove("carousel__element--active");
     nextContainer.classList.add("carousel__container--active");
     nextElement.classList.add("carousel__element--active");
+    if (this.isVideo(this.activeElement)) {
+      this.activeElement.pause();
+    }
     this.activeContainer = nextContainer;
     this.activeElement = nextElement;
     this.start();
