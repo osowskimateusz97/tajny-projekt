@@ -25,7 +25,7 @@
     z-index: 99;
     top: 0;
   }
-
+ 
   &__list {
     display: flex;
     gap: 5rem;
@@ -186,7 +186,7 @@
         font-size: map-get($fontSize, s);
       }
     }
-
+  
     @media (max-width: 340px) {
       .navigation__logo--logo-img-1 {
         width: 30px;
@@ -197,6 +197,14 @@
         width: 50px;
         top: 5px;
         left: 171px;
+      }
+    }
+  }
+  &__listElement {
+    &--no-desktop {
+      display: none;
+      @include media(tablet) {
+        display: block;
       }
     }
   }

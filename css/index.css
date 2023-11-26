@@ -890,6 +890,19 @@ main {
     left: 171px;
   }
 }
+.navigation__listElement--no-desktop {
+  display: none;
+}
+@media all and (max-width: 1024.7px) {
+  .navigation__listElement--no-desktop {
+    display: block;
+  }
+}
+@media all and (tablet) {
+  .navigation__listElement--no-desktop {
+    display: block;
+  }
+}
 
 .section {
   margin: 0 auto;
@@ -1508,7 +1521,7 @@ main {
   position: relative;
   top: 100px;
   box-sizing: border-box;
-  width: 70%;
+  max-width: 1200px;
   margin: 1rem auto 0;
   margin-bottom: 25vh;
 }
@@ -1523,9 +1536,6 @@ main {
     width: 100%;
     margin-bottom: 25vh;
   }
-}
-.carousel-inner {
-  width: 100%;
 }
 .carousel__container {
   transition: opacity 0.6s ease-in-out;
@@ -1545,7 +1555,8 @@ main {
   }
 }
 .carousel__container--active {
-  display: block;
+  display: flex;
+  justify-content: center;
   opacity: 1;
 }
 .carousel__element {
@@ -1619,6 +1630,73 @@ main {
 }
 .carousel__circle--active {
   opacity: 1;
+}
+.carousel__controllers {
+  position: absolute;
+  left: 95%;
+  top: 103%;
+  z-index: 3;
+}
+@media all and (max-width: 1024.7px) {
+  .carousel__controllers {
+    top: 30px;
+    right: 30px;
+    left: unset;
+  }
+}
+@media all and (tablet) {
+  .carousel__controllers {
+    top: 30px;
+    right: 30px;
+    left: unset;
+  }
+}
+.carousel__controller {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid rgb(201, 201, 201);
+  background: rgba(246, 245, 245, 0.394);
+  transition: background 0.2s ease;
+}
+@media all and (max-width: 1024.7px) {
+  .carousel__controller {
+    width: 34px;
+    height: 34px;
+  }
+}
+@media all and (tablet) {
+  .carousel__controller {
+    width: 34px;
+    height: 34px;
+  }
+}
+.carousel__controller:hover {
+  background: rgb(205, 203, 203);
+}
+.carousel__controller--active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel__controller svg {
+  width: 80%;
+  height: 80%;
+}
+@media all and (max-width: 1024.7px) {
+  .carousel__controller svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (tablet) {
+  .carousel__controller svg {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .video__wrapper {
