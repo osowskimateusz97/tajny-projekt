@@ -141,6 +141,9 @@ const modalData = {
     zdrowotnych.
     
     </p>
+    </br>
+    <img width="100%" src="./assets/images/modal/harmony.png" alt="harmony test">
+
     `,
   },
 
