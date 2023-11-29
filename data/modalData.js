@@ -50,8 +50,7 @@ const modalData = {
     <br>
     <img src="./assets/images/modal/usgI/usg2.png" width="80%" alt="usg">
     <br>
-    <img src="./assets/images/modal/usgI/usg3.png" width="80%" alt="usg">
-
+    
     `,
   },
   badaniaprenatalne: {
@@ -92,7 +91,9 @@ const modalData = {
     
     Nieinwazyjnymi badaniami prenatalnymi, które oferujemy naszym pacjentkom są też
     echokardiografia płodu, która umożliwia ocenę stanu serca płodu i jego układu krążenia oraz ultrasonografia genetyczna.
-    </p>`,
+    </p>
+    </br>
+        `,
   },
 
   nifty: {
@@ -140,6 +141,9 @@ const modalData = {
     zdrowotnych.
     
     </p>
+    </br>
+    <img width="100%" src="./assets/images/modal/harmony.png" alt="harmony test">
+
     `,
   },
 
@@ -1254,6 +1258,8 @@ Aparat USG którym dysponujemy umożliwia również badanie dopplerowskie, czyli
     Nieinwazyjnymi badaniami prenatalnymi, które oferujemy naszym pacjentkom są też echokardiografia płodu, która umożliwia ocenę stanu serca płodu i jego układu krążenia oraz ultrasonografia genetyczna.
     
     </p>
+    </br>
+    <img src="./assets/images/modal/usgI/usg3.png" width="80%" alt="usg">
     `,
   },
 
